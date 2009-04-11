@@ -1,4 +1,5 @@
 after "deploy:update", "gems:install"
+before "db:migrate", "db:create"
 
 namespace :deploy do
   desc 'Create deployment directory'
