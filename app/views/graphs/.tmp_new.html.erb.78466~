@@ -1,0 +1,27 @@
+<h1>New graph</h1>
+
+<% form_for(@graph) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :title %><br />
+    <%= f.text_field :title %>
+  </p>
+  <p>
+    <%= f.label :units %><br />
+    <%= f.text_field :units %>
+  </p>
+  <p>
+    <%= f.label :vertical_label %><br />
+    <%= f.text_field :vertical_label %>
+  </p>
+  <p>
+    <%= f.label :horizontal_label %><br />
+    <%= f.text_field :horizontal_label %>
+  </p>
+  <p>
+    <%= f.submit 'Create' %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', graphs_path %>

@@ -1,0 +1,21 @@
+
+<% form_for_resource do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.label :type %><br />
+    <%= f.select :type, ["Fred"] %>
+  </p>
+
+  <p>
+  	<%= f.label :fred_id %><br/>
+	<%= f.text_field :fred_id %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>

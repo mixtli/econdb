@@ -1,0 +1,13 @@
+<p>
+  <b>Name:</b>
+  <%=h @data_source.name %>
+</p>
+
+<p>
+  <b>Type:</b>
+  <%=h @data_source.type %>
+</p>
+
+
+<%= link_to 'Edit', edit_data_source_path(@data_source) %> |
+<%= link_to 'Back', data_sources_path %>
