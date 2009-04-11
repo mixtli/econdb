@@ -1,15 +1,21 @@
-set :application, "set your application name here"
-set :repository,  "set your repository location here"
+load File.dirname(__FILE__) + "/common_deploy"
+default_run_options[:pty] = true
+set :repository,  "git@github.com:mixtli/econdb.git"
 
-# If you aren't deploying to /u/apps/#{application} on the target
-# servers (which is the default), you can specify the actual location
-# via the :deploy_to variable:
-# set :deploy_to, "/var/www/#{application}"
+set :user, "rails"
+task :production do
+  set :rails_env, "production"
+  set :deploy_to, "/mnt/app/econdb"
+  set :scm, :git
+  #set :scm_passphrase, "whatever"
+  set :use_sudo, false
+  set :user, "rails"
+  set :branch, "master"
+  ssh_options[:keys] = [File.join(ENV["HOME"], ".ssh/rails_id_rsa")]
+  ssh_options[:forward_agent] = true
+  role :app, "ec2-67-202-17-146.compute-1.amazonaws.com"
+  role :web, "ec2-67-202-17-146.compute-1.amazonaws.com"
+  role :db,  "ec2-67-202-17-146.compute-1.amazonaws.com", :primary => true
+end
 
-# If you aren't using Subversion to manage your source code, specify
-# your SCM below:
-# set :scm, :subversion
 
-role :app, "your app-server here"
-role :web, "your web-server here"
-role :db,  "your db-server here", :primary => true

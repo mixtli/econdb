@@ -44,7 +44,7 @@ Rails::Initializer.run do |config|
 end
 
 require 'fred'
-require 'data_source/fred'
+#require 'data_source/fred'
 Fred::Base.api_key = "39e6580aa035fa02ef28ac0f5e2752b8"  
 
 Mime::Type.register "image/png", :png

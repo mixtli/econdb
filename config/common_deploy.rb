@@ -1,3 +1,13 @@
+after "deploy:update", "gems:install"
+
+namespace :deploy do
+  desc 'Create deployment directory'
+  task :init do
+    sudo "mkdir -p -m 775 #{deploy_to}"
+    sudo "chown -R #{user} #{deploy_to}"
+  end
+end
+          
 namespace :passenger do         
   desc "Restart Application"      
   task :restart, :roles => :app do             
@@ -52,4 +62,11 @@ task :deploy_files do
       FileUtils.rm_rf local_file
       run "rm -f #{remote_file}"
     end
+end
+
+namespace :gems do
+  desc 'install gems'
+  task :install do
+    run "cd #{current_path} && #{sudo}  rake RAILS_ENV=#{rails_env} gems:install"
+  end
 end
