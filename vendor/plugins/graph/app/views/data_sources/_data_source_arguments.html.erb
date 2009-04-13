@@ -1,0 +1,4 @@
+<% for name in resource.class.data_source_arguments  %>
+  <%=h name %>
+  <%= text_field_tag "data_source[arguments][#{name}]", resource.arguments[name.to_sym] %>
+<% end %>
