@@ -8940,3 +8940,20 @@ Processing GraphsController#index (for 127.0.0.1 at 2009-04-13 05:11:24) [GET]
 Rendering template within layouts/application
 Rendering graphs/index
 Completed in 50ms (View: 41, DB: 3) | 200 OK [http://localhost/graphs]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (93.1ms)[0m   [0;1mSHOW TABLES[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (33.4ms)[0m   [0mSELECT * FROM data_sources LIMIT 50 OFFSET 0[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT * FROM data_sources LIMIT 50 OFFSET 50[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT * FROM graph_items LIMIT 50 OFFSET 0[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT * FROM graph_items LIMIT 50 OFFSET 50[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT * FROM graphs LIMIT 50 OFFSET 0[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT * FROM graphs LIMIT 50 OFFSET 50[0m
+  [4;35;1mSQL (50.6ms)[0m   [0mSELECT * FROM roles LIMIT 50 OFFSET 0[0m
+  [4;36;1mSQL (19.5ms)[0m   [0;1mSELECT * FROM roles_users LIMIT 50 OFFSET 0[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT * FROM schema_migrations LIMIT 50 OFFSET 0[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT * FROM schema_migrations LIMIT 50 OFFSET 50[0m
+  [4;35;1mSQL (37.9ms)[0m   [0mSELECT * FROM users LIMIT 50 OFFSET 0[0m

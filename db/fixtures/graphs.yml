@@ -1,0 +1,15 @@
+graphs_1: 
+  background_color: "#ff6"
+  updated_at: 2009-04-13 11:48:18
+  x_field: 
+  y_field: 
+  x_label: Date
+  title: Money Supply
+  units: Billions
+  chart_type: Line
+  id: "1"
+  color: "#00f"
+  y_axis_type: Linear
+  y_label: Billion Dollars
+  x_axis_type: DateTime
+  created_at: 2009-04-13 02:37:19

@@ -1,0 +1,10 @@
+schema_migrations_1: 
+  version: "20090406054851"
+schema_migrations_2: 
+  version: "20090406075712"
+schema_migrations_3: 
+  version: "20090406075804"
+schema_migrations_4: 
+  version: "20090413011712"
+schema_migrations_5: 
+  version: "20090413012357"
