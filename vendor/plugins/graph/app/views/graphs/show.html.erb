@@ -8,7 +8,7 @@ End: <%= select_datetime @end_time, :prefix => "end" %>
 <br/>
 <%= submit_tag 'Generate'%>
 <% end %>
-<%= image_tag resource_path(params),  :size => '800x300'%>
+<%= image_tag resource_path(params.merge({:format => :png})),  :size => '800x300'%>
 <%= swf_tag "FlexGraph", :size => "800x400", :flashvars => graph_flash_vars %>
 <%= open_flash_chart( 600, 300, url_for( :action => 'show', :id => resource.id, :format => :json ) ) %>
 <%#= @open_flash_chart %>
