@@ -9,13 +9,13 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090406075804) do
+ActiveRecord::Schema.define(:version => 20090413012357) do
 
   create_table "data_sources", :force => true do |t|
     t.string   "name"
     t.string   "type"
     t.string   "units"
-    t.string   "fred_id"
+    t.text     "arguments"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -31,10 +31,46 @@ ActiveRecord::Schema.define(:version => 20090406075804) do
   create_table "graphs", :force => true do |t|
     t.string   "title"
     t.string   "units"
-    t.string   "vertical_label"
-    t.string   "horizontal_label"
+    t.string   "x_label"
+    t.string   "y_label"
+    t.string   "x_field"
+    t.string   "y_field"
+    t.string   "chart_type"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  create_table "roles", :force => true do |t|
+    t.string   "name",              :limit => 40
+    t.string   "authorizable_type", :limit => 40
+    t.integer  "authorizable_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "roles_users", :id => false, :force => true do |t|
+    t.integer  "user_id"
+    t.integer  "role_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "users", :force => true do |t|
+    t.string   "login",                     :limit => 40
+    t.string   "name",                      :limit => 100, :default => ""
+    t.string   "email",                     :limit => 100
+    t.string   "crypted_password",          :limit => 40
+    t.string   "salt",                      :limit => 40
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "remember_token",            :limit => 40
+    t.datetime "remember_token_expires_at"
+    t.string   "activation_code",           :limit => 40
+    t.datetime "activated_at"
+    t.string   "state",                                    :default => "passive"
+    t.datetime "deleted_at"
+  end
+
+  add_index "users", ["login"], :name => "index_users_on_login", :unique => true
 
 end

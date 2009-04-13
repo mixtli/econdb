@@ -58,10 +58,10 @@ module Fred
 
     def observations(params = {})
       data = []
-      puts attributes.inspect
+      puts params.inspect
       params[:series_id] = attributes["id"]
       uri = base_url + "/series/observations?" + self.class.encode_params(params)
-      puts uri
+      puts "URI = " + uri
       doc = Hpricot.XML(open(uri))
       doc.search("/*/*").each do |el|
         data << el.attributes if el.respond_to?(:attributes)

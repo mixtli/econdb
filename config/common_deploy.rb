@@ -7,6 +7,13 @@ namespace :deploy do
     sudo "mkdir -p -m 775 #{deploy_to}"
     sudo "chown -R #{user} #{deploy_to}"
   end
+
+  desc "Copy public/system to remote"
+  task :install_system do
+    roles[:app].servers.each do |server|
+      `rsync -avz -e "ssh -i $HOME/.ssh/rails_id_rsa" public/system  #{user}@#{server.host}:#{deploy_to}/shared/system`
+    end
+  end
 end
           
 namespace :passenger do         
@@ -71,3 +78,4 @@ namespace :gems do
     run "cd #{current_path} && #{sudo}  rake RAILS_ENV=#{rails_env} gems:install"
   end
 end
+

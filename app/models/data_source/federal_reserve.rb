@@ -1,9 +1,19 @@
 class DataSource::FederalReserve < DataSource
+  def self.data_source_arguments
+    [:fred_id]
+  end
+  
   def values(options = {})
-    logger.debug "fred_id = #{fred_id}"
-    series = ::Fred::Series.get(fred_id)
-    params = {}
-    params[:observation_start] = 1.year.ago.strftime("%Y-%m-%d")
-    series.observations(params).map {|obs| [obs['date'], obs['value']]}
+    logger.debug "options now = #{options.inspect}"
+    options[:start] ||= 1.year.ago
+    options[:end] ||= Time.now
+    logger.debug "and now = #{options.inspect}"
+    logger.debug "fred_id = #{arguments[:fred_id]}"
+    series = ::Fred::Series.get(arguments[:fred_id])
+    fred_params = {}
+    fred_params[:observation_start] = options[:start].strftime("%Y-%m-%d")
+    fred_params[:observation_end] = options[:end].strftime("%Y-%m-%d")
+    logger.debug "fred params = #{fred_params.inspect}"
+    series.observations(fred_params).map {|obs| {:x_value => DateTime.parse(obs['date']), :y_value => obs['value'].to_i}}
   end
 end

@@ -1,3 +1,21 @@
+# Authorization plugin for role based access control
+# You can override default authorization system constants here.
+
+# Can be 'object roles' or 'hardwired'
+AUTHORIZATION_MIXIN = "object roles"
+
+# NOTE : If you use modular controllers like '/admin/products' be sure
+# to redirect to something like '/sessions' controller (with a leading slash)
+# as shown in the example below or you will not get redirected properly
+#
+# This can be set to a hash or to an explicit path like '/login'
+#
+LOGIN_REQUIRED_REDIRECTION = { :controller => '/sessions', :action => 'new' }
+PERMISSION_DENIED_REDIRECTION = { :controller => '/home', :action => 'index' }
+
+# The method your auth scheme uses to store the location to redirect back to
+STORE_LOCATION_METHOD = :store_location
+
 # Be sure to restart your server when you modify this file
 
 # Specifies gem version of Rails to use when vendor/rails is not present
@@ -5,6 +23,8 @@ RAILS_GEM_VERSION = '2.3.2' unless defined? RAILS_GEM_VERSION
 
 # Bootstrap the Rails environment, frameworks, and default configuration
 require File.join(File.dirname(__FILE__), 'boot')
+
+
 
 Rails::Initializer.run do |config|
   # Settings in config/environments/* take precedence over those specified here.
@@ -17,6 +37,7 @@ Rails::Initializer.run do |config|
   # Specify gems that this application depends on and have them installed with rake gems:install
   config.gem "hpricot"
   config.gem "gruff"
+  config.gem 'rubyist-aasm', :lib => "aasm"
   #config.gem "rmagick"
   # config.gem "bj"
   # config.gem "hpricot", :version => '0.6', :source => "http://code.whytheluckystiff.net"
@@ -33,7 +54,7 @@ Rails::Initializer.run do |config|
 
   # Activate observers that should always be running
   # config.active_record.observers = :cacher, :garbage_collector, :forum_observer
-
+  config.active_record.observers = :user_observer
   # Set Time.zone default to the specified zone and make Active Record auto-convert to this zone.
   # Run "rake -D time" for a list of tasks for finding time zone names.
   config.time_zone = 'UTC'

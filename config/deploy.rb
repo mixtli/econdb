@@ -2,7 +2,6 @@ load File.dirname(__FILE__) + "/common_deploy"
 default_run_options[:pty] = true
 set :repository,  "git@github.com:mixtli/econdb.git"
 
-set :user, "rails"
 task :production do
   set :rails_env, "production"
   set :deploy_to, "/mnt/app/econdb"
