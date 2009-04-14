@@ -1,4 +1,4 @@
-module graph_renderer  
+module GraphRenderer  
   class OpenFlash < Base
     include OpenFlashChart
     def fix_color(color)

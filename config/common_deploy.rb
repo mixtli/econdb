@@ -53,8 +53,9 @@ namespace :db do
   end
 end
 
-
-task :deploy_files do
+namespace :install do
+  desc "Install files from server_config into root of server"
+  task :files do
     require 'tmpdir'
     require 'archive/tar/minitar'    
     begin
@@ -70,6 +71,12 @@ task :deploy_files do
       FileUtils.rm_rf local_file
       run "rm -f #{remote_file}"
     end
+  end
+
+  desc "Install mysql database in /mnt/mysql.  Runs mysql_install_db"
+  task :db do
+    sudo "mysql_install_db"
+  end
 end
 
 namespace :gems do
