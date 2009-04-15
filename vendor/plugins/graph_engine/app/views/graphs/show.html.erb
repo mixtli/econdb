@@ -9,8 +9,8 @@ End: <%= select_datetime @end_time, :prefix => "end" %>
 <%= submit_tag 'Generate'%>
 <% end %>
 <%= image_tag resource_path(params.merge({:format => :png})),  :size => '800x300'%>
-<%= swf_tag "FlexGraph", :size => "800x400", :flashvars => graph_flash_vars %>
-<%= open_flash_chart( 600, 300, url_for( :action => 'show', :id => resource.id, :format => :json ) ) %>
+<%= swf_tag "FlexChart", :size => "800x400", :flashvars => {:data_url => CGI::escape(url_for(:overwrite_params => {:format => :xml})) }  %>
+<%= open_flash_chart( 600, 300, url_for( :overwrite_params => {:format => :json} ) ) %>
 <%#= @open_flash_chart %>
 <br/>
 <%= link_to 'Edit', edit_graph_path(@graph) %> |

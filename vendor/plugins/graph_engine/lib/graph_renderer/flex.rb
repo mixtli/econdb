@@ -3,14 +3,14 @@ module GraphRenderer
     def render(graph_record, ds_options = {})
       flex = case graph_record.chart_type
         when 'Line' then
-        FlexGraph::Line.new
+        FlexChart::Line.new
         when 'Pie' then
-        FlexGraph::Pie.new
+        FlexChart::Pie.new
         when 'Area' then
-        FlexGraph::Area.new
+        FlexChart::Area.new
         when 'Bar' then
-        FlexGraph::Bar.new
-      else FlexGraph::Base.new
+        FlexChart::Bar.new
+      else FlexChart::Base.new
       end
       flex.title = graph_record.title
       flex.x_label = graph_record.x_label
@@ -20,7 +20,7 @@ module GraphRenderer
       flex.color = graph_record.color
       flex.fill_color = graph_record.background_color
       graph_record.graph_items.each do |item|
-        series = FlexGraph::Series.new
+        series = FlexChart::Series.new
         series.title = item.title
         series.color = item.color
         series.values = item.data_source.values(ds_options)
