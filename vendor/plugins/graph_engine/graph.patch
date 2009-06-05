@@ -1,0 +1,451 @@
+diff -urN --exclude=.piston.yml --exclude=.git /home/rmcclain/workspace/econdb/vendor/plugins/.graph_engine.tmp/app/controllers/data_sources_controller.rb /home/rmcclain/workspace/econdb/vendor/plugins/graph_engine/app/controllers/data_sources_controller.rb
+--- /home/rmcclain/workspace/econdb/vendor/plugins/.graph_engine.tmp/app/controllers/data_sources_controller.rb	2009-04-15 03:05:03.000000000 -0700
++++ /home/rmcclain/workspace/econdb/vendor/plugins/graph_engine/app/controllers/data_sources_controller.rb	2009-04-15 02:55:48.000000000 -0700
+@@ -1,5 +1,15 @@
+ class DataSourcesController < ApplicationController
+   resources_controller_for :data_sources
++  before_filter :set_klass, :only => [:new, :edit, :data_source_arguments]
++  def set_klass
++    self.resource = params[:id] ? find_resource : new_resource
++    logger.debug "resource = #{self.resource.inspect}"
++    if params[:data_source] && params[:data_source][:type]
++      @klass = eval "#{params[:data_source][:type]}"
++    else 
++      @klass = resource.class
++    end
++  end
+   
+   def new_resource
+     ds_type = params[resource_name][:type] rescue nil
+@@ -12,13 +22,10 @@
+   end
+ 
+   def data_source_arguments
+-    self.resource = params[:id] ? find_resource : new_resource
+-    logger.debug "resource = #{self.resource.inspect}"
++    logger.debug "klass = #{@klass}"
+     resource.arguments  ||= {}
+-    resource.class.data_source_arguments.each do |arg|
+-      if params[arg]
+-        resource.arguments[arg] = params[arg]
+-      else
++    @klass.data_source_arguments.each do |arg|
++      unless resource.arguments[arg]
+         resource.arguments[arg] = nil
+       end
+     end
+diff -urN --exclude=.piston.yml --exclude=.git /home/rmcclain/workspace/econdb/vendor/plugins/.graph_engine.tmp/app/helpers/data_sources_helper.rb /home/rmcclain/workspace/econdb/vendor/plugins/graph_engine/app/helpers/data_sources_helper.rb
+--- /home/rmcclain/workspace/econdb/vendor/plugins/.graph_engine.tmp/app/helpers/data_sources_helper.rb	2009-04-15 03:05:03.000000000 -0700
++++ /home/rmcclain/workspace/econdb/vendor/plugins/graph_engine/app/helpers/data_sources_helper.rb	2009-04-15 01:53:18.000000000 -0700
+@@ -6,4 +6,12 @@
+     end
+   end
+ 
++  def data_source_options
++    options = []
++    ObjectSpace.to_enum(:each_object, class << DataSource; self; end).to_a.each  do |klass|
++      next if klass == DataSource
++      options << [ klass.to_s.sub("DataSource::",""), klass.to_s ]
++    end
++    options.uniq
++  end
+ end
+diff -urN --exclude=.piston.yml --exclude=.git /home/rmcclain/workspace/econdb/vendor/plugins/.graph_engine.tmp/app/helpers/data_sources_helper.rb~ /home/rmcclain/workspace/econdb/vendor/plugins/graph_engine/app/helpers/data_sources_helper.rb~
+--- /home/rmcclain/workspace/econdb/vendor/plugins/.graph_engine.tmp/app/helpers/data_sources_helper.rb~	1969-12-31 16:00:00.000000000 -0800
++++ /home/rmcclain/workspace/econdb/vendor/plugins/graph_engine/app/helpers/data_sources_helper.rb~	2009-04-15 01:53:18.000000000 -0700
+@@ -0,0 +1,17 @@
++module DataSourcesHelper
++  def display_plugin_arguments(name, resource, options)
++    case options[:type]
++      when 'select_tag' then select_tag "data_source[arguments][#{name}]", options_for_select(options[:options])
++      else eval "#{options[:type]} \"data_source[arguments][#{name}]\", resource.arguments[name]"
++    end
++  end
++
++  def data_source_options
++    options = []
++    ObjectSpace.to_enum(:each_object, class << DataSource; self; end).to_a.each  do |klass|
++      next if klass == DataSource
++      options << [ klass.to_s.sub("DataSource::",""), klass.to_s ]
++    end
++    options
++  end
++end
+diff -urN --exclude=.piston.yml --exclude=.git /home/rmcclain/workspace/econdb/vendor/plugins/.graph_engine.tmp/app/models/data_source/active_record.rb /home/rmcclain/workspace/econdb/vendor/plugins/graph_engine/app/models/data_source/active_record.rb
+--- /home/rmcclain/workspace/econdb/vendor/plugins/.graph_engine.tmp/app/models/data_source/active_record.rb	2009-04-15 03:05:03.000000000 -0700
++++ /home/rmcclain/workspace/econdb/vendor/plugins/graph_engine/app/models/data_source/active_record.rb	2009-04-15 02:51:06.000000000 -0700
+@@ -1,12 +1,15 @@
++# Assumes your table has a timestamp field
+ class DataSource::ActiveRecord < DataSource
+   def self.data_source_arguments
+     [:class_name, :x_field, :y_field]
+   end
+   
+   def render(options = {}) 
++    options[:start] ||= 1.year.ago
++    options[:end] ||= Time.now
+     vals = []
+     klass = eval "#{arguments[:class_name]}"
+-    klass.find(:all).each do |row|
++    klass.find(:all, :conditions => ["timestamp >= ? AND timestamp <= ?", options[:start], options[:end]]).each do |row|
+       vals << {:x_field => row.send(arguments[:x_field].to_sym), :y_field => row.send(arguments[:y_field].to_sym)}
+     end
+     vals
+diff -urN --exclude=.piston.yml --exclude=.git /home/rmcclain/workspace/econdb/vendor/plugins/.graph_engine.tmp/app/models/data_source/rrd.rb /home/rmcclain/workspace/econdb/vendor/plugins/graph_engine/app/models/data_source/rrd.rb
+--- /home/rmcclain/workspace/econdb/vendor/plugins/.graph_engine.tmp/app/models/data_source/rrd.rb	1969-12-31 16:00:00.000000000 -0800
++++ /home/rmcclain/workspace/econdb/vendor/plugins/graph_engine/app/models/data_source/rrd.rb	2009-04-15 02:47:02.000000000 -0700
+@@ -0,0 +1,15 @@
++class DataSource::Rrd < DataSource
++  def self.data_source_arguments
++    [:filename ]
++  end
++  def values(options = {})
++    vals = []
++    (fstart, fend, data, step) = RRD.fetch(arguments[:filename], "--start", options[:start].to_i.to_s, "--end", (options[:start].to_i + 300 * 300).to_s, "AVERAGE")
++    curr_time = fstart
++    data.each do |datum|
++      vals << {:x_field => curr_time, :y_field => datum }
++      curr_time += step.seconds
++    end
++    vals
++  end
++end
+diff -urN --exclude=.piston.yml --exclude=.git /home/rmcclain/workspace/econdb/vendor/plugins/.graph_engine.tmp/app/models/data_source/xml.rb /home/rmcclain/workspace/econdb/vendor/plugins/graph_engine/app/models/data_source/xml.rb
+--- /home/rmcclain/workspace/econdb/vendor/plugins/.graph_engine.tmp/app/models/data_source/xml.rb	2009-04-15 03:05:03.000000000 -0700
++++ /home/rmcclain/workspace/econdb/vendor/plugins/graph_engine/app/models/data_source/xml.rb	2009-04-15 02:53:44.000000000 -0700
+@@ -1,10 +1,10 @@
+ class DataSource::Xml < DataSource
+-  def self.data_source_attributes
+-    [:url, :element_name, :x_field, :y_field]
++  def self.data_source_arguments
++    [:uri, :x_field_xpath, :y_field_xpath]
+   end
+   
+   def values(options = {})
+-    # TODO: Grab xml from url, parse, return values
+-    vals = []
++    # TODO: Grab xml from url, parse out values using user supplied xpaths
++    []
+   end
+ end
+diff -urN --exclude=.piston.yml --exclude=.git /home/rmcclain/workspace/econdb/vendor/plugins/.graph_engine.tmp/app/models/data_source/xml.rb~ /home/rmcclain/workspace/econdb/vendor/plugins/graph_engine/app/models/data_source/xml.rb~
+--- /home/rmcclain/workspace/econdb/vendor/plugins/.graph_engine.tmp/app/models/data_source/xml.rb~	1969-12-31 16:00:00.000000000 -0800
++++ /home/rmcclain/workspace/econdb/vendor/plugins/graph_engine/app/models/data_source/xml.rb~	2009-04-15 02:53:33.000000000 -0700
+@@ -0,0 +1,10 @@
++class DataSource::Xml < DataSource
++  def self.data_source_attributes
++    [:url, :element_name, :x_field, :y_field]
++  end
++  
++  def values(options = {})
++    # TODO: Grab xml from url, parse, return values
++    vals = []
++  end
++end
+diff -urN --exclude=.piston.yml --exclude=.git /home/rmcclain/workspace/econdb/vendor/plugins/.graph_engine.tmp/app/views/data_sources/_data_source_arguments.html.erb /home/rmcclain/workspace/econdb/vendor/plugins/graph_engine/app/views/data_sources/_data_source_arguments.html.erb
+--- /home/rmcclain/workspace/econdb/vendor/plugins/.graph_engine.tmp/app/views/data_sources/_data_source_arguments.html.erb	2009-04-15 03:05:03.000000000 -0700
++++ /home/rmcclain/workspace/econdb/vendor/plugins/graph_engine/app/views/data_sources/_data_source_arguments.html.erb	2009-04-15 02:14:30.000000000 -0700
+@@ -1,4 +1,4 @@
+-<% for name in resource.class.data_source_arguments  %>
++<% for name in @klass.data_source_arguments  %>
+   <%=h name %>
+   <%= text_field_tag "data_source[arguments][#{name}]", resource.arguments[name.to_sym] %>
+ <% end %>
+diff -urN --exclude=.piston.yml --exclude=.git /home/rmcclain/workspace/econdb/vendor/plugins/.graph_engine.tmp/app/views/data_sources/_form.html.erb /home/rmcclain/workspace/econdb/vendor/plugins/graph_engine/app/views/data_sources/_form.html.erb
+--- /home/rmcclain/workspace/econdb/vendor/plugins/.graph_engine.tmp/app/views/data_sources/_form.html.erb	2009-04-15 03:05:03.000000000 -0700
++++ /home/rmcclain/workspace/econdb/vendor/plugins/graph_engine/app/views/data_sources/_form.html.erb	2009-04-15 01:40:11.000000000 -0700
+@@ -8,7 +8,7 @@
+   </p>
+   <p>
+     <%= f.label :type %><br />
+-    <%= f.select :type, [["FederalReserve", "DataSource::FederalReserve"]], :include_blank => "None" %>
++    <%= f.select :type, data_source_options, :include_blank => "None" %>
+   </p>
+ 
+ 
+diff -urN --exclude=.piston.yml --exclude=.git /home/rmcclain/workspace/econdb/vendor/plugins/.graph_engine.tmp/app/views/data_sources/_form.html.erb~ /home/rmcclain/workspace/econdb/vendor/plugins/graph_engine/app/views/data_sources/_form.html.erb~
+--- /home/rmcclain/workspace/econdb/vendor/plugins/.graph_engine.tmp/app/views/data_sources/_form.html.erb~	1969-12-31 16:00:00.000000000 -0800
++++ /home/rmcclain/workspace/econdb/vendor/plugins/graph_engine/app/views/data_sources/_form.html.erb~	2009-04-15 01:40:11.000000000 -0700
+@@ -0,0 +1,26 @@
++
++<% form_for_resource do |f| %>
++  <%= f.error_messages %>
++
++  <p>
++    <%= f.label :name %><br />
++    <%= f.text_field :name %>
++  </p>
++  <p>
++    <%= f.label :type %><br />
++    <%= f.select :type, [["FederalReserve", "DataSource::FederalReserve"]], :include_blank => "None" %>
++  </p>
++
++
++
++  <%= observe_field "data_source_type", :url => {:controller => 'data_sources', :action => 'data_source_arguments', :id => resource.id}, :with => "'data_source[type]='  + value", :update => :data_source_arguments %>
++  <div id="data_source_arguments">
++    <% if resource.type %>
++        <%= render :partial => 'data_source_arguments' %>
++    <% end %>
++  </div>
++
++  <p>
++    <%= f.submit 'Update' %>
++  </p>
++<% end %>
+diff -urN --exclude=.piston.yml --exclude=.git /home/rmcclain/workspace/econdb/vendor/plugins/.graph_engine.tmp/app/views/data_sources/.tmp__data_source_arguments.html.erb.95430~ /home/rmcclain/workspace/econdb/vendor/plugins/graph_engine/app/views/data_sources/.tmp__data_source_arguments.html.erb.95430~
+--- /home/rmcclain/workspace/econdb/vendor/plugins/.graph_engine.tmp/app/views/data_sources/.tmp__data_source_arguments.html.erb.95430~	1969-12-31 16:00:00.000000000 -0800
++++ /home/rmcclain/workspace/econdb/vendor/plugins/graph_engine/app/views/data_sources/.tmp__data_source_arguments.html.erb.95430~	2009-04-15 02:14:07.000000000 -0700
+@@ -0,0 +1,4 @@
++<% for name in resource.class.data_source_arguments  %>
++  <%=h name %>
++  <%= text_field_tag "data_source[arguments][#{name}]", resource.arguments[name.to_sym] %>
++<% end %>
+diff -urN --exclude=.piston.yml --exclude=.git /home/rmcclain/workspace/econdb/vendor/plugins/.graph_engine.tmp/graph.patch /home/rmcclain/workspace/econdb/vendor/plugins/graph_engine/graph.patch
+--- /home/rmcclain/workspace/econdb/vendor/plugins/.graph_engine.tmp/graph.patch	1969-12-31 16:00:00.000000000 -0800
++++ /home/rmcclain/workspace/econdb/vendor/plugins/graph_engine/graph.patch	2009-04-15 03:05:04.000000000 -0700
+@@ -0,0 +1,203 @@
++diff -urN --exclude=.piston.yml --exclude=.git /home/rmcclain/workspace/econdb/vendor/plugins/.graph_engine.tmp/app/controllers/data_sources_controller.rb /home/rmcclain/workspace/econdb/vendor/plugins/graph_engine/app/controllers/data_sources_controller.rb
++--- /home/rmcclain/workspace/econdb/vendor/plugins/.graph_engine.tmp/app/controllers/data_sources_controller.rb	2009-04-15 03:05:03.000000000 -0700
+++++ /home/rmcclain/workspace/econdb/vendor/plugins/graph_engine/app/controllers/data_sources_controller.rb	2009-04-15 02:55:48.000000000 -0700
++@@ -1,5 +1,15 @@
++ class DataSourcesController < ApplicationController
++   resources_controller_for :data_sources
+++  before_filter :set_klass, :only => [:new, :edit, :data_source_arguments]
+++  def set_klass
+++    self.resource = params[:id] ? find_resource : new_resource
+++    logger.debug "resource = #{self.resource.inspect}"
+++    if params[:data_source] && params[:data_source][:type]
+++      @klass = eval "#{params[:data_source][:type]}"
+++    else 
+++      @klass = resource.class
+++    end
+++  end
++   
++   def new_resource
++     ds_type = params[resource_name][:type] rescue nil
++@@ -12,13 +22,10 @@
++   end
++ 
++   def data_source_arguments
++-    self.resource = params[:id] ? find_resource : new_resource
++-    logger.debug "resource = #{self.resource.inspect}"
+++    logger.debug "klass = #{@klass}"
++     resource.arguments  ||= {}
++-    resource.class.data_source_arguments.each do |arg|
++-      if params[arg]
++-        resource.arguments[arg] = params[arg]
++-      else
+++    @klass.data_source_arguments.each do |arg|
+++      unless resource.arguments[arg]
++         resource.arguments[arg] = nil
++       end
++     end
++diff -urN --exclude=.piston.yml --exclude=.git /home/rmcclain/workspace/econdb/vendor/plugins/.graph_engine.tmp/app/helpers/data_sources_helper.rb /home/rmcclain/workspace/econdb/vendor/plugins/graph_engine/app/helpers/data_sources_helper.rb
++--- /home/rmcclain/workspace/econdb/vendor/plugins/.graph_engine.tmp/app/helpers/data_sources_helper.rb	2009-04-15 03:05:03.000000000 -0700
+++++ /home/rmcclain/workspace/econdb/vendor/plugins/graph_engine/app/helpers/data_sources_helper.rb	2009-04-15 01:53:18.000000000 -0700
++@@ -6,4 +6,12 @@
++     end
++   end
++ 
+++  def data_source_options
+++    options = []
+++    ObjectSpace.to_enum(:each_object, class << DataSource; self; end).to_a.each  do |klass|
+++      next if klass == DataSource
+++      options << [ klass.to_s.sub("DataSource::",""), klass.to_s ]
+++    end
+++    options.uniq
+++  end
++ end
++diff -urN --exclude=.piston.yml --exclude=.git /home/rmcclain/workspace/econdb/vendor/plugins/.graph_engine.tmp/app/helpers/data_sources_helper.rb~ /home/rmcclain/workspace/econdb/vendor/plugins/graph_engine/app/helpers/data_sources_helper.rb~
++--- /home/rmcclain/workspace/econdb/vendor/plugins/.graph_engine.tmp/app/helpers/data_sources_helper.rb~	1969-12-31 16:00:00.000000000 -0800
+++++ /home/rmcclain/workspace/econdb/vendor/plugins/graph_engine/app/helpers/data_sources_helper.rb~	2009-04-15 01:53:18.000000000 -0700
++@@ -0,0 +1,17 @@
+++module DataSourcesHelper
+++  def display_plugin_arguments(name, resource, options)
+++    case options[:type]
+++      when 'select_tag' then select_tag "data_source[arguments][#{name}]", options_for_select(options[:options])
+++      else eval "#{options[:type]} \"data_source[arguments][#{name}]\", resource.arguments[name]"
+++    end
+++  end
+++
+++  def data_source_options
+++    options = []
+++    ObjectSpace.to_enum(:each_object, class << DataSource; self; end).to_a.each  do |klass|
+++      next if klass == DataSource
+++      options << [ klass.to_s.sub("DataSource::",""), klass.to_s ]
+++    end
+++    options
+++  end
+++end
++diff -urN --exclude=.piston.yml --exclude=.git /home/rmcclain/workspace/econdb/vendor/plugins/.graph_engine.tmp/app/models/data_source/active_record.rb /home/rmcclain/workspace/econdb/vendor/plugins/graph_engine/app/models/data_source/active_record.rb
++--- /home/rmcclain/workspace/econdb/vendor/plugins/.graph_engine.tmp/app/models/data_source/active_record.rb	2009-04-15 03:05:03.000000000 -0700
+++++ /home/rmcclain/workspace/econdb/vendor/plugins/graph_engine/app/models/data_source/active_record.rb	2009-04-15 02:51:06.000000000 -0700
++@@ -1,12 +1,15 @@
+++# Assumes your table has a timestamp field
++ class DataSource::ActiveRecord < DataSource
++   def self.data_source_arguments
++     [:class_name, :x_field, :y_field]
++   end
++   
++   def render(options = {}) 
+++    options[:start] ||= 1.year.ago
+++    options[:end] ||= Time.now
++     vals = []
++     klass = eval "#{arguments[:class_name]}"
++-    klass.find(:all).each do |row|
+++    klass.find(:all, :conditions => ["timestamp >= ? AND timestamp <= ?", options[:start], options[:end]]).each do |row|
++       vals << {:x_field => row.send(arguments[:x_field].to_sym), :y_field => row.send(arguments[:y_field].to_sym)}
++     end
++     vals
++diff -urN --exclude=.piston.yml --exclude=.git /home/rmcclain/workspace/econdb/vendor/plugins/.graph_engine.tmp/app/models/data_source/rrd.rb /home/rmcclain/workspace/econdb/vendor/plugins/graph_engine/app/models/data_source/rrd.rb
++--- /home/rmcclain/workspace/econdb/vendor/plugins/.graph_engine.tmp/app/models/data_source/rrd.rb	1969-12-31 16:00:00.000000000 -0800
+++++ /home/rmcclain/workspace/econdb/vendor/plugins/graph_engine/app/models/data_source/rrd.rb	2009-04-15 02:47:02.000000000 -0700
++@@ -0,0 +1,15 @@
+++class DataSource::Rrd < DataSource
+++  def self.data_source_arguments
+++    [:filename ]
+++  end
+++  def values(options = {})
+++    vals = []
+++    (fstart, fend, data, step) = RRD.fetch(arguments[:filename], "--start", options[:start].to_i.to_s, "--end", (options[:start].to_i + 300 * 300).to_s, "AVERAGE")
+++    curr_time = fstart
+++    data.each do |datum|
+++      vals << {:x_field => curr_time, :y_field => datum }
+++      curr_time += step.seconds
+++    end
+++    vals
+++  end
+++end
++diff -urN --exclude=.piston.yml --exclude=.git /home/rmcclain/workspace/econdb/vendor/plugins/.graph_engine.tmp/app/models/data_source/xml.rb /home/rmcclain/workspace/econdb/vendor/plugins/graph_engine/app/models/data_source/xml.rb
++--- /home/rmcclain/workspace/econdb/vendor/plugins/.graph_engine.tmp/app/models/data_source/xml.rb	2009-04-15 03:05:03.000000000 -0700
+++++ /home/rmcclain/workspace/econdb/vendor/plugins/graph_engine/app/models/data_source/xml.rb	2009-04-15 02:53:44.000000000 -0700
++@@ -1,10 +1,10 @@
++ class DataSource::Xml < DataSource
++-  def self.data_source_attributes
++-    [:url, :element_name, :x_field, :y_field]
+++  def self.data_source_arguments
+++    [:uri, :x_field_xpath, :y_field_xpath]
++   end
++   
++   def values(options = {})
++-    # TODO: Grab xml from url, parse, return values
++-    vals = []
+++    # TODO: Grab xml from url, parse out values using user supplied xpaths
+++    []
++   end
++ end
++diff -urN --exclude=.piston.yml --exclude=.git /home/rmcclain/workspace/econdb/vendor/plugins/.graph_engine.tmp/app/models/data_source/xml.rb~ /home/rmcclain/workspace/econdb/vendor/plugins/graph_engine/app/models/data_source/xml.rb~
++--- /home/rmcclain/workspace/econdb/vendor/plugins/.graph_engine.tmp/app/models/data_source/xml.rb~	1969-12-31 16:00:00.000000000 -0800
+++++ /home/rmcclain/workspace/econdb/vendor/plugins/graph_engine/app/models/data_source/xml.rb~	2009-04-15 02:53:33.000000000 -0700
++@@ -0,0 +1,10 @@
+++class DataSource::Xml < DataSource
+++  def self.data_source_attributes
+++    [:url, :element_name, :x_field, :y_field]
+++  end
+++  
+++  def values(options = {})
+++    # TODO: Grab xml from url, parse, return values
+++    vals = []
+++  end
+++end
++diff -urN --exclude=.piston.yml --exclude=.git /home/rmcclain/workspace/econdb/vendor/plugins/.graph_engine.tmp/app/views/data_sources/_data_source_arguments.html.erb /home/rmcclain/workspace/econdb/vendor/plugins/graph_engine/app/views/data_sources/_data_source_arguments.html.erb
++--- /home/rmcclain/workspace/econdb/vendor/plugins/.graph_engine.tmp/app/views/data_sources/_data_source_arguments.html.erb	2009-04-15 03:05:03.000000000 -0700
+++++ /home/rmcclain/workspace/econdb/vendor/plugins/graph_engine/app/views/data_sources/_data_source_arguments.html.erb	2009-04-15 02:14:30.000000000 -0700
++@@ -1,4 +1,4 @@
++-<% for name in resource.class.data_source_arguments  %>
+++<% for name in @klass.data_source_arguments  %>
++   <%=h name %>
++   <%= text_field_tag "data_source[arguments][#{name}]", resource.arguments[name.to_sym] %>
++ <% end %>
++diff -urN --exclude=.piston.yml --exclude=.git /home/rmcclain/workspace/econdb/vendor/plugins/.graph_engine.tmp/app/views/data_sources/_form.html.erb /home/rmcclain/workspace/econdb/vendor/plugins/graph_engine/app/views/data_sources/_form.html.erb
++--- /home/rmcclain/workspace/econdb/vendor/plugins/.graph_engine.tmp/app/views/data_sources/_form.html.erb	2009-04-15 03:05:03.000000000 -0700
+++++ /home/rmcclain/workspace/econdb/vendor/plugins/graph_engine/app/views/data_sources/_form.html.erb	2009-04-15 01:40:11.000000000 -0700
++@@ -8,7 +8,7 @@
++   </p>
++   <p>
++     <%= f.label :type %><br />
++-    <%= f.select :type, [["FederalReserve", "DataSource::FederalReserve"]], :include_blank => "None" %>
+++    <%= f.select :type, data_source_options, :include_blank => "None" %>
++   </p>
++ 
++ 
++diff -urN --exclude=.piston.yml --exclude=.git /home/rmcclain/workspace/econdb/vendor/plugins/.graph_engine.tmp/app/views/data_sources/_form.html.erb~ /home/rmcclain/workspace/econdb/vendor/plugins/graph_engine/app/views/data_sources/_form.html.erb~
++--- /home/rmcclain/workspace/econdb/vendor/plugins/.graph_engine.tmp/app/views/data_sources/_form.html.erb~	1969-12-31 16:00:00.000000000 -0800
+++++ /home/rmcclain/workspace/econdb/vendor/plugins/graph_engine/app/views/data_sources/_form.html.erb~	2009-04-15 01:40:11.000000000 -0700
++@@ -0,0 +1,26 @@
+++
+++<% form_for_resource do |f| %>
+++  <%= f.error_messages %>
+++
+++  <p>
+++    <%= f.label :name %><br />
+++    <%= f.text_field :name %>
+++  </p>
+++  <p>
+++    <%= f.label :type %><br />
+++    <%= f.select :type, [["FederalReserve", "DataSource::FederalReserve"]], :include_blank => "None" %>
+++  </p>
+++
+++
+++
+++  <%= observe_field "data_source_type", :url => {:controller => 'data_sources', :action => 'data_source_arguments', :id => resource.id}, :with => "'data_source[type]='  + value", :update => :data_source_arguments %>
+++  <div id="data_source_arguments">
+++    <% if resource.type %>
+++        <%= render :partial => 'data_source_arguments' %>
+++    <% end %>
+++  </div>
+++
+++  <p>
+++    <%= f.submit 'Update' %>
+++  </p>
+++<% end %>
++diff -urN --exclude=.piston.yml --exclude=.git /home/rmcclain/workspace/econdb/vendor/plugins/.graph_engine.tmp/app/views/data_sources/.tmp__data_source_arguments.html.erb.95430~ /home/rmcclain/workspace/econdb/vendor/plugins/graph_engine/app/views/data_sources/.tmp__data_source_arguments.html.erb.95430~
++--- /home/rmcclain/workspace/econdb/vendor/plugins/.graph_engine.tmp/app/views/data_sources/.tmp__data_source_arguments.html.erb.95430~	1969-12-31 16:00:00.000000000 -0800
+++++ /home/rmcclain/workspace/econdb/vendor/plugins/graph_engine/app/views/data_sources/.tmp__data_source_arguments.html.erb.95430~	2009-04-15 02:14:07.000000000 -0700
++@@ -0,0 +1,4 @@
+++<% for name in resource.class.data_source_arguments  %>
+++  <%=h name %>
+++  <%= text_field_tag "data_source[arguments][#{name}]", resource.arguments[name.to_sym] %>
+++<% end %>
+diff -urN --exclude=.piston.yml --exclude=.git /home/rmcclain/workspace/econdb/vendor/plugins/.graph_engine.tmp/init.rb /home/rmcclain/workspace/econdb/vendor/plugins/graph_engine/init.rb
+--- /home/rmcclain/workspace/econdb/vendor/plugins/.graph_engine.tmp/init.rb	2009-04-15 03:05:03.000000000 -0700
++++ /home/rmcclain/workspace/econdb/vendor/plugins/graph_engine/init.rb	2009-04-15 01:52:13.000000000 -0700
+@@ -1 +1,4 @@
+ # Include hook code here
++Dir.glob(File.dirname(__FILE__) + "/app/models/data_source/*.rb").each do |file|
++  require file
++end
+diff -urN --exclude=.piston.yml --exclude=.git /home/rmcclain/workspace/econdb/vendor/plugins/.graph_engine.tmp/init.rb~ /home/rmcclain/workspace/econdb/vendor/plugins/graph_engine/init.rb~
+--- /home/rmcclain/workspace/econdb/vendor/plugins/.graph_engine.tmp/init.rb~	1969-12-31 16:00:00.000000000 -0800
++++ /home/rmcclain/workspace/econdb/vendor/plugins/graph_engine/init.rb~	2009-04-15 01:52:13.000000000 -0700
+@@ -0,0 +1,6 @@
++# Include hook code here
++require "data_source/active_record"
++Dir.glob(File.dirname(__FILE__) + "/app/models/data_source/*.rb").each do |file|
++  puts file
++  require file
++end
+diff -urN --exclude=.piston.yml --exclude=.git /home/rmcclain/workspace/econdb/vendor/plugins/.graph_engine.tmp/lib/subclasses.rb~ /home/rmcclain/workspace/econdb/vendor/plugins/graph_engine/lib/subclasses.rb~
+--- /home/rmcclain/workspace/econdb/vendor/plugins/.graph_engine.tmp/lib/subclasses.rb~	1969-12-31 16:00:00.000000000 -0800
++++ /home/rmcclain/workspace/econdb/vendor/plugins/graph_engine/lib/subclasses.rb~	2009-04-15 01:28:26.000000000 -0700
+@@ -0,0 +1,19 @@
++require 'test/unit'
++puts "adding subclasses"
++class Object
++  def self.subclasses(direct = false)
++    classes = []
++    if direct
++      ObjectSpace.each_object(Class) do |c|
++        next unless c.superclass == self
++        classes << c
++      end
++    else
++      ObjectSpace.each_object(Class) do |c|
++        next unless c.ancestors.include?(self) and (c != self)
++        classes << c
++      end
++    end
++    classes
++  end
++end

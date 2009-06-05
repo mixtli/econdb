@@ -1,0 +1,11 @@
+<div id="mapdiv" align="center">FusionMaps.</div>
+<script type="text/javascript">
+  var map = new FusionMaps("/swfs/FusionMaps/<%= resource.filename %>", "Map1Id", "750", "400", "0", "0");
+  map.setDataURL('<%= resource_path(:format => :xml)%>');
+  map.render("mapdiv");
+</script>
+
+
+
+<%= link_to 'Edit', edit_map_path(@map) %> |
+<%= link_to 'Back', maps_path %>
