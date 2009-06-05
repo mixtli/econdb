@@ -7,7 +7,7 @@ class CreateGraphs < ActiveRecord::Migration
       t.string :x_field, :y_field
       t.string :x_axis_type, :default => 'Linear'
       t.string :y_axis_type, :default => 'Linear'
-      
+      t.integer :minimum_value, :maximum_value      
       t.string :color, :default => '#0f0'
       t.string :background_color, :default => '#fff'
       

@@ -1,5 +1,6 @@
 require File.dirname(__FILE__) + "/../models/graph"
 class GraphsController < ApplicationController
+  #caches_page :show
   resources_controller_for :graphs
   before_filter :get_times
   response_for :show do |format|
@@ -11,21 +12,20 @@ class GraphsController < ApplicationController
       render :xml => GraphRenderer::Flex.new.render(resource, options).to_xml
     end
     format.png do
+      response.headers['Content-Type'] = 'image/png'
       send_data GraphRenderer::Gruff.new.render(resource, options).to_blob, :type => 'image/png'
     end
+    format.html
   end
   
-  caches_action :show, :expires_in => 1.day.to_i
 
   private
   
   def get_times
     @start_time = case params[:start]
       when Hash
-        logger.debug "got hash"
         DateTime.civil(params[:start][:year].to_i, params[:start][:month].to_i, params[:start][:day].to_i, params[:start][:hour].to_i, params[:start][:minute].to_i, 0)
       when String
-        logger.debug "got string"
         DateTime.strptime(params[:start], "%Y:%m:%d %h:%m:%s")
       else 1.year.ago
     end

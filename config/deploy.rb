@@ -12,9 +12,10 @@ task :production do
   set :branch, "master"
   ssh_options[:keys] = [File.join(ENV["HOME"], ".ssh/rails_id_rsa")]
   ssh_options[:forward_agent] = true
-  role :app, "ec2-67-202-17-146.compute-1.amazonaws.com"
-  role :web, "ec2-67-202-17-146.compute-1.amazonaws.com"
-  role :db,  "ec2-67-202-17-146.compute-1.amazonaws.com", :primary => true
+  role :app, "dev.ronmcclain.com"
+  role :web, "dev.ronmcclain.com"
+  role :db,  "dev.ronmcclain.com", :primary => true
+  role :memcache, "dev.ronmcclain.com"
 end
 
 

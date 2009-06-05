@@ -1,1 +1,4 @@
 <h1>Home</h1>
+<%#= swf_tag "FlexChart", :size => "800x300", :flashvars => {:data_url => CGI::escape(graph_path(:id => 1, :format => :xml)) } %>
+
+<%= image_tag graph_path(:id => 1, :format => :png), :width => 600, :height => 200  %>

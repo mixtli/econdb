@@ -38,7 +38,7 @@ Rails::Initializer.run do |config|
   config.gem "hpricot"
   config.gem "gruff"
   config.gem 'rubyist-aasm', :lib => "aasm"
-  config.gem "fred"
+  config.gem "mixtli-fred", :lib => "fred"
   config.gem "flex_chart"
   #config.gem "rmagick"
   # config.gem "bj"
@@ -70,5 +70,5 @@ end
 require 'fred'
 #require 'data_source/fred'
 Fred::Base.api_key = "39e6580aa035fa02ef28ac0f5e2752b8"  
-
+WorldBank::Base.api_key = "xv6r542fqbyc4t72jr9hhz96"
 Mime::Type.register "image/png", :png

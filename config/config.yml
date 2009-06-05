@@ -1,5 +1,6 @@
 development:
   fred_api_key: 39e6580aa035fa02ef28ac0f5e2752b8
+  world_bank_api_key: xv6r542fqbyc4t72jr9hhz96
 
 test:
 

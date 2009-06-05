@@ -9,7 +9,22 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090413012357) do
+ActiveRecord::Schema.define(:version => 20090429085503) do
+
+  create_table "countries", :force => true do |t|
+    t.string  "iso",            :limit => 2
+    t.string  "name"
+    t.string  "printable_name"
+    t.string  "iso3",           :limit => 3
+    t.integer "numcode"
+  end
+
+  create_table "data", :force => true do |t|
+    t.integer  "data_source_id"
+    t.datetime "timestamp"
+    t.string   "category"
+    t.float    "value"
+  end
 
   create_table "data_sources", :force => true do |t|
     t.string   "name"
@@ -26,6 +41,7 @@ ActiveRecord::Schema.define(:version => 20090413012357) do
     t.integer  "data_source_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "color"
   end
 
   create_table "graphs", :force => true do |t|
@@ -36,6 +52,17 @@ ActiveRecord::Schema.define(:version => 20090413012357) do
     t.string   "x_field"
     t.string   "y_field"
     t.string   "chart_type"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "x_axis_type"
+    t.string   "y_axis_type"
+    t.string   "color"
+    t.string   "background_color"
+  end
+
+  create_table "maps", :force => true do |t|
+    t.string   "title"
+    t.string   "filename"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

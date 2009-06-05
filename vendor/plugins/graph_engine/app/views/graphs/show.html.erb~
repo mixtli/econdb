@@ -1,6 +1,7 @@
+yomama
 Start: <%= @start_time %> End: <%= @end_time %>
 
-
+blah blah
 
 <% form_tag({},{:method => :get}) do  %>
 Start: <%= select_datetime @start_time, :prefix => "start" %><br/>
@@ -9,7 +10,7 @@ End: <%= select_datetime @end_time, :prefix => "end" %>
 <%= submit_tag 'Generate'%>
 <% end %>
 <%= image_tag resource_path(params.merge({:format => :png})),  :size => '800x300'%>
-<%= swf_tag "FlexChart", :size => "800x400", :flashvars => {:data_url => URI.unescape(url_for(:overwrite_params => {:format => :xml})).gsub("&", '%26') }  %>
+<%= swf_tag "FlexChart", :size => "800x400", :flashvars => {:data_url => CGI::escape(url_for(:overwrite_params => {:format => :xml})) }  %>
 <%= open_flash_chart( 600, 300, url_for( :overwrite_params => {:format => :json} ) ) %>
 <%#= @open_flash_chart %>
 <br/>

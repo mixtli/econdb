@@ -1,12 +1,18 @@
 module GraphRenderer  
   class Gruff < Base
     def render(resource, options = {})
+      #return true
       returning ::Gruff::Line.new do |g|
         g.title = resource.title
         g.x_axis_label = resource.x_label
         g.y_axis_label = resource.y_label
         g.background = resource.background_color
         g.font_color = resource.color
+        #g.marker_font_size = 10
+        #g.legend_font_size = 10
+        #g.hide_line_markers = true
+        #g.minimum_value = resource.minimum_value
+        #g.maximum_value = resource.maximum_value
         resource.graph_items.each do |item|
           data = item.data_source.values(options)
           g.data(item.data_source.name, data.collect {|v| v[:y_value].to_f}, item.color)
@@ -15,7 +21,7 @@ module GraphRenderer
           num_items = data.size
           per_label = num_items/num_labels
           data.each_with_index do |v, idx|
-            labels[idx] = v[:x_value].strftime("%m/%d/%Y") if idx % per_label == 0
+            labels[idx] = v[:x_value].strftime("%m/%d/%y") if idx % per_label == 0
           end
           g.labels = labels
         end
