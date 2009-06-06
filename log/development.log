@@ -633,3 +633,47 @@ ActionController::RoutingError (No route matches "/admin/books/2" with {:method=
   
 
 Rendering rescues/layout (not_found)
+  [4;36;1mSQL (115.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (66.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (185.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (628.4ms)[0m   [0mSELECT * FROM countries LIMIT 50 OFFSET 0[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSELECT * FROM countries LIMIT 50 OFFSET 50[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mSELECT * FROM countries LIMIT 50 OFFSET 100[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSELECT * FROM countries LIMIT 50 OFFSET 150[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mSELECT * FROM countries LIMIT 50 OFFSET 200[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSELECT * FROM countries LIMIT 50 OFFSET 250[0m
+  [4;35;1mSQL (58.8ms)[0m   [0mSELECT * FROM data_sources LIMIT 50 OFFSET 0[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT * FROM data_sources LIMIT 50 OFFSET 50[0m
+  [4;35;1mSQL (54.3ms)[0m   [0mSELECT * FROM graph_items LIMIT 50 OFFSET 0[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT * FROM graph_items LIMIT 50 OFFSET 50[0m
+  [4;35;1mSQL (90.6ms)[0m   [0mSELECT * FROM graphs LIMIT 50 OFFSET 0[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT * FROM graphs LIMIT 50 OFFSET 50[0m
+  [4;35;1mSQL (40.1ms)[0m   [0mSELECT * FROM maps LIMIT 50 OFFSET 0[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT * FROM maps LIMIT 50 OFFSET 50[0m
+  [4;35;1mSQL (24.1ms)[0m   [0mSELECT * FROM roles LIMIT 50 OFFSET 0[0m
+  [4;36;1mSQL (11.5ms)[0m   [0;1mSELECT * FROM roles_users LIMIT 50 OFFSET 0[0m
+  [4;35;1mSQL (12.6ms)[0m   [0mSELECT * FROM schema_migrations LIMIT 50 OFFSET 0[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT * FROM schema_migrations LIMIT 50 OFFSET 50[0m
+  [4;35;1mSQL (5.7ms)[0m   [0mSELECT * FROM users LIMIT 50 OFFSET 0[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT * FROM countries LIMIT 50 OFFSET 0[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSELECT * FROM countries LIMIT 50 OFFSET 50[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mSELECT * FROM countries LIMIT 50 OFFSET 100[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSELECT * FROM countries LIMIT 50 OFFSET 150[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSELECT * FROM countries LIMIT 50 OFFSET 200[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSELECT * FROM countries LIMIT 50 OFFSET 250[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT * FROM data_sources LIMIT 50 OFFSET 0[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT * FROM data_sources LIMIT 50 OFFSET 50[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT * FROM graph_items LIMIT 50 OFFSET 0[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT * FROM graph_items LIMIT 50 OFFSET 50[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT * FROM graphs LIMIT 50 OFFSET 0[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT * FROM graphs LIMIT 50 OFFSET 50[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT * FROM maps LIMIT 50 OFFSET 0[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT * FROM maps LIMIT 50 OFFSET 50[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT * FROM roles LIMIT 50 OFFSET 0[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT * FROM roles_users LIMIT 50 OFFSET 0[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT * FROM schema_migrations LIMIT 50 OFFSET 0[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT * FROM schema_migrations LIMIT 50 OFFSET 50[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT * FROM users LIMIT 50 OFFSET 0[0m

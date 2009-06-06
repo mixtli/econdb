@@ -76,6 +76,7 @@ namespace :install do
   desc "Install mysql database in /mnt/mysql.  Runs mysql_install_db"
   task :db do
     sudo "mysql_install_db"
+    sudo "/etc/init.d/mysql start"
   end
 end
 

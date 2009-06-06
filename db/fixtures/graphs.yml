@@ -1,6 +1,8 @@
 graphs_1: 
-  background_color: "#ff6"
-  updated_at: 2009-04-13 11:48:18
+  maximum_value: 
+  minimum_value: 
+  background_color: "#000"
+  updated_at: 2009-04-15 10:44:00
   x_field: 
   y_field: 
   x_label: Date

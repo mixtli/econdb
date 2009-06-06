@@ -7,10 +7,18 @@ graph_items_1:
   color: "#00f"
   created_at: 2009-04-13 02:37:19
 graph_items_2: 
-  updated_at: 2009-04-13 09:25:53
+  updated_at: 2009-04-15 10:44:00
   graph_id: "1"
   title: M2 Stock
   data_source_id: "2"
   id: "2"
-  color: "#903"
+  color: "#cf0"
   created_at: 2009-04-13 02:37:19
+graph_items_3: 
+  updated_at: 2009-04-15 10:44:00
+  graph_id: "1"
+  title: MZM Stock
+  data_source_id: "3"
+  id: "3"
+  color: "#c03"
+  created_at: 2009-04-15 10:44:00

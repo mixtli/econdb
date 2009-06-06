@@ -8,3 +8,9 @@ schema_migrations_4:
   version: "20090413011712"
 schema_migrations_5: 
   version: "20090413012357"
+schema_migrations_6: 
+  version: "20090415081127"
+schema_migrations_7: 
+  version: "20090429061216"
+schema_migrations_8: 
+  version: "20090429085503"
