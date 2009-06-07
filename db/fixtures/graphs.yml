@@ -15,3 +15,20 @@ graphs_1:
   y_label: Billion Dollars
   x_axis_type: DateTime
   created_at: 2009-04-13 02:37:19
+graphs_2: 
+  maximum_value: 
+  minimum_value: 
+  background_color: "#fff"
+  updated_at: 2009-06-06 06:16:16
+  x_field: 
+  y_field: 
+  x_label: Year
+  title: US GDP
+  units: 
+  chart_type: Line
+  id: "2"
+  color: "#090"
+  y_axis_type: Linear
+  y_label: GDP Billions
+  x_axis_type: Linear
+  created_at: 2009-06-06 06:16:16

@@ -1,4 +1,4 @@
-after "deploy:update", "gems:install"
+#after "deploy:update", "gems:install"
 after "gems:install", "db:create"
 
 namespace :deploy do

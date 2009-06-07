@@ -31,3 +31,15 @@ data_sources_3:
   type: DataSource::FederalReserve
   id: "3"
   created_at: 2009-04-15 10:42:19
+data_sources_4: 
+  arguments: |
+    --- !map:HashWithIndifferentAccess 
+    country: us
+    indicator: NY.GDP.MKTP.CD
+
+  name: US GDP
+  updated_at: 2009-06-06 06:14:43
+  units: 
+  type: DataSource::WorldBank
+  id: "4"
+  created_at: 2009-06-06 06:14:43
