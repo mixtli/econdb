@@ -1,6 +1,6 @@
---- 
+---
 format: 1
-handler: 
+handler:
   commit: 5a8f2371f7de78da6d66de829192fd37ba316ebc
   branch: master
 repository_url: git://github.com/mixtli/graph_engine.git
