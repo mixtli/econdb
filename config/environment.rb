@@ -39,7 +39,7 @@ Rails::Initializer.run do |config|
   config.gem "gruff"
   config.gem 'rubyist-aasm', :lib => "aasm"
   config.gem "mixtli-fred", :lib => "fred"
-  config.gem "mixtli-flex_chart", :lib => "flex_chart"
+  config.gem "flex_chart"
   #config.gem "rmagick"
   # config.gem "bj"
   # config.gem "hpricot", :version => '0.6', :source => "http://code.whytheluckystiff.net"
@@ -68,7 +68,9 @@ Rails::Initializer.run do |config|
 end
 
 require 'fred'
-#require 'data_source/fred'
+require 'data_source/federal_reserve'
+require 'data_source/world_bank'
 Fred::Base.api_key = "39e6580aa035fa02ef28ac0f5e2752b8"  
 WorldBank::Base.api_key = "xv6r542fqbyc4t72jr9hhz96"
 Mime::Type.register "image/png", :png
+

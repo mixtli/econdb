@@ -10,7 +10,7 @@ module WorldBank
     class_inheritable_accessor :base_url, :primary_key, :collection_path, :element_path
     attr_reader :attributes
     self.base_url = "http://open.worldbank.org"
-
+    self.api_key = "xv6r542fqbyc4t72jr9hhz96"
     def [](attr)
       attributes[attr.to_s]
     end
@@ -21,7 +21,8 @@ module WorldBank
 
     def self.get(id)
       puts "get(id)"
-      uri = base_url + "/#{collection_path}/#{id}?api_key=#{api_key}"
+      uri = base_url + "/#{collection_path}/#{id}?api_key=#{::WorldBank::Base.api_key}"
+      puts uri
       doc = Hpricot.XML(open(uri))
       puts doc
       args = doc.search("/*/*/*").select { |a| a.name =~ /wb:/ }.inject({}) { | h, a| h.merge( { a.name.sub("wb:","") => a.inner_html })  }
@@ -43,7 +44,7 @@ module WorldBank
     end
 
     def self.encode_params(args)
-      args['api_key'] ||= api_key
+      args['api_key'] ||= ::WorldBank::Base.api_key
       args.map { |k,v| "%s=%s" % [URI.encode(k.to_s), URI.encode(v.to_s)] }.join('&') unless args.blank?
     end
   end
@@ -66,11 +67,11 @@ module WorldBank
       doc.search("/*/*").each do |el|
         puts "found el #{el.inspect}"
         data_entries << {
-          :date => el.at("wb:date").inner_html,
-          :value => el.at("wb:val").inner_html
+          :date => Date.new(el.at("wb:date").inner_html.to_i),
+          :value => el.at("wb:value").inner_html
         } if el.at("wb:date")
       end
-      data_entries
+      data_entries.sort_by {|e| e[:date] }
     end
   end
   

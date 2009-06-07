@@ -1,6 +1,6 @@
 class DataSource::WorldBank < DataSource
   def self.data_source_arguments
-    [:indicator]
+    [:indicator, :country]
   end
   
   def values(options = {})
@@ -9,6 +9,6 @@ class DataSource::WorldBank < DataSource
     indicator = ::WorldBank::Indicator.get(arguments[:indicator])
     wb_params = {}
     wb_params[:date] = options[:start].strftime("%Y") + ":" + options[:end].strftime("%Y")
-    indicator.data(wb_params).map {|obs| {:x_value => DateTime.parse(obs['date']), :y_value => obs['value'].to_i}}
+    indicator.data(arguments[:country], wb_params).map {|obs| {:x_value => obs[:date], :y_value => obs[:value].to_i}}
   end
 end

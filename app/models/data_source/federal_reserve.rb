@@ -11,6 +11,7 @@ class DataSource::FederalReserve < DataSource
     fred_params = {}
     fred_params[:observation_start] = options[:start].strftime("%Y-%m-%d")
     fred_params[:observation_end] = options[:end].strftime("%Y-%m-%d")
-    series.observations(fred_params).map {|obs| {:x_value => DateTime.parse(obs['date']), :y_value => obs['value'].to_i}}
+    series.observations(fred_params).map {|obs| {:x_value => obs[:date], :y_value => obs[:value].to_i}}
+    thing
   end
 end
