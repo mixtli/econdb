@@ -1,0 +1,8 @@
+--- 
+format: 1
+handler: 
+  commit: 45c6511aa45b906567f6ec1c5d5d46420be14f7d
+  branch: master
+repository_url: git://github.com/funkensturm/acts_as_category.git
+lock: false
+repository_class: Piston::Git::Repository

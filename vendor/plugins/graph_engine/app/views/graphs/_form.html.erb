@@ -34,6 +34,16 @@
     <%= f.text_field :y_label %>
   </p>
 
+  <p>
+    <%= f.label :tag_list %><br/>
+    <%= f.text_field :tag_list, :size => 40 %>
+  </p>
+
+  <p>
+    <%= f.label :category %><br/>
+    <%= aac_select Category.roots, :name => 'graph[category_id]' %>
+  </p>
+
   <div id="graph_items">
   <% f.fields_for :graph_items do |item_form| %>
      <%= render :partial => 'graph_item', :locals => {:form => item_form} %>

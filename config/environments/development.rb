@@ -16,3 +16,8 @@ config.action_controller.perform_caching             = false
 config.action_mailer.raise_delivery_errors = false
 config.reload_plugins = false
 config.cache_store = :mem_cache_store, { :namespace => 'econdb' }
+
+# XXX Hack!  Getting 
+# “A copy of ApplicationHelper has been removed from the module tree but is still active!”
+# This resolves it.
+load 'application_helper.rb'

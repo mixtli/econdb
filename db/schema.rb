@@ -9,7 +9,20 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090429085503) do
+ActiveRecord::Schema.define(:version => 20090614062049) do
+
+  create_table "categories", :force => true do |t|
+    t.integer  "parent_id"
+    t.integer  "position"
+    t.integer  "children_count"
+    t.integer  "ancestors_count"
+    t.integer  "descendants_count"
+    t.boolean  "hidden"
+    t.string   "name"
+    t.string   "description"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "countries", :force => true do |t|
     t.string  "iso",            :limit => 2
@@ -31,6 +44,12 @@ ActiveRecord::Schema.define(:version => 20090429085503) do
     t.string   "type"
     t.string   "units"
     t.text     "arguments"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "foobars", :force => true do |t|
+    t.string   "title"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -58,6 +77,9 @@ ActiveRecord::Schema.define(:version => 20090429085503) do
     t.string   "y_axis_type"
     t.string   "color"
     t.string   "background_color"
+    t.integer  "minimum_value"
+    t.integer  "maximum_value"
+    t.string   "cached_tag_list"
   end
 
   create_table "maps", :force => true do |t|
@@ -80,6 +102,20 @@ ActiveRecord::Schema.define(:version => 20090429085503) do
     t.integer  "role_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+  end
+
+  create_table "taggings", :force => true do |t|
+    t.integer  "tag_id"
+    t.integer  "taggable_id"
+    t.string   "taggable_type"
+    t.datetime "created_at"
+  end
+
+  add_index "taggings", ["tag_id"], :name => "index_taggings_on_tag_id"
+  add_index "taggings", ["taggable_id", "taggable_type"], :name => "index_taggings_on_taggable_id_and_taggable_type"
+
+  create_table "tags", :force => true do |t|
+    t.string "name"
   end
 
   create_table "users", :force => true do |t|

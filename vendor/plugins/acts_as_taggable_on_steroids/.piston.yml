@@ -1,0 +1,8 @@
+--- 
+format: 1
+handler: 
+  commit: 2cab61bb75e85b7a5f3e24018fd4e5736dcb39b5
+  branch: master
+repository_url: git://github.com/jviney/acts_as_taggable_on_steroids.git
+lock: false
+repository_class: Piston::Git::Repository

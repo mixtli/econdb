@@ -1,0 +1,8 @@
+--- 
+format: 1
+handler: 
+  commit: 14174dc449897b5bcebde0bac906af5a4e018a0b
+  branch: master
+repository_url: git://github.com/JasonKing/google_ad_sense.git
+lock: false
+repository_class: Piston::Git::Repository
