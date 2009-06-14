@@ -1,0 +1,10 @@
+<table>
+  <% for category in resources %>
+  <% end %>
+</table>
+
+
+<%= aac_sortable_tree(Category, :url => {:controller => 'categories', :action => :update_positions }, :edit_url => {:controller => 'categories', :action => 'edit' }, :edit_link => '[EDIT]' ) %>
+
+<%#= aac_tree(Category.roots) %>
+<%= link_to 'New Category', new_resource_path %>

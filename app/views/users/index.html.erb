@@ -1,0 +1,16 @@
+<table>
+<tr><th>Login</th></tr>
+<% for user in @users %>
+<tr>
+<td><%= user.login %></td>
+<td><%= link_to 'Show', user_path(user) %></td>
+<td><%= link_to 'Edit', edit_user_path(user) %></td>
+<td><%= link_to 'Destroy', user_path(user), :method => :delete, :confirm => 'Are you sure?' %></td>
+
+</tr>
+
+<% end %>
+
+</table>
+
+<%= link_to 'New User', new_user_path %>

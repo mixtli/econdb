@@ -1,0 +1,21 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  parent: 
+  position: 1
+  children_count: 1
+  ancestors_count: 1
+  descendants_count: 1
+  hidden: false
+  name: MyString
+  description: MyString
+
+two:
+  parent: 
+  position: 1
+  children_count: 1
+  ancestors_count: 1
+  descendants_count: 1
+  hidden: false
+  name: MyString
+  description: MyString

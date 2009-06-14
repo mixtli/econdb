@@ -1,0 +1,72 @@
+body,
+html {
+		margin:0;
+		padding:0;
+		color:#000;
+		background:#a7a09a;
+}
+#wrap {
+
+		margin:0 auto;
+		background:#99c;
+}
+
+#menu {
+  background:#f00;
+  padding: 20px 20px;
+}
+
+#header {
+    	padding:5px 10px;
+	background:#ddd;
+}
+h1 {
+	margin:0;
+}
+
+h2 {
+	margin:0 0 1em;
+}
+
+#content {
+  clear: both;
+  padding:5px 10px;
+}
+
+
+#main {
+        float: left;
+	padding:10px;
+	background:#9c9;
+        margin: 0;
+        width: 480px;
+}
+
+#sidebar {
+        float: left;
+	width:150px;
+	padding:0px;
+        margin: 0;
+	background:#c22;
+        height: 500px;
+}
+
+
+#someshit {
+  float: right;
+  background: grey;
+  width: 160px;
+}
+
+
+#footer {
+	clear:both;
+	padding:5px 10px;
+	background:#cc9;
+}
+#footer p {
+	margin:0;
+}
+* html #footer {
+	height:1px;
+}
