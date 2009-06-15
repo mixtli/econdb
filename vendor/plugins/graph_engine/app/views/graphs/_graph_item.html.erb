@@ -1,0 +1,10 @@
+<div class="graph_item">
+<h2>Graph Item </h2>
+<%= form.label :title%><br/>
+<%= form.text_field :title%><br/>
+<%= form.label :data_source %><br/>
+<%= form.select :data_source_id, DataSource.find(:all).collect {|d| [d.name, d.id] }%> <br/>
+<%= form.label :color %><br/>
+<%= color_picker("#{form.object_name}[color]", form.object.color )%><br/>
+<%= remove_graph_item_link(form) %>
+</div>
