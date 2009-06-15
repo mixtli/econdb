@@ -1,5 +1,4 @@
-<b>Name</b> <%= resource.name %><br/>
+<% for graph in resource.graphs %>
+  <%= render :partial => 'graph', :locals => {:graph => graph } %>
+<% end %>
 
-<b>Parent</b> <%= resource.parent %><br/>
-
-<b>Description</b> <%= resource.description %>

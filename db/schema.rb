@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090614062049) do
+ActiveRecord::Schema.define(:version => 20090614221009) do
 
   create_table "categories", :force => true do |t|
     t.integer  "parent_id"
@@ -80,6 +80,7 @@ ActiveRecord::Schema.define(:version => 20090614062049) do
     t.integer  "minimum_value"
     t.integer  "maximum_value"
     t.string   "cached_tag_list"
+    t.integer  "catetory_id"
   end
 
   create_table "maps", :force => true do |t|
