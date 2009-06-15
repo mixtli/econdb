@@ -1,8 +1,9 @@
 graphs_1: 
+  cached_tag_list: money supply, m1, m2
   maximum_value: 
   minimum_value: 
   background_color: "#000"
-  updated_at: 2009-04-15 10:44:00
+  updated_at: 2009-06-14 22:13:20
   x_field: 
   y_field: 
   x_label: Date
@@ -10,12 +11,14 @@ graphs_1:
   units: Billions
   chart_type: Line
   id: "1"
+  category_id: "1"
   color: "#00f"
   y_axis_type: Linear
   y_label: Billion Dollars
   x_axis_type: DateTime
   created_at: 2009-04-13 02:37:19
 graphs_2: 
+  cached_tag_list: 
   maximum_value: 
   minimum_value: 
   background_color: "#fff"
@@ -27,6 +30,7 @@ graphs_2:
   units: 
   chart_type: Line
   id: "2"
+  category_id: 
   color: "#090"
   y_axis_type: Linear
   y_label: GDP Billions

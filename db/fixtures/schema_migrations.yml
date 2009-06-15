@@ -14,3 +14,15 @@ schema_migrations_7:
   version: "20090429061216"
 schema_migrations_8: 
   version: "20090429085503"
+schema_migrations_9: 
+  version: "20090601202007"
+schema_migrations_10: 
+  version: "20090614055105"
+schema_migrations_11: 
+  version: "20090614055330"
+schema_migrations_12: 
+  version: "20090614060436"
+schema_migrations_13: 
+  version: "20090614062049"
+schema_migrations_14: 
+  version: "20090614221009"

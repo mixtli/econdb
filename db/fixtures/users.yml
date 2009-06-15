@@ -1,0 +1,15 @@
+users_1: 
+  salt: f1a1c5c97400f4a1300120fc4dbcc0051748563b
+  name: ""
+  activated_at: 2009-06-14 09:34:46
+  updated_at: 2009-06-14 09:34:46
+  crypted_password: 95c8f2e226577e86e454a78b117a9455c41e77f3
+  deleted_at: 
+  activation_code: 
+  remember_token_expires_at: 
+  id: "1"
+  remember_token: 
+  login: mixtli
+  state: active
+  created_at: 2009-06-14 09:27:22
+  email: ronmcclain75@gmail.com
