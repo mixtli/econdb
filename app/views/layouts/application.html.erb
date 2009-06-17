@@ -19,7 +19,7 @@
   <div id="menu">
     <ul id="nav">
       <li><%= link_to 'Home', '/' %></li>
-      <li><%= link_to 'Economics', '#' %></li>
+      <li><%= link_to 'Economics', category_path(Category.find_by_name("Economics")) %></li>
       <li><%= link_to 'Politics', '#' %></li>
       <li>
       <% if current_user %>
@@ -44,7 +44,7 @@
 
   <div id="content">
     <div id="sidebar">
-      <%= category_tree %>
+      <%= category_tree(root_category) %>
     </div>
     <div id="main">
       <%= yield %>

@@ -1,8 +1,9 @@
 # Methods added to this helper will be available to all templates in the application.
 module ApplicationHelper
-  def category_tree
+  def category_tree(root = nil)
     result = '<ul>'
-    Category.roots.each do |c|
+    collection = root ? root.children : Category.roots
+    collection.each do |c|
       result += category_tree_node(c)
     end
     result += '</ul>'
@@ -22,4 +23,11 @@ module ApplicationHelper
     result
   end
 
+  def current_category
+    return Category.find(session[:category_id])
+  end
+
+  def root_category
+    return current_category.root
+  end
 end
