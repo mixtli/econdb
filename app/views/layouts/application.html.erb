@@ -10,7 +10,6 @@
   <%= javascript_include_tag 'FusionMaps'%>
 </head>
 <body>
-
 <p style="color: green"><%= flash[:notice] %></p>
 <div id="wrap">
   <div id="header">
@@ -49,8 +48,8 @@
     <div id="main">
       <%= yield %>
     </div>
-    <div id="someshit">
-      <%= google_ad :skyscraper %>
+    <div id="ads">
+      <%#= google_ad :skyscraper %>
     </div>
   </div>
   <div id="footer">

@@ -65,8 +65,10 @@ Rails::Initializer.run do |config|
   # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}')]
   # config.i18n.default_locale = :de
 
-end
+  config.action_controller.session_store = :active_record_store
 
+end
+require 'lib/graphs_controller_extensions'
 require 'fred'
 require 'data_source/federal_reserve'
 require 'data_source/world_bank'

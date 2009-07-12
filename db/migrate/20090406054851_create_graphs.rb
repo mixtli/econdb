@@ -12,6 +12,7 @@ class CreateGraphs < ActiveRecord::Migration
       t.string :background_color, :default => '#fff'
       
       t.string :chart_type
+      t.userstamps
       t.timestamps
     end
   end

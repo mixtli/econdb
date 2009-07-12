@@ -24,7 +24,11 @@ module ApplicationHelper
   end
 
   def current_category
-    return Category.find(session[:category_id])
+    if session[:category_id]
+      Category.find(session[:category_id])
+    else
+      Category.first
+    end
   end
 
   def root_category

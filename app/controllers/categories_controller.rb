@@ -12,6 +12,7 @@ class CategoriesController < ApplicationController
 
   private
   def set_category
+    logger.debug "setting category to #{params[:id]}"
     session[:category_id] = params[:id]
   end
 

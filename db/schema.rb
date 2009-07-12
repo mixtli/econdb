@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090614221009) do
+ActiveRecord::Schema.define(:version => 20090712224759) do
 
   create_table "categories", :force => true do |t|
     t.integer  "parent_id"
@@ -20,6 +20,17 @@ ActiveRecord::Schema.define(:version => 20090614221009) do
     t.boolean  "hidden"
     t.string   "name"
     t.string   "description"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "comments", :force => true do |t|
+    t.string   "title",            :limit => 50, :default => ""
+    t.text     "body"
+    t.integer  "commentable_id"
+    t.string   "commentable_type"
+    t.integer  "creator_id"
+    t.integer  "updater_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -80,7 +91,9 @@ ActiveRecord::Schema.define(:version => 20090614221009) do
     t.integer  "minimum_value"
     t.integer  "maximum_value"
     t.string   "cached_tag_list"
-    t.integer  "catetory_id"
+    t.integer  "category_id"
+    t.integer  "creator_id"
+    t.integer  "updater_id"
   end
 
   create_table "maps", :force => true do |t|
@@ -104,6 +117,16 @@ ActiveRecord::Schema.define(:version => 20090614221009) do
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  create_table "sessions", :force => true do |t|
+    t.string   "session_id", :null => false
+    t.text     "data"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "sessions", ["session_id"], :name => "index_sessions_on_session_id"
+  add_index "sessions", ["updated_at"], :name => "index_sessions_on_updated_at"
 
   create_table "taggings", :force => true do |t|
     t.integer  "tag_id"

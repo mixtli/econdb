@@ -5,12 +5,12 @@ class ApplicationController < ActionController::Base
   helper :all # include all helpers, all the time
   protect_from_forgery # See ActionController::RequestForgeryProtection for details
   include AuthenticatedSystem
-  
+  include Userstamp  
   # Scrub sensitive parameters from your log
   filter_parameter_logging :password
 
 
-  def current_category
-    return Category.find(session[:category_id])
-  end
+  #def current_category
+  #  return Category.find(session[:category_id])
+  #end
 end
