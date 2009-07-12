@@ -1,0 +1,59 @@
+<% form_for_resource  do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :title %><br />
+    <%= f.text_field :title %>
+  </p>
+  <p>
+    <%= f.label :chart_type %><br/>
+    <%= f.select :chart_type, ["Line", "Bar", "Area", "Pie"] %>
+  </p>
+  <%= f.label :color %><br/>
+  <%= color_picker("#{f.object_name}[color]", f.object.color )%><br/>
+  <%= f.label :background_color %><br/>
+  <%= color_picker("#{f.object_name}[background_color]", f.object.background_color )%><br/>
+
+  <p>
+  	<%= f.label :x_axis_type %><br/>
+	<%= f.select :x_axis_type, ["Linear", "DateTime", "Category", "Log" ]%>
+  </p>
+
+  <p>
+  	<%= f.label :y_axis_type %><br/>
+	<%= f.select :y_axis_type, ["Linear", "DateTime", "Category", "Log" ]%>
+  </p>  
+  
+  <p>
+    <%= f.label :x_label %><br />
+    <%= f.text_field :x_label %>
+  </p>
+
+  <p>
+    <%= f.label :y_label %><br />
+    <%= f.text_field :y_label %>
+  </p>
+
+  <p>
+    <%= f.label :tag_list %><br/>
+    <%= f.text_field :tag_list, :size => 40 %>
+  </p>
+
+  <p>
+    <%= f.label :category %><br/>
+    <%= aac_select Category.roots, :name => 'graph[category_id]' %>
+  </p>
+
+  <div id="graph_items">
+  <% f.fields_for :graph_items do |item_form| %>
+     <%= render :partial => 'graph_item', :locals => {:form => item_form} %>
+  <% end %>
+  </div>
+  <br/>
+  <%= add_graph_item_link(f) %>
+  <%= link_to 'New Data Source', new_data_source_path %>
+  <p>
+    <%= f.submit %>
+  </p>
+
+<% end %>
