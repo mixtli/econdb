@@ -1,8 +1,0 @@
---- 
-format: 1
-handler: 
-  commit: e731f52124dd0f318dd8b9d1d53a7b2b3a71faa1
-  branch: master
-repository_url: git@github.com:mixtli/graph_engine.git
-lock: false
-repository_class: Piston::Git::Repository

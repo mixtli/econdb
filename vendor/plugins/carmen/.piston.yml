@@ -1,0 +1,8 @@
+--- 
+format: 1
+handler: 
+  commit: 6b82513e3eb598d811a13f199140dc1e130b5375
+  branch: master
+repository_url: git://github.com/jim/carmen.git
+lock: false
+repository_class: Piston::Git::Repository

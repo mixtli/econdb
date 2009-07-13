@@ -10,6 +10,8 @@
   <%= javascript_include_tag 'FusionMaps'%>
 </head>
 <body>
+<!-- User: <%= current_user.inspect %> Session: <%= session.inspect %> -->
+
 <p style="color: green"><%= flash[:notice] %></p>
 <div id="wrap">
   <div id="header">
@@ -19,14 +21,7 @@
     <ul id="nav">
       <li><%= link_to 'Home', '/' %></li>
       <li><%= link_to 'Economics', category_path(Category.find_by_name("Economics")) %></li>
-      <li><%= link_to 'Politics', '#' %></li>
-      <li>
-      <% if current_user %>
-        <%= link_to 'Logout', logout_path %>
-      <% else %>
-        <%= link_to 'Login', login_path %>
-      <% end %>
-    </li>
+      <li><%= link_to 'Tags', tags_path %></li>
     <% if current_user && current_user.is_admin? %>
       <li><%= link_to 'Admin', admin_path %>
         <ul>
@@ -38,6 +33,14 @@
         </ul>
       </li>
     <% end %>
+      <li>
+      <% if current_user %>
+        <%= link_to 'Logout', logout_path %>
+        Welcome <%= current_user.login %>
+      <% else %>
+        <%= link_to 'Login', login_path %>
+      <% end %>
+      </li>
     </ul>
   </div>
 

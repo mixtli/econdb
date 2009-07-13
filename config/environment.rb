@@ -37,6 +37,7 @@ Rails::Initializer.run do |config|
   # Specify gems that this application depends on and have them installed with rake gems:install
   config.gem "hpricot"
   config.gem "gruff"
+  config.gem "chronic"
   config.gem 'rubyist-aasm', :lib => "aasm"
   config.gem "mixtli-fred", :lib => "fred"
   config.gem "mixtli-flex_chart", :lib => "flex_chart"
@@ -68,8 +69,8 @@ Rails::Initializer.run do |config|
   config.action_controller.session_store = :active_record_store
 
 end
-require 'lib/graphs_controller_extensions'
-require 'fred'
+
+#require 'fred'
 require 'data_source/federal_reserve'
 require 'data_source/world_bank'
 Fred::Base.api_key = "39e6580aa035fa02ef28ac0f5e2752b8"  

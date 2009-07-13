@@ -5,6 +5,12 @@
     <%= f.label :title %><br />
     <%= f.text_field :title %>
   </p>
+
+  <p>
+    <%= f.label :default_start_time %><br />
+    <%= f.text_field :default_start_time  %>
+  </p>
+
   <p>
     <%= f.label :chart_type %><br/>
     <%= f.select :chart_type, ["Line", "Bar", "Area", "Pie"] %>
@@ -24,6 +30,7 @@
 	<%= f.select :y_axis_type, ["Linear", "DateTime", "Category", "Log" ]%>
   </p>  
   
+
   <p>
     <%= f.label :x_label %><br />
     <%= f.text_field :x_label %>

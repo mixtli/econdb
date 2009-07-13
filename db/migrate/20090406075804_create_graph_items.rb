@@ -5,6 +5,7 @@ class CreateGraphItems < ActiveRecord::Migration
       t.references :graph
       t.references :data_source
       t.string :color, :default => '#0f0'
+      t.string :cdef
       t.timestamps
     end
   end

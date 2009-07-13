@@ -1,8 +1,14 @@
 class DataSource::FederalReserve < DataSource
+  FULL_NAME = "U.S. Federal Reserve"
+
   def self.data_source_arguments
     [:fred_id]
   end
   
+  def options_for(attr)
+    super
+  end
+
   def values(options = {})
     logger.debug "DataSource::FederalReserve.values"
     options[:start] ||= 1.year.ago
@@ -13,4 +19,6 @@ class DataSource::FederalReserve < DataSource
     fred_params[:observation_end] = options[:end].strftime("%Y-%m-%d")
     series.observations(fred_params).map {|obs| {:x_value => obs[:date], :y_value => obs[:value].to_i}}
   end
+
+
 end

@@ -38,7 +38,10 @@ module WorldBank
       doc = Hpricot.XML(open(uri))
       puts doc
       doc.search("/*/*").each do |el|
-        results << new(el.search("*/*").select { |a| a.name =~ /wb:/ }.inject({}) { | h, a| h.merge( { a.name.sub("wb:","") => a.inner_html })  }) if el.respond_to?(:attributes)
+        
+        if el.respond_to?(:attributes)
+          results << new(el.search("*/*").select { |a| a.name =~ /wb:/ }.inject({}) { | h, a| h.merge( { a.name.sub("wb:","") => a.inner_html })  }.merge(el.attributes) )
+        end
       end
       results
     end

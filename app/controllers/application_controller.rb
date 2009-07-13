@@ -3,11 +3,14 @@
 
 class ApplicationController < ActionController::Base
   helper :all # include all helpers, all the time
-  protect_from_forgery # See ActionController::RequestForgeryProtection for details
+  protect_from_forgery  # See ActionController::RequestForgeryProtection for details
   include AuthenticatedSystem
   include Userstamp  
   # Scrub sensitive parameters from your log
   filter_parameter_logging :password
+
+  # Turn off layout for AJAX requests
+  layout proc{ |c| c.request.xhr? ? false : "application" }
 
 
   #def current_category

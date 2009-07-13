@@ -10,7 +10,7 @@ class CreateGraphs < ActiveRecord::Migration
       t.integer :minimum_value, :maximum_value      
       t.string :color, :default => '#0f0'
       t.string :background_color, :default => '#fff'
-      
+      t.string :default_start_time, :default => '1 year ago'      
       t.string :chart_type
       t.userstamps
       t.timestamps

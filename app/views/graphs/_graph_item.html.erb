@@ -6,5 +6,7 @@
 <%= form.select :data_source_id, DataSource.find(:all).collect {|d| [d.name, d.id] }%> <br/>
 <%= form.label :color %><br/>
 <%= color_picker("#{form.object_name}[color]", form.object.color )%><br/>
+<%= form.label :cdef %><br/>
+<%= form.text_field :cdef %><br/>
 <%= remove_graph_item_link(form) %>
 </div>

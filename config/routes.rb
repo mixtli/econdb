@@ -16,6 +16,16 @@ ActionController::Routing::Routes.draw do |map|
   map.resources :categories, :collection => {:admin => :get, :update_positions => :post }
   map.admin '/admin', :controller => 'admin'
 
+  #map.resources :graphs, :collection => {:tags => :get }
+
+  map.resources :countries
+
+  map.resources :graphs do |graph|
+    graph.resources :comments
+  end
+  map.resources :tags
+  map.resources :data_sources
+
   # The priority is based upon order of creation: first created -> highest priority.
 
   # Sample of regular route:
