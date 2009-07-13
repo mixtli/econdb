@@ -1,0 +1,3 @@
+<% tag_cloud @tags, %w(tag1 tag2 tag3 tag4) do |tag, css_class| %>
+  <%= link_to tag.name, { :action => :show, :id => tag.name.gsub(" ","+") }, :class => css_class %>
+<% end %>

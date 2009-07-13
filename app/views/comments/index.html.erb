@@ -1,0 +1,8 @@
+<h2>Comments for <%= enclosing_resource %></h2>
+
+<% for comment in resources %>
+  <b><%= comment.title %></b> 
+  Posted by <%= comment.creator.login %> at <%= comment.created_at.to_s(:short) %>
+  <p><%= comment.body %></p>
+  <hr/>
+<% end %>

@@ -1,0 +1,20 @@
+<p>
+  <b>Name:</b>
+  <%=h @data_source.name %>
+</p>
+
+<p>
+  <b>Type:</b>
+  <%=h @data_source.type %>
+</p>
+
+<p>
+  <b>Country:</b>
+  <%=h @data_source.country %>
+</p>
+
+<%= @data_source.arguments.inspect %>
+<br/>
+
+<%= link_to 'Edit', edit_data_source_path(@data_source) %> |
+<%= link_to 'Back', data_sources_path %>

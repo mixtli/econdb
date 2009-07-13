@@ -1,0 +1,13 @@
+<div class="graph">
+<%= link_to(image_tag(graph_path(graph, params.merge({:format => :png})),  :size => '450x300'), graph_path(graph)) %>
+<%#= swf_tag "FlexChart", :size => "800x400", :flashvars => {:data_url => CGI::escape(url_for(:overwrite_params => { :controller => 'graphs', :action => 'show', :id => graph.id, :format => :xml})) }  %>
+
+<%= link_to "Comments (#{graph.comments.count})", graph_comments_path(graph) %> 
+<%= link_to_remote "Add Comment", :update => "new_comment", :url => new_graph_comment_path(graph), :method => :get %>
+
+<% if  current_user.is_admin? %>
+  <%= link_to 'Edit', edit_graph_path(graph) %>
+<% end %>
+
+<div id="new_comment"></div>
+</div>
