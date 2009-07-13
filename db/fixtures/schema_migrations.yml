@@ -26,3 +26,7 @@ schema_migrations_13:
   version: "20090614062049"
 schema_migrations_14: 
   version: "20090614221009"
+schema_migrations_15: 
+  version: "20090712220716"
+schema_migrations_16: 
+  version: "20090712224759"

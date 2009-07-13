@@ -4,7 +4,8 @@ data_sources_1:
     fred_id: M1
 
   name: M1 Money Stock
-  updated_at: 2009-04-13 02:36:01
+  updated_at: 2009-07-13 07:18:57
+  country: US
   units: 
   type: DataSource::FederalReserve
   id: "1"
@@ -15,7 +16,8 @@ data_sources_2:
     fred_id: M2
 
   name: M2 Money Stock
-  updated_at: 2009-04-13 02:36:18
+  updated_at: 2009-07-13 07:29:26
+  country: US
   units: 
   type: DataSource::FederalReserve
   id: "2"
@@ -26,7 +28,8 @@ data_sources_3:
     fred_id: MZM
 
   name: MZM  Money Stock
-  updated_at: 2009-04-15 10:42:19
+  updated_at: 2009-07-13 07:29:39
+  country: US
   units: 
   type: DataSource::FederalReserve
   id: "3"
@@ -34,12 +37,24 @@ data_sources_3:
 data_sources_4: 
   arguments: |
     --- !map:HashWithIndifferentAccess 
-    country: us
     indicator: NY.GDP.MKTP.CD
 
   name: US GDP
-  updated_at: 2009-06-06 06:14:43
+  updated_at: 2009-07-13 07:30:07
+  country: US
   units: 
   type: DataSource::WorldBank
   id: "4"
   created_at: 2009-06-06 06:14:43
+data_sources_5: 
+  arguments: |
+    --- !map:HashWithIndifferentAccess 
+    indicator: NY.GDP.MKTP.KD.ZG
+
+  name: GDP Growth
+  updated_at: 2009-07-13 07:30:23
+  country: US
+  units: 
+  type: DataSource::WorldBank
+  id: "5"
+  created_at: 2009-07-13 06:25:15
