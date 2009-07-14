@@ -1,0 +1,21 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  stock: 
+  quote_time: 2009-07-14 01:49:34
+  open: 1.5
+  close: 1.5
+  high: 1.5
+  low: 1.5
+  volume: 1.5
+  adj_close: 1.5
+
+two:
+  stock: 
+  quote_time: 2009-07-14 01:49:34
+  open: 1.5
+  close: 1.5
+  high: 1.5
+  low: 1.5
+  volume: 1.5
+  adj_close: 1.5

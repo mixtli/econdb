@@ -1,0 +1,216 @@
+currency_historical_rates_1: 
+  derived: 
+  rate_hi: "1.6185"
+  created_on: 2009-07-13 22:44:44
+  date_0: 2009-07-10 00:00:00
+  rate_lo: "1.6185"
+  date: 2009-07-10 10:00:00
+  rate_samples: "1"
+  c1: GBP
+  updated_on: 2009-07-13 22:44:44
+  date_1: 2009-07-11 00:00:00
+  rate: "1.6185"
+  c2: USD
+  id: "1"
+  rate_date_0: "1.6185"
+  rate_avg: "1.6185"
+  rate_date_1: "1.6185"
+  source: federalreserve.gov
+currency_historical_rates_2: 
+  derived: pivot(USD,GBPUSD,reciprocal(EURUSD))
+  rate_hi: "1.16221"
+  created_on: 2009-07-13 22:44:44
+  date_0: 2009-07-10 00:00:00
+  rate_lo: "1.16221"
+  date: 2009-07-10 10:00:00
+  rate_samples: "1"
+  c1: GBP
+  updated_on: 2009-07-13 22:44:44
+  date_1: 2009-07-11 00:00:00
+  rate: "1.16221"
+  c2: EUR
+  id: "2"
+  rate_date_0: "1.16221"
+  rate_avg: "1.16221"
+  rate_date_1: "1.16221"
+  source: federalreserve.gov
+currency_historical_rates_3: 
+  derived: pivot(USD,GBPUSD,USDCAD)
+  rate_hi: "1.88539"
+  created_on: 2009-07-13 22:44:44
+  date_0: 2009-07-10 00:00:00
+  rate_lo: "1.88539"
+  date: 2009-07-10 10:00:00
+  rate_samples: "1"
+  c1: GBP
+  updated_on: 2009-07-13 22:44:44
+  date_1: 2009-07-11 00:00:00
+  rate: "1.88539"
+  c2: CAD
+  id: "3"
+  rate_date_0: "1.88539"
+  rate_avg: "1.88539"
+  rate_date_1: "1.88539"
+  source: federalreserve.gov
+currency_historical_rates_4: 
+  derived: reciprocal(GBPUSD)
+  rate_hi: "0.617856"
+  created_on: 2009-07-13 22:44:44
+  date_0: 2009-07-10 00:00:00
+  rate_lo: "0.617856"
+  date: 2009-07-10 10:00:00
+  rate_samples: "1"
+  c1: USD
+  updated_on: 2009-07-13 22:44:44
+  date_1: 2009-07-11 00:00:00
+  rate: "0.617856"
+  c2: GBP
+  id: "4"
+  rate_date_0: "0.617856"
+  rate_avg: "0.617856"
+  rate_date_1: "0.617856"
+  source: federalreserve.gov
+currency_historical_rates_5: 
+  derived: reciprocal(EURUSD)
+  rate_hi: "0.718081"
+  created_on: 2009-07-13 22:44:44
+  date_0: 2009-07-10 00:00:00
+  rate_lo: "0.718081"
+  date: 2009-07-10 10:00:00
+  rate_samples: "1"
+  c1: USD
+  updated_on: 2009-07-13 22:44:44
+  date_1: 2009-07-11 00:00:00
+  rate: "0.718081"
+  c2: EUR
+  id: "5"
+  rate_date_0: "0.718081"
+  rate_avg: "0.718081"
+  rate_date_1: "0.718081"
+  source: federalreserve.gov
+currency_historical_rates_6: 
+  derived: 
+  rate_hi: "1.1649"
+  created_on: 2009-07-13 22:44:44
+  date_0: 2009-07-10 00:00:00
+  rate_lo: "1.1649"
+  date: 2009-07-10 10:00:00
+  rate_samples: "1"
+  c1: USD
+  updated_on: 2009-07-13 22:44:44
+  date_1: 2009-07-11 00:00:00
+  rate: "1.1649"
+  c2: CAD
+  id: "6"
+  rate_date_0: "1.1649"
+  rate_avg: "1.1649"
+  rate_date_1: "1.1649"
+  source: federalreserve.gov
+currency_historical_rates_7: 
+  derived: reciprocal(pivot(USD,GBPUSD,reciprocal(EURUSD)))
+  rate_hi: "0.860426"
+  created_on: 2009-07-13 22:44:44
+  date_0: 2009-07-10 00:00:00
+  rate_lo: "0.860426"
+  date: 2009-07-10 10:00:00
+  rate_samples: "1"
+  c1: EUR
+  updated_on: 2009-07-13 22:44:44
+  date_1: 2009-07-11 00:00:00
+  rate: "0.860426"
+  c2: GBP
+  id: "7"
+  rate_date_0: "0.860426"
+  rate_avg: "0.860426"
+  rate_date_1: "0.860426"
+  source: federalreserve.gov
+currency_historical_rates_8: 
+  derived: 
+  rate_hi: "1.3926"
+  created_on: 2009-07-13 22:44:44
+  date_0: 2009-07-10 00:00:00
+  rate_lo: "1.3926"
+  date: 2009-07-10 10:00:00
+  rate_samples: "1"
+  c1: EUR
+  updated_on: 2009-07-13 22:44:44
+  date_1: 2009-07-11 00:00:00
+  rate: "1.3926"
+  c2: USD
+  id: "8"
+  rate_date_0: "1.3926"
+  rate_avg: "1.3926"
+  rate_date_1: "1.3926"
+  source: federalreserve.gov
+currency_historical_rates_9: 
+  derived: pivot(USD,EURUSD,USDCAD)
+  rate_hi: "1.62224"
+  created_on: 2009-07-13 22:44:44
+  date_0: 2009-07-10 00:00:00
+  rate_lo: "1.62224"
+  date: 2009-07-10 10:00:00
+  rate_samples: "1"
+  c1: EUR
+  updated_on: 2009-07-13 22:44:44
+  date_1: 2009-07-11 00:00:00
+  rate: "1.62224"
+  c2: CAD
+  id: "9"
+  rate_date_0: "1.62224"
+  rate_avg: "1.62224"
+  rate_date_1: "1.62224"
+  source: federalreserve.gov
+currency_historical_rates_10: 
+  derived: reciprocal(pivot(USD,GBPUSD,USDCAD))
+  rate_hi: "0.530394"
+  created_on: 2009-07-13 22:44:44
+  date_0: 2009-07-10 00:00:00
+  rate_lo: "0.530394"
+  date: 2009-07-10 10:00:00
+  rate_samples: "1"
+  c1: CAD
+  updated_on: 2009-07-13 22:44:44
+  date_1: 2009-07-11 00:00:00
+  rate: "0.530394"
+  c2: GBP
+  id: "10"
+  rate_date_0: "0.530394"
+  rate_avg: "0.530394"
+  rate_date_1: "0.530394"
+  source: federalreserve.gov
+currency_historical_rates_11: 
+  derived: reciprocal(USDCAD)
+  rate_hi: "0.858443"
+  created_on: 2009-07-13 22:44:44
+  date_0: 2009-07-10 00:00:00
+  rate_lo: "0.858443"
+  date: 2009-07-10 10:00:00
+  rate_samples: "1"
+  c1: CAD
+  updated_on: 2009-07-13 22:44:44
+  date_1: 2009-07-11 00:00:00
+  rate: "0.858443"
+  c2: USD
+  id: "11"
+  rate_date_0: "0.858443"
+  rate_avg: "0.858443"
+  rate_date_1: "0.858443"
+  source: federalreserve.gov
+currency_historical_rates_12: 
+  derived: reciprocal(pivot(USD,EURUSD,USDCAD))
+  rate_hi: "0.616432"
+  created_on: 2009-07-13 22:44:44
+  date_0: 2009-07-10 00:00:00
+  rate_lo: "0.616432"
+  date: 2009-07-10 10:00:00
+  rate_samples: "1"
+  c1: CAD
+  updated_on: 2009-07-13 22:44:44
+  date_1: 2009-07-11 00:00:00
+  rate: "0.616432"
+  c2: EUR
+  id: "12"
+  rate_date_0: "0.616432"
+  rate_avg: "0.616432"
+  rate_date_1: "0.616432"
+  source: federalreserve.gov

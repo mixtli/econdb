@@ -1,0 +1,23 @@
+<p>
+  <b>Symbol:</b>
+  <%=h @stock.symbol %>
+</p>
+
+<p>
+  <b>Name:</b>
+  <%=h @stock.name %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%=h @stock.description %>
+</p>
+
+<p>
+  <b>Exchange:</b>
+  <%=h @stock.exchange %>
+</p>
+
+
+<%= link_to 'Edit', edit_stock_path(@stock) %> |
+<%= link_to 'Back', stocks_path %>

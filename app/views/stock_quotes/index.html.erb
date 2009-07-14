@@ -1,0 +1,34 @@
+<h1>Listing stock_quotes</h1>
+
+<table>
+  <tr>
+    <th>Stock</th>
+    <th>Quote time</th>
+    <th>Open</th>
+    <th>Close</th>
+    <th>High</th>
+    <th>Low</th>
+    <th>Volume</th>
+    <th>Adj close</th>
+  </tr>
+
+<% @stock_quotes.each do |stock_quote| %>
+  <tr>
+    <td><%=h stock_quote.stock %></td>
+    <td><%=h stock_quote.quote_time %></td>
+    <td><%=h stock_quote.open %></td>
+    <td><%=h stock_quote.close %></td>
+    <td><%=h stock_quote.high %></td>
+    <td><%=h stock_quote.low %></td>
+    <td><%=h stock_quote.volume %></td>
+    <td><%=h stock_quote.adj_close %></td>
+    <td><%= link_to 'Show', stock_quote %></td>
+    <td><%= link_to 'Edit', edit_stock_quote_path(stock_quote) %></td>
+    <td><%= link_to 'Destroy', stock_quote, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New stock_quote', new_stock_quote_path %>

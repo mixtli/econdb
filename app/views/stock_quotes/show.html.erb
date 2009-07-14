@@ -1,0 +1,43 @@
+<p>
+  <b>Stock:</b>
+  <%=h @stock_quote.stock %>
+</p>
+
+<p>
+  <b>Quote time:</b>
+  <%=h @stock_quote.quote_time %>
+</p>
+
+<p>
+  <b>Open:</b>
+  <%=h @stock_quote.open %>
+</p>
+
+<p>
+  <b>Close:</b>
+  <%=h @stock_quote.close %>
+</p>
+
+<p>
+  <b>High:</b>
+  <%=h @stock_quote.high %>
+</p>
+
+<p>
+  <b>Low:</b>
+  <%=h @stock_quote.low %>
+</p>
+
+<p>
+  <b>Volume:</b>
+  <%=h @stock_quote.volume %>
+</p>
+
+<p>
+  <b>Adj close:</b>
+  <%=h @stock_quote.adj_close %>
+</p>
+
+
+<%= link_to 'Edit', edit_stock_quote_path(@stock_quote) %> |
+<%= link_to 'Back', stock_quotes_path %>

@@ -1,0 +1,24 @@
+<h1>Listing stock_exchanges</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Symbol</th>
+    <th>Description</th>
+  </tr>
+
+<% @stock_exchanges.each do |stock_exchange| %>
+  <tr>
+    <td><%=h stock_exchange.name %></td>
+    <td><%=h stock_exchange.symbol %></td>
+    <td><%=h stock_exchange.description %></td>
+    <td><%= link_to 'Show', stock_exchange %></td>
+    <td><%= link_to 'Edit', edit_stock_exchange_path(stock_exchange) %></td>
+    <td><%= link_to 'Destroy', stock_exchange, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New stock_exchange', new_stock_exchange_path %>

@@ -1,0 +1,984 @@
+currencies_1: 
+  name: Australian Dollar
+  updated_at: 2009-07-14 09:47:19
+  code: AUD
+  id: "327"
+  created_at: 2009-07-14 09:47:19
+currencies_2: 
+  name: New Zealand Dollar
+  updated_at: 2009-07-14 09:47:19
+  code: NZD
+  id: "328"
+  created_at: 2009-07-14 09:47:19
+currencies_3: 
+  name: US Dollar
+  updated_at: 2009-07-14 09:47:19
+  code: USD
+  id: "329"
+  created_at: 2009-07-14 09:47:19
+currencies_4: 
+  name: Euro
+  updated_at: 2009-07-14 09:47:19
+  code: EUR
+  id: "330"
+  created_at: 2009-07-14 09:47:19
+currencies_5: 
+  name: British Pound
+  updated_at: 2009-07-14 09:47:19
+  code: GBP
+  id: "331"
+  created_at: 2009-07-14 09:47:19
+currencies_6: 
+  name: Japanese Yen
+  updated_at: 2009-07-14 09:47:19
+  code: JPY
+  id: "332"
+  created_at: 2009-07-14 09:47:19
+currencies_7: 
+  name: Afghanistan Afghani
+  updated_at: 2009-07-14 09:47:19
+  code: AFA
+  id: "333"
+  created_at: 2009-07-14 09:47:19
+currencies_8: 
+  name: Albanian Lek
+  updated_at: 2009-07-14 09:47:19
+  code: ALL
+  id: "334"
+  created_at: 2009-07-14 09:47:19
+currencies_9: 
+  name: Algerian Dinar
+  updated_at: 2009-07-14 09:47:19
+  code: DZD
+  id: "335"
+  created_at: 2009-07-14 09:47:19
+currencies_10: 
+  name: Andorran Franc
+  updated_at: 2009-07-14 09:47:19
+  code: ADF
+  id: "336"
+  created_at: 2009-07-14 09:47:19
+currencies_11: 
+  name: Andorran Peseta
+  updated_at: 2009-07-14 09:47:19
+  code: ADP
+  id: "337"
+  created_at: 2009-07-14 09:47:19
+currencies_12: 
+  name: Angolan New Kwanza
+  updated_at: 2009-07-14 09:47:19
+  code: AON
+  id: "338"
+  created_at: 2009-07-14 09:47:19
+currencies_13: 
+  name: Argentine Peso
+  updated_at: 2009-07-14 09:47:19
+  code: ARS
+  id: "339"
+  created_at: 2009-07-14 09:47:19
+currencies_14: 
+  name: Aruban Florin
+  updated_at: 2009-07-14 09:47:19
+  code: AWG
+  id: "340"
+  created_at: 2009-07-14 09:47:19
+currencies_15: 
+  name: Austrian Schilling
+  updated_at: 2009-07-14 09:47:19
+  code: ATS
+  id: "341"
+  created_at: 2009-07-14 09:47:19
+currencies_16: 
+  name: Bahamanian Dollar
+  updated_at: 2009-07-14 09:47:19
+  code: BSD
+  id: "342"
+  created_at: 2009-07-14 09:47:19
+currencies_17: 
+  name: Bahraini Dinar
+  updated_at: 2009-07-14 09:47:19
+  code: BHD
+  id: "343"
+  created_at: 2009-07-14 09:47:19
+currencies_18: 
+  name: Bangladeshi Taka
+  updated_at: 2009-07-14 09:47:19
+  code: BDT
+  id: "344"
+  created_at: 2009-07-14 09:47:19
+currencies_19: 
+  name: Barbados Dollar
+  updated_at: 2009-07-14 09:47:19
+  code: BBD
+  id: "345"
+  created_at: 2009-07-14 09:47:19
+currencies_20: 
+  name: Belgian Franc
+  updated_at: 2009-07-14 09:47:19
+  code: BEF
+  id: "346"
+  created_at: 2009-07-14 09:47:19
+currencies_21: 
+  name: Belize Dollar
+  updated_at: 2009-07-14 09:47:19
+  code: BZD
+  id: "347"
+  created_at: 2009-07-14 09:47:19
+currencies_22: 
+  name: Bermudian Dollar
+  updated_at: 2009-07-14 09:47:19
+  code: BMD
+  id: "348"
+  created_at: 2009-07-14 09:47:19
+currencies_23: 
+  name: Bhutan Ngultrum
+  updated_at: 2009-07-14 09:47:19
+  code: BTN
+  id: "349"
+  created_at: 2009-07-14 09:47:19
+currencies_24: 
+  name: Bolivian Boliviano
+  updated_at: 2009-07-14 09:47:19
+  code: BOB
+  id: "350"
+  created_at: 2009-07-14 09:47:19
+currencies_25: 
+  name: Botswana Pula
+  updated_at: 2009-07-14 09:47:19
+  code: BWP
+  id: "351"
+  created_at: 2009-07-14 09:47:19
+currencies_26: 
+  name: Brazilian Real
+  updated_at: 2009-07-14 09:47:19
+  code: BRL
+  id: "352"
+  created_at: 2009-07-14 09:47:19
+currencies_27: 
+  name: Brunei Dollar
+  updated_at: 2009-07-14 09:47:19
+  code: BND
+  id: "353"
+  created_at: 2009-07-14 09:47:19
+currencies_28: 
+  name: Bulgarian Lev
+  updated_at: 2009-07-14 09:47:19
+  code: BGL
+  id: "354"
+  created_at: 2009-07-14 09:47:19
+currencies_29: 
+  name: Burundi Franc
+  updated_at: 2009-07-14 09:47:19
+  code: BIF
+  id: "355"
+  created_at: 2009-07-14 09:47:19
+currencies_30: 
+  name: CFA Franc BCEAO
+  updated_at: 2009-07-14 09:47:19
+  code: XOF
+  id: "356"
+  created_at: 2009-07-14 09:47:19
+currencies_31: 
+  name: CFA Franc BEAC
+  updated_at: 2009-07-14 09:47:19
+  code: XAF
+  id: "357"
+  created_at: 2009-07-14 09:47:19
+currencies_32: 
+  name: Cambodian Riel
+  updated_at: 2009-07-14 09:47:19
+  code: KHR
+  id: "358"
+  created_at: 2009-07-14 09:47:19
+currencies_33: 
+  name: Canadian Dollar
+  updated_at: 2009-07-14 09:47:19
+  code: CAD
+  id: "359"
+  created_at: 2009-07-14 09:47:19
+currencies_34: 
+  name: Cape Verde Escudo
+  updated_at: 2009-07-14 09:47:19
+  code: CVE
+  id: "360"
+  created_at: 2009-07-14 09:47:19
+currencies_35: 
+  name: Cayman Islands Dollar
+  updated_at: 2009-07-14 09:47:19
+  code: KYD
+  id: "361"
+  created_at: 2009-07-14 09:47:19
+currencies_36: 
+  name: Central Pacific Franc
+  updated_at: 2009-07-14 09:47:19
+  code: CFP
+  id: "362"
+  created_at: 2009-07-14 09:47:19
+currencies_37: 
+  name: Chilean Peso
+  updated_at: 2009-07-14 09:47:19
+  code: CLP
+  id: "363"
+  created_at: 2009-07-14 09:47:19
+currencies_38: 
+  name: Chinese Yuan Renminbi
+  updated_at: 2009-07-14 09:47:19
+  code: CNY
+  id: "364"
+  created_at: 2009-07-14 09:47:19
+currencies_39: 
+  name: Colombian Peso
+  updated_at: 2009-07-14 09:47:19
+  code: COP
+  id: "365"
+  created_at: 2009-07-14 09:47:19
+currencies_40: 
+  name: Comoros Franc
+  updated_at: 2009-07-14 09:47:19
+  code: KMF
+  id: "366"
+  created_at: 2009-07-14 09:47:19
+currencies_41: 
+  name: Costa Rican Colon
+  updated_at: 2009-07-14 09:47:19
+  code: CRC
+  id: "367"
+  created_at: 2009-07-14 09:47:19
+currencies_42: 
+  name: Croatian Kuna
+  updated_at: 2009-07-14 09:47:19
+  code: HRK
+  id: "368"
+  created_at: 2009-07-14 09:47:19
+currencies_43: 
+  name: Cuban Peso
+  updated_at: 2009-07-14 09:47:19
+  code: CUP
+  id: "369"
+  created_at: 2009-07-14 09:47:19
+currencies_44: 
+  name: Cyprus Pound
+  updated_at: 2009-07-14 09:47:19
+  code: CYP
+  id: "370"
+  created_at: 2009-07-14 09:47:19
+currencies_45: 
+  name: Czech Koruna
+  updated_at: 2009-07-14 09:47:19
+  code: CSK
+  id: "371"
+  created_at: 2009-07-14 09:47:19
+currencies_46: 
+  name: Danish Krone
+  updated_at: 2009-07-14 09:47:19
+  code: DKK
+  id: "372"
+  created_at: 2009-07-14 09:47:19
+currencies_47: 
+  name: Djibouti Franc
+  updated_at: 2009-07-14 09:47:19
+  code: DJF
+  id: "373"
+  created_at: 2009-07-14 09:47:19
+currencies_48: 
+  name: Dominican R. Peso
+  updated_at: 2009-07-14 09:47:19
+  code: DOP
+  id: "374"
+  created_at: 2009-07-14 09:47:19
+currencies_49: 
+  name: Dutch Guilder
+  updated_at: 2009-07-14 09:47:19
+  code: NLG
+  id: "375"
+  created_at: 2009-07-14 09:47:19
+currencies_50: 
+  name: ECU
+  updated_at: 2009-07-14 09:47:19
+  code: XEU
+  id: "376"
+  created_at: 2009-07-14 09:47:19
+currencies_51: 
+  name: East Caribbean Dollar
+  updated_at: 2009-07-14 09:47:19
+  code: XCD
+  id: "377"
+  created_at: 2009-07-14 09:47:19
+currencies_52: 
+  name: Ecuador Sucre
+  updated_at: 2009-07-14 09:47:19
+  code: ECS
+  id: "378"
+  created_at: 2009-07-14 09:47:19
+currencies_53: 
+  name: Egyptian Pound
+  updated_at: 2009-07-14 09:47:19
+  code: EGP
+  id: "379"
+  created_at: 2009-07-14 09:47:19
+currencies_54: 
+  name: El Salvador Colon
+  updated_at: 2009-07-14 09:47:19
+  code: SVC
+  id: "380"
+  created_at: 2009-07-14 09:47:19
+currencies_55: 
+  name: Estonian Kroon
+  updated_at: 2009-07-14 09:47:19
+  code: EEK
+  id: "381"
+  created_at: 2009-07-14 09:47:19
+currencies_56: 
+  name: Ethiopian Birr
+  updated_at: 2009-07-14 09:47:19
+  code: ETB
+  id: "382"
+  created_at: 2009-07-14 09:47:19
+currencies_57: 
+  name: Falkland Islands Pound
+  updated_at: 2009-07-14 09:47:19
+  code: FKP
+  id: "383"
+  created_at: 2009-07-14 09:47:19
+currencies_58: 
+  name: Fiji Dollar
+  updated_at: 2009-07-14 09:47:19
+  code: FJD
+  id: "384"
+  created_at: 2009-07-14 09:47:19
+currencies_59: 
+  name: Finnish Markka
+  updated_at: 2009-07-14 09:47:19
+  code: FIM
+  id: "385"
+  created_at: 2009-07-14 09:47:19
+currencies_60: 
+  name: French Franc
+  updated_at: 2009-07-14 09:47:19
+  code: FRF
+  id: "386"
+  created_at: 2009-07-14 09:47:19
+currencies_61: 
+  name: Gambian Dalasi
+  updated_at: 2009-07-14 09:47:19
+  code: GMD
+  id: "387"
+  created_at: 2009-07-14 09:47:19
+currencies_62: 
+  name: German Mark
+  updated_at: 2009-07-14 09:47:19
+  code: DEM
+  id: "388"
+  created_at: 2009-07-14 09:47:19
+currencies_63: 
+  name: Ghanaian Cedi
+  updated_at: 2009-07-14 09:47:19
+  code: GHC
+  id: "389"
+  created_at: 2009-07-14 09:47:19
+currencies_64: 
+  name: Gibraltar Pound
+  updated_at: 2009-07-14 09:47:19
+  code: GIP
+  id: "390"
+  created_at: 2009-07-14 09:47:19
+currencies_65: 
+  name: Greek Drachma
+  updated_at: 2009-07-14 09:47:19
+  code: GRD
+  id: "391"
+  created_at: 2009-07-14 09:47:19
+currencies_66: 
+  name: Guatemalan Quetzal
+  updated_at: 2009-07-14 09:47:19
+  code: GTQ
+  id: "392"
+  created_at: 2009-07-14 09:47:19
+currencies_67: 
+  name: Guinea Franc
+  updated_at: 2009-07-14 09:47:19
+  code: GNF
+  id: "393"
+  created_at: 2009-07-14 09:47:19
+currencies_68: 
+  name: Guyanese Dollar
+  updated_at: 2009-07-14 09:47:19
+  code: GYD
+  id: "394"
+  created_at: 2009-07-14 09:47:19
+currencies_69: 
+  name: Haitian Gourde
+  updated_at: 2009-07-14 09:47:19
+  code: HTG
+  id: "395"
+  created_at: 2009-07-14 09:47:19
+currencies_70: 
+  name: Honduran Lempira
+  updated_at: 2009-07-14 09:47:19
+  code: HNL
+  id: "396"
+  created_at: 2009-07-14 09:47:19
+currencies_71: 
+  name: Hong Kong Dollar
+  updated_at: 2009-07-14 09:47:19
+  code: HKD
+  id: "397"
+  created_at: 2009-07-14 09:47:19
+currencies_72: 
+  name: Hungarian Forint
+  updated_at: 2009-07-14 09:47:19
+  code: HUF
+  id: "398"
+  created_at: 2009-07-14 09:47:19
+currencies_73: 
+  name: Iceland Krona
+  updated_at: 2009-07-14 09:47:19
+  code: ISK
+  id: "399"
+  created_at: 2009-07-14 09:47:19
+currencies_74: 
+  name: Indian Rupee
+  updated_at: 2009-07-14 09:47:19
+  code: INR
+  id: "400"
+  created_at: 2009-07-14 09:47:19
+currencies_75: 
+  name: Indonesian Rupiah
+  updated_at: 2009-07-14 09:47:19
+  code: IDR
+  id: "401"
+  created_at: 2009-07-14 09:47:19
+currencies_76: 
+  name: Iranian Rial
+  updated_at: 2009-07-14 09:47:19
+  code: IRR
+  id: "402"
+  created_at: 2009-07-14 09:47:19
+currencies_77: 
+  name: Iraqi Dinar
+  updated_at: 2009-07-14 09:47:19
+  code: IQD
+  id: "403"
+  created_at: 2009-07-14 09:47:19
+currencies_78: 
+  name: Irish Punt
+  updated_at: 2009-07-14 09:47:19
+  code: IEP
+  id: "404"
+  created_at: 2009-07-14 09:47:19
+currencies_79: 
+  name: Israeli New Shekel
+  updated_at: 2009-07-14 09:47:19
+  code: ILS
+  id: "405"
+  created_at: 2009-07-14 09:47:19
+currencies_80: 
+  name: Italian Lira
+  updated_at: 2009-07-14 09:47:19
+  code: ITL
+  id: "406"
+  created_at: 2009-07-14 09:47:19
+currencies_81: 
+  name: Jamaican Dollar
+  updated_at: 2009-07-14 09:47:19
+  code: JMD
+  id: "407"
+  created_at: 2009-07-14 09:47:19
+currencies_82: 
+  name: Jordanian Dinar
+  updated_at: 2009-07-14 09:47:19
+  code: JOD
+  id: "408"
+  created_at: 2009-07-14 09:47:19
+currencies_83: 
+  name: Kazakhstan Tenge
+  updated_at: 2009-07-14 09:47:19
+  code: KZT
+  id: "409"
+  created_at: 2009-07-14 09:47:19
+currencies_84: 
+  name: Kenyan Shilling
+  updated_at: 2009-07-14 09:47:19
+  code: KES
+  id: "410"
+  created_at: 2009-07-14 09:47:19
+currencies_85: 
+  name: Kuwaiti Dinar
+  updated_at: 2009-07-14 09:47:19
+  code: KWD
+  id: "411"
+  created_at: 2009-07-14 09:47:19
+currencies_86: 
+  name: Lao Kip
+  updated_at: 2009-07-14 09:47:19
+  code: LAK
+  id: "412"
+  created_at: 2009-07-14 09:47:19
+currencies_87: 
+  name: Latvian Lats
+  updated_at: 2009-07-14 09:47:19
+  code: LVL
+  id: "413"
+  created_at: 2009-07-14 09:47:19
+currencies_88: 
+  name: Lebanese Pound
+  updated_at: 2009-07-14 09:47:19
+  code: LBP
+  id: "414"
+  created_at: 2009-07-14 09:47:19
+currencies_89: 
+  name: Lesotho Loti
+  updated_at: 2009-07-14 09:47:19
+  code: LSL
+  id: "415"
+  created_at: 2009-07-14 09:47:19
+currencies_90: 
+  name: Liberian Dollar
+  updated_at: 2009-07-14 09:47:20
+  code: LRD
+  id: "416"
+  created_at: 2009-07-14 09:47:20
+currencies_91: 
+  name: Libyan Dinar
+  updated_at: 2009-07-14 09:47:20
+  code: LYD
+  id: "417"
+  created_at: 2009-07-14 09:47:20
+currencies_92: 
+  name: Lithuanian Litas
+  updated_at: 2009-07-14 09:47:20
+  code: LTL
+  id: "418"
+  created_at: 2009-07-14 09:47:20
+currencies_93: 
+  name: Luxembourg Franc
+  updated_at: 2009-07-14 09:47:20
+  code: LUF
+  id: "419"
+  created_at: 2009-07-14 09:47:20
+currencies_94: 
+  name: Macau Pataca
+  updated_at: 2009-07-14 09:47:20
+  code: MOP
+  id: "420"
+  created_at: 2009-07-14 09:47:20
+currencies_95: 
+  name: Malagasy Franc
+  updated_at: 2009-07-14 09:47:20
+  code: MGF
+  id: "421"
+  created_at: 2009-07-14 09:47:20
+currencies_96: 
+  name: Malawi Kwacha
+  updated_at: 2009-07-14 09:47:20
+  code: MWK
+  id: "422"
+  created_at: 2009-07-14 09:47:20
+currencies_97: 
+  name: Malaysian Ringgit
+  updated_at: 2009-07-14 09:47:20
+  code: MYR
+  id: "423"
+  created_at: 2009-07-14 09:47:20
+currencies_98: 
+  name: Maldive Rufiyaa
+  updated_at: 2009-07-14 09:47:20
+  code: MVR
+  id: "424"
+  created_at: 2009-07-14 09:47:20
+currencies_99: 
+  name: Maltese Lira
+  updated_at: 2009-07-14 09:47:20
+  code: MTL
+  id: "425"
+  created_at: 2009-07-14 09:47:20
+currencies_100: 
+  name: Mauritanian Ouguiya
+  updated_at: 2009-07-14 09:47:20
+  code: MRO
+  id: "426"
+  created_at: 2009-07-14 09:47:20
+currencies_101: 
+  name: Mauritius Rupee
+  updated_at: 2009-07-14 09:47:20
+  code: MUR
+  id: "427"
+  created_at: 2009-07-14 09:47:20
+currencies_102: 
+  name: Mexican Peso
+  updated_at: 2009-07-14 09:47:20
+  code: MXP
+  id: "428"
+  created_at: 2009-07-14 09:47:20
+currencies_103: 
+  name: Mongolian Tugrik
+  updated_at: 2009-07-14 09:47:20
+  code: MNT
+  id: "429"
+  created_at: 2009-07-14 09:47:20
+currencies_104: 
+  name: Moroccan Dirham
+  updated_at: 2009-07-14 09:47:20
+  code: MAD
+  id: "430"
+  created_at: 2009-07-14 09:47:20
+currencies_105: 
+  name: Mozambique Metical
+  updated_at: 2009-07-14 09:47:20
+  code: MZM
+  id: "431"
+  created_at: 2009-07-14 09:47:20
+currencies_106: 
+  name: Myanmar Kyat
+  updated_at: 2009-07-14 09:47:20
+  code: MMK
+  id: "432"
+  created_at: 2009-07-14 09:47:20
+currencies_107: 
+  name: NL Antillian Guilder
+  updated_at: 2009-07-14 09:47:20
+  code: ANG
+  id: "433"
+  created_at: 2009-07-14 09:47:20
+currencies_108: 
+  name: Namibia Dollar
+  updated_at: 2009-07-14 09:47:20
+  code: NAD
+  id: "434"
+  created_at: 2009-07-14 09:47:20
+currencies_109: 
+  name: Nepalese Rupee
+  updated_at: 2009-07-14 09:47:20
+  code: NPR
+  id: "435"
+  created_at: 2009-07-14 09:47:20
+currencies_110: 
+  name: Nicaraguan Cordoba Oro
+  updated_at: 2009-07-14 09:47:20
+  code: NIO
+  id: "436"
+  created_at: 2009-07-14 09:47:20
+currencies_111: 
+  name: Nigerian Naira
+  updated_at: 2009-07-14 09:47:20
+  code: NGN
+  id: "437"
+  created_at: 2009-07-14 09:47:20
+currencies_112: 
+  name: North Korean Won
+  updated_at: 2009-07-14 09:47:20
+  code: KPW
+  id: "438"
+  created_at: 2009-07-14 09:47:20
+currencies_113: 
+  name: Norwegian Kroner
+  updated_at: 2009-07-14 09:47:20
+  code: NOK
+  id: "439"
+  created_at: 2009-07-14 09:47:20
+currencies_114: 
+  name: Omani Rial
+  updated_at: 2009-07-14 09:47:20
+  code: OMR
+  id: "440"
+  created_at: 2009-07-14 09:47:20
+currencies_115: 
+  name: Pakistan Rupee
+  updated_at: 2009-07-14 09:47:20
+  code: PKR
+  id: "441"
+  created_at: 2009-07-14 09:47:20
+currencies_116: 
+  name: Panamanian Balboa
+  updated_at: 2009-07-14 09:47:20
+  code: PAB
+  id: "442"
+  created_at: 2009-07-14 09:47:20
+currencies_117: 
+  name: Papua New Guinea Kina
+  updated_at: 2009-07-14 09:47:20
+  code: PGK
+  id: "443"
+  created_at: 2009-07-14 09:47:20
+currencies_118: 
+  name: Paraguay Guarani
+  updated_at: 2009-07-14 09:47:20
+  code: PYG
+  id: "444"
+  created_at: 2009-07-14 09:47:20
+currencies_119: 
+  name: Peruvian Nuevo Sol
+  updated_at: 2009-07-14 09:47:20
+  code: PEN
+  id: "445"
+  created_at: 2009-07-14 09:47:20
+currencies_120: 
+  name: Philippine Peso
+  updated_at: 2009-07-14 09:47:20
+  code: PHP
+  id: "446"
+  created_at: 2009-07-14 09:47:20
+currencies_121: 
+  name: Polish Zloty
+  updated_at: 2009-07-14 09:47:20
+  code: PLZ
+  id: "447"
+  created_at: 2009-07-14 09:47:20
+currencies_122: 
+  name: Portuguese Escudo
+  updated_at: 2009-07-14 09:47:20
+  code: PTE
+  id: "448"
+  created_at: 2009-07-14 09:47:20
+currencies_123: 
+  name: Qatari Rial
+  updated_at: 2009-07-14 09:47:20
+  code: QAR
+  id: "449"
+  created_at: 2009-07-14 09:47:20
+currencies_124: 
+  name: Romanian Leu
+  updated_at: 2009-07-14 09:47:20
+  code: ROL
+  id: "450"
+  created_at: 2009-07-14 09:47:20
+currencies_125: 
+  name: Russian Rouble
+  updated_at: 2009-07-14 09:47:20
+  code: RUB
+  id: "451"
+  created_at: 2009-07-14 09:47:20
+currencies_126: 
+  name: Samoan Tala
+  updated_at: 2009-07-14 09:47:20
+  code: WST
+  id: "452"
+  created_at: 2009-07-14 09:47:20
+currencies_127: 
+  name: Sao Tome/Principe Dobra
+  updated_at: 2009-07-14 09:47:20
+  code: STD
+  id: "453"
+  created_at: 2009-07-14 09:47:20
+currencies_128: 
+  name: Saudi Riyal
+  updated_at: 2009-07-14 09:47:20
+  code: SAR
+  id: "454"
+  created_at: 2009-07-14 09:47:20
+currencies_129: 
+  name: Seychelles Rupee
+  updated_at: 2009-07-14 09:47:20
+  code: SCR
+  id: "455"
+  created_at: 2009-07-14 09:47:20
+currencies_130: 
+  name: Sierra Leone Leone
+  updated_at: 2009-07-14 09:47:20
+  code: SLL
+  id: "456"
+  created_at: 2009-07-14 09:47:20
+currencies_131: 
+  name: Singapore Dollar
+  updated_at: 2009-07-14 09:47:20
+  code: SGD
+  id: "457"
+  created_at: 2009-07-14 09:47:20
+currencies_132: 
+  name: Slovak Koruna
+  updated_at: 2009-07-14 09:47:20
+  code: SKK
+  id: "458"
+  created_at: 2009-07-14 09:47:20
+currencies_133: 
+  name: Slovenian Tolar
+  updated_at: 2009-07-14 09:47:20
+  code: SIT
+  id: "459"
+  created_at: 2009-07-14 09:47:20
+currencies_134: 
+  name: Solomon Islands Dollar
+  updated_at: 2009-07-14 09:47:20
+  code: SBD
+  id: "460"
+  created_at: 2009-07-14 09:47:20
+currencies_135: 
+  name: Somali Shilling
+  updated_at: 2009-07-14 09:47:20
+  code: SOS
+  id: "461"
+  created_at: 2009-07-14 09:47:20
+currencies_136: 
+  name: South African Rand
+  updated_at: 2009-07-14 09:47:20
+  code: ZAR
+  id: "462"
+  created_at: 2009-07-14 09:47:20
+currencies_137: 
+  name: South-Korean Won
+  updated_at: 2009-07-14 09:47:20
+  code: KRW
+  id: "463"
+  created_at: 2009-07-14 09:47:20
+currencies_138: 
+  name: Spanish Peseta
+  updated_at: 2009-07-14 09:47:20
+  code: ESP
+  id: "464"
+  created_at: 2009-07-14 09:47:20
+currencies_139: 
+  name: Sri Lanka Rupee
+  updated_at: 2009-07-14 09:47:20
+  code: LKR
+  id: "465"
+  created_at: 2009-07-14 09:47:20
+currencies_140: 
+  name: St. Helena Pound
+  updated_at: 2009-07-14 09:47:20
+  code: SHP
+  id: "466"
+  created_at: 2009-07-14 09:47:20
+currencies_141: 
+  name: Sudanese Dinar
+  updated_at: 2009-07-14 09:47:20
+  code: SDD
+  id: "467"
+  created_at: 2009-07-14 09:47:20
+currencies_142: 
+  name: Sudanese Pound
+  updated_at: 2009-07-14 09:47:20
+  code: SDP
+  id: "468"
+  created_at: 2009-07-14 09:47:20
+currencies_143: 
+  name: Suriname Guilder
+  updated_at: 2009-07-14 09:47:20
+  code: SRG
+  id: "469"
+  created_at: 2009-07-14 09:47:20
+currencies_144: 
+  name: Swaziland Lilangeni
+  updated_at: 2009-07-14 09:47:20
+  code: SZL
+  id: "470"
+  created_at: 2009-07-14 09:47:20
+currencies_145: 
+  name: Swedish Krona
+  updated_at: 2009-07-14 09:47:20
+  code: SEK
+  id: "471"
+  created_at: 2009-07-14 09:47:20
+currencies_146: 
+  name: Swiss Franc
+  updated_at: 2009-07-14 09:47:20
+  code: CHF
+  id: "472"
+  created_at: 2009-07-14 09:47:20
+currencies_147: 
+  name: Syrian Pound
+  updated_at: 2009-07-14 09:47:20
+  code: SYP
+  id: "473"
+  created_at: 2009-07-14 09:47:20
+currencies_148: 
+  name: Taiwan Dollar
+  updated_at: 2009-07-14 09:47:20
+  code: TWD
+  id: "474"
+  created_at: 2009-07-14 09:47:20
+currencies_149: 
+  name: Tanzanian Shilling
+  updated_at: 2009-07-14 09:47:20
+  code: TZS
+  id: "475"
+  created_at: 2009-07-14 09:47:20
+currencies_150: 
+  name: Thai Baht
+  updated_at: 2009-07-14 09:47:20
+  code: THB
+  id: "476"
+  created_at: 2009-07-14 09:47:20
+currencies_151: 
+  name: Tonga Pa'anga
+  updated_at: 2009-07-14 09:47:20
+  code: TOP
+  id: "477"
+  created_at: 2009-07-14 09:47:20
+currencies_152: 
+  name: Trinidad/Tobago Dollar
+  updated_at: 2009-07-14 09:47:20
+  code: TTD
+  id: "478"
+  created_at: 2009-07-14 09:47:20
+currencies_153: 
+  name: Tunisian Dinar
+  updated_at: 2009-07-14 09:47:20
+  code: TND
+  id: "479"
+  created_at: 2009-07-14 09:47:20
+currencies_154: 
+  name: Turkish Lira
+  updated_at: 2009-07-14 09:47:20
+  code: TRL
+  id: "480"
+  created_at: 2009-07-14 09:47:20
+currencies_155: 
+  name: Uganda Shilling
+  updated_at: 2009-07-14 09:47:20
+  code: UGS
+  id: "481"
+  created_at: 2009-07-14 09:47:20
+currencies_156: 
+  name: Ukraine Hryvnia
+  updated_at: 2009-07-14 09:47:20
+  code: UAH
+  id: "482"
+  created_at: 2009-07-14 09:47:20
+currencies_157: 
+  name: Uruguayan Peso
+  updated_at: 2009-07-14 09:47:20
+  code: UYP
+  id: "483"
+  created_at: 2009-07-14 09:47:20
+currencies_158: 
+  name: Utd. Arab Emir. Dirham
+  updated_at: 2009-07-14 09:47:20
+  code: AED
+  id: "484"
+  created_at: 2009-07-14 09:47:20
+currencies_159: 
+  name: Vanuatu Vatu
+  updated_at: 2009-07-14 09:47:20
+  code: VUV
+  id: "485"
+  created_at: 2009-07-14 09:47:20
+currencies_160: 
+  name: Venezuelan Bolivar
+  updated_at: 2009-07-14 09:47:20
+  code: VEB
+  id: "486"
+  created_at: 2009-07-14 09:47:20
+currencies_161: 
+  name: Vietnamese Dong
+  updated_at: 2009-07-14 09:47:20
+  code: VND
+  id: "487"
+  created_at: 2009-07-14 09:47:20
+currencies_162: 
+  name: Yugoslav Dinar
+  updated_at: 2009-07-14 09:47:20
+  code: YUN
+  id: "488"
+  created_at: 2009-07-14 09:47:20
+currencies_163: 
+  name: Zambian Kwacha
+  updated_at: 2009-07-14 09:47:20
+  code: ZMK
+  id: "489"
+  created_at: 2009-07-14 09:47:20
+currencies_164: 
+  name: Zimbabwe Dollar
+  updated_at: 2009-07-14 09:47:20
+  code: ZWD
+  id: "490"
+  created_at: 2009-07-14 09:47:20
