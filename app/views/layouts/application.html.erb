@@ -47,6 +47,9 @@
         <%= link_to 'Login', login_path %>
       <% end %>
       </li>
+      <% unless current_user %>
+        <li><%= link_to 'Signup', signup_path %></li>
+      <% end %>
     </ul>
   </div>
 
