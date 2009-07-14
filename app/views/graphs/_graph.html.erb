@@ -1,5 +1,5 @@
 <div class="graph">
-<%= link_to(image_tag(graph_path(graph, params.merge({:format => :png})),  :size => '450x300'), graph_path(graph)) %>
+<%= link_to(image_tag(graph_path(graph, graph_params),  :size => '450x300'), graph_path(graph)) %>
 <%#= swf_tag "FlexChart", :size => "800x400", :flashvars => {:data_url => CGI::escape(url_for(:overwrite_params => { :controller => 'graphs', :action => 'show', :id => graph.id, :format => :xml})) }  %>
 
 <%= link_to "Comments (#{graph.comments.count})", graph_comments_path(graph) %> 

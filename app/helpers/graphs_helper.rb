@@ -55,4 +55,13 @@ module GraphsHelper
     end
   end
   
+  def graph_params
+    p = params.dup
+    p.delete(:id)
+    p.delete(:controller)
+    p.delete(:action)
+    p
+  end
+
+
 end
