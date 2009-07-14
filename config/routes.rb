@@ -1,6 +1,11 @@
 ActionController::Routing::Routes.draw do |map|
-
+  map.resources :currencies
+  map.resources :stock_quotes
+  map.resources :stock_exchanges
+  map.resources :stocks
   map.resources :maps
+  map.my_page '/my_page', :controller => 'my_page'
+
 
   map.logout '/logout', :controller => 'sessions', :action => 'destroy'
   map.login '/login', :controller => 'sessions', :action => 'new'

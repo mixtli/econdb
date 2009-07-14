@@ -38,9 +38,12 @@ Rails::Initializer.run do |config|
   config.gem "hpricot"
   config.gem "gruff"
   config.gem "chronic"
+  config.gem "currency"
   config.gem 'rubyist-aasm', :lib => "aasm"
+  config.gem 'yahoofinance'
   config.gem "mixtli-fred", :lib => "fred"
   config.gem "mixtli-flex_chart", :lib => "flex_chart"
+  config.gem "alexrabarts-iso_country_codes", :lib => "iso_country_codes"
   #config.gem "rmagick"
   # config.gem "bj"
   # config.gem "hpricot", :version => '0.6', :source => "http://code.whytheluckystiff.net"

@@ -30,3 +30,13 @@ schema_migrations_15:
   version: "20090712220716"
 schema_migrations_16: 
   version: "20090712224759"
+schema_migrations_17: 
+  version: "20090714052800"
+schema_migrations_18: 
+  version: "20090714084549"
+schema_migrations_19: 
+  version: "20090714084632"
+schema_migrations_20: 
+  version: "20090714084934"
+schema_migrations_21: 
+  version: "20090714090118"

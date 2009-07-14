@@ -43,3 +43,12 @@ graph_items_5:
   id: "5"
   color: "#090"
   created_at: 2009-07-13 06:27:20
+graph_items_6: 
+  updated_at: 2009-07-14 03:31:30
+  graph_id: "4"
+  cdef: ""
+  title: Close
+  data_source_id: "6"
+  id: "6"
+  color: "#03f"
+  created_at: 2009-07-14 03:31:30

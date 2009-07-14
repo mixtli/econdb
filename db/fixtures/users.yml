@@ -13,3 +13,18 @@ users_1:
   state: active
   created_at: 2009-06-14 09:27:22
   email: ronmcclain75@gmail.com
+users_2: 
+  salt: bbb1db9f5978dc6380ddabc27e63e61dc815d6c5
+  name: ""
+  activated_at: 2009-07-14 09:50:11
+  updated_at: 2009-07-14 09:50:12
+  crypted_password: 56ad9ebc8602569de30980bc39bf09d17ac96475
+  deleted_at: 
+  activation_code: 
+  remember_token_expires_at: 
+  id: "2"
+  remember_token: 
+  login: admin
+  state: active
+  created_at: 2009-07-14 09:49:32
+  email: admin@foo.com

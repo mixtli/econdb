@@ -7,6 +7,19 @@ module DataSourcesHelper
   end
 
   def data_source_options
+    [
+      [ "World Bank", "DataSource::WorldBank" ],
+      [ "Federal Reserve", "DataSource::FederalReserve"],
+      [ "Yahoo! Finance", "DataSource::Yahoo"],
+      [ "Database", "DataSource::DataBase"],
+      [ "XML", "DataSource::Xml"],
+      [ "ActiveRecord", "DataSource::ActiveRecord"]
+
+    ]
+  end
+
+  # this seems to have problems.  anyone have any idea how to determine the subclasses for a class reliably?
+  def data_source_options_bad
     #Rails.cache.fetch("data_source_options") do
       options = []
       #ObjectSpace.to_enum(:each_object, class << DataSource; self; end).to_a.each  do |klass|

@@ -15,7 +15,7 @@ class DataSourcesController < ApplicationController
     ds_type = params[resource_name][:type] rescue nil
     logger.debug "ds_type = #{ds_type}"
     unless ds_type.blank?
-      eval "DataSource::#{ds_type}.new(params[resource_name])"
+      eval "::DataSource::#{ds_type}.new(params[resource_name])"
     else
       DataSource.new(params[resource_name])
     end

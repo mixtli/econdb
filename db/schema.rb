@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090712224759) do
+ActiveRecord::Schema.define(:version => 20090714090118) do
 
   create_table "categories", :force => true do |t|
     t.integer  "parent_id"
@@ -41,7 +41,42 @@ ActiveRecord::Schema.define(:version => 20090712224759) do
     t.string  "printable_name"
     t.string  "iso3",           :limit => 3
     t.integer "numcode"
+    t.string  "currency_code",  :limit => 3
   end
+
+  create_table "currencies", :force => true do |t|
+    t.string   "name"
+    t.string   "code"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "currency_historical_rates", :force => true do |t|
+    t.datetime "created_on",                 :null => false
+    t.datetime "updated_on"
+    t.string   "c1",           :limit => 3,  :null => false
+    t.string   "c2",           :limit => 3,  :null => false
+    t.string   "source",       :limit => 32, :null => false
+    t.float    "rate",                       :null => false
+    t.float    "rate_avg"
+    t.integer  "rate_samples"
+    t.float    "rate_lo"
+    t.float    "rate_hi"
+    t.float    "rate_date_0"
+    t.float    "rate_date_1"
+    t.datetime "date",                       :null => false
+    t.datetime "date_0"
+    t.datetime "date_1"
+    t.string   "derived",      :limit => 64
+  end
+
+  add_index "currency_historical_rates", ["c1", "c2", "source", "date_0", "date_1"], :name => "c1_c2_src_date_range", :unique => true
+  add_index "currency_historical_rates", ["c1"], :name => "index_currency_historical_rates_on_c1"
+  add_index "currency_historical_rates", ["c2"], :name => "index_currency_historical_rates_on_c2"
+  add_index "currency_historical_rates", ["date"], :name => "index_currency_historical_rates_on_date"
+  add_index "currency_historical_rates", ["date_0"], :name => "index_currency_historical_rates_on_date_0"
+  add_index "currency_historical_rates", ["date_1"], :name => "index_currency_historical_rates_on_date_1"
+  add_index "currency_historical_rates", ["source"], :name => "index_currency_historical_rates_on_source"
 
   create_table "data", :force => true do |t|
     t.integer  "data_source_id"
@@ -57,6 +92,7 @@ ActiveRecord::Schema.define(:version => 20090712224759) do
     t.text     "arguments"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "country",    :limit => 2
   end
 
   create_table "foobars", :force => true do |t|
@@ -72,6 +108,7 @@ ActiveRecord::Schema.define(:version => 20090712224759) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "color"
+    t.string   "cdef"
   end
 
   create_table "graphs", :force => true do |t|
@@ -94,6 +131,7 @@ ActiveRecord::Schema.define(:version => 20090712224759) do
     t.integer  "category_id"
     t.integer  "creator_id"
     t.integer  "updater_id"
+    t.string   "default_start_time", :default => "1 year ago"
   end
 
   create_table "maps", :force => true do |t|
@@ -127,6 +165,36 @@ ActiveRecord::Schema.define(:version => 20090712224759) do
 
   add_index "sessions", ["session_id"], :name => "index_sessions_on_session_id"
   add_index "sessions", ["updated_at"], :name => "index_sessions_on_updated_at"
+
+  create_table "stock_exchanges", :force => true do |t|
+    t.string   "name"
+    t.string   "symbol"
+    t.string   "description"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "stock_quotes", :force => true do |t|
+    t.integer  "stock_id"
+    t.datetime "quote_time"
+    t.float    "open"
+    t.float    "close"
+    t.float    "high"
+    t.float    "low"
+    t.float    "volume"
+    t.float    "adj_close"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "stocks", :force => true do |t|
+    t.string   "symbol"
+    t.string   "name"
+    t.string   "description"
+    t.integer  "exchange_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "taggings", :force => true do |t|
     t.integer  "tag_id"

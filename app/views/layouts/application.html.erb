@@ -19,8 +19,13 @@
   </div>
   <div id="menu">
     <ul id="nav">
+      <% if current_user %>
+        <li><%= link_to 'My Page', my_page_path %></li>
+      <% end %>
       <li><%= link_to 'Home', '/' %></li>
       <li><%= link_to 'Economics', category_path(Category.find_by_name("Economics")) %></li>
+      <li><%= link_to 'Stocks', stocks_path %></li>
+      <li><%= link_to 'Currencies', currencies_path %></li>
       <li><%= link_to 'Tags', tags_path %></li>
     <% if current_user && current_user.is_admin? %>
       <li><%= link_to 'Admin', admin_path %>
@@ -30,6 +35,7 @@
           <li><%= link_to 'Data Sources', data_sources_path %></li>
           <li><%= link_to 'Maps', maps_path %></li>
           <li><%= link_to 'Categories', categories_path %></li>
+          <li><%= link_to 'Exchanges', stock_exchanges_path %></li>
         </ul>
       </li>
     <% end %>
