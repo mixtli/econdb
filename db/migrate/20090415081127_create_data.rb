@@ -3,12 +3,15 @@ class CreateData < ActiveRecord::Migration
     create_table :data do |t|
       t.references :data_source
       t.datetime :timestamp
-      t.string :category
       t.float :value
     end
+    add_index(:data, [:data_source_id, :timestamp], :unique => true)
+
   end
 
   def self.down
     drop_table :data
   end
+
+
 end

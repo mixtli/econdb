@@ -40,8 +40,8 @@ ActiveRecord::Schema.define(:version => 20090714090118) do
     t.string  "name"
     t.string  "printable_name"
     t.string  "iso3",           :limit => 3
+    t.string  "currency_code"
     t.integer "numcode"
-    t.string  "currency_code",  :limit => 3
   end
 
   create_table "currencies", :force => true do |t|
@@ -81,22 +81,17 @@ ActiveRecord::Schema.define(:version => 20090714090118) do
   create_table "data", :force => true do |t|
     t.integer  "data_source_id"
     t.datetime "timestamp"
-    t.string   "category"
     t.float    "value"
   end
+
+  add_index "data", ["data_source_id", "timestamp"], :name => "index_data_on_data_source_id_and_timestamp", :unique => true
 
   create_table "data_sources", :force => true do |t|
     t.string   "name"
     t.string   "type"
     t.string   "units"
-    t.text     "arguments"
-    t.datetime "created_at"
-    t.datetime "updated_at"
     t.string   "country",    :limit => 2
-  end
-
-  create_table "foobars", :force => true do |t|
-    t.string   "title"
+    t.text     "arguments"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -105,10 +100,10 @@ ActiveRecord::Schema.define(:version => 20090714090118) do
     t.string   "title"
     t.integer  "graph_id"
     t.integer  "data_source_id"
+    t.string   "color",          :default => "#0f0"
+    t.string   "cdef"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "color"
-    t.string   "cdef"
   end
 
   create_table "graphs", :force => true do |t|
@@ -118,20 +113,20 @@ ActiveRecord::Schema.define(:version => 20090714090118) do
     t.string   "y_label"
     t.string   "x_field"
     t.string   "y_field"
-    t.string   "chart_type"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-    t.string   "x_axis_type"
-    t.string   "y_axis_type"
-    t.string   "color"
-    t.string   "background_color"
+    t.string   "x_axis_type",        :default => "Linear"
+    t.string   "y_axis_type",        :default => "Linear"
     t.integer  "minimum_value"
     t.integer  "maximum_value"
-    t.string   "cached_tag_list"
-    t.integer  "category_id"
+    t.string   "color",              :default => "#0f0"
+    t.string   "background_color",   :default => "#fff"
+    t.string   "default_start_time", :default => "1 year ago"
+    t.string   "chart_type"
     t.integer  "creator_id"
     t.integer  "updater_id"
-    t.string   "default_start_time", :default => "1 year ago"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "cached_tag_list"
+    t.integer  "category_id"
   end
 
   create_table "maps", :force => true do |t|

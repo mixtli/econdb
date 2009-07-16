@@ -1,0 +1,5 @@
+<% content_for :sidebar do %>
+  <% Currency.all.each do |currency| %>
+    <%= link_to currency.name, currency_path(currency) %><br/>
+  <% end %>
+<% end %>

@@ -55,7 +55,7 @@
 
   <div id="content">
     <div id="sidebar">
-      <%= category_tree(root_category) %>
+    <%= (sidebar = yield :sidebar) ? sidebar : render(:partial => '/layouts/sidebar') %>
     </div>
     <div id="main">
       <%= yield %>

@@ -67,6 +67,1658 @@ data_sources_6:
   updated_at: 2009-07-14 03:30:24
   country: US
   units: 
-  type: DataSource::Yahoo
+  type: DataSource::YahooStock
   id: "6"
   created_at: 2009-07-14 03:30:24
+data_sources_7: 
+  arguments: |
+    --- !map:HashWithIndifferentAccess 
+    symbol: GLD
+
+  name: GLD Gold ETF
+  updated_at: 2009-07-15 23:52:05
+  country: US
+  units: 
+  type: DataSource::YahooStock
+  id: "7"
+  created_at: 2009-07-15 23:52:05
+data_sources_8: 
+  arguments: "--- \n\
+    :symbol: AUD\n"
+  name: Australian Dollar
+  updated_at: 2009-07-16 04:22:02
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "16"
+  created_at: 2009-07-16 04:22:02
+data_sources_9: 
+  arguments: "--- \n\
+    :symbol: NZD\n"
+  name: New Zealand Dollar
+  updated_at: 2009-07-16 04:22:02
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "17"
+  created_at: 2009-07-16 04:22:02
+data_sources_10: 
+  arguments: "--- \n\
+    :symbol: USD\n"
+  name: US Dollar
+  updated_at: 2009-07-16 04:22:02
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "18"
+  created_at: 2009-07-16 04:22:02
+data_sources_11: 
+  arguments: "--- \n\
+    :symbol: EUR\n"
+  name: Euro
+  updated_at: 2009-07-16 04:22:02
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "19"
+  created_at: 2009-07-16 04:22:02
+data_sources_12: 
+  arguments: "--- \n\
+    :symbol: GBP\n"
+  name: British Pound
+  updated_at: 2009-07-16 04:22:02
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "20"
+  created_at: 2009-07-16 04:22:02
+data_sources_13: 
+  arguments: "--- \n\
+    :symbol: JPY\n"
+  name: Japanese Yen
+  updated_at: 2009-07-16 04:22:02
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "21"
+  created_at: 2009-07-16 04:22:02
+data_sources_14: 
+  arguments: "--- \n\
+    :symbol: AFA\n"
+  name: Afghanistan Afghani
+  updated_at: 2009-07-16 04:22:02
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "22"
+  created_at: 2009-07-16 04:22:02
+data_sources_15: 
+  arguments: "--- \n\
+    :symbol: ALL\n"
+  name: Albanian Lek
+  updated_at: 2009-07-16 04:22:02
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "23"
+  created_at: 2009-07-16 04:22:02
+data_sources_16: 
+  arguments: "--- \n\
+    :symbol: DZD\n"
+  name: Algerian Dinar
+  updated_at: 2009-07-16 04:22:02
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "24"
+  created_at: 2009-07-16 04:22:02
+data_sources_17: 
+  arguments: "--- \n\
+    :symbol: ADF\n"
+  name: Andorran Franc
+  updated_at: 2009-07-16 04:22:02
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "25"
+  created_at: 2009-07-16 04:22:02
+data_sources_18: 
+  arguments: "--- \n\
+    :symbol: ADP\n"
+  name: Andorran Peseta
+  updated_at: 2009-07-16 04:22:02
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "26"
+  created_at: 2009-07-16 04:22:02
+data_sources_19: 
+  arguments: "--- \n\
+    :symbol: AON\n"
+  name: Angolan New Kwanza
+  updated_at: 2009-07-16 04:22:02
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "27"
+  created_at: 2009-07-16 04:22:02
+data_sources_20: 
+  arguments: "--- \n\
+    :symbol: ARS\n"
+  name: Argentine Peso
+  updated_at: 2009-07-16 04:22:02
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "28"
+  created_at: 2009-07-16 04:22:02
+data_sources_21: 
+  arguments: "--- \n\
+    :symbol: AWG\n"
+  name: Aruban Florin
+  updated_at: 2009-07-16 04:22:02
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "29"
+  created_at: 2009-07-16 04:22:02
+data_sources_22: 
+  arguments: "--- \n\
+    :symbol: ATS\n"
+  name: Austrian Schilling
+  updated_at: 2009-07-16 04:22:02
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "30"
+  created_at: 2009-07-16 04:22:02
+data_sources_23: 
+  arguments: "--- \n\
+    :symbol: BSD\n"
+  name: Bahamanian Dollar
+  updated_at: 2009-07-16 04:22:02
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "31"
+  created_at: 2009-07-16 04:22:02
+data_sources_24: 
+  arguments: "--- \n\
+    :symbol: BHD\n"
+  name: Bahraini Dinar
+  updated_at: 2009-07-16 04:22:02
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "32"
+  created_at: 2009-07-16 04:22:02
+data_sources_25: 
+  arguments: "--- \n\
+    :symbol: BDT\n"
+  name: Bangladeshi Taka
+  updated_at: 2009-07-16 04:22:02
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "33"
+  created_at: 2009-07-16 04:22:02
+data_sources_26: 
+  arguments: "--- \n\
+    :symbol: BBD\n"
+  name: Barbados Dollar
+  updated_at: 2009-07-16 04:22:02
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "34"
+  created_at: 2009-07-16 04:22:02
+data_sources_27: 
+  arguments: "--- \n\
+    :symbol: BEF\n"
+  name: Belgian Franc
+  updated_at: 2009-07-16 04:22:02
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "35"
+  created_at: 2009-07-16 04:22:02
+data_sources_28: 
+  arguments: "--- \n\
+    :symbol: BZD\n"
+  name: Belize Dollar
+  updated_at: 2009-07-16 04:22:02
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "36"
+  created_at: 2009-07-16 04:22:02
+data_sources_29: 
+  arguments: "--- \n\
+    :symbol: BMD\n"
+  name: Bermudian Dollar
+  updated_at: 2009-07-16 04:22:02
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "37"
+  created_at: 2009-07-16 04:22:02
+data_sources_30: 
+  arguments: "--- \n\
+    :symbol: BTN\n"
+  name: Bhutan Ngultrum
+  updated_at: 2009-07-16 04:22:02
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "38"
+  created_at: 2009-07-16 04:22:02
+data_sources_31: 
+  arguments: "--- \n\
+    :symbol: BOB\n"
+  name: Bolivian Boliviano
+  updated_at: 2009-07-16 04:22:02
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "39"
+  created_at: 2009-07-16 04:22:02
+data_sources_32: 
+  arguments: "--- \n\
+    :symbol: BWP\n"
+  name: Botswana Pula
+  updated_at: 2009-07-16 04:22:02
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "40"
+  created_at: 2009-07-16 04:22:02
+data_sources_33: 
+  arguments: "--- \n\
+    :symbol: BRL\n"
+  name: Brazilian Real
+  updated_at: 2009-07-16 04:22:02
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "41"
+  created_at: 2009-07-16 04:22:02
+data_sources_34: 
+  arguments: "--- \n\
+    :symbol: BND\n"
+  name: Brunei Dollar
+  updated_at: 2009-07-16 04:22:02
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "42"
+  created_at: 2009-07-16 04:22:02
+data_sources_35: 
+  arguments: "--- \n\
+    :symbol: BGL\n"
+  name: Bulgarian Lev
+  updated_at: 2009-07-16 04:22:02
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "43"
+  created_at: 2009-07-16 04:22:02
+data_sources_36: 
+  arguments: "--- \n\
+    :symbol: BIF\n"
+  name: Burundi Franc
+  updated_at: 2009-07-16 04:22:02
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "44"
+  created_at: 2009-07-16 04:22:02
+data_sources_37: 
+  arguments: "--- \n\
+    :symbol: XOF\n"
+  name: CFA Franc BCEAO
+  updated_at: 2009-07-16 04:22:03
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "45"
+  created_at: 2009-07-16 04:22:03
+data_sources_38: 
+  arguments: "--- \n\
+    :symbol: XAF\n"
+  name: CFA Franc BEAC
+  updated_at: 2009-07-16 04:22:03
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "46"
+  created_at: 2009-07-16 04:22:03
+data_sources_39: 
+  arguments: "--- \n\
+    :symbol: KHR\n"
+  name: Cambodian Riel
+  updated_at: 2009-07-16 04:22:03
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "47"
+  created_at: 2009-07-16 04:22:03
+data_sources_40: 
+  arguments: "--- \n\
+    :symbol: CAD\n"
+  name: Canadian Dollar
+  updated_at: 2009-07-16 04:22:03
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "48"
+  created_at: 2009-07-16 04:22:03
+data_sources_41: 
+  arguments: "--- \n\
+    :symbol: CVE\n"
+  name: Cape Verde Escudo
+  updated_at: 2009-07-16 04:22:03
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "49"
+  created_at: 2009-07-16 04:22:03
+data_sources_42: 
+  arguments: "--- \n\
+    :symbol: KYD\n"
+  name: Cayman Islands Dollar
+  updated_at: 2009-07-16 04:22:03
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "50"
+  created_at: 2009-07-16 04:22:03
+data_sources_43: 
+  arguments: "--- \n\
+    :symbol: CFP\n"
+  name: Central Pacific Franc
+  updated_at: 2009-07-16 04:22:03
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "51"
+  created_at: 2009-07-16 04:22:03
+data_sources_44: 
+  arguments: "--- \n\
+    :symbol: CLP\n"
+  name: Chilean Peso
+  updated_at: 2009-07-16 04:22:03
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "52"
+  created_at: 2009-07-16 04:22:03
+data_sources_45: 
+  arguments: "--- \n\
+    :symbol: CNY\n"
+  name: Chinese Yuan Renminbi
+  updated_at: 2009-07-16 04:22:03
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "53"
+  created_at: 2009-07-16 04:22:03
+data_sources_46: 
+  arguments: "--- \n\
+    :symbol: COP\n"
+  name: Colombian Peso
+  updated_at: 2009-07-16 04:22:03
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "54"
+  created_at: 2009-07-16 04:22:03
+data_sources_47: 
+  arguments: "--- \n\
+    :symbol: KMF\n"
+  name: Comoros Franc
+  updated_at: 2009-07-16 04:22:03
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "55"
+  created_at: 2009-07-16 04:22:03
+data_sources_48: 
+  arguments: "--- \n\
+    :symbol: CRC\n"
+  name: Costa Rican Colon
+  updated_at: 2009-07-16 04:22:03
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "56"
+  created_at: 2009-07-16 04:22:03
+data_sources_49: 
+  arguments: "--- \n\
+    :symbol: HRK\n"
+  name: Croatian Kuna
+  updated_at: 2009-07-16 04:22:03
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "57"
+  created_at: 2009-07-16 04:22:03
+data_sources_50: 
+  arguments: "--- \n\
+    :symbol: CUP\n"
+  name: Cuban Peso
+  updated_at: 2009-07-16 04:22:03
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "58"
+  created_at: 2009-07-16 04:22:03
+data_sources_51: 
+  arguments: "--- \n\
+    :symbol: CYP\n"
+  name: Cyprus Pound
+  updated_at: 2009-07-16 04:22:03
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "59"
+  created_at: 2009-07-16 04:22:03
+data_sources_52: 
+  arguments: "--- \n\
+    :symbol: CSK\n"
+  name: Czech Koruna
+  updated_at: 2009-07-16 04:22:03
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "60"
+  created_at: 2009-07-16 04:22:03
+data_sources_53: 
+  arguments: "--- \n\
+    :symbol: DKK\n"
+  name: Danish Krone
+  updated_at: 2009-07-16 04:22:03
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "61"
+  created_at: 2009-07-16 04:22:03
+data_sources_54: 
+  arguments: "--- \n\
+    :symbol: DJF\n"
+  name: Djibouti Franc
+  updated_at: 2009-07-16 04:22:03
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "62"
+  created_at: 2009-07-16 04:22:03
+data_sources_55: 
+  arguments: "--- \n\
+    :symbol: DOP\n"
+  name: Dominican R. Peso
+  updated_at: 2009-07-16 04:22:03
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "63"
+  created_at: 2009-07-16 04:22:03
+data_sources_56: 
+  arguments: "--- \n\
+    :symbol: NLG\n"
+  name: Dutch Guilder
+  updated_at: 2009-07-16 04:22:03
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "64"
+  created_at: 2009-07-16 04:22:03
+data_sources_57: 
+  arguments: "--- \n\
+    :symbol: XEU\n"
+  name: ECU
+  updated_at: 2009-07-16 04:22:03
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "65"
+  created_at: 2009-07-16 04:22:03
+data_sources_58: 
+  arguments: "--- \n\
+    :symbol: XCD\n"
+  name: East Caribbean Dollar
+  updated_at: 2009-07-16 04:22:03
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "66"
+  created_at: 2009-07-16 04:22:03
+data_sources_59: 
+  arguments: "--- \n\
+    :symbol: ECS\n"
+  name: Ecuador Sucre
+  updated_at: 2009-07-16 04:22:03
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "67"
+  created_at: 2009-07-16 04:22:03
+data_sources_60: 
+  arguments: "--- \n\
+    :symbol: EGP\n"
+  name: Egyptian Pound
+  updated_at: 2009-07-16 04:22:03
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "68"
+  created_at: 2009-07-16 04:22:03
+data_sources_61: 
+  arguments: "--- \n\
+    :symbol: SVC\n"
+  name: El Salvador Colon
+  updated_at: 2009-07-16 04:22:03
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "69"
+  created_at: 2009-07-16 04:22:03
+data_sources_62: 
+  arguments: "--- \n\
+    :symbol: EEK\n"
+  name: Estonian Kroon
+  updated_at: 2009-07-16 04:22:03
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "70"
+  created_at: 2009-07-16 04:22:03
+data_sources_63: 
+  arguments: "--- \n\
+    :symbol: ETB\n"
+  name: Ethiopian Birr
+  updated_at: 2009-07-16 04:22:03
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "71"
+  created_at: 2009-07-16 04:22:03
+data_sources_64: 
+  arguments: "--- \n\
+    :symbol: FKP\n"
+  name: Falkland Islands Pound
+  updated_at: 2009-07-16 04:22:03
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "72"
+  created_at: 2009-07-16 04:22:03
+data_sources_65: 
+  arguments: "--- \n\
+    :symbol: FJD\n"
+  name: Fiji Dollar
+  updated_at: 2009-07-16 04:22:03
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "73"
+  created_at: 2009-07-16 04:22:03
+data_sources_66: 
+  arguments: "--- \n\
+    :symbol: FIM\n"
+  name: Finnish Markka
+  updated_at: 2009-07-16 04:22:03
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "74"
+  created_at: 2009-07-16 04:22:03
+data_sources_67: 
+  arguments: "--- \n\
+    :symbol: FRF\n"
+  name: French Franc
+  updated_at: 2009-07-16 04:22:03
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "75"
+  created_at: 2009-07-16 04:22:03
+data_sources_68: 
+  arguments: "--- \n\
+    :symbol: GMD\n"
+  name: Gambian Dalasi
+  updated_at: 2009-07-16 04:22:03
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "76"
+  created_at: 2009-07-16 04:22:03
+data_sources_69: 
+  arguments: "--- \n\
+    :symbol: DEM\n"
+  name: German Mark
+  updated_at: 2009-07-16 04:22:03
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "77"
+  created_at: 2009-07-16 04:22:03
+data_sources_70: 
+  arguments: "--- \n\
+    :symbol: GHC\n"
+  name: Ghanaian Cedi
+  updated_at: 2009-07-16 04:22:03
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "78"
+  created_at: 2009-07-16 04:22:03
+data_sources_71: 
+  arguments: "--- \n\
+    :symbol: GIP\n"
+  name: Gibraltar Pound
+  updated_at: 2009-07-16 04:22:03
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "79"
+  created_at: 2009-07-16 04:22:03
+data_sources_72: 
+  arguments: "--- \n\
+    :symbol: GRD\n"
+  name: Greek Drachma
+  updated_at: 2009-07-16 04:22:03
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "80"
+  created_at: 2009-07-16 04:22:03
+data_sources_73: 
+  arguments: "--- \n\
+    :symbol: GTQ\n"
+  name: Guatemalan Quetzal
+  updated_at: 2009-07-16 04:22:03
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "81"
+  created_at: 2009-07-16 04:22:03
+data_sources_74: 
+  arguments: "--- \n\
+    :symbol: GNF\n"
+  name: Guinea Franc
+  updated_at: 2009-07-16 04:22:03
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "82"
+  created_at: 2009-07-16 04:22:03
+data_sources_75: 
+  arguments: "--- \n\
+    :symbol: GYD\n"
+  name: Guyanese Dollar
+  updated_at: 2009-07-16 04:22:03
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "83"
+  created_at: 2009-07-16 04:22:03
+data_sources_76: 
+  arguments: "--- \n\
+    :symbol: HTG\n"
+  name: Haitian Gourde
+  updated_at: 2009-07-16 04:22:03
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "84"
+  created_at: 2009-07-16 04:22:03
+data_sources_77: 
+  arguments: "--- \n\
+    :symbol: HNL\n"
+  name: Honduran Lempira
+  updated_at: 2009-07-16 04:22:03
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "85"
+  created_at: 2009-07-16 04:22:03
+data_sources_78: 
+  arguments: "--- \n\
+    :symbol: HKD\n"
+  name: Hong Kong Dollar
+  updated_at: 2009-07-16 04:22:03
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "86"
+  created_at: 2009-07-16 04:22:03
+data_sources_79: 
+  arguments: "--- \n\
+    :symbol: HUF\n"
+  name: Hungarian Forint
+  updated_at: 2009-07-16 04:22:03
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "87"
+  created_at: 2009-07-16 04:22:03
+data_sources_80: 
+  arguments: "--- \n\
+    :symbol: ISK\n"
+  name: Iceland Krona
+  updated_at: 2009-07-16 04:22:03
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "88"
+  created_at: 2009-07-16 04:22:03
+data_sources_81: 
+  arguments: "--- \n\
+    :symbol: INR\n"
+  name: Indian Rupee
+  updated_at: 2009-07-16 04:22:03
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "89"
+  created_at: 2009-07-16 04:22:03
+data_sources_82: 
+  arguments: "--- \n\
+    :symbol: IDR\n"
+  name: Indonesian Rupiah
+  updated_at: 2009-07-16 04:22:03
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "90"
+  created_at: 2009-07-16 04:22:03
+data_sources_83: 
+  arguments: "--- \n\
+    :symbol: IRR\n"
+  name: Iranian Rial
+  updated_at: 2009-07-16 04:22:03
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "91"
+  created_at: 2009-07-16 04:22:03
+data_sources_84: 
+  arguments: "--- \n\
+    :symbol: IQD\n"
+  name: Iraqi Dinar
+  updated_at: 2009-07-16 04:22:03
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "92"
+  created_at: 2009-07-16 04:22:03
+data_sources_85: 
+  arguments: "--- \n\
+    :symbol: IEP\n"
+  name: Irish Punt
+  updated_at: 2009-07-16 04:22:03
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "93"
+  created_at: 2009-07-16 04:22:03
+data_sources_86: 
+  arguments: "--- \n\
+    :symbol: ILS\n"
+  name: Israeli New Shekel
+  updated_at: 2009-07-16 04:22:03
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "94"
+  created_at: 2009-07-16 04:22:03
+data_sources_87: 
+  arguments: "--- \n\
+    :symbol: ITL\n"
+  name: Italian Lira
+  updated_at: 2009-07-16 04:22:04
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "95"
+  created_at: 2009-07-16 04:22:04
+data_sources_88: 
+  arguments: "--- \n\
+    :symbol: JMD\n"
+  name: Jamaican Dollar
+  updated_at: 2009-07-16 04:22:04
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "96"
+  created_at: 2009-07-16 04:22:04
+data_sources_89: 
+  arguments: "--- \n\
+    :symbol: JOD\n"
+  name: Jordanian Dinar
+  updated_at: 2009-07-16 04:22:04
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "97"
+  created_at: 2009-07-16 04:22:04
+data_sources_90: 
+  arguments: "--- \n\
+    :symbol: KZT\n"
+  name: Kazakhstan Tenge
+  updated_at: 2009-07-16 04:22:04
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "98"
+  created_at: 2009-07-16 04:22:04
+data_sources_91: 
+  arguments: "--- \n\
+    :symbol: KES\n"
+  name: Kenyan Shilling
+  updated_at: 2009-07-16 04:22:04
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "99"
+  created_at: 2009-07-16 04:22:04
+data_sources_92: 
+  arguments: "--- \n\
+    :symbol: KWD\n"
+  name: Kuwaiti Dinar
+  updated_at: 2009-07-16 04:22:04
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "100"
+  created_at: 2009-07-16 04:22:04
+data_sources_93: 
+  arguments: "--- \n\
+    :symbol: LAK\n"
+  name: Lao Kip
+  updated_at: 2009-07-16 04:22:04
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "101"
+  created_at: 2009-07-16 04:22:04
+data_sources_94: 
+  arguments: "--- \n\
+    :symbol: LVL\n"
+  name: Latvian Lats
+  updated_at: 2009-07-16 04:22:04
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "102"
+  created_at: 2009-07-16 04:22:04
+data_sources_95: 
+  arguments: "--- \n\
+    :symbol: LBP\n"
+  name: Lebanese Pound
+  updated_at: 2009-07-16 04:22:04
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "103"
+  created_at: 2009-07-16 04:22:04
+data_sources_96: 
+  arguments: "--- \n\
+    :symbol: LSL\n"
+  name: Lesotho Loti
+  updated_at: 2009-07-16 04:22:04
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "104"
+  created_at: 2009-07-16 04:22:04
+data_sources_97: 
+  arguments: "--- \n\
+    :symbol: LRD\n"
+  name: Liberian Dollar
+  updated_at: 2009-07-16 04:22:04
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "105"
+  created_at: 2009-07-16 04:22:04
+data_sources_98: 
+  arguments: "--- \n\
+    :symbol: LYD\n"
+  name: Libyan Dinar
+  updated_at: 2009-07-16 04:22:04
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "106"
+  created_at: 2009-07-16 04:22:04
+data_sources_99: 
+  arguments: "--- \n\
+    :symbol: LTL\n"
+  name: Lithuanian Litas
+  updated_at: 2009-07-16 04:22:04
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "107"
+  created_at: 2009-07-16 04:22:04
+data_sources_100: 
+  arguments: "--- \n\
+    :symbol: LUF\n"
+  name: Luxembourg Franc
+  updated_at: 2009-07-16 04:22:04
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "108"
+  created_at: 2009-07-16 04:22:04
+data_sources_101: 
+  arguments: "--- \n\
+    :symbol: MOP\n"
+  name: Macau Pataca
+  updated_at: 2009-07-16 04:22:04
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "109"
+  created_at: 2009-07-16 04:22:04
+data_sources_102: 
+  arguments: "--- \n\
+    :symbol: MGF\n"
+  name: Malagasy Franc
+  updated_at: 2009-07-16 04:22:04
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "110"
+  created_at: 2009-07-16 04:22:04
+data_sources_103: 
+  arguments: "--- \n\
+    :symbol: MWK\n"
+  name: Malawi Kwacha
+  updated_at: 2009-07-16 04:22:04
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "111"
+  created_at: 2009-07-16 04:22:04
+data_sources_104: 
+  arguments: "--- \n\
+    :symbol: MYR\n"
+  name: Malaysian Ringgit
+  updated_at: 2009-07-16 04:22:04
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "112"
+  created_at: 2009-07-16 04:22:04
+data_sources_105: 
+  arguments: "--- \n\
+    :symbol: MVR\n"
+  name: Maldive Rufiyaa
+  updated_at: 2009-07-16 04:22:04
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "113"
+  created_at: 2009-07-16 04:22:04
+data_sources_106: 
+  arguments: "--- \n\
+    :symbol: MTL\n"
+  name: Maltese Lira
+  updated_at: 2009-07-16 04:22:04
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "114"
+  created_at: 2009-07-16 04:22:04
+data_sources_107: 
+  arguments: "--- \n\
+    :symbol: MRO\n"
+  name: Mauritanian Ouguiya
+  updated_at: 2009-07-16 04:22:04
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "115"
+  created_at: 2009-07-16 04:22:04
+data_sources_108: 
+  arguments: "--- \n\
+    :symbol: MUR\n"
+  name: Mauritius Rupee
+  updated_at: 2009-07-16 04:22:04
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "116"
+  created_at: 2009-07-16 04:22:04
+data_sources_109: 
+  arguments: "--- \n\
+    :symbol: MXP\n"
+  name: Mexican Peso
+  updated_at: 2009-07-16 04:22:04
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "117"
+  created_at: 2009-07-16 04:22:04
+data_sources_110: 
+  arguments: "--- \n\
+    :symbol: MNT\n"
+  name: Mongolian Tugrik
+  updated_at: 2009-07-16 04:22:04
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "118"
+  created_at: 2009-07-16 04:22:04
+data_sources_111: 
+  arguments: "--- \n\
+    :symbol: MAD\n"
+  name: Moroccan Dirham
+  updated_at: 2009-07-16 04:22:04
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "119"
+  created_at: 2009-07-16 04:22:04
+data_sources_112: 
+  arguments: "--- \n\
+    :symbol: MZM\n"
+  name: Mozambique Metical
+  updated_at: 2009-07-16 04:22:04
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "120"
+  created_at: 2009-07-16 04:22:04
+data_sources_113: 
+  arguments: "--- \n\
+    :symbol: MMK\n"
+  name: Myanmar Kyat
+  updated_at: 2009-07-16 04:22:04
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "121"
+  created_at: 2009-07-16 04:22:04
+data_sources_114: 
+  arguments: "--- \n\
+    :symbol: ANG\n"
+  name: NL Antillian Guilder
+  updated_at: 2009-07-16 04:22:04
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "122"
+  created_at: 2009-07-16 04:22:04
+data_sources_115: 
+  arguments: "--- \n\
+    :symbol: NAD\n"
+  name: Namibia Dollar
+  updated_at: 2009-07-16 04:22:04
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "123"
+  created_at: 2009-07-16 04:22:04
+data_sources_116: 
+  arguments: "--- \n\
+    :symbol: NPR\n"
+  name: Nepalese Rupee
+  updated_at: 2009-07-16 04:22:04
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "124"
+  created_at: 2009-07-16 04:22:04
+data_sources_117: 
+  arguments: "--- \n\
+    :symbol: NIO\n"
+  name: Nicaraguan Cordoba Oro
+  updated_at: 2009-07-16 04:22:04
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "125"
+  created_at: 2009-07-16 04:22:04
+data_sources_118: 
+  arguments: "--- \n\
+    :symbol: NGN\n"
+  name: Nigerian Naira
+  updated_at: 2009-07-16 04:22:04
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "126"
+  created_at: 2009-07-16 04:22:04
+data_sources_119: 
+  arguments: "--- \n\
+    :symbol: KPW\n"
+  name: North Korean Won
+  updated_at: 2009-07-16 04:22:04
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "127"
+  created_at: 2009-07-16 04:22:04
+data_sources_120: 
+  arguments: "--- \n\
+    :symbol: NOK\n"
+  name: Norwegian Kroner
+  updated_at: 2009-07-16 04:22:04
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "128"
+  created_at: 2009-07-16 04:22:04
+data_sources_121: 
+  arguments: "--- \n\
+    :symbol: OMR\n"
+  name: Omani Rial
+  updated_at: 2009-07-16 04:22:04
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "129"
+  created_at: 2009-07-16 04:22:04
+data_sources_122: 
+  arguments: "--- \n\
+    :symbol: PKR\n"
+  name: Pakistan Rupee
+  updated_at: 2009-07-16 04:22:04
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "130"
+  created_at: 2009-07-16 04:22:04
+data_sources_123: 
+  arguments: "--- \n\
+    :symbol: PAB\n"
+  name: Panamanian Balboa
+  updated_at: 2009-07-16 04:22:04
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "131"
+  created_at: 2009-07-16 04:22:04
+data_sources_124: 
+  arguments: "--- \n\
+    :symbol: PGK\n"
+  name: Papua New Guinea Kina
+  updated_at: 2009-07-16 04:22:04
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "132"
+  created_at: 2009-07-16 04:22:04
+data_sources_125: 
+  arguments: "--- \n\
+    :symbol: PYG\n"
+  name: Paraguay Guarani
+  updated_at: 2009-07-16 04:22:04
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "133"
+  created_at: 2009-07-16 04:22:04
+data_sources_126: 
+  arguments: "--- \n\
+    :symbol: PEN\n"
+  name: Peruvian Nuevo Sol
+  updated_at: 2009-07-16 04:22:04
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "134"
+  created_at: 2009-07-16 04:22:04
+data_sources_127: 
+  arguments: "--- \n\
+    :symbol: PHP\n"
+  name: Philippine Peso
+  updated_at: 2009-07-16 04:22:04
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "135"
+  created_at: 2009-07-16 04:22:04
+data_sources_128: 
+  arguments: "--- \n\
+    :symbol: PLZ\n"
+  name: Polish Zloty
+  updated_at: 2009-07-16 04:22:04
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "136"
+  created_at: 2009-07-16 04:22:04
+data_sources_129: 
+  arguments: "--- \n\
+    :symbol: PTE\n"
+  name: Portuguese Escudo
+  updated_at: 2009-07-16 04:22:04
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "137"
+  created_at: 2009-07-16 04:22:04
+data_sources_130: 
+  arguments: "--- \n\
+    :symbol: QAR\n"
+  name: Qatari Rial
+  updated_at: 2009-07-16 04:22:04
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "138"
+  created_at: 2009-07-16 04:22:04
+data_sources_131: 
+  arguments: "--- \n\
+    :symbol: ROL\n"
+  name: Romanian Leu
+  updated_at: 2009-07-16 04:22:04
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "139"
+  created_at: 2009-07-16 04:22:04
+data_sources_132: 
+  arguments: "--- \n\
+    :symbol: RUB\n"
+  name: Russian Rouble
+  updated_at: 2009-07-16 04:22:05
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "140"
+  created_at: 2009-07-16 04:22:05
+data_sources_133: 
+  arguments: "--- \n\
+    :symbol: WST\n"
+  name: Samoan Tala
+  updated_at: 2009-07-16 04:22:05
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "141"
+  created_at: 2009-07-16 04:22:05
+data_sources_134: 
+  arguments: "--- \n\
+    :symbol: STD\n"
+  name: Sao Tome/Principe Dobra
+  updated_at: 2009-07-16 04:22:05
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "142"
+  created_at: 2009-07-16 04:22:05
+data_sources_135: 
+  arguments: "--- \n\
+    :symbol: SAR\n"
+  name: Saudi Riyal
+  updated_at: 2009-07-16 04:22:05
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "143"
+  created_at: 2009-07-16 04:22:05
+data_sources_136: 
+  arguments: "--- \n\
+    :symbol: SCR\n"
+  name: Seychelles Rupee
+  updated_at: 2009-07-16 04:22:05
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "144"
+  created_at: 2009-07-16 04:22:05
+data_sources_137: 
+  arguments: "--- \n\
+    :symbol: SLL\n"
+  name: Sierra Leone Leone
+  updated_at: 2009-07-16 04:22:05
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "145"
+  created_at: 2009-07-16 04:22:05
+data_sources_138: 
+  arguments: "--- \n\
+    :symbol: SGD\n"
+  name: Singapore Dollar
+  updated_at: 2009-07-16 04:22:05
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "146"
+  created_at: 2009-07-16 04:22:05
+data_sources_139: 
+  arguments: "--- \n\
+    :symbol: SKK\n"
+  name: Slovak Koruna
+  updated_at: 2009-07-16 04:22:05
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "147"
+  created_at: 2009-07-16 04:22:05
+data_sources_140: 
+  arguments: "--- \n\
+    :symbol: SIT\n"
+  name: Slovenian Tolar
+  updated_at: 2009-07-16 04:22:05
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "148"
+  created_at: 2009-07-16 04:22:05
+data_sources_141: 
+  arguments: "--- \n\
+    :symbol: SBD\n"
+  name: Solomon Islands Dollar
+  updated_at: 2009-07-16 04:22:05
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "149"
+  created_at: 2009-07-16 04:22:05
+data_sources_142: 
+  arguments: "--- \n\
+    :symbol: SOS\n"
+  name: Somali Shilling
+  updated_at: 2009-07-16 04:22:05
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "150"
+  created_at: 2009-07-16 04:22:05
+data_sources_143: 
+  arguments: "--- \n\
+    :symbol: ZAR\n"
+  name: South African Rand
+  updated_at: 2009-07-16 04:22:05
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "151"
+  created_at: 2009-07-16 04:22:05
+data_sources_144: 
+  arguments: "--- \n\
+    :symbol: KRW\n"
+  name: South-Korean Won
+  updated_at: 2009-07-16 04:22:05
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "152"
+  created_at: 2009-07-16 04:22:05
+data_sources_145: 
+  arguments: "--- \n\
+    :symbol: ESP\n"
+  name: Spanish Peseta
+  updated_at: 2009-07-16 04:22:05
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "153"
+  created_at: 2009-07-16 04:22:05
+data_sources_146: 
+  arguments: "--- \n\
+    :symbol: LKR\n"
+  name: Sri Lanka Rupee
+  updated_at: 2009-07-16 04:22:05
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "154"
+  created_at: 2009-07-16 04:22:05
+data_sources_147: 
+  arguments: "--- \n\
+    :symbol: SHP\n"
+  name: St. Helena Pound
+  updated_at: 2009-07-16 04:22:05
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "155"
+  created_at: 2009-07-16 04:22:05
+data_sources_148: 
+  arguments: "--- \n\
+    :symbol: SDD\n"
+  name: Sudanese Dinar
+  updated_at: 2009-07-16 04:22:05
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "156"
+  created_at: 2009-07-16 04:22:05
+data_sources_149: 
+  arguments: "--- \n\
+    :symbol: SDP\n"
+  name: Sudanese Pound
+  updated_at: 2009-07-16 04:22:05
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "157"
+  created_at: 2009-07-16 04:22:05
+data_sources_150: 
+  arguments: "--- \n\
+    :symbol: SRG\n"
+  name: Suriname Guilder
+  updated_at: 2009-07-16 04:22:05
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "158"
+  created_at: 2009-07-16 04:22:05
+data_sources_151: 
+  arguments: "--- \n\
+    :symbol: SZL\n"
+  name: Swaziland Lilangeni
+  updated_at: 2009-07-16 04:22:05
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "159"
+  created_at: 2009-07-16 04:22:05
+data_sources_152: 
+  arguments: "--- \n\
+    :symbol: SEK\n"
+  name: Swedish Krona
+  updated_at: 2009-07-16 04:22:05
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "160"
+  created_at: 2009-07-16 04:22:05
+data_sources_153: 
+  arguments: "--- \n\
+    :symbol: CHF\n"
+  name: Swiss Franc
+  updated_at: 2009-07-16 04:22:05
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "161"
+  created_at: 2009-07-16 04:22:05
+data_sources_154: 
+  arguments: "--- \n\
+    :symbol: SYP\n"
+  name: Syrian Pound
+  updated_at: 2009-07-16 04:22:05
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "162"
+  created_at: 2009-07-16 04:22:05
+data_sources_155: 
+  arguments: "--- \n\
+    :symbol: TWD\n"
+  name: Taiwan Dollar
+  updated_at: 2009-07-16 04:22:05
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "163"
+  created_at: 2009-07-16 04:22:05
+data_sources_156: 
+  arguments: "--- \n\
+    :symbol: TZS\n"
+  name: Tanzanian Shilling
+  updated_at: 2009-07-16 04:22:05
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "164"
+  created_at: 2009-07-16 04:22:05
+data_sources_157: 
+  arguments: "--- \n\
+    :symbol: THB\n"
+  name: Thai Baht
+  updated_at: 2009-07-16 04:22:05
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "165"
+  created_at: 2009-07-16 04:22:05
+data_sources_158: 
+  arguments: "--- \n\
+    :symbol: TOP\n"
+  name: Tonga Pa'anga
+  updated_at: 2009-07-16 04:22:05
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "166"
+  created_at: 2009-07-16 04:22:05
+data_sources_159: 
+  arguments: "--- \n\
+    :symbol: TTD\n"
+  name: Trinidad/Tobago Dollar
+  updated_at: 2009-07-16 04:22:05
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "167"
+  created_at: 2009-07-16 04:22:05
+data_sources_160: 
+  arguments: "--- \n\
+    :symbol: TND\n"
+  name: Tunisian Dinar
+  updated_at: 2009-07-16 04:22:05
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "168"
+  created_at: 2009-07-16 04:22:05
+data_sources_161: 
+  arguments: "--- \n\
+    :symbol: TRL\n"
+  name: Turkish Lira
+  updated_at: 2009-07-16 04:22:05
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "169"
+  created_at: 2009-07-16 04:22:05
+data_sources_162: 
+  arguments: "--- \n\
+    :symbol: UGS\n"
+  name: Uganda Shilling
+  updated_at: 2009-07-16 04:22:05
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "170"
+  created_at: 2009-07-16 04:22:05
+data_sources_163: 
+  arguments: "--- \n\
+    :symbol: UAH\n"
+  name: Ukraine Hryvnia
+  updated_at: 2009-07-16 04:22:05
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "171"
+  created_at: 2009-07-16 04:22:05
+data_sources_164: 
+  arguments: "--- \n\
+    :symbol: UYP\n"
+  name: Uruguayan Peso
+  updated_at: 2009-07-16 04:22:05
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "172"
+  created_at: 2009-07-16 04:22:05
+data_sources_165: 
+  arguments: "--- \n\
+    :symbol: AED\n"
+  name: Utd. Arab Emir. Dirham
+  updated_at: 2009-07-16 04:22:05
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "173"
+  created_at: 2009-07-16 04:22:05
+data_sources_166: 
+  arguments: "--- \n\
+    :symbol: VUV\n"
+  name: Vanuatu Vatu
+  updated_at: 2009-07-16 04:22:05
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "174"
+  created_at: 2009-07-16 04:22:05
+data_sources_167: 
+  arguments: "--- \n\
+    :symbol: VEB\n"
+  name: Venezuelan Bolivar
+  updated_at: 2009-07-16 04:22:05
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "175"
+  created_at: 2009-07-16 04:22:05
+data_sources_168: 
+  arguments: "--- \n\
+    :symbol: VND\n"
+  name: Vietnamese Dong
+  updated_at: 2009-07-16 04:22:05
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "176"
+  created_at: 2009-07-16 04:22:05
+data_sources_169: 
+  arguments: "--- \n\
+    :symbol: YUN\n"
+  name: Yugoslav Dinar
+  updated_at: 2009-07-16 04:22:05
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "177"
+  created_at: 2009-07-16 04:22:05
+data_sources_170: 
+  arguments: "--- \n\
+    :symbol: ZMK\n"
+  name: Zambian Kwacha
+  updated_at: 2009-07-16 04:22:05
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "178"
+  created_at: 2009-07-16 04:22:05
+data_sources_171: 
+  arguments: "--- \n\
+    :symbol: ZWD\n"
+  name: Zimbabwe Dollar
+  updated_at: 2009-07-16 04:22:05
+  country: 
+  units: 
+  type: DataSource::YahooCurrency
+  id: "179"
+  created_at: 2009-07-16 04:22:05

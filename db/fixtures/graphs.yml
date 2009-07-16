@@ -1,10 +1,10 @@
 graphs_1: 
   cached_tag_list: money supply, m1, m2
+  background_color: "#fff"
   maximum_value: 
   minimum_value: 
-  background_color: "#fff"
-  default_start_time: 1 year ago
   updated_at: 2009-07-13 08:09:49
+  default_start_time: 1 year ago
   x_field: 
   y_field: 
   x_label: Date
@@ -13,20 +13,20 @@ graphs_1:
   units: Billions
   chart_type: Line
   id: "1"
-  updater_id: "1"
   category_id: "1"
+  updater_id: "1"
   color: "#00f"
   y_axis_type: Linear
   y_label: Billion Dollars
-  x_axis_type: DateTime
   created_at: 2009-04-13 02:37:19
+  x_axis_type: DateTime
 graphs_2: 
   cached_tag_list: gdp
+  background_color: "#fff"
   maximum_value: 
   minimum_value: 
-  background_color: "#fff"
-  default_start_time: 10 years ago
   updated_at: 2009-07-13 08:11:02
+  default_start_time: 10 years ago
   x_field: 
   y_field: 
   x_label: Year
@@ -35,20 +35,20 @@ graphs_2:
   units: 
   chart_type: Line
   id: "2"
-  updater_id: "1"
   category_id: "3"
+  updater_id: "1"
   color: "#090"
   y_axis_type: Linear
   y_label: GDP Billions
-  x_axis_type: Linear
   created_at: 2009-06-06 06:16:16
+  x_axis_type: Linear
 graphs_3: 
   cached_tag_list: gdp
+  background_color: "#fff"
   maximum_value: 
   minimum_value: 
-  background_color: "#fff"
-  default_start_time: 10 years ago
   updated_at: 2009-07-13 08:08:42
+  default_start_time: 10 years ago
   x_field: 
   y_field: 
   x_label: Date
@@ -57,20 +57,20 @@ graphs_3:
   units: 
   chart_type: Line
   id: "3"
-  updater_id: "1"
   category_id: "3"
+  updater_id: "1"
   color: "#906"
   y_axis_type: Linear
   y_label: Percent Change
-  x_axis_type: Linear
   created_at: 2009-07-13 06:27:20
+  x_axis_type: Linear
 graphs_4: 
   cached_tag_list: ""
+  background_color: "#fff"
   maximum_value: 
   minimum_value: 
-  background_color: "#fff"
-  default_start_time: 1 year ago
   updated_at: 2009-07-14 03:32:03
+  default_start_time: 1 year ago
   x_field: 
   y_field: 
   x_label: ""
@@ -79,10 +79,10 @@ graphs_4:
   units: 
   chart_type: Line
   id: "4"
-  updater_id: "1"
   category_id: "4"
+  updater_id: "1"
   color: "#33f"
   y_axis_type: Linear
   y_label: Close
-  x_axis_type: Linear
   created_at: 2009-07-14 03:31:30
+  x_axis_type: Linear

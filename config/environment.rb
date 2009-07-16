@@ -39,6 +39,7 @@ Rails::Initializer.run do |config|
   config.gem "gruff"
   config.gem "chronic"
   config.gem "currency"
+  config.gem 'gnuplot'
   config.gem 'rubyist-aasm', :lib => "aasm"
   config.gem 'yahoofinance'
   config.gem "mixtli-fred", :lib => "fred"

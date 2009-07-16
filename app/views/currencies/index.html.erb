@@ -1,22 +1,6 @@
-<h1>Listing currencies</h1>
+<%= render :partial => 'sidebar' %>
 
-<table>
-  <tr>
-    <th>Name</th>
-    <th>Code</th>
-  </tr>
+<h1>World Currencies</h1>
 
-<% @currencies.each do |currency| %>
-  <tr>
-    <td><%=h currency.name %></td>
-    <td><%=h currency.code %></td>
-    <td><%= link_to 'Show', currency %></td>
-    <td><%= link_to 'Edit', edit_currency_path(currency) %></td>
-    <td><%= link_to 'Destroy', currency, :confirm => 'Are you sure?', :method => :delete %></td>
-  </tr>
-<% end %>
-</table>
+Here you can get current and historical information on currencies throughout the world.
 
-<br />
-
-<%= link_to 'New currency', new_currency_path %>

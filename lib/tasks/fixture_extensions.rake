@@ -6,7 +6,7 @@ task :dump => :environment do
       ActiveRecord::Base.establish_connection(RAILS_ENV.to_sym)
       fixtures_dir = ENV['FIXTURES_DIR'] || File.join(RAILS_ROOT, 'db', 'fixtures')
       limit = 50
-      tables = ENV['TABLES'] ? ENV['TABLES'].split(/,/) : ActiveRecord::Base.connection.tables - ["schema_info", "sessions", "data" ]
+      tables = ENV['TABLES'] ? ENV['TABLES'].split(/,/) : ActiveRecord::Base.connection.tables - ["schema_info", "sessions" ]
       tables.each do |table_name| 
         record_number = 0
         offset = 0

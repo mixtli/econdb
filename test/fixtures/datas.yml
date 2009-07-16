@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  data_source: 
+  time: 2009-07-15 15:32:01
+  value: 1.5
+
+two:
+  data_source: 
+  time: 2009-07-15 15:32:01
+  value: 1.5

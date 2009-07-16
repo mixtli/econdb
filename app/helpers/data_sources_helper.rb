@@ -10,7 +10,8 @@ module DataSourcesHelper
     [
       [ "World Bank", "DataSource::WorldBank" ],
       [ "Federal Reserve", "DataSource::FederalReserve"],
-      [ "Yahoo! Finance", "DataSource::Yahoo"],
+      [ "Yahoo! Finance Stocks", "DataSource::YahooStock"],
+      [ "Yahoo! Finance Currency", "DataSource::YahooCurrency"],
       [ "Database", "DataSource::DataBase"],
       [ "XML", "DataSource::Xml"],
       [ "ActiveRecord", "DataSource::ActiveRecord"]

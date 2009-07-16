@@ -1,0 +1,9 @@
+DataSource: <%= enclosing_resource.name %>
+<table border="1">
+  <tr><th>DateTime</th><th>Value</th></tr>
+  
+  <% for datum in resources %>
+    <tr><td><%= datum.timestamp %></td><td><%= datum.value %></td></tr>
+  <% end %>
+
+</table>

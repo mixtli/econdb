@@ -9,6 +9,7 @@ class DataSource::FederalReserve < DataSource
     super
   end
 
+
   def values(options = {})
     logger.debug "DataSource::FederalReserve.values"
     options[:start] ||= 1.year.ago

@@ -16,4 +16,24 @@ class ApplicationController < ActionController::Base
   #def current_category
   #  return Category.find(session[:category_id])
   #end
+  
+  def get_times
+    @start_time = case params[:start]
+      when Hash
+        DateTime.civil(params[:start][:year].to_i, params[:start][:month].to_i, params[:start][:day].to_i, params[:start][:hour].to_i, params[:start][:minute].to_i, 0)
+      when String
+        DateTime.strptime(params[:start], "%Y:%m:%d %h:%m:%s")
+      else nil
+    end
+    @end_time = case params[:end]
+      when Hash
+        DateTime.civil(params[:end][:year].to_i, params[:end][:month].to_i, params[:end][:day].to_i, params[:end][:hour].to_i, params[:end][:minute].to_i, 0)
+      when String
+        DateTime.strptime(params[:end], "%Y:%m:%d %h:%m:%s")
+      else DateTime.now
+    end
+    logger.debug "#{@start_time} to #{@end_time}"
+  end
+
+
 end

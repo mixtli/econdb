@@ -1,6 +1,22 @@
 class DataSourcesController < ApplicationController
+  unloadable
   resources_controller_for :data_sources
   before_filter :set_klass, :only => [:new, :edit, :data_source_arguments]
+  before_filter :get_times
+  response_for :show do |format|
+    @start_time ||= 1.year.ago
+    options = {:start => @start_time, :end => @end_time}
+
+    format.png do
+      response.headers['Content-Type'] = 'image/png'
+
+      graph = Graph.new(:title => resource.name)
+      graph.graph_items << GraphItem.new(:data_source_id => resource.id)
+      send_data GraphRenderer::GnuPlot.new.render(graph, options), :type => 'image/png'
+    end
+
+  end
+
   def set_klass
     self.resource = params[:id] ? find_resource : new_resource
     logger.debug "resource = #{self.resource.inspect}"

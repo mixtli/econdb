@@ -29,7 +29,9 @@ ActionController::Routing::Routes.draw do |map|
     graph.resources :comments
   end
   map.resources :tags
-  map.resources :data_sources
+  map.resources :data_sources do |data_source|
+    data_source.resources :data
+  end
 
   # The priority is based upon order of creation: first created -> highest priority.
 
