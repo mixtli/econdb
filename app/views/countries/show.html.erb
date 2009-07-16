@@ -1,3 +1,5 @@
+<%= render :partial => 'sidebar' %>
+<h2><%= @country.name %></h2>
 <% for graph in @graphs %>
   <%= render :partial => 'graphs/graph', :locals => {:graph => graph } %>
 <% end %>

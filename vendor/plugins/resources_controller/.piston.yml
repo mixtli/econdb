@@ -1,0 +1,8 @@
+--- 
+format: 1
+handler: 
+  commit: 7c33857c19ec95e0eee88db9788be936d3f4a89a
+  branch: master
+repository_url: git://github.com/ianwhite/resources_controller.git
+lock: false
+repository_class: Piston::Git::Repository

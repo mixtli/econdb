@@ -16,6 +16,9 @@
 <%= @data_source.arguments.inspect %>
 <br/>
 
+<%= image_tag data_source_path(@data_source, :format => :png), :height => 300, :width => 400 %>
+
+<%= button_to 'Populate', populate_data_source_path(@data_source) %>
 <%= link_to 'Edit', edit_data_source_path(@data_source) %> |
 <%= link_to 'Show Data', data_source_data_path(@data_source) %> |
 <%= link_to 'Back', data_sources_path %>

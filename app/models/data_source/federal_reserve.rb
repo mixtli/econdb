@@ -1,14 +1,6 @@
 class DataSource::FederalReserve < DataSource
   FULL_NAME = "U.S. Federal Reserve"
 
-  def self.data_source_arguments
-    [:fred_id]
-  end
-  
-  def options_for(attr)
-    super
-  end
-
 
   def values(options = {})
     logger.debug "DataSource::FederalReserve.values"

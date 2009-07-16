@@ -33,7 +33,8 @@ Rails::Initializer.run do |config|
 
   # Add additional load paths for your own custom dirs
   # config.load_paths += %W( #{RAILS_ROOT}/extras )
-
+  
+  config.load_paths += %W( #{RAILS_ROOT}/app/models/data_source )
   # Specify gems that this application depends on and have them installed with rake gems:install
   config.gem "hpricot"
   config.gem "gruff"
@@ -77,6 +78,7 @@ end
 #require 'fred'
 require 'data_source/federal_reserve'
 require 'data_source/world_bank'
+require 'data_source/yahoo_currency'
 Fred::Base.api_key = "39e6580aa035fa02ef28ac0f5e2752b8"  
 WorldBank::Base.api_key = "xv6r542fqbyc4t72jr9hhz96"
 Mime::Type.register "image/png", :png

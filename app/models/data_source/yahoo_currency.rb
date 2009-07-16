@@ -1,5 +1,5 @@
 class DataSource::YahooCurrency < DataSource
-  unloadable
+  #unloadable
   FULL_NAME = "Yahoo Currency"
 
   def self.data_source_arguments

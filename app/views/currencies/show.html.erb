@@ -11,7 +11,7 @@
   <%=h @currency.current_value %>
 </p>
 
-
+<%#= resource.data_source.name %>
 <%= image_tag data_source_path(@currency.data_source, :format => :png), :width => 400, :height => 250 %>
 
 <%= link_to 'Edit', edit_currency_path(@currency) %> |

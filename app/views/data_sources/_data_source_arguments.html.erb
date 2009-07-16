@@ -1,3 +1,10 @@
+Series Identifier<br/>
+<% if resource.class.identifier_options %>
+<%= select_tag "data_source[identifier]", options_for_select(resource.class.identifier_options) %>
+<% else %>
+<%= text_field_tag "data_source[identifier]" %>
+<% end %>
+
 <% for arg in @klass.data_source_arguments  %>
   <%=h arg %>
   <%= data_source_field(resource, arg) %>

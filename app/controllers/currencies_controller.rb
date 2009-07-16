@@ -1,4 +1,4 @@
 class CurrenciesController < ApplicationController
-  unloadable
+  #unloadable
   resources_controller_for :currencies
 end

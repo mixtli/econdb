@@ -23,7 +23,13 @@ module WorldBank
       puts "get(id)"
       uri = base_url + "/#{collection_path}/#{id}?api_key=#{::WorldBank::Base.api_key}"
       puts uri
-      doc = Hpricot.XML(open(uri))
+      retries = 5
+      begin
+        doc = Hpricot.XML(open(uri))
+      rescue OpenURI::HTTPError
+        sleep 2
+        retry if (retries -= 1) > 0
+      end
       puts doc
       args = doc.search("/*/*/*").select { |a| a.name =~ /wb:/ }.inject({}) { | h, a| h.merge( { a.name.sub("wb:","") => a.inner_html })  }
       args['id'] = id
@@ -65,7 +71,14 @@ module WorldBank
       data_entries = []
       uri = base_url + "/countries/#{country}/indicators/#{self[:id]}?" + self.class.encode_params(params)
       puts "URI = " + uri
-      doc = Hpricot.XML(open(uri))
+      retries = 5
+      begin
+        doc = Hpricot.XML(open(uri))
+      rescue OpenURI::HTTPError
+        sleep 2
+        retry if (retries -= 1) > 0
+      end
+
       puts doc
       doc.search("/*/*").each do |el|
         puts "found el #{el.inspect}"
@@ -74,6 +87,7 @@ module WorldBank
           :value => el.at("wb:value").inner_html
         } if el.at("wb:date")
       end
+      puts data_entries.inspect
       data_entries.sort_by {|e| e[:date] }
     end
   end

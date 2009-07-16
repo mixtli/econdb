@@ -1,0 +1,8 @@
+--- 
+format: 1
+handler: 
+  commit: dea0f2c8ba535ac60f300e6380349509de5a7643
+  branch: master
+repository_url: git://github.com/ianwhite/response_for_rc.git
+lock: false
+repository_class: Piston::Git::Repository

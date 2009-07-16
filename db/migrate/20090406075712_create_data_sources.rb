@@ -5,6 +5,7 @@ class CreateDataSources < ActiveRecord::Migration
       t.string :type
       t.string :units
       t.string :country, :limit => 2
+      t.string :identifier
       t.text :arguments
       t.timestamps
     end

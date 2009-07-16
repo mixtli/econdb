@@ -1,0 +1,8 @@
+--- 
+format: 1
+handler: 
+  commit: af493ea8e9b93b42bab469b2ca328e72eb031a57
+  branch: master
+repository_url: git://github.com/ianwhite/response_for.git
+lock: false
+repository_class: Piston::Git::Repository

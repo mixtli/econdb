@@ -20,4 +20,4 @@ config.cache_store = :mem_cache_store, { :namespace => 'econdb' }
 # XXX Hack!  Getting 
 # “A copy of ApplicationHelper has been removed from the module tree but is still active!”
 # This resolves it.
-load 'application_helper.rb'
+#load 'application_helper.rb'

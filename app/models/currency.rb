@@ -1,4 +1,5 @@
 class Currency < ActiveRecord::Base
+  unloadable
   belongs_to :data_source
   after_create :create_data_source
 

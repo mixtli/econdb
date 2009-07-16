@@ -1,9 +1,11 @@
 <h1>Listing Data Sources</h1>
+<%= link_to 'New Data Source', new_data_source_path %>
 
-<table>
+<table border="1">
   <tr>
     <th>Name</th>
     <th>Type</th>
+    <th colspan="4"></th>
   </tr>
 
 <% @data_sources.each do |data_source| %>
@@ -19,4 +21,4 @@
 
 <br />
 
-<%= link_to 'New Data Source', new_data_source_path %>
+

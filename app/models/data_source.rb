@@ -1,5 +1,6 @@
 class DataSource < ActiveRecord::Base
-  unloadable
+
+  #unloadable
   FULL_NAME = "Generic Data Source"
   has_many :graph_items
   has_many :graphs, :through => :graph_items
@@ -31,6 +32,7 @@ class DataSource < ActiveRecord::Base
 
   def self.populate!
     DataSource.find(:all).each do |ds|
+      next if ds.class == DataSource::YahooCurrency  # skip this.. it's slow..  use populate_all_historical
       ds.populate!
     end
   end
@@ -56,5 +58,9 @@ class DataSource < ActiveRecord::Base
     values(:start => start_time, :end => end_time).collect {|v| Datum.new(:timestamp => v[:x_value], :value => v[:y_value]) }
   end
 
+
+  # override in subclasses
+  def self.identifier_options
+  end
 
 end

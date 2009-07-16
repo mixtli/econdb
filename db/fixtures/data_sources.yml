@@ -4,11 +4,12 @@ data_sources_1:
     fred_id: M1
 
   name: M1 Money Stock
-  updated_at: 2009-07-13 07:18:57
+  updated_at: 2009-07-16 09:58:05
   country: US
   units: 
   type: DataSource::FederalReserve
   id: "1"
+  identifier: M1
   created_at: 2009-04-13 02:36:01
 data_sources_2: 
   arguments: |
@@ -16,11 +17,12 @@ data_sources_2:
     fred_id: M2
 
   name: M2 Money Stock
-  updated_at: 2009-07-13 07:29:26
+  updated_at: 2009-07-16 09:58:05
   country: US
   units: 
   type: DataSource::FederalReserve
   id: "2"
+  identifier: M2
   created_at: 2009-04-13 02:36:18
 data_sources_3: 
   arguments: |
@@ -28,11 +30,12 @@ data_sources_3:
     fred_id: MZM
 
   name: MZM  Money Stock
-  updated_at: 2009-07-13 07:29:39
+  updated_at: 2009-07-16 09:58:05
   country: US
   units: 
   type: DataSource::FederalReserve
   id: "3"
+  identifier: MZM
   created_at: 2009-04-15 10:42:19
 data_sources_4: 
   arguments: |
@@ -40,11 +43,12 @@ data_sources_4:
     indicator: NY.GDP.MKTP.CD
 
   name: US GDP
-  updated_at: 2009-07-13 07:30:07
+  updated_at: 2009-07-16 09:57:32
   country: US
   units: 
   type: DataSource::WorldBank
   id: "4"
+  identifier: NY.GDP.MKTP.CD
   created_at: 2009-06-06 06:14:43
 data_sources_5: 
   arguments: |
@@ -52,11 +56,12 @@ data_sources_5:
     indicator: NY.GDP.MKTP.KD.ZG
 
   name: GDP Growth
-  updated_at: 2009-07-13 07:30:23
+  updated_at: 2009-07-16 09:57:32
   country: US
   units: 
   type: DataSource::WorldBank
   id: "5"
+  identifier: NY.GDP.MKTP.KD.ZG
   created_at: 2009-07-13 06:25:15
 data_sources_6: 
   arguments: |
@@ -64,11 +69,12 @@ data_sources_6:
     symbol: GOOG
 
   name: Google
-  updated_at: 2009-07-14 03:30:24
+  updated_at: 2009-07-16 09:59:31
   country: US
   units: 
   type: DataSource::YahooStock
   id: "6"
+  identifier: GOOG
   created_at: 2009-07-14 03:30:24
 data_sources_7: 
   arguments: |
@@ -76,11 +82,12 @@ data_sources_7:
     symbol: GLD
 
   name: GLD Gold ETF
-  updated_at: 2009-07-15 23:52:05
+  updated_at: 2009-07-16 09:59:32
   country: US
   units: 
   type: DataSource::YahooStock
   id: "7"
+  identifier: GLD
   created_at: 2009-07-15 23:52:05
 data_sources_8: 
   arguments: "--- \n\
@@ -91,6 +98,7 @@ data_sources_8:
   units: 
   type: DataSource::YahooCurrency
   id: "16"
+  identifier: 
   created_at: 2009-07-16 04:22:02
 data_sources_9: 
   arguments: "--- \n\
@@ -101,6 +109,7 @@ data_sources_9:
   units: 
   type: DataSource::YahooCurrency
   id: "17"
+  identifier: 
   created_at: 2009-07-16 04:22:02
 data_sources_10: 
   arguments: "--- \n\
@@ -111,6 +120,7 @@ data_sources_10:
   units: 
   type: DataSource::YahooCurrency
   id: "18"
+  identifier: 
   created_at: 2009-07-16 04:22:02
 data_sources_11: 
   arguments: "--- \n\
@@ -121,6 +131,7 @@ data_sources_11:
   units: 
   type: DataSource::YahooCurrency
   id: "19"
+  identifier: 
   created_at: 2009-07-16 04:22:02
 data_sources_12: 
   arguments: "--- \n\
@@ -131,6 +142,7 @@ data_sources_12:
   units: 
   type: DataSource::YahooCurrency
   id: "20"
+  identifier: 
   created_at: 2009-07-16 04:22:02
 data_sources_13: 
   arguments: "--- \n\
@@ -141,6 +153,7 @@ data_sources_13:
   units: 
   type: DataSource::YahooCurrency
   id: "21"
+  identifier: 
   created_at: 2009-07-16 04:22:02
 data_sources_14: 
   arguments: "--- \n\
@@ -151,6 +164,7 @@ data_sources_14:
   units: 
   type: DataSource::YahooCurrency
   id: "22"
+  identifier: 
   created_at: 2009-07-16 04:22:02
 data_sources_15: 
   arguments: "--- \n\
@@ -161,6 +175,7 @@ data_sources_15:
   units: 
   type: DataSource::YahooCurrency
   id: "23"
+  identifier: 
   created_at: 2009-07-16 04:22:02
 data_sources_16: 
   arguments: "--- \n\
@@ -171,6 +186,7 @@ data_sources_16:
   units: 
   type: DataSource::YahooCurrency
   id: "24"
+  identifier: 
   created_at: 2009-07-16 04:22:02
 data_sources_17: 
   arguments: "--- \n\
@@ -181,6 +197,7 @@ data_sources_17:
   units: 
   type: DataSource::YahooCurrency
   id: "25"
+  identifier: 
   created_at: 2009-07-16 04:22:02
 data_sources_18: 
   arguments: "--- \n\
@@ -191,6 +208,7 @@ data_sources_18:
   units: 
   type: DataSource::YahooCurrency
   id: "26"
+  identifier: 
   created_at: 2009-07-16 04:22:02
 data_sources_19: 
   arguments: "--- \n\
@@ -201,6 +219,7 @@ data_sources_19:
   units: 
   type: DataSource::YahooCurrency
   id: "27"
+  identifier: 
   created_at: 2009-07-16 04:22:02
 data_sources_20: 
   arguments: "--- \n\
@@ -211,6 +230,7 @@ data_sources_20:
   units: 
   type: DataSource::YahooCurrency
   id: "28"
+  identifier: 
   created_at: 2009-07-16 04:22:02
 data_sources_21: 
   arguments: "--- \n\
@@ -221,6 +241,7 @@ data_sources_21:
   units: 
   type: DataSource::YahooCurrency
   id: "29"
+  identifier: 
   created_at: 2009-07-16 04:22:02
 data_sources_22: 
   arguments: "--- \n\
@@ -231,6 +252,7 @@ data_sources_22:
   units: 
   type: DataSource::YahooCurrency
   id: "30"
+  identifier: 
   created_at: 2009-07-16 04:22:02
 data_sources_23: 
   arguments: "--- \n\
@@ -241,6 +263,7 @@ data_sources_23:
   units: 
   type: DataSource::YahooCurrency
   id: "31"
+  identifier: 
   created_at: 2009-07-16 04:22:02
 data_sources_24: 
   arguments: "--- \n\
@@ -251,6 +274,7 @@ data_sources_24:
   units: 
   type: DataSource::YahooCurrency
   id: "32"
+  identifier: 
   created_at: 2009-07-16 04:22:02
 data_sources_25: 
   arguments: "--- \n\
@@ -261,6 +285,7 @@ data_sources_25:
   units: 
   type: DataSource::YahooCurrency
   id: "33"
+  identifier: 
   created_at: 2009-07-16 04:22:02
 data_sources_26: 
   arguments: "--- \n\
@@ -271,6 +296,7 @@ data_sources_26:
   units: 
   type: DataSource::YahooCurrency
   id: "34"
+  identifier: 
   created_at: 2009-07-16 04:22:02
 data_sources_27: 
   arguments: "--- \n\
@@ -281,6 +307,7 @@ data_sources_27:
   units: 
   type: DataSource::YahooCurrency
   id: "35"
+  identifier: 
   created_at: 2009-07-16 04:22:02
 data_sources_28: 
   arguments: "--- \n\
@@ -291,6 +318,7 @@ data_sources_28:
   units: 
   type: DataSource::YahooCurrency
   id: "36"
+  identifier: 
   created_at: 2009-07-16 04:22:02
 data_sources_29: 
   arguments: "--- \n\
@@ -301,6 +329,7 @@ data_sources_29:
   units: 
   type: DataSource::YahooCurrency
   id: "37"
+  identifier: 
   created_at: 2009-07-16 04:22:02
 data_sources_30: 
   arguments: "--- \n\
@@ -311,6 +340,7 @@ data_sources_30:
   units: 
   type: DataSource::YahooCurrency
   id: "38"
+  identifier: 
   created_at: 2009-07-16 04:22:02
 data_sources_31: 
   arguments: "--- \n\
@@ -321,6 +351,7 @@ data_sources_31:
   units: 
   type: DataSource::YahooCurrency
   id: "39"
+  identifier: 
   created_at: 2009-07-16 04:22:02
 data_sources_32: 
   arguments: "--- \n\
@@ -331,6 +362,7 @@ data_sources_32:
   units: 
   type: DataSource::YahooCurrency
   id: "40"
+  identifier: 
   created_at: 2009-07-16 04:22:02
 data_sources_33: 
   arguments: "--- \n\
@@ -341,6 +373,7 @@ data_sources_33:
   units: 
   type: DataSource::YahooCurrency
   id: "41"
+  identifier: 
   created_at: 2009-07-16 04:22:02
 data_sources_34: 
   arguments: "--- \n\
@@ -351,6 +384,7 @@ data_sources_34:
   units: 
   type: DataSource::YahooCurrency
   id: "42"
+  identifier: 
   created_at: 2009-07-16 04:22:02
 data_sources_35: 
   arguments: "--- \n\
@@ -361,6 +395,7 @@ data_sources_35:
   units: 
   type: DataSource::YahooCurrency
   id: "43"
+  identifier: 
   created_at: 2009-07-16 04:22:02
 data_sources_36: 
   arguments: "--- \n\
@@ -371,6 +406,7 @@ data_sources_36:
   units: 
   type: DataSource::YahooCurrency
   id: "44"
+  identifier: 
   created_at: 2009-07-16 04:22:02
 data_sources_37: 
   arguments: "--- \n\
@@ -381,6 +417,7 @@ data_sources_37:
   units: 
   type: DataSource::YahooCurrency
   id: "45"
+  identifier: 
   created_at: 2009-07-16 04:22:03
 data_sources_38: 
   arguments: "--- \n\
@@ -391,6 +428,7 @@ data_sources_38:
   units: 
   type: DataSource::YahooCurrency
   id: "46"
+  identifier: 
   created_at: 2009-07-16 04:22:03
 data_sources_39: 
   arguments: "--- \n\
@@ -401,6 +439,7 @@ data_sources_39:
   units: 
   type: DataSource::YahooCurrency
   id: "47"
+  identifier: 
   created_at: 2009-07-16 04:22:03
 data_sources_40: 
   arguments: "--- \n\
@@ -411,6 +450,7 @@ data_sources_40:
   units: 
   type: DataSource::YahooCurrency
   id: "48"
+  identifier: 
   created_at: 2009-07-16 04:22:03
 data_sources_41: 
   arguments: "--- \n\
@@ -421,6 +461,7 @@ data_sources_41:
   units: 
   type: DataSource::YahooCurrency
   id: "49"
+  identifier: 
   created_at: 2009-07-16 04:22:03
 data_sources_42: 
   arguments: "--- \n\
@@ -431,6 +472,7 @@ data_sources_42:
   units: 
   type: DataSource::YahooCurrency
   id: "50"
+  identifier: 
   created_at: 2009-07-16 04:22:03
 data_sources_43: 
   arguments: "--- \n\
@@ -441,6 +483,7 @@ data_sources_43:
   units: 
   type: DataSource::YahooCurrency
   id: "51"
+  identifier: 
   created_at: 2009-07-16 04:22:03
 data_sources_44: 
   arguments: "--- \n\
@@ -451,6 +494,7 @@ data_sources_44:
   units: 
   type: DataSource::YahooCurrency
   id: "52"
+  identifier: 
   created_at: 2009-07-16 04:22:03
 data_sources_45: 
   arguments: "--- \n\
@@ -461,6 +505,7 @@ data_sources_45:
   units: 
   type: DataSource::YahooCurrency
   id: "53"
+  identifier: 
   created_at: 2009-07-16 04:22:03
 data_sources_46: 
   arguments: "--- \n\
@@ -471,6 +516,7 @@ data_sources_46:
   units: 
   type: DataSource::YahooCurrency
   id: "54"
+  identifier: 
   created_at: 2009-07-16 04:22:03
 data_sources_47: 
   arguments: "--- \n\
@@ -481,6 +527,7 @@ data_sources_47:
   units: 
   type: DataSource::YahooCurrency
   id: "55"
+  identifier: 
   created_at: 2009-07-16 04:22:03
 data_sources_48: 
   arguments: "--- \n\
@@ -491,6 +538,7 @@ data_sources_48:
   units: 
   type: DataSource::YahooCurrency
   id: "56"
+  identifier: 
   created_at: 2009-07-16 04:22:03
 data_sources_49: 
   arguments: "--- \n\
@@ -501,6 +549,7 @@ data_sources_49:
   units: 
   type: DataSource::YahooCurrency
   id: "57"
+  identifier: 
   created_at: 2009-07-16 04:22:03
 data_sources_50: 
   arguments: "--- \n\
@@ -511,6 +560,7 @@ data_sources_50:
   units: 
   type: DataSource::YahooCurrency
   id: "58"
+  identifier: 
   created_at: 2009-07-16 04:22:03
 data_sources_51: 
   arguments: "--- \n\
@@ -521,6 +571,7 @@ data_sources_51:
   units: 
   type: DataSource::YahooCurrency
   id: "59"
+  identifier: 
   created_at: 2009-07-16 04:22:03
 data_sources_52: 
   arguments: "--- \n\
@@ -531,6 +582,7 @@ data_sources_52:
   units: 
   type: DataSource::YahooCurrency
   id: "60"
+  identifier: 
   created_at: 2009-07-16 04:22:03
 data_sources_53: 
   arguments: "--- \n\
@@ -541,6 +593,7 @@ data_sources_53:
   units: 
   type: DataSource::YahooCurrency
   id: "61"
+  identifier: 
   created_at: 2009-07-16 04:22:03
 data_sources_54: 
   arguments: "--- \n\
@@ -551,6 +604,7 @@ data_sources_54:
   units: 
   type: DataSource::YahooCurrency
   id: "62"
+  identifier: 
   created_at: 2009-07-16 04:22:03
 data_sources_55: 
   arguments: "--- \n\
@@ -561,6 +615,7 @@ data_sources_55:
   units: 
   type: DataSource::YahooCurrency
   id: "63"
+  identifier: 
   created_at: 2009-07-16 04:22:03
 data_sources_56: 
   arguments: "--- \n\
@@ -571,6 +626,7 @@ data_sources_56:
   units: 
   type: DataSource::YahooCurrency
   id: "64"
+  identifier: 
   created_at: 2009-07-16 04:22:03
 data_sources_57: 
   arguments: "--- \n\
@@ -581,6 +637,7 @@ data_sources_57:
   units: 
   type: DataSource::YahooCurrency
   id: "65"
+  identifier: 
   created_at: 2009-07-16 04:22:03
 data_sources_58: 
   arguments: "--- \n\
@@ -591,6 +648,7 @@ data_sources_58:
   units: 
   type: DataSource::YahooCurrency
   id: "66"
+  identifier: 
   created_at: 2009-07-16 04:22:03
 data_sources_59: 
   arguments: "--- \n\
@@ -601,6 +659,7 @@ data_sources_59:
   units: 
   type: DataSource::YahooCurrency
   id: "67"
+  identifier: 
   created_at: 2009-07-16 04:22:03
 data_sources_60: 
   arguments: "--- \n\
@@ -611,6 +670,7 @@ data_sources_60:
   units: 
   type: DataSource::YahooCurrency
   id: "68"
+  identifier: 
   created_at: 2009-07-16 04:22:03
 data_sources_61: 
   arguments: "--- \n\
@@ -621,6 +681,7 @@ data_sources_61:
   units: 
   type: DataSource::YahooCurrency
   id: "69"
+  identifier: 
   created_at: 2009-07-16 04:22:03
 data_sources_62: 
   arguments: "--- \n\
@@ -631,6 +692,7 @@ data_sources_62:
   units: 
   type: DataSource::YahooCurrency
   id: "70"
+  identifier: 
   created_at: 2009-07-16 04:22:03
 data_sources_63: 
   arguments: "--- \n\
@@ -641,6 +703,7 @@ data_sources_63:
   units: 
   type: DataSource::YahooCurrency
   id: "71"
+  identifier: 
   created_at: 2009-07-16 04:22:03
 data_sources_64: 
   arguments: "--- \n\
@@ -651,6 +714,7 @@ data_sources_64:
   units: 
   type: DataSource::YahooCurrency
   id: "72"
+  identifier: 
   created_at: 2009-07-16 04:22:03
 data_sources_65: 
   arguments: "--- \n\
@@ -661,6 +725,7 @@ data_sources_65:
   units: 
   type: DataSource::YahooCurrency
   id: "73"
+  identifier: 
   created_at: 2009-07-16 04:22:03
 data_sources_66: 
   arguments: "--- \n\
@@ -671,6 +736,7 @@ data_sources_66:
   units: 
   type: DataSource::YahooCurrency
   id: "74"
+  identifier: 
   created_at: 2009-07-16 04:22:03
 data_sources_67: 
   arguments: "--- \n\
@@ -681,6 +747,7 @@ data_sources_67:
   units: 
   type: DataSource::YahooCurrency
   id: "75"
+  identifier: 
   created_at: 2009-07-16 04:22:03
 data_sources_68: 
   arguments: "--- \n\
@@ -691,6 +758,7 @@ data_sources_68:
   units: 
   type: DataSource::YahooCurrency
   id: "76"
+  identifier: 
   created_at: 2009-07-16 04:22:03
 data_sources_69: 
   arguments: "--- \n\
@@ -701,6 +769,7 @@ data_sources_69:
   units: 
   type: DataSource::YahooCurrency
   id: "77"
+  identifier: 
   created_at: 2009-07-16 04:22:03
 data_sources_70: 
   arguments: "--- \n\
@@ -711,6 +780,7 @@ data_sources_70:
   units: 
   type: DataSource::YahooCurrency
   id: "78"
+  identifier: 
   created_at: 2009-07-16 04:22:03
 data_sources_71: 
   arguments: "--- \n\
@@ -721,6 +791,7 @@ data_sources_71:
   units: 
   type: DataSource::YahooCurrency
   id: "79"
+  identifier: 
   created_at: 2009-07-16 04:22:03
 data_sources_72: 
   arguments: "--- \n\
@@ -731,6 +802,7 @@ data_sources_72:
   units: 
   type: DataSource::YahooCurrency
   id: "80"
+  identifier: 
   created_at: 2009-07-16 04:22:03
 data_sources_73: 
   arguments: "--- \n\
@@ -741,6 +813,7 @@ data_sources_73:
   units: 
   type: DataSource::YahooCurrency
   id: "81"
+  identifier: 
   created_at: 2009-07-16 04:22:03
 data_sources_74: 
   arguments: "--- \n\
@@ -751,6 +824,7 @@ data_sources_74:
   units: 
   type: DataSource::YahooCurrency
   id: "82"
+  identifier: 
   created_at: 2009-07-16 04:22:03
 data_sources_75: 
   arguments: "--- \n\
@@ -761,6 +835,7 @@ data_sources_75:
   units: 
   type: DataSource::YahooCurrency
   id: "83"
+  identifier: 
   created_at: 2009-07-16 04:22:03
 data_sources_76: 
   arguments: "--- \n\
@@ -771,6 +846,7 @@ data_sources_76:
   units: 
   type: DataSource::YahooCurrency
   id: "84"
+  identifier: 
   created_at: 2009-07-16 04:22:03
 data_sources_77: 
   arguments: "--- \n\
@@ -781,6 +857,7 @@ data_sources_77:
   units: 
   type: DataSource::YahooCurrency
   id: "85"
+  identifier: 
   created_at: 2009-07-16 04:22:03
 data_sources_78: 
   arguments: "--- \n\
@@ -791,6 +868,7 @@ data_sources_78:
   units: 
   type: DataSource::YahooCurrency
   id: "86"
+  identifier: 
   created_at: 2009-07-16 04:22:03
 data_sources_79: 
   arguments: "--- \n\
@@ -801,6 +879,7 @@ data_sources_79:
   units: 
   type: DataSource::YahooCurrency
   id: "87"
+  identifier: 
   created_at: 2009-07-16 04:22:03
 data_sources_80: 
   arguments: "--- \n\
@@ -811,6 +890,7 @@ data_sources_80:
   units: 
   type: DataSource::YahooCurrency
   id: "88"
+  identifier: 
   created_at: 2009-07-16 04:22:03
 data_sources_81: 
   arguments: "--- \n\
@@ -821,6 +901,7 @@ data_sources_81:
   units: 
   type: DataSource::YahooCurrency
   id: "89"
+  identifier: 
   created_at: 2009-07-16 04:22:03
 data_sources_82: 
   arguments: "--- \n\
@@ -831,6 +912,7 @@ data_sources_82:
   units: 
   type: DataSource::YahooCurrency
   id: "90"
+  identifier: 
   created_at: 2009-07-16 04:22:03
 data_sources_83: 
   arguments: "--- \n\
@@ -841,6 +923,7 @@ data_sources_83:
   units: 
   type: DataSource::YahooCurrency
   id: "91"
+  identifier: 
   created_at: 2009-07-16 04:22:03
 data_sources_84: 
   arguments: "--- \n\
@@ -851,6 +934,7 @@ data_sources_84:
   units: 
   type: DataSource::YahooCurrency
   id: "92"
+  identifier: 
   created_at: 2009-07-16 04:22:03
 data_sources_85: 
   arguments: "--- \n\
@@ -861,6 +945,7 @@ data_sources_85:
   units: 
   type: DataSource::YahooCurrency
   id: "93"
+  identifier: 
   created_at: 2009-07-16 04:22:03
 data_sources_86: 
   arguments: "--- \n\
@@ -871,6 +956,7 @@ data_sources_86:
   units: 
   type: DataSource::YahooCurrency
   id: "94"
+  identifier: 
   created_at: 2009-07-16 04:22:03
 data_sources_87: 
   arguments: "--- \n\
@@ -881,6 +967,7 @@ data_sources_87:
   units: 
   type: DataSource::YahooCurrency
   id: "95"
+  identifier: 
   created_at: 2009-07-16 04:22:04
 data_sources_88: 
   arguments: "--- \n\
@@ -891,6 +978,7 @@ data_sources_88:
   units: 
   type: DataSource::YahooCurrency
   id: "96"
+  identifier: 
   created_at: 2009-07-16 04:22:04
 data_sources_89: 
   arguments: "--- \n\
@@ -901,6 +989,7 @@ data_sources_89:
   units: 
   type: DataSource::YahooCurrency
   id: "97"
+  identifier: 
   created_at: 2009-07-16 04:22:04
 data_sources_90: 
   arguments: "--- \n\
@@ -911,6 +1000,7 @@ data_sources_90:
   units: 
   type: DataSource::YahooCurrency
   id: "98"
+  identifier: 
   created_at: 2009-07-16 04:22:04
 data_sources_91: 
   arguments: "--- \n\
@@ -921,6 +1011,7 @@ data_sources_91:
   units: 
   type: DataSource::YahooCurrency
   id: "99"
+  identifier: 
   created_at: 2009-07-16 04:22:04
 data_sources_92: 
   arguments: "--- \n\
@@ -931,6 +1022,7 @@ data_sources_92:
   units: 
   type: DataSource::YahooCurrency
   id: "100"
+  identifier: 
   created_at: 2009-07-16 04:22:04
 data_sources_93: 
   arguments: "--- \n\
@@ -941,6 +1033,7 @@ data_sources_93:
   units: 
   type: DataSource::YahooCurrency
   id: "101"
+  identifier: 
   created_at: 2009-07-16 04:22:04
 data_sources_94: 
   arguments: "--- \n\
@@ -951,6 +1044,7 @@ data_sources_94:
   units: 
   type: DataSource::YahooCurrency
   id: "102"
+  identifier: 
   created_at: 2009-07-16 04:22:04
 data_sources_95: 
   arguments: "--- \n\
@@ -961,6 +1055,7 @@ data_sources_95:
   units: 
   type: DataSource::YahooCurrency
   id: "103"
+  identifier: 
   created_at: 2009-07-16 04:22:04
 data_sources_96: 
   arguments: "--- \n\
@@ -971,6 +1066,7 @@ data_sources_96:
   units: 
   type: DataSource::YahooCurrency
   id: "104"
+  identifier: 
   created_at: 2009-07-16 04:22:04
 data_sources_97: 
   arguments: "--- \n\
@@ -981,6 +1077,7 @@ data_sources_97:
   units: 
   type: DataSource::YahooCurrency
   id: "105"
+  identifier: 
   created_at: 2009-07-16 04:22:04
 data_sources_98: 
   arguments: "--- \n\
@@ -991,6 +1088,7 @@ data_sources_98:
   units: 
   type: DataSource::YahooCurrency
   id: "106"
+  identifier: 
   created_at: 2009-07-16 04:22:04
 data_sources_99: 
   arguments: "--- \n\
@@ -1001,6 +1099,7 @@ data_sources_99:
   units: 
   type: DataSource::YahooCurrency
   id: "107"
+  identifier: 
   created_at: 2009-07-16 04:22:04
 data_sources_100: 
   arguments: "--- \n\
@@ -1011,6 +1110,7 @@ data_sources_100:
   units: 
   type: DataSource::YahooCurrency
   id: "108"
+  identifier: 
   created_at: 2009-07-16 04:22:04
 data_sources_101: 
   arguments: "--- \n\
@@ -1021,6 +1121,7 @@ data_sources_101:
   units: 
   type: DataSource::YahooCurrency
   id: "109"
+  identifier: 
   created_at: 2009-07-16 04:22:04
 data_sources_102: 
   arguments: "--- \n\
@@ -1031,6 +1132,7 @@ data_sources_102:
   units: 
   type: DataSource::YahooCurrency
   id: "110"
+  identifier: 
   created_at: 2009-07-16 04:22:04
 data_sources_103: 
   arguments: "--- \n\
@@ -1041,6 +1143,7 @@ data_sources_103:
   units: 
   type: DataSource::YahooCurrency
   id: "111"
+  identifier: 
   created_at: 2009-07-16 04:22:04
 data_sources_104: 
   arguments: "--- \n\
@@ -1051,6 +1154,7 @@ data_sources_104:
   units: 
   type: DataSource::YahooCurrency
   id: "112"
+  identifier: 
   created_at: 2009-07-16 04:22:04
 data_sources_105: 
   arguments: "--- \n\
@@ -1061,6 +1165,7 @@ data_sources_105:
   units: 
   type: DataSource::YahooCurrency
   id: "113"
+  identifier: 
   created_at: 2009-07-16 04:22:04
 data_sources_106: 
   arguments: "--- \n\
@@ -1071,6 +1176,7 @@ data_sources_106:
   units: 
   type: DataSource::YahooCurrency
   id: "114"
+  identifier: 
   created_at: 2009-07-16 04:22:04
 data_sources_107: 
   arguments: "--- \n\
@@ -1081,6 +1187,7 @@ data_sources_107:
   units: 
   type: DataSource::YahooCurrency
   id: "115"
+  identifier: 
   created_at: 2009-07-16 04:22:04
 data_sources_108: 
   arguments: "--- \n\
@@ -1091,6 +1198,7 @@ data_sources_108:
   units: 
   type: DataSource::YahooCurrency
   id: "116"
+  identifier: 
   created_at: 2009-07-16 04:22:04
 data_sources_109: 
   arguments: "--- \n\
@@ -1101,6 +1209,7 @@ data_sources_109:
   units: 
   type: DataSource::YahooCurrency
   id: "117"
+  identifier: 
   created_at: 2009-07-16 04:22:04
 data_sources_110: 
   arguments: "--- \n\
@@ -1111,6 +1220,7 @@ data_sources_110:
   units: 
   type: DataSource::YahooCurrency
   id: "118"
+  identifier: 
   created_at: 2009-07-16 04:22:04
 data_sources_111: 
   arguments: "--- \n\
@@ -1121,6 +1231,7 @@ data_sources_111:
   units: 
   type: DataSource::YahooCurrency
   id: "119"
+  identifier: 
   created_at: 2009-07-16 04:22:04
 data_sources_112: 
   arguments: "--- \n\
@@ -1131,6 +1242,7 @@ data_sources_112:
   units: 
   type: DataSource::YahooCurrency
   id: "120"
+  identifier: 
   created_at: 2009-07-16 04:22:04
 data_sources_113: 
   arguments: "--- \n\
@@ -1141,6 +1253,7 @@ data_sources_113:
   units: 
   type: DataSource::YahooCurrency
   id: "121"
+  identifier: 
   created_at: 2009-07-16 04:22:04
 data_sources_114: 
   arguments: "--- \n\
@@ -1151,6 +1264,7 @@ data_sources_114:
   units: 
   type: DataSource::YahooCurrency
   id: "122"
+  identifier: 
   created_at: 2009-07-16 04:22:04
 data_sources_115: 
   arguments: "--- \n\
@@ -1161,6 +1275,7 @@ data_sources_115:
   units: 
   type: DataSource::YahooCurrency
   id: "123"
+  identifier: 
   created_at: 2009-07-16 04:22:04
 data_sources_116: 
   arguments: "--- \n\
@@ -1171,6 +1286,7 @@ data_sources_116:
   units: 
   type: DataSource::YahooCurrency
   id: "124"
+  identifier: 
   created_at: 2009-07-16 04:22:04
 data_sources_117: 
   arguments: "--- \n\
@@ -1181,6 +1297,7 @@ data_sources_117:
   units: 
   type: DataSource::YahooCurrency
   id: "125"
+  identifier: 
   created_at: 2009-07-16 04:22:04
 data_sources_118: 
   arguments: "--- \n\
@@ -1191,6 +1308,7 @@ data_sources_118:
   units: 
   type: DataSource::YahooCurrency
   id: "126"
+  identifier: 
   created_at: 2009-07-16 04:22:04
 data_sources_119: 
   arguments: "--- \n\
@@ -1201,6 +1319,7 @@ data_sources_119:
   units: 
   type: DataSource::YahooCurrency
   id: "127"
+  identifier: 
   created_at: 2009-07-16 04:22:04
 data_sources_120: 
   arguments: "--- \n\
@@ -1211,6 +1330,7 @@ data_sources_120:
   units: 
   type: DataSource::YahooCurrency
   id: "128"
+  identifier: 
   created_at: 2009-07-16 04:22:04
 data_sources_121: 
   arguments: "--- \n\
@@ -1221,6 +1341,7 @@ data_sources_121:
   units: 
   type: DataSource::YahooCurrency
   id: "129"
+  identifier: 
   created_at: 2009-07-16 04:22:04
 data_sources_122: 
   arguments: "--- \n\
@@ -1231,6 +1352,7 @@ data_sources_122:
   units: 
   type: DataSource::YahooCurrency
   id: "130"
+  identifier: 
   created_at: 2009-07-16 04:22:04
 data_sources_123: 
   arguments: "--- \n\
@@ -1241,6 +1363,7 @@ data_sources_123:
   units: 
   type: DataSource::YahooCurrency
   id: "131"
+  identifier: 
   created_at: 2009-07-16 04:22:04
 data_sources_124: 
   arguments: "--- \n\
@@ -1251,6 +1374,7 @@ data_sources_124:
   units: 
   type: DataSource::YahooCurrency
   id: "132"
+  identifier: 
   created_at: 2009-07-16 04:22:04
 data_sources_125: 
   arguments: "--- \n\
@@ -1261,6 +1385,7 @@ data_sources_125:
   units: 
   type: DataSource::YahooCurrency
   id: "133"
+  identifier: 
   created_at: 2009-07-16 04:22:04
 data_sources_126: 
   arguments: "--- \n\
@@ -1271,6 +1396,7 @@ data_sources_126:
   units: 
   type: DataSource::YahooCurrency
   id: "134"
+  identifier: 
   created_at: 2009-07-16 04:22:04
 data_sources_127: 
   arguments: "--- \n\
@@ -1281,6 +1407,7 @@ data_sources_127:
   units: 
   type: DataSource::YahooCurrency
   id: "135"
+  identifier: 
   created_at: 2009-07-16 04:22:04
 data_sources_128: 
   arguments: "--- \n\
@@ -1291,6 +1418,7 @@ data_sources_128:
   units: 
   type: DataSource::YahooCurrency
   id: "136"
+  identifier: 
   created_at: 2009-07-16 04:22:04
 data_sources_129: 
   arguments: "--- \n\
@@ -1301,6 +1429,7 @@ data_sources_129:
   units: 
   type: DataSource::YahooCurrency
   id: "137"
+  identifier: 
   created_at: 2009-07-16 04:22:04
 data_sources_130: 
   arguments: "--- \n\
@@ -1311,6 +1440,7 @@ data_sources_130:
   units: 
   type: DataSource::YahooCurrency
   id: "138"
+  identifier: 
   created_at: 2009-07-16 04:22:04
 data_sources_131: 
   arguments: "--- \n\
@@ -1321,6 +1451,7 @@ data_sources_131:
   units: 
   type: DataSource::YahooCurrency
   id: "139"
+  identifier: 
   created_at: 2009-07-16 04:22:04
 data_sources_132: 
   arguments: "--- \n\
@@ -1331,6 +1462,7 @@ data_sources_132:
   units: 
   type: DataSource::YahooCurrency
   id: "140"
+  identifier: 
   created_at: 2009-07-16 04:22:05
 data_sources_133: 
   arguments: "--- \n\
@@ -1341,6 +1473,7 @@ data_sources_133:
   units: 
   type: DataSource::YahooCurrency
   id: "141"
+  identifier: 
   created_at: 2009-07-16 04:22:05
 data_sources_134: 
   arguments: "--- \n\
@@ -1351,6 +1484,7 @@ data_sources_134:
   units: 
   type: DataSource::YahooCurrency
   id: "142"
+  identifier: 
   created_at: 2009-07-16 04:22:05
 data_sources_135: 
   arguments: "--- \n\
@@ -1361,6 +1495,7 @@ data_sources_135:
   units: 
   type: DataSource::YahooCurrency
   id: "143"
+  identifier: 
   created_at: 2009-07-16 04:22:05
 data_sources_136: 
   arguments: "--- \n\
@@ -1371,6 +1506,7 @@ data_sources_136:
   units: 
   type: DataSource::YahooCurrency
   id: "144"
+  identifier: 
   created_at: 2009-07-16 04:22:05
 data_sources_137: 
   arguments: "--- \n\
@@ -1381,6 +1517,7 @@ data_sources_137:
   units: 
   type: DataSource::YahooCurrency
   id: "145"
+  identifier: 
   created_at: 2009-07-16 04:22:05
 data_sources_138: 
   arguments: "--- \n\
@@ -1391,6 +1528,7 @@ data_sources_138:
   units: 
   type: DataSource::YahooCurrency
   id: "146"
+  identifier: 
   created_at: 2009-07-16 04:22:05
 data_sources_139: 
   arguments: "--- \n\
@@ -1401,6 +1539,7 @@ data_sources_139:
   units: 
   type: DataSource::YahooCurrency
   id: "147"
+  identifier: 
   created_at: 2009-07-16 04:22:05
 data_sources_140: 
   arguments: "--- \n\
@@ -1411,6 +1550,7 @@ data_sources_140:
   units: 
   type: DataSource::YahooCurrency
   id: "148"
+  identifier: 
   created_at: 2009-07-16 04:22:05
 data_sources_141: 
   arguments: "--- \n\
@@ -1421,6 +1561,7 @@ data_sources_141:
   units: 
   type: DataSource::YahooCurrency
   id: "149"
+  identifier: 
   created_at: 2009-07-16 04:22:05
 data_sources_142: 
   arguments: "--- \n\
@@ -1431,6 +1572,7 @@ data_sources_142:
   units: 
   type: DataSource::YahooCurrency
   id: "150"
+  identifier: 
   created_at: 2009-07-16 04:22:05
 data_sources_143: 
   arguments: "--- \n\
@@ -1441,6 +1583,7 @@ data_sources_143:
   units: 
   type: DataSource::YahooCurrency
   id: "151"
+  identifier: 
   created_at: 2009-07-16 04:22:05
 data_sources_144: 
   arguments: "--- \n\
@@ -1451,6 +1594,7 @@ data_sources_144:
   units: 
   type: DataSource::YahooCurrency
   id: "152"
+  identifier: 
   created_at: 2009-07-16 04:22:05
 data_sources_145: 
   arguments: "--- \n\
@@ -1461,6 +1605,7 @@ data_sources_145:
   units: 
   type: DataSource::YahooCurrency
   id: "153"
+  identifier: 
   created_at: 2009-07-16 04:22:05
 data_sources_146: 
   arguments: "--- \n\
@@ -1471,6 +1616,7 @@ data_sources_146:
   units: 
   type: DataSource::YahooCurrency
   id: "154"
+  identifier: 
   created_at: 2009-07-16 04:22:05
 data_sources_147: 
   arguments: "--- \n\
@@ -1481,6 +1627,7 @@ data_sources_147:
   units: 
   type: DataSource::YahooCurrency
   id: "155"
+  identifier: 
   created_at: 2009-07-16 04:22:05
 data_sources_148: 
   arguments: "--- \n\
@@ -1491,6 +1638,7 @@ data_sources_148:
   units: 
   type: DataSource::YahooCurrency
   id: "156"
+  identifier: 
   created_at: 2009-07-16 04:22:05
 data_sources_149: 
   arguments: "--- \n\
@@ -1501,6 +1649,7 @@ data_sources_149:
   units: 
   type: DataSource::YahooCurrency
   id: "157"
+  identifier: 
   created_at: 2009-07-16 04:22:05
 data_sources_150: 
   arguments: "--- \n\
@@ -1511,6 +1660,7 @@ data_sources_150:
   units: 
   type: DataSource::YahooCurrency
   id: "158"
+  identifier: 
   created_at: 2009-07-16 04:22:05
 data_sources_151: 
   arguments: "--- \n\
@@ -1521,6 +1671,7 @@ data_sources_151:
   units: 
   type: DataSource::YahooCurrency
   id: "159"
+  identifier: 
   created_at: 2009-07-16 04:22:05
 data_sources_152: 
   arguments: "--- \n\
@@ -1531,6 +1682,7 @@ data_sources_152:
   units: 
   type: DataSource::YahooCurrency
   id: "160"
+  identifier: 
   created_at: 2009-07-16 04:22:05
 data_sources_153: 
   arguments: "--- \n\
@@ -1541,6 +1693,7 @@ data_sources_153:
   units: 
   type: DataSource::YahooCurrency
   id: "161"
+  identifier: 
   created_at: 2009-07-16 04:22:05
 data_sources_154: 
   arguments: "--- \n\
@@ -1551,6 +1704,7 @@ data_sources_154:
   units: 
   type: DataSource::YahooCurrency
   id: "162"
+  identifier: 
   created_at: 2009-07-16 04:22:05
 data_sources_155: 
   arguments: "--- \n\
@@ -1561,6 +1715,7 @@ data_sources_155:
   units: 
   type: DataSource::YahooCurrency
   id: "163"
+  identifier: 
   created_at: 2009-07-16 04:22:05
 data_sources_156: 
   arguments: "--- \n\
@@ -1571,6 +1726,7 @@ data_sources_156:
   units: 
   type: DataSource::YahooCurrency
   id: "164"
+  identifier: 
   created_at: 2009-07-16 04:22:05
 data_sources_157: 
   arguments: "--- \n\
@@ -1581,6 +1737,7 @@ data_sources_157:
   units: 
   type: DataSource::YahooCurrency
   id: "165"
+  identifier: 
   created_at: 2009-07-16 04:22:05
 data_sources_158: 
   arguments: "--- \n\
@@ -1591,6 +1748,7 @@ data_sources_158:
   units: 
   type: DataSource::YahooCurrency
   id: "166"
+  identifier: 
   created_at: 2009-07-16 04:22:05
 data_sources_159: 
   arguments: "--- \n\
@@ -1601,6 +1759,7 @@ data_sources_159:
   units: 
   type: DataSource::YahooCurrency
   id: "167"
+  identifier: 
   created_at: 2009-07-16 04:22:05
 data_sources_160: 
   arguments: "--- \n\
@@ -1611,6 +1770,7 @@ data_sources_160:
   units: 
   type: DataSource::YahooCurrency
   id: "168"
+  identifier: 
   created_at: 2009-07-16 04:22:05
 data_sources_161: 
   arguments: "--- \n\
@@ -1621,6 +1781,7 @@ data_sources_161:
   units: 
   type: DataSource::YahooCurrency
   id: "169"
+  identifier: 
   created_at: 2009-07-16 04:22:05
 data_sources_162: 
   arguments: "--- \n\
@@ -1631,6 +1792,7 @@ data_sources_162:
   units: 
   type: DataSource::YahooCurrency
   id: "170"
+  identifier: 
   created_at: 2009-07-16 04:22:05
 data_sources_163: 
   arguments: "--- \n\
@@ -1641,6 +1803,7 @@ data_sources_163:
   units: 
   type: DataSource::YahooCurrency
   id: "171"
+  identifier: 
   created_at: 2009-07-16 04:22:05
 data_sources_164: 
   arguments: "--- \n\
@@ -1651,6 +1814,7 @@ data_sources_164:
   units: 
   type: DataSource::YahooCurrency
   id: "172"
+  identifier: 
   created_at: 2009-07-16 04:22:05
 data_sources_165: 
   arguments: "--- \n\
@@ -1661,6 +1825,7 @@ data_sources_165:
   units: 
   type: DataSource::YahooCurrency
   id: "173"
+  identifier: 
   created_at: 2009-07-16 04:22:05
 data_sources_166: 
   arguments: "--- \n\
@@ -1671,6 +1836,7 @@ data_sources_166:
   units: 
   type: DataSource::YahooCurrency
   id: "174"
+  identifier: 
   created_at: 2009-07-16 04:22:05
 data_sources_167: 
   arguments: "--- \n\
@@ -1681,6 +1847,7 @@ data_sources_167:
   units: 
   type: DataSource::YahooCurrency
   id: "175"
+  identifier: 
   created_at: 2009-07-16 04:22:05
 data_sources_168: 
   arguments: "--- \n\
@@ -1691,6 +1858,7 @@ data_sources_168:
   units: 
   type: DataSource::YahooCurrency
   id: "176"
+  identifier: 
   created_at: 2009-07-16 04:22:05
 data_sources_169: 
   arguments: "--- \n\
@@ -1701,6 +1869,7 @@ data_sources_169:
   units: 
   type: DataSource::YahooCurrency
   id: "177"
+  identifier: 
   created_at: 2009-07-16 04:22:05
 data_sources_170: 
   arguments: "--- \n\
@@ -1711,6 +1880,7 @@ data_sources_170:
   units: 
   type: DataSource::YahooCurrency
   id: "178"
+  identifier: 
   created_at: 2009-07-16 04:22:05
 data_sources_171: 
   arguments: "--- \n\
@@ -1721,4 +1891,2471 @@ data_sources_171:
   units: 
   type: DataSource::YahooCurrency
   id: "179"
+  identifier: 
   created_at: 2009-07-16 04:22:05
+data_sources_172: 
+  arguments: |
+    --- !map:HashWithIndifferentAccess 
+    indicator: GC.BAL.CASH.GD.ZS
+
+  name: Cash surplus/deficit (% of GDP)
+  updated_at: 2009-07-16 09:57:32
+  country: GB
+  units: 
+  type: DataSource::WorldBank
+  id: "180"
+  identifier: GC.BAL.CASH.GD.ZS
+  created_at: 2009-07-16 09:26:06
+data_sources_173: 
+  arguments: |
+    --- !map:HashWithIndifferentAccess 
+    indicator: NY.GDP.DEFL.KD.ZG
+
+  name: Inflation, GDP deflator(annual %)
+  updated_at: 2009-07-16 09:57:32
+  country: GB
+  units: 
+  type: DataSource::WorldBank
+  id: "181"
+  identifier: NY.GDP.DEFL.KD.ZG
+  created_at: 2009-07-16 09:33:10
+data_sources_174: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:23
+  country: AF
+  units: 
+  type: DataSource::WorldBank
+  id: "182"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:23
+data_sources_175: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:49
+  country: AF
+  units: 
+  type: DataSource::WorldBank
+  id: "183"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:49
+data_sources_176: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:49
+  country: AX
+  units: 
+  type: DataSource::WorldBank
+  id: "184"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:49
+data_sources_177: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:49
+  country: AL
+  units: 
+  type: DataSource::WorldBank
+  id: "185"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:49
+data_sources_178: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:49
+  country: DZ
+  units: 
+  type: DataSource::WorldBank
+  id: "186"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:49
+data_sources_179: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:49
+  country: AS
+  units: 
+  type: DataSource::WorldBank
+  id: "187"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:49
+data_sources_180: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:49
+  country: AD
+  units: 
+  type: DataSource::WorldBank
+  id: "188"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:49
+data_sources_181: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:49
+  country: AO
+  units: 
+  type: DataSource::WorldBank
+  id: "189"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:49
+data_sources_182: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:50
+  country: AI
+  units: 
+  type: DataSource::WorldBank
+  id: "190"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:50
+data_sources_183: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:50
+  country: AQ
+  units: 
+  type: DataSource::WorldBank
+  id: "191"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:50
+data_sources_184: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:50
+  country: AG
+  units: 
+  type: DataSource::WorldBank
+  id: "192"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:50
+data_sources_185: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:50
+  country: AR
+  units: 
+  type: DataSource::WorldBank
+  id: "193"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:50
+data_sources_186: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:50
+  country: AM
+  units: 
+  type: DataSource::WorldBank
+  id: "194"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:50
+data_sources_187: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:50
+  country: AW
+  units: 
+  type: DataSource::WorldBank
+  id: "195"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:50
+data_sources_188: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:50
+  country: AU
+  units: 
+  type: DataSource::WorldBank
+  id: "196"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:50
+data_sources_189: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:50
+  country: AT
+  units: 
+  type: DataSource::WorldBank
+  id: "197"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:50
+data_sources_190: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:50
+  country: AZ
+  units: 
+  type: DataSource::WorldBank
+  id: "198"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:50
+data_sources_191: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:50
+  country: BS
+  units: 
+  type: DataSource::WorldBank
+  id: "199"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:50
+data_sources_192: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:50
+  country: BH
+  units: 
+  type: DataSource::WorldBank
+  id: "200"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:50
+data_sources_193: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:50
+  country: BD
+  units: 
+  type: DataSource::WorldBank
+  id: "201"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:50
+data_sources_194: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:50
+  country: BB
+  units: 
+  type: DataSource::WorldBank
+  id: "202"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:50
+data_sources_195: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:50
+  country: BY
+  units: 
+  type: DataSource::WorldBank
+  id: "203"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:50
+data_sources_196: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:50
+  country: BE
+  units: 
+  type: DataSource::WorldBank
+  id: "204"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:50
+data_sources_197: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:50
+  country: BZ
+  units: 
+  type: DataSource::WorldBank
+  id: "205"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:50
+data_sources_198: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:50
+  country: BJ
+  units: 
+  type: DataSource::WorldBank
+  id: "206"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:50
+data_sources_199: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:50
+  country: BM
+  units: 
+  type: DataSource::WorldBank
+  id: "207"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:50
+data_sources_200: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:50
+  country: BT
+  units: 
+  type: DataSource::WorldBank
+  id: "208"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:50
+data_sources_201: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:50
+  country: BO
+  units: 
+  type: DataSource::WorldBank
+  id: "209"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:50
+data_sources_202: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:50
+  country: BA
+  units: 
+  type: DataSource::WorldBank
+  id: "210"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:50
+data_sources_203: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:50
+  country: BW
+  units: 
+  type: DataSource::WorldBank
+  id: "211"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:50
+data_sources_204: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:50
+  country: BV
+  units: 
+  type: DataSource::WorldBank
+  id: "212"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:50
+data_sources_205: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:50
+  country: BR
+  units: 
+  type: DataSource::WorldBank
+  id: "213"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:50
+data_sources_206: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:50
+  country: IO
+  units: 
+  type: DataSource::WorldBank
+  id: "214"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:50
+data_sources_207: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:50
+  country: BN
+  units: 
+  type: DataSource::WorldBank
+  id: "215"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:50
+data_sources_208: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:50
+  country: BG
+  units: 
+  type: DataSource::WorldBank
+  id: "216"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:50
+data_sources_209: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:51
+  country: BF
+  units: 
+  type: DataSource::WorldBank
+  id: "217"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:51
+data_sources_210: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:51
+  country: BI
+  units: 
+  type: DataSource::WorldBank
+  id: "218"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:51
+data_sources_211: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:51
+  country: KH
+  units: 
+  type: DataSource::WorldBank
+  id: "219"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:51
+data_sources_212: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:51
+  country: CM
+  units: 
+  type: DataSource::WorldBank
+  id: "220"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:51
+data_sources_213: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:51
+  country: CA
+  units: 
+  type: DataSource::WorldBank
+  id: "221"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:51
+data_sources_214: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:51
+  country: CV
+  units: 
+  type: DataSource::WorldBank
+  id: "222"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:51
+data_sources_215: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:51
+  country: KY
+  units: 
+  type: DataSource::WorldBank
+  id: "223"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:51
+data_sources_216: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:51
+  country: CF
+  units: 
+  type: DataSource::WorldBank
+  id: "224"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:51
+data_sources_217: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:51
+  country: TD
+  units: 
+  type: DataSource::WorldBank
+  id: "225"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:51
+data_sources_218: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:51
+  country: CL
+  units: 
+  type: DataSource::WorldBank
+  id: "226"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:51
+data_sources_219: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:51
+  country: CN
+  units: 
+  type: DataSource::WorldBank
+  id: "227"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:51
+data_sources_220: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:51
+  country: CX
+  units: 
+  type: DataSource::WorldBank
+  id: "228"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:51
+data_sources_221: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:51
+  country: CC
+  units: 
+  type: DataSource::WorldBank
+  id: "229"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:51
+data_sources_222: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:51
+  country: CO
+  units: 
+  type: DataSource::WorldBank
+  id: "230"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:51
+data_sources_223: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:51
+  country: KM
+  units: 
+  type: DataSource::WorldBank
+  id: "231"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:51
+data_sources_224: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:51
+  country: CG
+  units: 
+  type: DataSource::WorldBank
+  id: "232"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:51
+data_sources_225: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:51
+  country: CD
+  units: 
+  type: DataSource::WorldBank
+  id: "233"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:51
+data_sources_226: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:51
+  country: CK
+  units: 
+  type: DataSource::WorldBank
+  id: "234"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:51
+data_sources_227: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:51
+  country: CR
+  units: 
+  type: DataSource::WorldBank
+  id: "235"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:51
+data_sources_228: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:51
+  country: CI
+  units: 
+  type: DataSource::WorldBank
+  id: "236"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:51
+data_sources_229: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:51
+  country: HR
+  units: 
+  type: DataSource::WorldBank
+  id: "237"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:51
+data_sources_230: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:51
+  country: CU
+  units: 
+  type: DataSource::WorldBank
+  id: "238"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:51
+data_sources_231: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:51
+  country: CY
+  units: 
+  type: DataSource::WorldBank
+  id: "239"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:51
+data_sources_232: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:51
+  country: CZ
+  units: 
+  type: DataSource::WorldBank
+  id: "240"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:51
+data_sources_233: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:51
+  country: DK
+  units: 
+  type: DataSource::WorldBank
+  id: "241"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:51
+data_sources_234: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:51
+  country: DJ
+  units: 
+  type: DataSource::WorldBank
+  id: "242"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:51
+data_sources_235: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:51
+  country: DM
+  units: 
+  type: DataSource::WorldBank
+  id: "243"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:51
+data_sources_236: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:51
+  country: DO
+  units: 
+  type: DataSource::WorldBank
+  id: "244"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:51
+data_sources_237: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:51
+  country: EC
+  units: 
+  type: DataSource::WorldBank
+  id: "245"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:51
+data_sources_238: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:51
+  country: EG
+  units: 
+  type: DataSource::WorldBank
+  id: "246"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:51
+data_sources_239: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:51
+  country: SV
+  units: 
+  type: DataSource::WorldBank
+  id: "247"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:51
+data_sources_240: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:51
+  country: GQ
+  units: 
+  type: DataSource::WorldBank
+  id: "248"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:51
+data_sources_241: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:52
+  country: ER
+  units: 
+  type: DataSource::WorldBank
+  id: "249"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:52
+data_sources_242: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:52
+  country: EE
+  units: 
+  type: DataSource::WorldBank
+  id: "250"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:52
+data_sources_243: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:52
+  country: ET
+  units: 
+  type: DataSource::WorldBank
+  id: "251"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:52
+data_sources_244: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:52
+  country: FK
+  units: 
+  type: DataSource::WorldBank
+  id: "252"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:52
+data_sources_245: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:52
+  country: FO
+  units: 
+  type: DataSource::WorldBank
+  id: "253"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:52
+data_sources_246: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:52
+  country: FJ
+  units: 
+  type: DataSource::WorldBank
+  id: "254"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:52
+data_sources_247: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:52
+  country: FI
+  units: 
+  type: DataSource::WorldBank
+  id: "255"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:52
+data_sources_248: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:52
+  country: FR
+  units: 
+  type: DataSource::WorldBank
+  id: "256"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:52
+data_sources_249: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:52
+  country: GF
+  units: 
+  type: DataSource::WorldBank
+  id: "257"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:52
+data_sources_250: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:52
+  country: PF
+  units: 
+  type: DataSource::WorldBank
+  id: "258"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:52
+data_sources_251: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:52
+  country: TF
+  units: 
+  type: DataSource::WorldBank
+  id: "259"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:52
+data_sources_252: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:52
+  country: GA
+  units: 
+  type: DataSource::WorldBank
+  id: "260"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:52
+data_sources_253: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:52
+  country: GM
+  units: 
+  type: DataSource::WorldBank
+  id: "261"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:52
+data_sources_254: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:52
+  country: GE
+  units: 
+  type: DataSource::WorldBank
+  id: "262"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:52
+data_sources_255: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:52
+  country: DE
+  units: 
+  type: DataSource::WorldBank
+  id: "263"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:52
+data_sources_256: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:52
+  country: GH
+  units: 
+  type: DataSource::WorldBank
+  id: "264"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:52
+data_sources_257: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:52
+  country: GI
+  units: 
+  type: DataSource::WorldBank
+  id: "265"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:52
+data_sources_258: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:52
+  country: GR
+  units: 
+  type: DataSource::WorldBank
+  id: "266"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:52
+data_sources_259: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:52
+  country: GL
+  units: 
+  type: DataSource::WorldBank
+  id: "267"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:52
+data_sources_260: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:52
+  country: GD
+  units: 
+  type: DataSource::WorldBank
+  id: "268"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:52
+data_sources_261: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:52
+  country: GP
+  units: 
+  type: DataSource::WorldBank
+  id: "269"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:52
+data_sources_262: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:52
+  country: GU
+  units: 
+  type: DataSource::WorldBank
+  id: "270"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:52
+data_sources_263: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:52
+  country: GT
+  units: 
+  type: DataSource::WorldBank
+  id: "271"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:52
+data_sources_264: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:52
+  country: GG
+  units: 
+  type: DataSource::WorldBank
+  id: "272"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:52
+data_sources_265: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:52
+  country: GN
+  units: 
+  type: DataSource::WorldBank
+  id: "273"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:52
+data_sources_266: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:52
+  country: GW
+  units: 
+  type: DataSource::WorldBank
+  id: "274"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:52
+data_sources_267: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:52
+  country: GY
+  units: 
+  type: DataSource::WorldBank
+  id: "275"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:52
+data_sources_268: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:52
+  country: HT
+  units: 
+  type: DataSource::WorldBank
+  id: "276"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:52
+data_sources_269: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:52
+  country: HM
+  units: 
+  type: DataSource::WorldBank
+  id: "277"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:52
+data_sources_270: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:52
+  country: VA
+  units: 
+  type: DataSource::WorldBank
+  id: "278"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:52
+data_sources_271: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:52
+  country: HN
+  units: 
+  type: DataSource::WorldBank
+  id: "279"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:52
+data_sources_272: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:52
+  country: HK
+  units: 
+  type: DataSource::WorldBank
+  id: "280"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:52
+data_sources_273: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:52
+  country: HU
+  units: 
+  type: DataSource::WorldBank
+  id: "281"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:52
+data_sources_274: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:53
+  country: IS
+  units: 
+  type: DataSource::WorldBank
+  id: "282"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:53
+data_sources_275: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:53
+  country: IN
+  units: 
+  type: DataSource::WorldBank
+  id: "283"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:53
+data_sources_276: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:53
+  country: ID
+  units: 
+  type: DataSource::WorldBank
+  id: "284"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:53
+data_sources_277: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:53
+  country: IR
+  units: 
+  type: DataSource::WorldBank
+  id: "285"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:53
+data_sources_278: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:53
+  country: IQ
+  units: 
+  type: DataSource::WorldBank
+  id: "286"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:53
+data_sources_279: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:53
+  country: IE
+  units: 
+  type: DataSource::WorldBank
+  id: "287"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:53
+data_sources_280: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:53
+  country: IM
+  units: 
+  type: DataSource::WorldBank
+  id: "288"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:53
+data_sources_281: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:53
+  country: IL
+  units: 
+  type: DataSource::WorldBank
+  id: "289"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:53
+data_sources_282: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:53
+  country: IT
+  units: 
+  type: DataSource::WorldBank
+  id: "290"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:53
+data_sources_283: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:53
+  country: JM
+  units: 
+  type: DataSource::WorldBank
+  id: "291"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:53
+data_sources_284: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:53
+  country: JP
+  units: 
+  type: DataSource::WorldBank
+  id: "292"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:53
+data_sources_285: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:53
+  country: JE
+  units: 
+  type: DataSource::WorldBank
+  id: "293"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:53
+data_sources_286: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:53
+  country: JO
+  units: 
+  type: DataSource::WorldBank
+  id: "294"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:53
+data_sources_287: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:53
+  country: KZ
+  units: 
+  type: DataSource::WorldBank
+  id: "295"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:53
+data_sources_288: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:53
+  country: KE
+  units: 
+  type: DataSource::WorldBank
+  id: "296"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:53
+data_sources_289: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:53
+  country: KI
+  units: 
+  type: DataSource::WorldBank
+  id: "297"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:53
+data_sources_290: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:53
+  country: KP
+  units: 
+  type: DataSource::WorldBank
+  id: "298"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:53
+data_sources_291: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:53
+  country: KR
+  units: 
+  type: DataSource::WorldBank
+  id: "299"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:53
+data_sources_292: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:53
+  country: KW
+  units: 
+  type: DataSource::WorldBank
+  id: "300"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:53
+data_sources_293: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:53
+  country: KG
+  units: 
+  type: DataSource::WorldBank
+  id: "301"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:53
+data_sources_294: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:53
+  country: LA
+  units: 
+  type: DataSource::WorldBank
+  id: "302"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:53
+data_sources_295: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:53
+  country: LV
+  units: 
+  type: DataSource::WorldBank
+  id: "303"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:53
+data_sources_296: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:53
+  country: LB
+  units: 
+  type: DataSource::WorldBank
+  id: "304"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:53
+data_sources_297: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:53
+  country: LS
+  units: 
+  type: DataSource::WorldBank
+  id: "305"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:53
+data_sources_298: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:53
+  country: LR
+  units: 
+  type: DataSource::WorldBank
+  id: "306"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:53
+data_sources_299: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:53
+  country: LY
+  units: 
+  type: DataSource::WorldBank
+  id: "307"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:53
+data_sources_300: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:53
+  country: LI
+  units: 
+  type: DataSource::WorldBank
+  id: "308"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:53
+data_sources_301: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:53
+  country: LT
+  units: 
+  type: DataSource::WorldBank
+  id: "309"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:53
+data_sources_302: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:53
+  country: LU
+  units: 
+  type: DataSource::WorldBank
+  id: "310"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:53
+data_sources_303: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:53
+  country: MO
+  units: 
+  type: DataSource::WorldBank
+  id: "311"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:53
+data_sources_304: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:53
+  country: MK
+  units: 
+  type: DataSource::WorldBank
+  id: "312"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:53
+data_sources_305: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:53
+  country: MG
+  units: 
+  type: DataSource::WorldBank
+  id: "313"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:53
+data_sources_306: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:54
+  country: MW
+  units: 
+  type: DataSource::WorldBank
+  id: "314"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:54
+data_sources_307: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:54
+  country: MY
+  units: 
+  type: DataSource::WorldBank
+  id: "315"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:54
+data_sources_308: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:54
+  country: MV
+  units: 
+  type: DataSource::WorldBank
+  id: "316"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:54
+data_sources_309: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:54
+  country: ML
+  units: 
+  type: DataSource::WorldBank
+  id: "317"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:54
+data_sources_310: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:54
+  country: MT
+  units: 
+  type: DataSource::WorldBank
+  id: "318"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:54
+data_sources_311: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:54
+  country: MH
+  units: 
+  type: DataSource::WorldBank
+  id: "319"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:54
+data_sources_312: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:54
+  country: MQ
+  units: 
+  type: DataSource::WorldBank
+  id: "320"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:54
+data_sources_313: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:54
+  country: MR
+  units: 
+  type: DataSource::WorldBank
+  id: "321"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:54
+data_sources_314: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:54
+  country: MU
+  units: 
+  type: DataSource::WorldBank
+  id: "322"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:54
+data_sources_315: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:54
+  country: YT
+  units: 
+  type: DataSource::WorldBank
+  id: "323"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:54
+data_sources_316: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:54
+  country: MX
+  units: 
+  type: DataSource::WorldBank
+  id: "324"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:54
+data_sources_317: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:54
+  country: FM
+  units: 
+  type: DataSource::WorldBank
+  id: "325"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:54
+data_sources_318: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:54
+  country: MD
+  units: 
+  type: DataSource::WorldBank
+  id: "326"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:54
+data_sources_319: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:54
+  country: MC
+  units: 
+  type: DataSource::WorldBank
+  id: "327"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:54
+data_sources_320: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:54
+  country: MN
+  units: 
+  type: DataSource::WorldBank
+  id: "328"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:54
+data_sources_321: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:54
+  country: MS
+  units: 
+  type: DataSource::WorldBank
+  id: "329"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:54
+data_sources_322: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:54
+  country: MA
+  units: 
+  type: DataSource::WorldBank
+  id: "330"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:54
+data_sources_323: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:54
+  country: MZ
+  units: 
+  type: DataSource::WorldBank
+  id: "331"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:54
+data_sources_324: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:54
+  country: MM
+  units: 
+  type: DataSource::WorldBank
+  id: "332"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:54
+data_sources_325: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:54
+  country: NA
+  units: 
+  type: DataSource::WorldBank
+  id: "333"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:54
+data_sources_326: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:54
+  country: NR
+  units: 
+  type: DataSource::WorldBank
+  id: "334"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:54
+data_sources_327: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:54
+  country: NP
+  units: 
+  type: DataSource::WorldBank
+  id: "335"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:54
+data_sources_328: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:54
+  country: NL
+  units: 
+  type: DataSource::WorldBank
+  id: "336"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:54
+data_sources_329: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:55
+  country: AN
+  units: 
+  type: DataSource::WorldBank
+  id: "337"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:55
+data_sources_330: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:55
+  country: NC
+  units: 
+  type: DataSource::WorldBank
+  id: "338"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:55
+data_sources_331: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:55
+  country: NZ
+  units: 
+  type: DataSource::WorldBank
+  id: "339"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:55
+data_sources_332: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:55
+  country: NI
+  units: 
+  type: DataSource::WorldBank
+  id: "340"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:55
+data_sources_333: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:55
+  country: NE
+  units: 
+  type: DataSource::WorldBank
+  id: "341"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:55
+data_sources_334: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:55
+  country: NG
+  units: 
+  type: DataSource::WorldBank
+  id: "342"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:55
+data_sources_335: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:55
+  country: NU
+  units: 
+  type: DataSource::WorldBank
+  id: "343"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:55
+data_sources_336: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:55
+  country: NF
+  units: 
+  type: DataSource::WorldBank
+  id: "344"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:55
+data_sources_337: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:55
+  country: MP
+  units: 
+  type: DataSource::WorldBank
+  id: "345"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:55
+data_sources_338: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:55
+  country: "NO"
+  units: 
+  type: DataSource::WorldBank
+  id: "346"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:55
+data_sources_339: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:55
+  country: OM
+  units: 
+  type: DataSource::WorldBank
+  id: "347"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:55
+data_sources_340: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:55
+  country: PK
+  units: 
+  type: DataSource::WorldBank
+  id: "348"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:55
+data_sources_341: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:55
+  country: PW
+  units: 
+  type: DataSource::WorldBank
+  id: "349"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:55
+data_sources_342: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:55
+  country: PS
+  units: 
+  type: DataSource::WorldBank
+  id: "350"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:55
+data_sources_343: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:55
+  country: PA
+  units: 
+  type: DataSource::WorldBank
+  id: "351"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:55
+data_sources_344: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:55
+  country: PG
+  units: 
+  type: DataSource::WorldBank
+  id: "352"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:55
+data_sources_345: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:55
+  country: PY
+  units: 
+  type: DataSource::WorldBank
+  id: "353"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:55
+data_sources_346: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:55
+  country: PE
+  units: 
+  type: DataSource::WorldBank
+  id: "354"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:55
+data_sources_347: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:55
+  country: PH
+  units: 
+  type: DataSource::WorldBank
+  id: "355"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:55
+data_sources_348: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:55
+  country: PN
+  units: 
+  type: DataSource::WorldBank
+  id: "356"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:55
+data_sources_349: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:55
+  country: PL
+  units: 
+  type: DataSource::WorldBank
+  id: "357"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:55
+data_sources_350: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:55
+  country: PT
+  units: 
+  type: DataSource::WorldBank
+  id: "358"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:55
+data_sources_351: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:55
+  country: PR
+  units: 
+  type: DataSource::WorldBank
+  id: "359"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:55
+data_sources_352: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:55
+  country: QA
+  units: 
+  type: DataSource::WorldBank
+  id: "360"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:55
+data_sources_353: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:55
+  country: RE
+  units: 
+  type: DataSource::WorldBank
+  id: "361"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:55
+data_sources_354: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:55
+  country: RO
+  units: 
+  type: DataSource::WorldBank
+  id: "362"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:55
+data_sources_355: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:55
+  country: RU
+  units: 
+  type: DataSource::WorldBank
+  id: "363"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:55
+data_sources_356: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:55
+  country: RW
+  units: 
+  type: DataSource::WorldBank
+  id: "364"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:55
+data_sources_357: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:55
+  country: SH
+  units: 
+  type: DataSource::WorldBank
+  id: "365"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:55
+data_sources_358: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:55
+  country: KN
+  units: 
+  type: DataSource::WorldBank
+  id: "366"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:55
+data_sources_359: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:55
+  country: LC
+  units: 
+  type: DataSource::WorldBank
+  id: "367"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:55
+data_sources_360: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:55
+  country: PM
+  units: 
+  type: DataSource::WorldBank
+  id: "368"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:55
+data_sources_361: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:55
+  country: VC
+  units: 
+  type: DataSource::WorldBank
+  id: "369"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:55
+data_sources_362: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:55
+  country: WS
+  units: 
+  type: DataSource::WorldBank
+  id: "370"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:55
+data_sources_363: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:56
+  country: SM
+  units: 
+  type: DataSource::WorldBank
+  id: "371"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:56
+data_sources_364: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:56
+  country: ST
+  units: 
+  type: DataSource::WorldBank
+  id: "372"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:56
+data_sources_365: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:56
+  country: SA
+  units: 
+  type: DataSource::WorldBank
+  id: "373"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:56
+data_sources_366: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:56
+  country: SN
+  units: 
+  type: DataSource::WorldBank
+  id: "374"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:56
+data_sources_367: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:56
+  country: CS
+  units: 
+  type: DataSource::WorldBank
+  id: "375"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:56
+data_sources_368: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:56
+  country: SC
+  units: 
+  type: DataSource::WorldBank
+  id: "376"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:56
+data_sources_369: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:56
+  country: SL
+  units: 
+  type: DataSource::WorldBank
+  id: "377"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:56
+data_sources_370: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:56
+  country: SG
+  units: 
+  type: DataSource::WorldBank
+  id: "378"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:56
+data_sources_371: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:56
+  country: SK
+  units: 
+  type: DataSource::WorldBank
+  id: "379"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:56
+data_sources_372: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:56
+  country: SI
+  units: 
+  type: DataSource::WorldBank
+  id: "380"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:56
+data_sources_373: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:56
+  country: SB
+  units: 
+  type: DataSource::WorldBank
+  id: "381"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:56
+data_sources_374: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:56
+  country: SO
+  units: 
+  type: DataSource::WorldBank
+  id: "382"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:56
+data_sources_375: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:56
+  country: ZA
+  units: 
+  type: DataSource::WorldBank
+  id: "383"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:56
+data_sources_376: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:56
+  country: GS
+  units: 
+  type: DataSource::WorldBank
+  id: "384"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:56
+data_sources_377: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:56
+  country: ES
+  units: 
+  type: DataSource::WorldBank
+  id: "385"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:56
+data_sources_378: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:56
+  country: LK
+  units: 
+  type: DataSource::WorldBank
+  id: "386"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:56
+data_sources_379: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:56
+  country: SD
+  units: 
+  type: DataSource::WorldBank
+  id: "387"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:56
+data_sources_380: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:56
+  country: SR
+  units: 
+  type: DataSource::WorldBank
+  id: "388"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:56
+data_sources_381: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:56
+  country: SJ
+  units: 
+  type: DataSource::WorldBank
+  id: "389"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:56
+data_sources_382: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:56
+  country: SZ
+  units: 
+  type: DataSource::WorldBank
+  id: "390"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:56
+data_sources_383: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:56
+  country: SE
+  units: 
+  type: DataSource::WorldBank
+  id: "391"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:56
+data_sources_384: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:56
+  country: CH
+  units: 
+  type: DataSource::WorldBank
+  id: "392"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:56
+data_sources_385: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:56
+  country: SY
+  units: 
+  type: DataSource::WorldBank
+  id: "393"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:56
+data_sources_386: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:56
+  country: TW
+  units: 
+  type: DataSource::WorldBank
+  id: "394"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:56
+data_sources_387: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:56
+  country: TJ
+  units: 
+  type: DataSource::WorldBank
+  id: "395"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:56
+data_sources_388: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:56
+  country: TZ
+  units: 
+  type: DataSource::WorldBank
+  id: "396"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:56
+data_sources_389: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:56
+  country: TH
+  units: 
+  type: DataSource::WorldBank
+  id: "397"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:56
+data_sources_390: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:56
+  country: TL
+  units: 
+  type: DataSource::WorldBank
+  id: "398"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:56
+data_sources_391: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:56
+  country: TG
+  units: 
+  type: DataSource::WorldBank
+  id: "399"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:56
+data_sources_392: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:56
+  country: TK
+  units: 
+  type: DataSource::WorldBank
+  id: "400"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:56
+data_sources_393: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:56
+  country: TO
+  units: 
+  type: DataSource::WorldBank
+  id: "401"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:56
+data_sources_394: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:56
+  country: TT
+  units: 
+  type: DataSource::WorldBank
+  id: "402"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:56
+data_sources_395: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:56
+  country: TN
+  units: 
+  type: DataSource::WorldBank
+  id: "403"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:56
+data_sources_396: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:56
+  country: TR
+  units: 
+  type: DataSource::WorldBank
+  id: "404"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:56
+data_sources_397: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:57
+  country: TM
+  units: 
+  type: DataSource::WorldBank
+  id: "405"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:57
+data_sources_398: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:57
+  country: TC
+  units: 
+  type: DataSource::WorldBank
+  id: "406"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:57
+data_sources_399: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:57
+  country: TV
+  units: 
+  type: DataSource::WorldBank
+  id: "407"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:57
+data_sources_400: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:57
+  country: UG
+  units: 
+  type: DataSource::WorldBank
+  id: "408"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:57
+data_sources_401: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:57
+  country: UA
+  units: 
+  type: DataSource::WorldBank
+  id: "409"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:57
+data_sources_402: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:57
+  country: AE
+  units: 
+  type: DataSource::WorldBank
+  id: "410"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:57
+data_sources_403: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:57
+  country: GB
+  units: 
+  type: DataSource::WorldBank
+  id: "411"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:57
+data_sources_404: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:57
+  country: US
+  units: 
+  type: DataSource::WorldBank
+  id: "412"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:57
+data_sources_405: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:57
+  country: UM
+  units: 
+  type: DataSource::WorldBank
+  id: "413"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:57
+data_sources_406: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:57
+  country: UY
+  units: 
+  type: DataSource::WorldBank
+  id: "414"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:57
+data_sources_407: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:57
+  country: UZ
+  units: 
+  type: DataSource::WorldBank
+  id: "415"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:57
+data_sources_408: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:57
+  country: VU
+  units: 
+  type: DataSource::WorldBank
+  id: "416"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:57
+data_sources_409: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:57
+  country: VE
+  units: 
+  type: DataSource::WorldBank
+  id: "417"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:57
+data_sources_410: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:57
+  country: VN
+  units: 
+  type: DataSource::WorldBank
+  id: "418"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:57
+data_sources_411: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:57
+  country: VG
+  units: 
+  type: DataSource::WorldBank
+  id: "419"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:57
+data_sources_412: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:57
+  country: VI
+  units: 
+  type: DataSource::WorldBank
+  id: "420"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:57
+data_sources_413: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:57
+  country: WF
+  units: 
+  type: DataSource::WorldBank
+  id: "421"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:57
+data_sources_414: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:57
+  country: EH
+  units: 
+  type: DataSource::WorldBank
+  id: "422"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:57
+data_sources_415: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:57
+  country: YE
+  units: 
+  type: DataSource::WorldBank
+  id: "423"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:57
+data_sources_416: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:57
+  country: ZM
+  units: 
+  type: DataSource::WorldBank
+  id: "424"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:57
+data_sources_417: 
+  arguments: 
+  name: GDP (current US$)
+  updated_at: 2009-07-16 10:42:57
+  country: ZW
+  units: 
+  type: DataSource::WorldBank
+  id: "425"
+  identifier: NY.GDP.MKTP.CD
+  created_at: 2009-07-16 10:42:57

@@ -1,10 +1,10 @@
 class DataSourcesController < ApplicationController
-  unloadable
+  #unloadable
   resources_controller_for :data_sources
   before_filter :set_klass, :only => [:new, :edit, :data_source_arguments]
   before_filter :get_times
   response_for :show do |format|
-    @start_time ||= 1.year.ago
+    @start_time ||= 10.years.ago
     options = {:start => @start_time, :end => @end_time}
 
     format.png do
@@ -16,7 +16,29 @@ class DataSourcesController < ApplicationController
     end
 
   end
+  
+  public
+  def populate
+    self.resource = find_resource
+    self.resource.populate!
+    flash[:notice] = "Data Source Populated"
+    redirect_to :back
+  end
 
+  def data_source_arguments
+    logger.debug "klass = #{@klass}"
+    resource.arguments  ||= {}
+    @klass.data_source_arguments.each do |arg|
+      unless resource.arguments[arg]
+        resource.arguments[arg] = nil
+      end
+    end
+
+    render :partial => 'data_source_arguments'
+  end
+
+
+  private
   def set_klass
     self.resource = params[:id] ? find_resource : new_resource
     logger.debug "resource = #{self.resource.inspect}"
@@ -37,17 +59,6 @@ class DataSourcesController < ApplicationController
     end
   end
 
-  def data_source_arguments
-    logger.debug "klass = #{@klass}"
-    resource.arguments  ||= {}
-    @klass.data_source_arguments.each do |arg|
-      unless resource.arguments[arg]
-        resource.arguments[arg] = nil
-      end
-    end
-
-    render :partial => 'data_source_arguments'
-  end
 
 
 end

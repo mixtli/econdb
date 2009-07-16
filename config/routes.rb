@@ -29,7 +29,7 @@ ActionController::Routing::Routes.draw do |map|
     graph.resources :comments
   end
   map.resources :tags
-  map.resources :data_sources do |data_source|
+  map.resources :data_sources, :member => {:populate => :post } do |data_source|
     data_source.resources :data
   end
 

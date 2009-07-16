@@ -1,0 +1,11 @@
+# Create World Bank Graphs
+
+world_bank_identifiers = ["NY.GDP.MKTP.CD"]
+Carmen::COUNTRIES.each do |country|
+  world_bank_identifiers.each do |identifier|
+    name = DataSource::WorldBank.identifiers[identifier]
+    ds = DataSource::WorldBank.create(:identifier => identifier, :country => country[1], :name => name)
+    graph = Graph.create(:title => name, :default_start_time => "10 years ago")
+    graph.graph_items << GraphItem.create(:title => name, :data_source_id => ds.id)
+  end
+end

@@ -4,7 +4,7 @@ graphs_1:
   maximum_value: 
   minimum_value: 
   updated_at: 2009-07-13 08:09:49
-  default_start_time: 1 year ago
+  default_start_time: 10 years ago
   x_field: 
   y_field: 
   x_label: Date
@@ -70,7 +70,7 @@ graphs_4:
   maximum_value: 
   minimum_value: 
   updated_at: 2009-07-14 03:32:03
-  default_start_time: 1 year ago
+  default_start_time: 10 years ago
   x_field: 
   y_field: 
   x_label: ""
@@ -85,4 +85,5350 @@ graphs_4:
   y_axis_type: Linear
   y_label: Close
   created_at: 2009-07-14 03:31:30
+  x_axis_type: Linear
+graphs_5: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:49
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "5"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:49
+  x_axis_type: Linear
+graphs_6: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:49
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "6"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:49
+  x_axis_type: Linear
+graphs_7: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:49
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "7"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:49
+  x_axis_type: Linear
+graphs_8: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:49
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "8"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:49
+  x_axis_type: Linear
+graphs_9: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:49
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "9"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:49
+  x_axis_type: Linear
+graphs_10: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:49
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "10"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:49
+  x_axis_type: Linear
+graphs_11: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:49
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "11"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:49
+  x_axis_type: Linear
+graphs_12: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:50
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "12"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:50
+  x_axis_type: Linear
+graphs_13: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:50
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "13"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:50
+  x_axis_type: Linear
+graphs_14: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:50
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "14"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:50
+  x_axis_type: Linear
+graphs_15: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:50
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "15"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:50
+  x_axis_type: Linear
+graphs_16: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:50
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "16"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:50
+  x_axis_type: Linear
+graphs_17: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:50
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "17"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:50
+  x_axis_type: Linear
+graphs_18: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:50
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "18"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:50
+  x_axis_type: Linear
+graphs_19: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:50
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "19"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:50
+  x_axis_type: Linear
+graphs_20: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:50
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "20"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:50
+  x_axis_type: Linear
+graphs_21: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:50
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "21"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:50
+  x_axis_type: Linear
+graphs_22: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:50
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "22"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:50
+  x_axis_type: Linear
+graphs_23: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:50
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "23"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:50
+  x_axis_type: Linear
+graphs_24: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:50
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "24"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:50
+  x_axis_type: Linear
+graphs_25: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:50
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "25"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:50
+  x_axis_type: Linear
+graphs_26: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:50
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "26"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:50
+  x_axis_type: Linear
+graphs_27: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:50
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "27"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:50
+  x_axis_type: Linear
+graphs_28: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:50
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "28"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:50
+  x_axis_type: Linear
+graphs_29: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:50
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "29"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:50
+  x_axis_type: Linear
+graphs_30: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:50
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "30"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:50
+  x_axis_type: Linear
+graphs_31: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:50
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "31"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:50
+  x_axis_type: Linear
+graphs_32: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:50
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "32"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:50
+  x_axis_type: Linear
+graphs_33: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:50
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "33"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:50
+  x_axis_type: Linear
+graphs_34: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:50
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "34"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:50
+  x_axis_type: Linear
+graphs_35: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:50
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "35"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:50
+  x_axis_type: Linear
+graphs_36: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:50
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "36"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:50
+  x_axis_type: Linear
+graphs_37: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:50
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "37"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:50
+  x_axis_type: Linear
+graphs_38: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:51
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "38"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:51
+  x_axis_type: Linear
+graphs_39: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:51
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "39"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:51
+  x_axis_type: Linear
+graphs_40: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:51
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "40"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:51
+  x_axis_type: Linear
+graphs_41: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:51
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "41"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:51
+  x_axis_type: Linear
+graphs_42: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:51
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "42"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:51
+  x_axis_type: Linear
+graphs_43: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:51
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "43"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:51
+  x_axis_type: Linear
+graphs_44: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:51
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "44"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:51
+  x_axis_type: Linear
+graphs_45: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:51
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "45"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:51
+  x_axis_type: Linear
+graphs_46: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:51
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "46"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:51
+  x_axis_type: Linear
+graphs_47: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:51
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "47"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:51
+  x_axis_type: Linear
+graphs_48: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:51
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "48"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:51
+  x_axis_type: Linear
+graphs_49: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:51
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "49"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:51
+  x_axis_type: Linear
+graphs_50: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:51
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "50"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:51
+  x_axis_type: Linear
+graphs_51: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:51
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "51"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:51
+  x_axis_type: Linear
+graphs_52: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:51
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "52"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:51
+  x_axis_type: Linear
+graphs_53: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:51
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "53"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:51
+  x_axis_type: Linear
+graphs_54: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:51
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "54"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:51
+  x_axis_type: Linear
+graphs_55: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:51
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "55"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:51
+  x_axis_type: Linear
+graphs_56: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:51
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "56"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:51
+  x_axis_type: Linear
+graphs_57: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:51
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "57"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:51
+  x_axis_type: Linear
+graphs_58: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:51
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "58"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:51
+  x_axis_type: Linear
+graphs_59: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:51
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "59"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:51
+  x_axis_type: Linear
+graphs_60: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:51
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "60"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:51
+  x_axis_type: Linear
+graphs_61: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:51
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "61"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:51
+  x_axis_type: Linear
+graphs_62: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:51
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "62"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:51
+  x_axis_type: Linear
+graphs_63: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:51
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "63"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:51
+  x_axis_type: Linear
+graphs_64: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:51
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "64"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:51
+  x_axis_type: Linear
+graphs_65: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:51
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "65"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:51
+  x_axis_type: Linear
+graphs_66: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:51
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "66"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:51
+  x_axis_type: Linear
+graphs_67: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:51
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "67"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:51
+  x_axis_type: Linear
+graphs_68: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:51
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "68"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:51
+  x_axis_type: Linear
+graphs_69: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:51
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "69"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:51
+  x_axis_type: Linear
+graphs_70: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:51
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "70"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:51
+  x_axis_type: Linear
+graphs_71: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:52
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "71"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:52
+  x_axis_type: Linear
+graphs_72: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:52
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "72"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:52
+  x_axis_type: Linear
+graphs_73: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:52
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "73"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:52
+  x_axis_type: Linear
+graphs_74: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:52
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "74"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:52
+  x_axis_type: Linear
+graphs_75: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:52
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "75"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:52
+  x_axis_type: Linear
+graphs_76: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:52
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "76"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:52
+  x_axis_type: Linear
+graphs_77: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:52
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "77"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:52
+  x_axis_type: Linear
+graphs_78: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:52
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "78"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:52
+  x_axis_type: Linear
+graphs_79: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:52
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "79"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:52
+  x_axis_type: Linear
+graphs_80: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:52
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "80"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:52
+  x_axis_type: Linear
+graphs_81: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:52
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "81"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:52
+  x_axis_type: Linear
+graphs_82: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:52
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "82"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:52
+  x_axis_type: Linear
+graphs_83: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:52
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "83"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:52
+  x_axis_type: Linear
+graphs_84: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:52
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "84"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:52
+  x_axis_type: Linear
+graphs_85: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:52
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "85"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:52
+  x_axis_type: Linear
+graphs_86: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:52
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "86"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:52
+  x_axis_type: Linear
+graphs_87: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:52
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "87"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:52
+  x_axis_type: Linear
+graphs_88: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:52
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "88"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:52
+  x_axis_type: Linear
+graphs_89: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:52
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "89"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:52
+  x_axis_type: Linear
+graphs_90: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:52
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "90"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:52
+  x_axis_type: Linear
+graphs_91: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:52
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "91"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:52
+  x_axis_type: Linear
+graphs_92: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:52
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "92"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:52
+  x_axis_type: Linear
+graphs_93: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:52
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "93"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:52
+  x_axis_type: Linear
+graphs_94: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:52
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "94"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:52
+  x_axis_type: Linear
+graphs_95: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:52
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "95"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:52
+  x_axis_type: Linear
+graphs_96: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:52
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "96"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:52
+  x_axis_type: Linear
+graphs_97: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:52
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "97"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:52
+  x_axis_type: Linear
+graphs_98: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:52
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "98"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:52
+  x_axis_type: Linear
+graphs_99: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:52
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "99"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:52
+  x_axis_type: Linear
+graphs_100: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:52
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "100"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:52
+  x_axis_type: Linear
+graphs_101: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:52
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "101"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:52
+  x_axis_type: Linear
+graphs_102: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:52
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "102"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:52
+  x_axis_type: Linear
+graphs_103: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:52
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "103"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:52
+  x_axis_type: Linear
+graphs_104: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:53
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "104"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:53
+  x_axis_type: Linear
+graphs_105: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:53
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "105"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:53
+  x_axis_type: Linear
+graphs_106: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:53
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "106"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:53
+  x_axis_type: Linear
+graphs_107: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:53
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "107"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:53
+  x_axis_type: Linear
+graphs_108: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:53
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "108"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:53
+  x_axis_type: Linear
+graphs_109: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:53
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "109"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:53
+  x_axis_type: Linear
+graphs_110: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:53
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "110"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:53
+  x_axis_type: Linear
+graphs_111: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:53
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "111"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:53
+  x_axis_type: Linear
+graphs_112: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:53
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "112"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:53
+  x_axis_type: Linear
+graphs_113: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:53
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "113"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:53
+  x_axis_type: Linear
+graphs_114: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:53
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "114"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:53
+  x_axis_type: Linear
+graphs_115: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:53
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "115"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:53
+  x_axis_type: Linear
+graphs_116: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:53
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "116"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:53
+  x_axis_type: Linear
+graphs_117: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:53
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "117"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:53
+  x_axis_type: Linear
+graphs_118: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:53
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "118"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:53
+  x_axis_type: Linear
+graphs_119: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:53
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "119"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:53
+  x_axis_type: Linear
+graphs_120: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:53
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "120"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:53
+  x_axis_type: Linear
+graphs_121: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:53
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "121"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:53
+  x_axis_type: Linear
+graphs_122: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:53
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "122"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:53
+  x_axis_type: Linear
+graphs_123: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:53
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "123"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:53
+  x_axis_type: Linear
+graphs_124: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:53
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "124"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:53
+  x_axis_type: Linear
+graphs_125: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:53
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "125"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:53
+  x_axis_type: Linear
+graphs_126: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:53
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "126"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:53
+  x_axis_type: Linear
+graphs_127: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:53
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "127"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:53
+  x_axis_type: Linear
+graphs_128: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:53
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "128"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:53
+  x_axis_type: Linear
+graphs_129: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:53
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "129"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:53
+  x_axis_type: Linear
+graphs_130: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:53
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "130"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:53
+  x_axis_type: Linear
+graphs_131: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:53
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "131"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:53
+  x_axis_type: Linear
+graphs_132: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:53
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "132"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:53
+  x_axis_type: Linear
+graphs_133: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:53
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "133"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:53
+  x_axis_type: Linear
+graphs_134: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:53
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "134"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:53
+  x_axis_type: Linear
+graphs_135: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:53
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "135"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:53
+  x_axis_type: Linear
+graphs_136: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:54
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "136"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:54
+  x_axis_type: Linear
+graphs_137: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:54
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "137"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:54
+  x_axis_type: Linear
+graphs_138: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:54
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "138"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:54
+  x_axis_type: Linear
+graphs_139: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:54
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "139"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:54
+  x_axis_type: Linear
+graphs_140: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:54
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "140"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:54
+  x_axis_type: Linear
+graphs_141: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:54
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "141"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:54
+  x_axis_type: Linear
+graphs_142: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:54
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "142"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:54
+  x_axis_type: Linear
+graphs_143: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:54
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "143"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:54
+  x_axis_type: Linear
+graphs_144: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:54
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "144"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:54
+  x_axis_type: Linear
+graphs_145: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:54
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "145"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:54
+  x_axis_type: Linear
+graphs_146: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:54
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "146"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:54
+  x_axis_type: Linear
+graphs_147: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:54
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "147"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:54
+  x_axis_type: Linear
+graphs_148: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:54
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "148"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:54
+  x_axis_type: Linear
+graphs_149: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:54
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "149"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:54
+  x_axis_type: Linear
+graphs_150: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:54
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "150"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:54
+  x_axis_type: Linear
+graphs_151: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:54
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "151"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:54
+  x_axis_type: Linear
+graphs_152: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:54
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "152"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:54
+  x_axis_type: Linear
+graphs_153: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:54
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "153"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:54
+  x_axis_type: Linear
+graphs_154: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:54
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "154"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:54
+  x_axis_type: Linear
+graphs_155: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:54
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "155"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:54
+  x_axis_type: Linear
+graphs_156: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:54
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "156"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:54
+  x_axis_type: Linear
+graphs_157: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:54
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "157"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:54
+  x_axis_type: Linear
+graphs_158: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:54
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "158"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:54
+  x_axis_type: Linear
+graphs_159: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:55
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "159"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:55
+  x_axis_type: Linear
+graphs_160: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:55
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "160"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:55
+  x_axis_type: Linear
+graphs_161: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:55
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "161"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:55
+  x_axis_type: Linear
+graphs_162: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:55
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "162"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:55
+  x_axis_type: Linear
+graphs_163: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:55
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "163"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:55
+  x_axis_type: Linear
+graphs_164: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:55
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "164"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:55
+  x_axis_type: Linear
+graphs_165: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:55
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "165"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:55
+  x_axis_type: Linear
+graphs_166: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:55
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "166"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:55
+  x_axis_type: Linear
+graphs_167: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:55
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "167"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:55
+  x_axis_type: Linear
+graphs_168: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:55
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "168"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:55
+  x_axis_type: Linear
+graphs_169: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:55
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "169"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:55
+  x_axis_type: Linear
+graphs_170: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:55
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "170"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:55
+  x_axis_type: Linear
+graphs_171: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:55
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "171"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:55
+  x_axis_type: Linear
+graphs_172: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:55
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "172"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:55
+  x_axis_type: Linear
+graphs_173: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:55
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "173"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:55
+  x_axis_type: Linear
+graphs_174: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:55
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "174"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:55
+  x_axis_type: Linear
+graphs_175: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:55
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "175"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:55
+  x_axis_type: Linear
+graphs_176: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:55
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "176"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:55
+  x_axis_type: Linear
+graphs_177: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:55
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "177"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:55
+  x_axis_type: Linear
+graphs_178: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:55
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "178"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:55
+  x_axis_type: Linear
+graphs_179: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:55
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "179"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:55
+  x_axis_type: Linear
+graphs_180: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:55
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "180"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:55
+  x_axis_type: Linear
+graphs_181: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:55
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "181"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:55
+  x_axis_type: Linear
+graphs_182: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:55
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "182"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:55
+  x_axis_type: Linear
+graphs_183: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:55
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "183"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:55
+  x_axis_type: Linear
+graphs_184: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:55
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "184"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:55
+  x_axis_type: Linear
+graphs_185: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:55
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "185"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:55
+  x_axis_type: Linear
+graphs_186: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:55
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "186"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:55
+  x_axis_type: Linear
+graphs_187: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:55
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "187"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:55
+  x_axis_type: Linear
+graphs_188: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:55
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "188"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:55
+  x_axis_type: Linear
+graphs_189: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:55
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "189"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:55
+  x_axis_type: Linear
+graphs_190: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:55
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "190"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:55
+  x_axis_type: Linear
+graphs_191: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:55
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "191"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:55
+  x_axis_type: Linear
+graphs_192: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:55
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "192"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:55
+  x_axis_type: Linear
+graphs_193: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:56
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "193"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:56
+  x_axis_type: Linear
+graphs_194: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:56
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "194"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:56
+  x_axis_type: Linear
+graphs_195: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:56
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "195"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:56
+  x_axis_type: Linear
+graphs_196: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:56
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "196"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:56
+  x_axis_type: Linear
+graphs_197: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:56
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "197"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:56
+  x_axis_type: Linear
+graphs_198: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:56
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "198"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:56
+  x_axis_type: Linear
+graphs_199: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:56
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "199"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:56
+  x_axis_type: Linear
+graphs_200: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:56
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "200"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:56
+  x_axis_type: Linear
+graphs_201: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:56
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "201"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:56
+  x_axis_type: Linear
+graphs_202: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:56
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "202"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:56
+  x_axis_type: Linear
+graphs_203: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:56
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "203"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:56
+  x_axis_type: Linear
+graphs_204: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:56
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "204"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:56
+  x_axis_type: Linear
+graphs_205: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:56
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "205"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:56
+  x_axis_type: Linear
+graphs_206: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:56
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "206"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:56
+  x_axis_type: Linear
+graphs_207: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:56
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "207"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:56
+  x_axis_type: Linear
+graphs_208: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:56
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "208"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:56
+  x_axis_type: Linear
+graphs_209: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:56
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "209"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:56
+  x_axis_type: Linear
+graphs_210: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:56
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "210"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:56
+  x_axis_type: Linear
+graphs_211: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:56
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "211"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:56
+  x_axis_type: Linear
+graphs_212: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:56
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "212"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:56
+  x_axis_type: Linear
+graphs_213: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:56
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "213"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:56
+  x_axis_type: Linear
+graphs_214: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:56
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "214"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:56
+  x_axis_type: Linear
+graphs_215: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:56
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "215"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:56
+  x_axis_type: Linear
+graphs_216: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:56
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "216"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:56
+  x_axis_type: Linear
+graphs_217: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:56
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "217"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:56
+  x_axis_type: Linear
+graphs_218: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:56
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "218"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:56
+  x_axis_type: Linear
+graphs_219: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:56
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "219"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:56
+  x_axis_type: Linear
+graphs_220: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:56
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "220"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:56
+  x_axis_type: Linear
+graphs_221: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:56
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "221"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:56
+  x_axis_type: Linear
+graphs_222: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:56
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "222"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:56
+  x_axis_type: Linear
+graphs_223: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:56
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "223"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:56
+  x_axis_type: Linear
+graphs_224: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:56
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "224"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:56
+  x_axis_type: Linear
+graphs_225: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:56
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "225"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:56
+  x_axis_type: Linear
+graphs_226: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:57
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "226"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:57
+  x_axis_type: Linear
+graphs_227: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:57
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "227"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:57
+  x_axis_type: Linear
+graphs_228: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:57
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "228"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:57
+  x_axis_type: Linear
+graphs_229: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:57
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "229"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:57
+  x_axis_type: Linear
+graphs_230: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:57
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "230"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:57
+  x_axis_type: Linear
+graphs_231: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:57
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "231"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:57
+  x_axis_type: Linear
+graphs_232: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:57
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "232"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:57
+  x_axis_type: Linear
+graphs_233: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:57
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "233"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:57
+  x_axis_type: Linear
+graphs_234: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:57
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "234"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:57
+  x_axis_type: Linear
+graphs_235: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:57
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "235"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:57
+  x_axis_type: Linear
+graphs_236: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:57
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "236"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:57
+  x_axis_type: Linear
+graphs_237: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:57
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "237"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:57
+  x_axis_type: Linear
+graphs_238: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:57
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "238"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:57
+  x_axis_type: Linear
+graphs_239: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:57
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "239"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:57
+  x_axis_type: Linear
+graphs_240: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:57
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "240"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:57
+  x_axis_type: Linear
+graphs_241: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:57
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "241"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:57
+  x_axis_type: Linear
+graphs_242: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:57
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "242"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:57
+  x_axis_type: Linear
+graphs_243: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:57
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "243"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:57
+  x_axis_type: Linear
+graphs_244: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:57
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "244"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:57
+  x_axis_type: Linear
+graphs_245: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:57
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "245"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:57
+  x_axis_type: Linear
+graphs_246: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:57
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "246"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:57
+  x_axis_type: Linear
+graphs_247: 
+  cached_tag_list: ""
+  background_color: "#fff"
+  maximum_value: 
+  minimum_value: 
+  updated_at: 2009-07-16 10:42:57
+  default_start_time: 10 years ago
+  x_field: 
+  y_field: 
+  x_label: 
+  title: GDP (current US$)
+  creator_id: 
+  units: 
+  chart_type: 
+  id: "247"
+  category_id: 
+  updater_id: 
+  color: "#0f0"
+  y_axis_type: Linear
+  y_label: 
+  created_at: 2009-07-16 10:42:57
   x_axis_type: Linear

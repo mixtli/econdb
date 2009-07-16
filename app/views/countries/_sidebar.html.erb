@@ -1,0 +1,7 @@
+<% content_for :sidebar do %>
+  <% for country in Country.all %>
+    <%= link_to country.name, country_path(country) %><br/>
+  <% end %>
+<% end %>
+
+
