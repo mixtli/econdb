@@ -62,9 +62,11 @@ module Authorization
 
         def roles_for( authorizable_obj )
           if authorizable_obj.is_a? Class
-            self.roles.select { |role| role.authorizable_type == authorizable_obj.to_s }
+            self.roles.find(:all, :conditions => { :authorizable_type => authorizable_obj.to_s})
           elsif authorizable_obj
-            self.roles.select { |role| role.authorizable_type == authorizable_obj.class.base_class.to_s && role.authorizable.id == authorizable_obj.id }
+            self.roles.find(:all, :conditions => {
+                              :authorizable_type => authorizable_obj.class.base_class.to_s, 
+                              :authorizable_id => authorizable_obj.id })
           else
             self.roles.select { |role| role.authorizable.nil? }
           end
@@ -72,13 +74,13 @@ module Authorization
 
         def has_no_roles_for(authorizable_obj = nil)
           old_roles = roles_for(authorizable_obj).dup
-          roles_for(authorizable_obj).destroy_all
+          self.roles.delete(old_roles)
           old_roles.each { |role| delete_role_if_empty( role ) }
         end
 
         def has_no_roles
           old_roles = self.roles.dup
-          self.roles.destroy_all
+          self.roles.clear
           old_roles.each { |role| delete_role_if_empty( role ) }
         end
 
