@@ -1,7 +1,7 @@
 --- 
 format: 1
 handler: 
-  commit: 6a71f147658b12883e18736c744b70db82c482d2
+  commit: 09ce50e2f35e7fd74f5298ca9f99aca7ab770acc
   branch: master
 repository_url: git://github.com/DocSavage/rails-authorization-plugin.git
 lock: false
