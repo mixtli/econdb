@@ -1,0 +1,23 @@
+<% form_for_resource do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.label :data_source_type %><br />
+    <%= f.select :data_source_type, data_source_options, :include_blank => "None" %>
+  </p>
+
+  <%= observe_field "data_source_template_data_source_type", :url => {:controller => 'data_source_templates', :action => 'data_source_arguments', :id => resource.id}, :with => "'data_source_template[data_source_type]='  + value", :update => :data_source_arguments %>
+  <div id="data_source_arguments">
+    <% if resource.data_source_type %>
+        <%= render :partial => 'data_source_arguments' %>
+    <% end %>
+  </div>
+
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>

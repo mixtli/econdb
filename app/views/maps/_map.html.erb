@@ -1,0 +1,6 @@
+<div id="mapdiv" align="center">FusionMaps.</div>
+<script type="text/javascript">
+  var map = new FusionMaps("/swfs/FusionMaps/<%= map.filename %>", "Map1Id", <%= width %>, <%= height %>, "0", "0");
+  map.setDataURL('<%= map_path(map, :date => params[:date], :indicator => params[:indicator], :format => :xml)%>');
+  map.render("mapdiv");
+</script>

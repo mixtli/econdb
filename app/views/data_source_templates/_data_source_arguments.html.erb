@@ -1,0 +1,7 @@
+Series Identifier<br/>
+<% if resource.data_source_class.identifier_options %>
+<%= select_tag "data_source_template[identifier]", options_for_select(resource.data_source_class.identifier_options) %>
+<% else %>
+<%= text_field_tag "data_source_template[identifier]" %>
+<% end %>
+<%= observe_field("data_source_template_identifier", :function => "Form.Element.setValue('data_source_template_name', $('data_source_template_identifier').options[$('data_source_template_identifier').selectedIndex].innerHTML );") %>

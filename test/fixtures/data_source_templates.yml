@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  type: MyString
+  units: MyString
+  identifier: MyString
+
+two:
+  name: MyString
+  type: MyString
+  units: MyString
+  identifier: MyString

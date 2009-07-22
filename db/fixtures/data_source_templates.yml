@@ -1,0 +1,16 @@
+data_source_templates_1: 
+  name: External debt total (DOD current US$)
+  updated_at: 2009-07-19 07:57:43
+  units: 
+  id: "1"
+  identifier: DT.DOD.DECT.CD
+  data_source_type: DataSource::WorldBank
+  created_at: 2009-07-19 07:57:43
+data_source_templates_2: 
+  name: GDP growth (annual %)
+  updated_at: 2009-07-19 09:50:43
+  units: 
+  id: "2"
+  identifier: NY.GDP.MKTP.KD.ZG
+  data_source_type: DataSource::WorldBank
+  created_at: 2009-07-19 09:50:43

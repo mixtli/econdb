@@ -1,0 +1,30 @@
+<% form_for_resource do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.label :symbol %><br />
+    <%= f.text_field :symbol %>
+  </p>
+  <p>
+    <%= f.label :description %><br />
+    <%= f.text_field :description %>
+  </p>
+
+  <p>
+    <%= f.label :data_source %><br/>
+    <%= f.select :data_source_id, DataSource.find(:all).collect {|ds| [ds.name, ds.id] } %>
+  </p>
+
+  <p>
+    <%= f.label :country %><br />
+    <%= f.select :country, [["United States", "US"]] + Carmen::COUNTRIES, :include_blank => "None" %>
+  </p>
+
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>

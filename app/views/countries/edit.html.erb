@@ -1,0 +1,9 @@
+<%= render :partial => 'sidebar' %>
+<% form_for_resource do |f| %>
+  Name <%= f.text_field :name %><br/>
+  ISO Code <%= f.text_field :iso %><br/>
+  ISO Code 3 <%= f.text_field :iso3 %><br/>
+  Number <%= f.text_field :numcode %><br/>
+  Map: <%= f.select :map_id, Map.all.collect { |m| [ m.title, m.id ] }.sort_by{|m| m[0] }, {:include_blank => true }%>
+  <%= f.submit %>
+<% end %>

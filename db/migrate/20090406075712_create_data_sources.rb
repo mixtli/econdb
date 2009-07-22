@@ -1,7 +1,7 @@
 class CreateDataSources < ActiveRecord::Migration
   def self.up
     create_table :data_sources do |t|
-      t.referencs :template
+      t.references :template
       t.string :name
       t.string :type
       t.string :units

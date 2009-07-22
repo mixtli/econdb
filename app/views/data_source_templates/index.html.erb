@@ -1,0 +1,24 @@
+<h1>Listing Data Source Templates</h1>
+<%= link_to 'New Data Source Template', new_data_source_template_path %>
+
+<table border="1">
+  <tr>
+    <th>Name</th>
+    <th>Type</th>
+    <th colspan="4"></th>
+  </tr>
+
+<% @data_source_templates.each do |data_source| %>
+  <tr>
+    <td><%=h data_source.name %></td>
+    <td><%=h data_source.data_source_type %></td>
+    <td><%= link_to 'Show', resource_path(data_source) %></td>
+    <td><%= link_to 'Edit', edit_data_source_path(data_source) %></td>
+    <td><%= link_to 'Destroy', resource_path(data_source), :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+

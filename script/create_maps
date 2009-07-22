@@ -1,0 +1,9 @@
+d = Dir.new(RAILS_ROOT + "/public/swfs/FusionMaps").each do |filename|
+  next if filename == "." || filename == ".."
+  title = filename.dup
+  title.gsub!("FCMap_","")
+  title.gsub!(".swf","")
+  puts "#{filename} #{title.titleize}"
+
+  Map.create(:title => title.titleize, :filename => filename)
+end

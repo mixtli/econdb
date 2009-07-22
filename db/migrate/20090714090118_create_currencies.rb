@@ -7,7 +7,7 @@ class CreateCurrencies < ActiveRecord::Migration
       t.timestamps
     end
     add_index :currencies, :code
-    add_index :currencies, :data_source
+    add_index :currencies, :data_source_id
   end
 
   def self.down
