@@ -4,9 +4,11 @@ class CreateStockExchanges < ActiveRecord::Migration
       t.string :name
       t.string :symbol
       t.string :description
-
+      t.string :country
+      t.references :data_source
       t.timestamps
     end
+    add_index :stock_exchanges, :symbol
   end
 
   def self.down

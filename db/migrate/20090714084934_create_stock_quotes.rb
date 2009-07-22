@@ -12,6 +12,8 @@ class CreateStockQuotes < ActiveRecord::Migration
 
       t.timestamps
     end
+    add_index :stock_quotes, :stock_id
+    add_index :stock_quotes, :quote_time
   end
 
   def self.down

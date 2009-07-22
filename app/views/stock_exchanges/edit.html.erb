@@ -1,24 +1,7 @@
 <h1>Editing stock_exchange</h1>
 
-<% form_for(@stock_exchange) do |f| %>
-  <%= f.error_messages %>
+<%= render :partial => 'form' %>
 
-  <p>
-    <%= f.label :name %><br />
-    <%= f.text_field :name %>
-  </p>
-  <p>
-    <%= f.label :symbol %><br />
-    <%= f.text_field :symbol %>
-  </p>
-  <p>
-    <%= f.label :description %><br />
-    <%= f.text_field :description %>
-  </p>
-  <p>
-    <%= f.submit 'Update' %>
-  </p>
-<% end %>
-
+<%= link_to 'Create Data Source', new_data_source_path %>
 <%= link_to 'Show', @stock_exchange %> |
 <%= link_to 'Back', stock_exchanges_path %>

@@ -9,9 +9,10 @@ class CreateCategories < ActiveRecord::Migration
       t.boolean :hidden
       t.string :name
       t.string :description
-
       t.timestamps
     end
+
+    add_index :categories, :parent_id
   end
 
   def self.down

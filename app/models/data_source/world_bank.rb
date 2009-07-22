@@ -7,7 +7,8 @@ class DataSource::WorldBank < DataSource
     indicator = ::WorldBank::Indicator.get(identifier)
     wb_params = {}
     wb_params[:date] = options[:start].strftime("%Y") + ":" + options[:end].strftime("%Y")
-    data = indicator.data(country, wb_params).map {|obs| {:x_value => obs[:date], :y_value => obs[:value].to_i}}
+    raw_data = indicator.data(country, wb_params).reject { |obs| obs[:value] == nil }
+    data = raw_data.map {|obs| {:x_value => obs[:date], :y_value => obs[:value].to_i}}
     # For some reason WB data often has a meaningless 0 last value if not populated instead of just omitting it
     if !data.empty? && data.last[:y_value] == 0
       data.pop

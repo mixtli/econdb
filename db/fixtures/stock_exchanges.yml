@@ -1,21 +1,27 @@
 stock_exchanges_1: 
   name: New York Stock Exchange
-  updated_at: 2009-07-14 09:27:04
+  updated_at: 2009-07-22 21:51:49
   symbol: NYSE
+  data_source_id: "1958"
+  country: US
   id: "1"
   description: ""
   created_at: 2009-07-14 09:27:04
 stock_exchanges_2: 
   name: NASDAQ
-  updated_at: 2009-07-14 09:27:26
+  updated_at: 2009-07-22 20:46:33
   symbol: NASDAQ
+  data_source_id: 
+  country: US
   id: "2"
   description: ""
   created_at: 2009-07-14 09:27:26
 stock_exchanges_3: 
   name: NIKKEI
-  updated_at: 2009-07-14 09:28:21
+  updated_at: 2009-07-22 20:46:21
   symbol: NIKKEI
+  data_source_id: 
+  country: JP
   id: "3"
   description: Japanese Exchange
   created_at: 2009-07-14 09:28:21

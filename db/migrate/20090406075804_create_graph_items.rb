@@ -8,6 +8,8 @@ class CreateGraphItems < ActiveRecord::Migration
       t.string :cdef
       t.timestamps
     end
+    add_index :graph_items, :data_source_id
+    add_index :graph_items, :graph
   end
 
   def self.down

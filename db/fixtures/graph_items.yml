@@ -26,15 +26,6 @@ graph_items_3:
   color: "#c03"
   created_at: 2009-04-15 10:44:00
 graph_items_4: 
-  updated_at: 2009-07-13 06:56:38
-  graph_id: "2"
-  cdef: 1000000000  /
-  title: GDP (Dollars)
-  data_source_id: "4"
-  id: "4"
-  color: "#0ff"
-  created_at: 2009-06-06 06:16:16
-graph_items_5: 
   updated_at: 2009-07-13 08:08:42
   graph_id: "3"
   cdef: ""
@@ -43,7 +34,7 @@ graph_items_5:
   id: "5"
   color: "#090"
   created_at: 2009-07-13 06:27:20
-graph_items_6: 
+graph_items_5: 
   updated_at: 2009-07-14 03:31:30
   graph_id: "4"
   cdef: ""
@@ -52,2190 +43,4386 @@ graph_items_6:
   id: "6"
   color: "#03f"
   created_at: 2009-07-14 03:31:30
+graph_items_6: 
+  updated_at: 2009-07-16 23:11:39
+  graph_id: "326"
+  cdef: 1000000000 /
+  title: GDP (current US$)
+  data_source_id: "505"
+  id: "328"
+  color: "#0f0"
+  created_at: 2009-07-16 23:11:39
 graph_items_7: 
-  updated_at: 2009-07-16 10:42:49
-  graph_id: "5"
-  cdef: 
+  updated_at: 2009-07-16 23:11:41
+  graph_id: "327"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "183"
-  id: "7"
+  data_source_id: "506"
+  id: "329"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:49
+  created_at: 2009-07-16 23:11:41
 graph_items_8: 
-  updated_at: 2009-07-16 10:42:49
-  graph_id: "6"
-  cdef: 
+  updated_at: 2009-07-16 23:11:42
+  graph_id: "328"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "184"
-  id: "8"
+  data_source_id: "507"
+  id: "330"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:49
+  created_at: 2009-07-16 23:11:42
 graph_items_9: 
-  updated_at: 2009-07-16 10:42:49
-  graph_id: "7"
-  cdef: 
+  updated_at: 2009-07-16 23:11:44
+  graph_id: "329"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "185"
-  id: "9"
+  data_source_id: "508"
+  id: "331"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:49
+  created_at: 2009-07-16 23:11:44
 graph_items_10: 
-  updated_at: 2009-07-16 10:42:49
-  graph_id: "8"
-  cdef: 
+  updated_at: 2009-07-16 23:11:46
+  graph_id: "330"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "186"
-  id: "10"
+  data_source_id: "509"
+  id: "332"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:49
+  created_at: 2009-07-16 23:11:46
 graph_items_11: 
-  updated_at: 2009-07-16 10:42:49
-  graph_id: "9"
-  cdef: 
+  updated_at: 2009-07-16 23:11:48
+  graph_id: "331"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "187"
-  id: "11"
+  data_source_id: "510"
+  id: "333"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:49
+  created_at: 2009-07-16 23:11:48
 graph_items_12: 
-  updated_at: 2009-07-16 10:42:49
-  graph_id: "10"
-  cdef: 
+  updated_at: 2009-07-16 23:11:50
+  graph_id: "332"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "188"
-  id: "12"
+  data_source_id: "511"
+  id: "334"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:49
+  created_at: 2009-07-16 23:11:50
 graph_items_13: 
-  updated_at: 2009-07-16 10:42:50
-  graph_id: "11"
-  cdef: 
+  updated_at: 2009-07-16 23:11:51
+  graph_id: "333"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "189"
-  id: "13"
+  data_source_id: "512"
+  id: "335"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:50
+  created_at: 2009-07-16 23:11:51
 graph_items_14: 
-  updated_at: 2009-07-16 10:42:50
-  graph_id: "12"
-  cdef: 
+  updated_at: 2009-07-16 23:11:52
+  graph_id: "334"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "190"
-  id: "14"
+  data_source_id: "513"
+  id: "336"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:50
+  created_at: 2009-07-16 23:11:52
 graph_items_15: 
-  updated_at: 2009-07-16 10:42:50
-  graph_id: "13"
-  cdef: 
+  updated_at: 2009-07-16 23:11:54
+  graph_id: "335"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "191"
-  id: "15"
+  data_source_id: "514"
+  id: "337"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:50
+  created_at: 2009-07-16 23:11:54
 graph_items_16: 
-  updated_at: 2009-07-16 10:42:50
-  graph_id: "14"
-  cdef: 
+  updated_at: 2009-07-16 23:11:56
+  graph_id: "336"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "192"
-  id: "16"
+  data_source_id: "515"
+  id: "338"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:50
+  created_at: 2009-07-16 23:11:56
 graph_items_17: 
-  updated_at: 2009-07-16 10:42:50
-  graph_id: "15"
-  cdef: 
+  updated_at: 2009-07-16 23:11:58
+  graph_id: "337"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "193"
-  id: "17"
+  data_source_id: "516"
+  id: "339"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:50
+  created_at: 2009-07-16 23:11:58
 graph_items_18: 
-  updated_at: 2009-07-16 10:42:50
-  graph_id: "16"
-  cdef: 
+  updated_at: 2009-07-16 23:12:00
+  graph_id: "338"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "194"
-  id: "18"
+  data_source_id: "517"
+  id: "340"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:50
+  created_at: 2009-07-16 23:12:00
 graph_items_19: 
-  updated_at: 2009-07-16 10:42:50
-  graph_id: "17"
-  cdef: 
+  updated_at: 2009-07-16 23:12:01
+  graph_id: "339"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "195"
-  id: "19"
+  data_source_id: "518"
+  id: "341"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:50
+  created_at: 2009-07-16 23:12:01
 graph_items_20: 
-  updated_at: 2009-07-16 10:42:50
-  graph_id: "18"
-  cdef: 
+  updated_at: 2009-07-16 23:12:03
+  graph_id: "340"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "196"
-  id: "20"
+  data_source_id: "519"
+  id: "342"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:50
+  created_at: 2009-07-16 23:12:03
 graph_items_21: 
-  updated_at: 2009-07-16 10:42:50
-  graph_id: "19"
-  cdef: 
+  updated_at: 2009-07-16 23:12:05
+  graph_id: "341"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "197"
-  id: "21"
+  data_source_id: "520"
+  id: "343"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:50
+  created_at: 2009-07-16 23:12:05
 graph_items_22: 
-  updated_at: 2009-07-16 10:42:50
-  graph_id: "20"
-  cdef: 
+  updated_at: 2009-07-16 23:12:08
+  graph_id: "342"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "198"
-  id: "22"
+  data_source_id: "521"
+  id: "344"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:50
+  created_at: 2009-07-16 23:12:08
 graph_items_23: 
-  updated_at: 2009-07-16 10:42:50
-  graph_id: "21"
-  cdef: 
+  updated_at: 2009-07-16 23:12:10
+  graph_id: "343"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "199"
-  id: "23"
+  data_source_id: "522"
+  id: "345"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:50
+  created_at: 2009-07-16 23:12:10
 graph_items_24: 
-  updated_at: 2009-07-16 10:42:50
-  graph_id: "22"
-  cdef: 
+  updated_at: 2009-07-16 23:12:13
+  graph_id: "344"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "200"
-  id: "24"
+  data_source_id: "523"
+  id: "346"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:50
+  created_at: 2009-07-16 23:12:13
 graph_items_25: 
-  updated_at: 2009-07-16 10:42:50
-  graph_id: "23"
-  cdef: 
+  updated_at: 2009-07-16 23:12:15
+  graph_id: "345"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "201"
-  id: "25"
+  data_source_id: "524"
+  id: "347"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:50
+  created_at: 2009-07-16 23:12:15
 graph_items_26: 
-  updated_at: 2009-07-16 10:42:50
-  graph_id: "24"
-  cdef: 
+  updated_at: 2009-07-16 23:12:17
+  graph_id: "346"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "202"
-  id: "26"
+  data_source_id: "525"
+  id: "348"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:50
+  created_at: 2009-07-16 23:12:17
 graph_items_27: 
-  updated_at: 2009-07-16 10:42:50
-  graph_id: "25"
-  cdef: 
+  updated_at: 2009-07-16 23:12:18
+  graph_id: "347"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "203"
-  id: "27"
+  data_source_id: "526"
+  id: "349"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:50
+  created_at: 2009-07-16 23:12:18
 graph_items_28: 
-  updated_at: 2009-07-16 10:42:50
-  graph_id: "26"
-  cdef: 
+  updated_at: 2009-07-16 23:12:20
+  graph_id: "348"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "204"
-  id: "28"
+  data_source_id: "527"
+  id: "350"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:50
+  created_at: 2009-07-16 23:12:20
 graph_items_29: 
-  updated_at: 2009-07-16 10:42:50
-  graph_id: "27"
-  cdef: 
+  updated_at: 2009-07-16 23:12:22
+  graph_id: "349"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "205"
-  id: "29"
+  data_source_id: "528"
+  id: "351"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:50
+  created_at: 2009-07-16 23:12:22
 graph_items_30: 
-  updated_at: 2009-07-16 10:42:50
-  graph_id: "28"
-  cdef: 
+  updated_at: 2009-07-16 23:12:24
+  graph_id: "350"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "206"
-  id: "30"
+  data_source_id: "529"
+  id: "352"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:50
+  created_at: 2009-07-16 23:12:24
 graph_items_31: 
-  updated_at: 2009-07-16 10:42:50
-  graph_id: "29"
-  cdef: 
+  updated_at: 2009-07-16 23:12:25
+  graph_id: "351"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "207"
-  id: "31"
+  data_source_id: "530"
+  id: "353"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:50
+  created_at: 2009-07-16 23:12:25
 graph_items_32: 
-  updated_at: 2009-07-16 10:42:50
-  graph_id: "30"
-  cdef: 
+  updated_at: 2009-07-16 23:12:27
+  graph_id: "352"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "208"
-  id: "32"
+  data_source_id: "531"
+  id: "354"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:50
+  created_at: 2009-07-16 23:12:27
 graph_items_33: 
-  updated_at: 2009-07-16 10:42:50
-  graph_id: "31"
-  cdef: 
+  updated_at: 2009-07-16 23:12:29
+  graph_id: "353"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "209"
-  id: "33"
+  data_source_id: "532"
+  id: "355"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:50
+  created_at: 2009-07-16 23:12:29
 graph_items_34: 
-  updated_at: 2009-07-16 10:42:50
-  graph_id: "32"
-  cdef: 
+  updated_at: 2009-07-16 23:12:31
+  graph_id: "354"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "210"
-  id: "34"
+  data_source_id: "533"
+  id: "356"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:50
+  created_at: 2009-07-16 23:12:31
 graph_items_35: 
-  updated_at: 2009-07-16 10:42:50
-  graph_id: "33"
-  cdef: 
+  updated_at: 2009-07-16 23:12:32
+  graph_id: "355"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "211"
-  id: "35"
+  data_source_id: "534"
+  id: "357"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:50
+  created_at: 2009-07-16 23:12:32
 graph_items_36: 
-  updated_at: 2009-07-16 10:42:50
-  graph_id: "34"
-  cdef: 
+  updated_at: 2009-07-16 23:12:33
+  graph_id: "356"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "212"
-  id: "36"
+  data_source_id: "535"
+  id: "358"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:50
+  created_at: 2009-07-16 23:12:33
 graph_items_37: 
-  updated_at: 2009-07-16 10:42:50
-  graph_id: "35"
-  cdef: 
+  updated_at: 2009-07-16 23:12:34
+  graph_id: "357"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "213"
-  id: "37"
+  data_source_id: "536"
+  id: "359"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:50
+  created_at: 2009-07-16 23:12:34
 graph_items_38: 
-  updated_at: 2009-07-16 10:42:50
-  graph_id: "36"
-  cdef: 
+  updated_at: 2009-07-16 23:12:38
+  graph_id: "358"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "214"
-  id: "38"
+  data_source_id: "537"
+  id: "360"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:50
+  created_at: 2009-07-16 23:12:38
 graph_items_39: 
-  updated_at: 2009-07-16 10:42:50
-  graph_id: "37"
-  cdef: 
+  updated_at: 2009-07-16 23:12:40
+  graph_id: "359"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "215"
-  id: "39"
+  data_source_id: "538"
+  id: "361"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:50
+  created_at: 2009-07-16 23:12:40
 graph_items_40: 
-  updated_at: 2009-07-16 10:42:51
-  graph_id: "38"
-  cdef: 
+  updated_at: 2009-07-16 23:12:42
+  graph_id: "360"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "216"
-  id: "40"
+  data_source_id: "539"
+  id: "362"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:51
+  created_at: 2009-07-16 23:12:42
 graph_items_41: 
-  updated_at: 2009-07-16 10:42:51
-  graph_id: "39"
-  cdef: 
+  updated_at: 2009-07-16 23:12:43
+  graph_id: "361"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "217"
-  id: "41"
+  data_source_id: "540"
+  id: "363"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:51
+  created_at: 2009-07-16 23:12:43
 graph_items_42: 
-  updated_at: 2009-07-16 10:42:51
-  graph_id: "40"
-  cdef: 
+  updated_at: 2009-07-16 23:12:45
+  graph_id: "362"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "218"
-  id: "42"
+  data_source_id: "541"
+  id: "364"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:51
+  created_at: 2009-07-16 23:12:45
 graph_items_43: 
-  updated_at: 2009-07-16 10:42:51
-  graph_id: "41"
-  cdef: 
+  updated_at: 2009-07-16 23:12:47
+  graph_id: "363"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "219"
-  id: "43"
+  data_source_id: "542"
+  id: "365"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:51
+  created_at: 2009-07-16 23:12:47
 graph_items_44: 
-  updated_at: 2009-07-16 10:42:51
-  graph_id: "42"
-  cdef: 
+  updated_at: 2009-07-16 23:12:49
+  graph_id: "364"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "220"
-  id: "44"
+  data_source_id: "543"
+  id: "366"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:51
+  created_at: 2009-07-16 23:12:49
 graph_items_45: 
-  updated_at: 2009-07-16 10:42:51
-  graph_id: "43"
-  cdef: 
+  updated_at: 2009-07-16 23:12:50
+  graph_id: "365"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "221"
-  id: "45"
+  data_source_id: "544"
+  id: "367"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:51
+  created_at: 2009-07-16 23:12:50
 graph_items_46: 
-  updated_at: 2009-07-16 10:42:51
-  graph_id: "44"
-  cdef: 
+  updated_at: 2009-07-16 23:12:52
+  graph_id: "366"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "222"
-  id: "46"
+  data_source_id: "545"
+  id: "368"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:51
+  created_at: 2009-07-16 23:12:52
 graph_items_47: 
-  updated_at: 2009-07-16 10:42:51
-  graph_id: "45"
-  cdef: 
+  updated_at: 2009-07-16 23:12:54
+  graph_id: "367"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "223"
-  id: "47"
+  data_source_id: "546"
+  id: "369"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:51
+  created_at: 2009-07-16 23:12:54
 graph_items_48: 
-  updated_at: 2009-07-16 10:42:51
-  graph_id: "46"
-  cdef: 
+  updated_at: 2009-07-16 23:12:56
+  graph_id: "368"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "224"
-  id: "48"
+  data_source_id: "547"
+  id: "370"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:51
+  created_at: 2009-07-16 23:12:56
 graph_items_49: 
-  updated_at: 2009-07-16 10:42:51
-  graph_id: "47"
-  cdef: 
+  updated_at: 2009-07-16 23:12:58
+  graph_id: "369"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "225"
-  id: "49"
+  data_source_id: "548"
+  id: "371"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:51
+  created_at: 2009-07-16 23:12:58
 graph_items_50: 
-  updated_at: 2009-07-16 10:42:51
-  graph_id: "48"
-  cdef: 
+  updated_at: 2009-07-16 23:12:59
+  graph_id: "370"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "226"
-  id: "50"
+  data_source_id: "549"
+  id: "372"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:51
+  created_at: 2009-07-16 23:12:59
 graph_items_51: 
-  updated_at: 2009-07-16 10:42:51
-  graph_id: "49"
-  cdef: 
+  updated_at: 2009-07-16 23:13:01
+  graph_id: "371"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "227"
-  id: "51"
+  data_source_id: "550"
+  id: "373"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:51
+  created_at: 2009-07-16 23:13:01
 graph_items_52: 
-  updated_at: 2009-07-16 10:42:51
-  graph_id: "50"
-  cdef: 
+  updated_at: 2009-07-16 23:13:02
+  graph_id: "372"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "228"
-  id: "52"
+  data_source_id: "551"
+  id: "374"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:51
+  created_at: 2009-07-16 23:13:02
 graph_items_53: 
-  updated_at: 2009-07-16 10:42:51
-  graph_id: "51"
-  cdef: 
+  updated_at: 2009-07-16 23:13:04
+  graph_id: "373"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "229"
-  id: "53"
+  data_source_id: "552"
+  id: "375"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:51
+  created_at: 2009-07-16 23:13:04
 graph_items_54: 
-  updated_at: 2009-07-16 10:42:51
-  graph_id: "52"
-  cdef: 
+  updated_at: 2009-07-16 23:13:06
+  graph_id: "374"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "230"
-  id: "54"
+  data_source_id: "553"
+  id: "376"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:51
+  created_at: 2009-07-16 23:13:06
 graph_items_55: 
-  updated_at: 2009-07-16 10:42:51
-  graph_id: "53"
-  cdef: 
+  updated_at: 2009-07-16 23:13:08
+  graph_id: "375"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "231"
-  id: "55"
+  data_source_id: "554"
+  id: "377"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:51
+  created_at: 2009-07-16 23:13:08
 graph_items_56: 
-  updated_at: 2009-07-16 10:42:51
-  graph_id: "54"
-  cdef: 
+  updated_at: 2009-07-16 23:13:09
+  graph_id: "376"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "232"
-  id: "56"
+  data_source_id: "555"
+  id: "378"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:51
+  created_at: 2009-07-16 23:13:09
 graph_items_57: 
-  updated_at: 2009-07-16 10:42:51
-  graph_id: "55"
-  cdef: 
+  updated_at: 2009-07-16 23:13:10
+  graph_id: "377"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "233"
-  id: "57"
+  data_source_id: "556"
+  id: "379"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:51
+  created_at: 2009-07-16 23:13:10
 graph_items_58: 
-  updated_at: 2009-07-16 10:42:51
-  graph_id: "56"
-  cdef: 
+  updated_at: 2009-07-16 23:13:12
+  graph_id: "378"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "234"
-  id: "58"
+  data_source_id: "557"
+  id: "380"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:51
+  created_at: 2009-07-16 23:13:12
 graph_items_59: 
-  updated_at: 2009-07-16 10:42:51
-  graph_id: "57"
-  cdef: 
+  updated_at: 2009-07-16 23:13:13
+  graph_id: "379"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "235"
-  id: "59"
+  data_source_id: "558"
+  id: "381"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:51
+  created_at: 2009-07-16 23:13:13
 graph_items_60: 
-  updated_at: 2009-07-16 10:42:51
-  graph_id: "58"
-  cdef: 
+  updated_at: 2009-07-16 23:13:15
+  graph_id: "380"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "236"
-  id: "60"
+  data_source_id: "559"
+  id: "382"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:51
+  created_at: 2009-07-16 23:13:15
 graph_items_61: 
-  updated_at: 2009-07-16 10:42:51
-  graph_id: "59"
-  cdef: 
+  updated_at: 2009-07-16 23:13:17
+  graph_id: "381"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "237"
-  id: "61"
+  data_source_id: "560"
+  id: "383"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:51
+  created_at: 2009-07-16 23:13:17
 graph_items_62: 
-  updated_at: 2009-07-16 10:42:51
-  graph_id: "60"
-  cdef: 
+  updated_at: 2009-07-16 23:13:19
+  graph_id: "382"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "238"
-  id: "62"
+  data_source_id: "561"
+  id: "384"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:51
+  created_at: 2009-07-16 23:13:19
 graph_items_63: 
-  updated_at: 2009-07-16 10:42:51
-  graph_id: "61"
-  cdef: 
+  updated_at: 2009-07-16 23:13:21
+  graph_id: "383"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "239"
-  id: "63"
+  data_source_id: "562"
+  id: "385"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:51
+  created_at: 2009-07-16 23:13:21
 graph_items_64: 
-  updated_at: 2009-07-16 10:42:51
-  graph_id: "62"
-  cdef: 
+  updated_at: 2009-07-16 23:13:23
+  graph_id: "384"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "240"
-  id: "64"
+  data_source_id: "563"
+  id: "386"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:51
+  created_at: 2009-07-16 23:13:23
 graph_items_65: 
-  updated_at: 2009-07-16 10:42:51
-  graph_id: "63"
-  cdef: 
+  updated_at: 2009-07-16 23:13:24
+  graph_id: "385"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "241"
-  id: "65"
+  data_source_id: "564"
+  id: "387"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:51
+  created_at: 2009-07-16 23:13:24
 graph_items_66: 
-  updated_at: 2009-07-16 10:42:51
-  graph_id: "64"
-  cdef: 
+  updated_at: 2009-07-16 23:13:26
+  graph_id: "386"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "242"
-  id: "66"
+  data_source_id: "565"
+  id: "388"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:51
+  created_at: 2009-07-16 23:13:26
 graph_items_67: 
-  updated_at: 2009-07-16 10:42:51
-  graph_id: "65"
-  cdef: 
+  updated_at: 2009-07-16 23:13:28
+  graph_id: "387"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "243"
-  id: "67"
+  data_source_id: "566"
+  id: "389"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:51
+  created_at: 2009-07-16 23:13:28
 graph_items_68: 
-  updated_at: 2009-07-16 10:42:51
-  graph_id: "66"
-  cdef: 
+  updated_at: 2009-07-16 23:13:30
+  graph_id: "388"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "244"
-  id: "68"
+  data_source_id: "567"
+  id: "390"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:51
+  created_at: 2009-07-16 23:13:30
 graph_items_69: 
-  updated_at: 2009-07-16 10:42:51
-  graph_id: "67"
-  cdef: 
+  updated_at: 2009-07-16 23:13:32
+  graph_id: "389"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "245"
-  id: "69"
+  data_source_id: "568"
+  id: "391"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:51
+  created_at: 2009-07-16 23:13:32
 graph_items_70: 
-  updated_at: 2009-07-16 10:42:51
-  graph_id: "68"
-  cdef: 
+  updated_at: 2009-07-16 23:13:33
+  graph_id: "390"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "246"
-  id: "70"
+  data_source_id: "569"
+  id: "392"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:51
+  created_at: 2009-07-16 23:13:33
 graph_items_71: 
-  updated_at: 2009-07-16 10:42:51
-  graph_id: "69"
-  cdef: 
+  updated_at: 2009-07-16 23:13:35
+  graph_id: "391"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "247"
-  id: "71"
+  data_source_id: "570"
+  id: "393"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:51
+  created_at: 2009-07-16 23:13:35
 graph_items_72: 
-  updated_at: 2009-07-16 10:42:51
-  graph_id: "70"
-  cdef: 
+  updated_at: 2009-07-16 23:13:37
+  graph_id: "392"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "248"
-  id: "72"
+  data_source_id: "571"
+  id: "394"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:51
+  created_at: 2009-07-16 23:13:37
 graph_items_73: 
-  updated_at: 2009-07-16 10:42:52
-  graph_id: "71"
-  cdef: 
+  updated_at: 2009-07-16 23:13:39
+  graph_id: "393"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "249"
-  id: "73"
+  data_source_id: "572"
+  id: "395"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:52
+  created_at: 2009-07-16 23:13:39
 graph_items_74: 
-  updated_at: 2009-07-16 10:42:52
-  graph_id: "72"
-  cdef: 
+  updated_at: 2009-07-16 23:13:41
+  graph_id: "394"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "250"
-  id: "74"
+  data_source_id: "573"
+  id: "396"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:52
+  created_at: 2009-07-16 23:13:41
 graph_items_75: 
-  updated_at: 2009-07-16 10:42:52
-  graph_id: "73"
-  cdef: 
+  updated_at: 2009-07-16 23:13:42
+  graph_id: "395"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "251"
-  id: "75"
+  data_source_id: "574"
+  id: "397"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:52
+  created_at: 2009-07-16 23:13:42
 graph_items_76: 
-  updated_at: 2009-07-16 10:42:52
-  graph_id: "74"
-  cdef: 
+  updated_at: 2009-07-16 23:13:44
+  graph_id: "396"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "252"
-  id: "76"
+  data_source_id: "575"
+  id: "398"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:52
+  created_at: 2009-07-16 23:13:44
 graph_items_77: 
-  updated_at: 2009-07-16 10:42:52
-  graph_id: "75"
-  cdef: 
+  updated_at: 2009-07-16 23:13:46
+  graph_id: "397"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "253"
-  id: "77"
+  data_source_id: "576"
+  id: "399"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:52
+  created_at: 2009-07-16 23:13:46
 graph_items_78: 
-  updated_at: 2009-07-16 10:42:52
-  graph_id: "76"
-  cdef: 
+  updated_at: 2009-07-16 23:13:47
+  graph_id: "398"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "254"
-  id: "78"
+  data_source_id: "577"
+  id: "400"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:52
+  created_at: 2009-07-16 23:13:47
 graph_items_79: 
-  updated_at: 2009-07-16 10:42:52
-  graph_id: "77"
-  cdef: 
+  updated_at: 2009-07-16 23:13:49
+  graph_id: "399"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "255"
-  id: "79"
+  data_source_id: "578"
+  id: "401"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:52
+  created_at: 2009-07-16 23:13:49
 graph_items_80: 
-  updated_at: 2009-07-16 10:42:52
-  graph_id: "78"
-  cdef: 
+  updated_at: 2009-07-16 23:13:50
+  graph_id: "400"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "256"
-  id: "80"
+  data_source_id: "579"
+  id: "402"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:52
+  created_at: 2009-07-16 23:13:50
 graph_items_81: 
-  updated_at: 2009-07-16 10:42:52
-  graph_id: "79"
-  cdef: 
+  updated_at: 2009-07-16 23:13:55
+  graph_id: "401"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "257"
-  id: "81"
+  data_source_id: "580"
+  id: "403"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:52
+  created_at: 2009-07-16 23:13:55
 graph_items_82: 
-  updated_at: 2009-07-16 10:42:52
-  graph_id: "80"
-  cdef: 
+  updated_at: 2009-07-16 23:13:56
+  graph_id: "402"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "258"
-  id: "82"
+  data_source_id: "581"
+  id: "404"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:52
+  created_at: 2009-07-16 23:13:56
 graph_items_83: 
-  updated_at: 2009-07-16 10:42:52
-  graph_id: "81"
-  cdef: 
+  updated_at: 2009-07-16 23:13:57
+  graph_id: "403"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "259"
-  id: "83"
+  data_source_id: "582"
+  id: "405"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:52
+  created_at: 2009-07-16 23:13:57
 graph_items_84: 
-  updated_at: 2009-07-16 10:42:52
-  graph_id: "82"
-  cdef: 
+  updated_at: 2009-07-16 23:13:59
+  graph_id: "404"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "260"
-  id: "84"
+  data_source_id: "583"
+  id: "406"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:52
+  created_at: 2009-07-16 23:13:59
 graph_items_85: 
-  updated_at: 2009-07-16 10:42:52
-  graph_id: "83"
-  cdef: 
+  updated_at: 2009-07-16 23:14:01
+  graph_id: "405"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "261"
-  id: "85"
+  data_source_id: "584"
+  id: "407"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:52
+  created_at: 2009-07-16 23:14:01
 graph_items_86: 
-  updated_at: 2009-07-16 10:42:52
-  graph_id: "84"
-  cdef: 
+  updated_at: 2009-07-16 23:14:03
+  graph_id: "406"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "262"
-  id: "86"
+  data_source_id: "585"
+  id: "408"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:52
+  created_at: 2009-07-16 23:14:03
 graph_items_87: 
-  updated_at: 2009-07-16 10:42:52
-  graph_id: "85"
-  cdef: 
+  updated_at: 2009-07-16 23:14:04
+  graph_id: "407"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "263"
-  id: "87"
+  data_source_id: "586"
+  id: "409"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:52
+  created_at: 2009-07-16 23:14:04
 graph_items_88: 
-  updated_at: 2009-07-16 10:42:52
-  graph_id: "86"
-  cdef: 
+  updated_at: 2009-07-16 23:14:05
+  graph_id: "408"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "264"
-  id: "88"
+  data_source_id: "587"
+  id: "410"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:52
+  created_at: 2009-07-16 23:14:05
 graph_items_89: 
-  updated_at: 2009-07-16 10:42:52
-  graph_id: "87"
-  cdef: 
+  updated_at: 2009-07-16 23:14:07
+  graph_id: "409"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "265"
-  id: "89"
+  data_source_id: "588"
+  id: "411"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:52
+  created_at: 2009-07-16 23:14:07
 graph_items_90: 
-  updated_at: 2009-07-16 10:42:52
-  graph_id: "88"
-  cdef: 
+  updated_at: 2009-07-16 23:14:10
+  graph_id: "410"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "266"
-  id: "90"
+  data_source_id: "589"
+  id: "412"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:52
+  created_at: 2009-07-16 23:14:10
 graph_items_91: 
-  updated_at: 2009-07-16 10:42:52
-  graph_id: "89"
-  cdef: 
+  updated_at: 2009-07-16 23:14:12
+  graph_id: "411"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "267"
-  id: "91"
+  data_source_id: "590"
+  id: "413"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:52
+  created_at: 2009-07-16 23:14:12
 graph_items_92: 
-  updated_at: 2009-07-16 10:42:52
-  graph_id: "90"
-  cdef: 
+  updated_at: 2009-07-16 23:14:13
+  graph_id: "412"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "268"
-  id: "92"
+  data_source_id: "591"
+  id: "414"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:52
+  created_at: 2009-07-16 23:14:13
 graph_items_93: 
-  updated_at: 2009-07-16 10:42:52
-  graph_id: "91"
-  cdef: 
+  updated_at: 2009-07-16 23:14:15
+  graph_id: "413"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "269"
-  id: "93"
+  data_source_id: "592"
+  id: "415"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:52
+  created_at: 2009-07-16 23:14:15
 graph_items_94: 
-  updated_at: 2009-07-16 10:42:52
-  graph_id: "92"
-  cdef: 
+  updated_at: 2009-07-16 23:14:17
+  graph_id: "414"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "270"
-  id: "94"
+  data_source_id: "593"
+  id: "416"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:52
+  created_at: 2009-07-16 23:14:17
 graph_items_95: 
-  updated_at: 2009-07-16 10:42:52
-  graph_id: "93"
-  cdef: 
+  updated_at: 2009-07-16 23:14:18
+  graph_id: "415"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "271"
-  id: "95"
+  data_source_id: "594"
+  id: "417"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:52
+  created_at: 2009-07-16 23:14:18
 graph_items_96: 
-  updated_at: 2009-07-16 10:42:52
-  graph_id: "94"
-  cdef: 
+  updated_at: 2009-07-16 23:14:20
+  graph_id: "416"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "272"
-  id: "96"
+  data_source_id: "595"
+  id: "418"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:52
+  created_at: 2009-07-16 23:14:20
 graph_items_97: 
-  updated_at: 2009-07-16 10:42:52
-  graph_id: "95"
-  cdef: 
+  updated_at: 2009-07-16 23:14:22
+  graph_id: "417"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "273"
-  id: "97"
+  data_source_id: "596"
+  id: "419"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:52
+  created_at: 2009-07-16 23:14:22
 graph_items_98: 
-  updated_at: 2009-07-16 10:42:52
-  graph_id: "96"
-  cdef: 
+  updated_at: 2009-07-16 23:14:23
+  graph_id: "418"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "274"
-  id: "98"
+  data_source_id: "597"
+  id: "420"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:52
+  created_at: 2009-07-16 23:14:23
 graph_items_99: 
-  updated_at: 2009-07-16 10:42:52
-  graph_id: "97"
-  cdef: 
+  updated_at: 2009-07-16 23:14:25
+  graph_id: "419"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "275"
-  id: "99"
+  data_source_id: "598"
+  id: "421"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:52
+  created_at: 2009-07-16 23:14:25
 graph_items_100: 
-  updated_at: 2009-07-16 10:42:52
-  graph_id: "98"
-  cdef: 
+  updated_at: 2009-07-16 23:14:26
+  graph_id: "420"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "276"
-  id: "100"
+  data_source_id: "599"
+  id: "422"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:52
+  created_at: 2009-07-16 23:14:26
 graph_items_101: 
-  updated_at: 2009-07-16 10:42:52
-  graph_id: "99"
-  cdef: 
+  updated_at: 2009-07-16 23:14:27
+  graph_id: "421"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "277"
-  id: "101"
+  data_source_id: "600"
+  id: "423"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:52
+  created_at: 2009-07-16 23:14:27
 graph_items_102: 
-  updated_at: 2009-07-16 10:42:52
-  graph_id: "100"
-  cdef: 
+  updated_at: 2009-07-16 23:14:29
+  graph_id: "422"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "278"
-  id: "102"
+  data_source_id: "601"
+  id: "424"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:52
+  created_at: 2009-07-16 23:14:29
 graph_items_103: 
-  updated_at: 2009-07-16 10:42:52
-  graph_id: "101"
-  cdef: 
+  updated_at: 2009-07-16 23:14:31
+  graph_id: "423"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "279"
-  id: "103"
+  data_source_id: "602"
+  id: "425"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:52
+  created_at: 2009-07-16 23:14:31
 graph_items_104: 
-  updated_at: 2009-07-16 10:42:52
-  graph_id: "102"
-  cdef: 
+  updated_at: 2009-07-16 23:14:33
+  graph_id: "424"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "280"
-  id: "104"
+  data_source_id: "603"
+  id: "426"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:52
+  created_at: 2009-07-16 23:14:33
 graph_items_105: 
-  updated_at: 2009-07-16 10:42:53
-  graph_id: "103"
-  cdef: 
+  updated_at: 2009-07-16 23:14:35
+  graph_id: "425"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "281"
-  id: "105"
+  data_source_id: "604"
+  id: "427"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:53
+  created_at: 2009-07-16 23:14:35
 graph_items_106: 
-  updated_at: 2009-07-16 10:42:53
-  graph_id: "104"
-  cdef: 
+  updated_at: 2009-07-16 23:14:36
+  graph_id: "426"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "282"
-  id: "106"
+  data_source_id: "605"
+  id: "428"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:53
+  created_at: 2009-07-16 23:14:36
 graph_items_107: 
-  updated_at: 2009-07-16 10:42:53
-  graph_id: "105"
-  cdef: 
+  updated_at: 2009-07-16 23:14:38
+  graph_id: "427"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "283"
-  id: "107"
+  data_source_id: "606"
+  id: "429"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:53
+  created_at: 2009-07-16 23:14:38
 graph_items_108: 
-  updated_at: 2009-07-16 10:42:53
-  graph_id: "106"
-  cdef: 
+  updated_at: 2009-07-16 23:14:40
+  graph_id: "428"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "284"
-  id: "108"
+  data_source_id: "607"
+  id: "430"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:53
+  created_at: 2009-07-16 23:14:40
 graph_items_109: 
-  updated_at: 2009-07-16 10:42:53
-  graph_id: "107"
-  cdef: 
+  updated_at: 2009-07-16 23:14:43
+  graph_id: "429"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "285"
-  id: "109"
+  data_source_id: "608"
+  id: "431"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:53
+  created_at: 2009-07-16 23:14:42
 graph_items_110: 
-  updated_at: 2009-07-16 10:42:53
-  graph_id: "108"
-  cdef: 
+  updated_at: 2009-07-16 23:14:44
+  graph_id: "430"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "286"
-  id: "110"
+  data_source_id: "609"
+  id: "432"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:53
+  created_at: 2009-07-16 23:14:44
 graph_items_111: 
-  updated_at: 2009-07-16 10:42:53
-  graph_id: "109"
-  cdef: 
+  updated_at: 2009-07-16 23:14:46
+  graph_id: "431"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "287"
-  id: "111"
+  data_source_id: "610"
+  id: "433"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:53
+  created_at: 2009-07-16 23:14:46
 graph_items_112: 
-  updated_at: 2009-07-16 10:42:53
-  graph_id: "110"
-  cdef: 
+  updated_at: 2009-07-16 23:14:48
+  graph_id: "432"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "288"
-  id: "112"
+  data_source_id: "611"
+  id: "434"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:53
+  created_at: 2009-07-16 23:14:48
 graph_items_113: 
-  updated_at: 2009-07-16 10:42:53
-  graph_id: "111"
-  cdef: 
+  updated_at: 2009-07-16 23:14:50
+  graph_id: "433"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "289"
-  id: "113"
+  data_source_id: "612"
+  id: "435"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:53
+  created_at: 2009-07-16 23:14:50
 graph_items_114: 
-  updated_at: 2009-07-16 10:42:53
-  graph_id: "112"
-  cdef: 
+  updated_at: 2009-07-16 23:14:52
+  graph_id: "434"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "290"
-  id: "114"
+  data_source_id: "613"
+  id: "436"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:53
+  created_at: 2009-07-16 23:14:52
 graph_items_115: 
-  updated_at: 2009-07-16 10:42:53
-  graph_id: "113"
-  cdef: 
+  updated_at: 2009-07-16 23:14:54
+  graph_id: "435"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "291"
-  id: "115"
+  data_source_id: "614"
+  id: "437"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:53
+  created_at: 2009-07-16 23:14:54
 graph_items_116: 
-  updated_at: 2009-07-16 10:42:53
-  graph_id: "114"
-  cdef: 
+  updated_at: 2009-07-16 23:14:55
+  graph_id: "436"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "292"
-  id: "116"
+  data_source_id: "615"
+  id: "438"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:53
+  created_at: 2009-07-16 23:14:55
 graph_items_117: 
-  updated_at: 2009-07-16 10:42:53
-  graph_id: "115"
-  cdef: 
+  updated_at: 2009-07-16 23:14:59
+  graph_id: "437"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "293"
-  id: "117"
+  data_source_id: "616"
+  id: "439"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:53
+  created_at: 2009-07-16 23:14:59
 graph_items_118: 
-  updated_at: 2009-07-16 10:42:53
-  graph_id: "116"
-  cdef: 
+  updated_at: 2009-07-16 23:15:00
+  graph_id: "438"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "294"
-  id: "118"
+  data_source_id: "617"
+  id: "440"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:53
+  created_at: 2009-07-16 23:15:00
 graph_items_119: 
-  updated_at: 2009-07-16 10:42:53
-  graph_id: "117"
-  cdef: 
+  updated_at: 2009-07-16 23:15:03
+  graph_id: "439"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "295"
-  id: "119"
+  data_source_id: "618"
+  id: "441"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:53
+  created_at: 2009-07-16 23:15:03
 graph_items_120: 
-  updated_at: 2009-07-16 10:42:53
-  graph_id: "118"
-  cdef: 
+  updated_at: 2009-07-16 23:15:04
+  graph_id: "440"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "296"
-  id: "120"
+  data_source_id: "619"
+  id: "442"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:53
+  created_at: 2009-07-16 23:15:04
 graph_items_121: 
-  updated_at: 2009-07-16 10:42:53
-  graph_id: "119"
-  cdef: 
+  updated_at: 2009-07-16 23:15:06
+  graph_id: "441"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "297"
-  id: "121"
+  data_source_id: "620"
+  id: "443"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:53
+  created_at: 2009-07-16 23:15:06
 graph_items_122: 
-  updated_at: 2009-07-16 10:42:53
-  graph_id: "120"
-  cdef: 
+  updated_at: 2009-07-16 23:15:08
+  graph_id: "442"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "298"
-  id: "122"
+  data_source_id: "621"
+  id: "444"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:53
+  created_at: 2009-07-16 23:15:08
 graph_items_123: 
-  updated_at: 2009-07-16 10:42:53
-  graph_id: "121"
-  cdef: 
+  updated_at: 2009-07-16 23:15:10
+  graph_id: "443"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "299"
-  id: "123"
+  data_source_id: "622"
+  id: "445"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:53
+  created_at: 2009-07-16 23:15:10
 graph_items_124: 
-  updated_at: 2009-07-16 10:42:53
-  graph_id: "122"
-  cdef: 
+  updated_at: 2009-07-16 23:15:12
+  graph_id: "444"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "300"
-  id: "124"
+  data_source_id: "623"
+  id: "446"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:53
+  created_at: 2009-07-16 23:15:12
 graph_items_125: 
-  updated_at: 2009-07-16 10:42:53
-  graph_id: "123"
-  cdef: 
+  updated_at: 2009-07-16 23:15:14
+  graph_id: "445"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "301"
-  id: "125"
+  data_source_id: "624"
+  id: "447"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:53
+  created_at: 2009-07-16 23:15:14
 graph_items_126: 
-  updated_at: 2009-07-16 10:42:53
-  graph_id: "124"
-  cdef: 
+  updated_at: 2009-07-16 23:15:16
+  graph_id: "446"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "302"
-  id: "126"
+  data_source_id: "625"
+  id: "448"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:53
+  created_at: 2009-07-16 23:15:16
 graph_items_127: 
-  updated_at: 2009-07-16 10:42:53
-  graph_id: "125"
-  cdef: 
+  updated_at: 2009-07-16 23:15:17
+  graph_id: "447"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "303"
-  id: "127"
+  data_source_id: "626"
+  id: "449"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:53
+  created_at: 2009-07-16 23:15:17
 graph_items_128: 
-  updated_at: 2009-07-16 10:42:53
-  graph_id: "126"
-  cdef: 
+  updated_at: 2009-07-16 23:15:19
+  graph_id: "448"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "304"
-  id: "128"
+  data_source_id: "627"
+  id: "450"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:53
+  created_at: 2009-07-16 23:15:19
 graph_items_129: 
-  updated_at: 2009-07-16 10:42:53
-  graph_id: "127"
-  cdef: 
+  updated_at: 2009-07-16 23:15:21
+  graph_id: "449"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "305"
-  id: "129"
+  data_source_id: "628"
+  id: "451"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:53
+  created_at: 2009-07-16 23:15:21
 graph_items_130: 
-  updated_at: 2009-07-16 10:42:53
-  graph_id: "128"
-  cdef: 
+  updated_at: 2009-07-16 23:15:23
+  graph_id: "450"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "306"
-  id: "130"
+  data_source_id: "629"
+  id: "452"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:53
+  created_at: 2009-07-16 23:15:23
 graph_items_131: 
-  updated_at: 2009-07-16 10:42:53
-  graph_id: "129"
-  cdef: 
+  updated_at: 2009-07-16 23:15:24
+  graph_id: "451"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "307"
-  id: "131"
+  data_source_id: "630"
+  id: "453"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:53
+  created_at: 2009-07-16 23:15:24
 graph_items_132: 
-  updated_at: 2009-07-16 10:42:53
-  graph_id: "130"
-  cdef: 
+  updated_at: 2009-07-16 23:15:26
+  graph_id: "452"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "308"
-  id: "132"
+  data_source_id: "631"
+  id: "454"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:53
+  created_at: 2009-07-16 23:15:26
 graph_items_133: 
-  updated_at: 2009-07-16 10:42:53
-  graph_id: "131"
-  cdef: 
+  updated_at: 2009-07-16 23:15:28
+  graph_id: "453"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "309"
-  id: "133"
+  data_source_id: "632"
+  id: "455"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:53
+  created_at: 2009-07-16 23:15:28
 graph_items_134: 
-  updated_at: 2009-07-16 10:42:53
-  graph_id: "132"
-  cdef: 
+  updated_at: 2009-07-16 23:15:30
+  graph_id: "454"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "310"
-  id: "134"
+  data_source_id: "633"
+  id: "456"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:53
+  created_at: 2009-07-16 23:15:30
 graph_items_135: 
-  updated_at: 2009-07-16 10:42:53
-  graph_id: "133"
-  cdef: 
+  updated_at: 2009-07-16 23:15:32
+  graph_id: "455"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "311"
-  id: "135"
+  data_source_id: "634"
+  id: "457"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:53
+  created_at: 2009-07-16 23:15:32
 graph_items_136: 
-  updated_at: 2009-07-16 10:42:53
-  graph_id: "134"
-  cdef: 
+  updated_at: 2009-07-16 23:15:33
+  graph_id: "456"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "312"
-  id: "136"
+  data_source_id: "635"
+  id: "458"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:53
+  created_at: 2009-07-16 23:15:33
 graph_items_137: 
-  updated_at: 2009-07-16 10:42:54
-  graph_id: "135"
-  cdef: 
+  updated_at: 2009-07-16 23:15:35
+  graph_id: "457"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "313"
-  id: "137"
+  data_source_id: "636"
+  id: "459"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:54
+  created_at: 2009-07-16 23:15:35
 graph_items_138: 
-  updated_at: 2009-07-16 10:42:54
-  graph_id: "136"
-  cdef: 
+  updated_at: 2009-07-16 23:15:37
+  graph_id: "458"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "314"
-  id: "138"
+  data_source_id: "637"
+  id: "460"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:54
+  created_at: 2009-07-16 23:15:37
 graph_items_139: 
-  updated_at: 2009-07-16 10:42:54
-  graph_id: "137"
-  cdef: 
+  updated_at: 2009-07-16 23:15:39
+  graph_id: "459"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "315"
-  id: "139"
+  data_source_id: "638"
+  id: "461"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:54
+  created_at: 2009-07-16 23:15:39
 graph_items_140: 
-  updated_at: 2009-07-16 10:42:54
-  graph_id: "138"
-  cdef: 
+  updated_at: 2009-07-16 23:15:41
+  graph_id: "460"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "316"
-  id: "140"
+  data_source_id: "639"
+  id: "462"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:54
+  created_at: 2009-07-16 23:15:41
 graph_items_141: 
-  updated_at: 2009-07-16 10:42:54
-  graph_id: "139"
-  cdef: 
+  updated_at: 2009-07-16 23:15:43
+  graph_id: "461"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "317"
-  id: "141"
+  data_source_id: "640"
+  id: "463"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:54
+  created_at: 2009-07-16 23:15:43
 graph_items_142: 
-  updated_at: 2009-07-16 10:42:54
-  graph_id: "140"
-  cdef: 
+  updated_at: 2009-07-16 23:15:44
+  graph_id: "462"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "318"
-  id: "142"
+  data_source_id: "641"
+  id: "464"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:54
+  created_at: 2009-07-16 23:15:44
 graph_items_143: 
-  updated_at: 2009-07-16 10:42:54
-  graph_id: "141"
-  cdef: 
+  updated_at: 2009-07-16 23:15:45
+  graph_id: "463"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "319"
-  id: "143"
+  data_source_id: "642"
+  id: "465"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:54
+  created_at: 2009-07-16 23:15:45
 graph_items_144: 
-  updated_at: 2009-07-16 10:42:54
-  graph_id: "142"
-  cdef: 
+  updated_at: 2009-07-16 23:15:47
+  graph_id: "464"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "320"
-  id: "144"
+  data_source_id: "643"
+  id: "466"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:54
+  created_at: 2009-07-16 23:15:47
 graph_items_145: 
-  updated_at: 2009-07-16 10:42:54
-  graph_id: "143"
-  cdef: 
+  updated_at: 2009-07-16 23:15:49
+  graph_id: "465"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "321"
-  id: "145"
+  data_source_id: "644"
+  id: "467"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:54
+  created_at: 2009-07-16 23:15:49
 graph_items_146: 
-  updated_at: 2009-07-16 10:42:54
-  graph_id: "144"
-  cdef: 
+  updated_at: 2009-07-16 23:15:51
+  graph_id: "466"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "322"
-  id: "146"
+  data_source_id: "645"
+  id: "468"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:54
+  created_at: 2009-07-16 23:15:51
 graph_items_147: 
-  updated_at: 2009-07-16 10:42:54
-  graph_id: "145"
-  cdef: 
+  updated_at: 2009-07-16 23:15:53
+  graph_id: "467"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "323"
-  id: "147"
+  data_source_id: "646"
+  id: "469"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:54
+  created_at: 2009-07-16 23:15:53
 graph_items_148: 
-  updated_at: 2009-07-16 10:42:54
-  graph_id: "146"
-  cdef: 
+  updated_at: 2009-07-16 23:15:55
+  graph_id: "468"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "324"
-  id: "148"
+  data_source_id: "647"
+  id: "470"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:54
+  created_at: 2009-07-16 23:15:55
 graph_items_149: 
-  updated_at: 2009-07-16 10:42:54
-  graph_id: "147"
-  cdef: 
+  updated_at: 2009-07-16 23:15:56
+  graph_id: "469"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "325"
-  id: "149"
+  data_source_id: "648"
+  id: "471"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:54
+  created_at: 2009-07-16 23:15:56
 graph_items_150: 
-  updated_at: 2009-07-16 10:42:54
-  graph_id: "148"
-  cdef: 
+  updated_at: 2009-07-16 23:15:58
+  graph_id: "470"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "326"
-  id: "150"
+  data_source_id: "649"
+  id: "472"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:54
+  created_at: 2009-07-16 23:15:58
 graph_items_151: 
-  updated_at: 2009-07-16 10:42:54
-  graph_id: "149"
-  cdef: 
+  updated_at: 2009-07-16 23:16:00
+  graph_id: "471"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "327"
-  id: "151"
+  data_source_id: "650"
+  id: "473"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:54
+  created_at: 2009-07-16 23:16:00
 graph_items_152: 
-  updated_at: 2009-07-16 10:42:54
-  graph_id: "150"
-  cdef: 
+  updated_at: 2009-07-16 23:16:01
+  graph_id: "472"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "328"
-  id: "152"
+  data_source_id: "651"
+  id: "474"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:54
+  created_at: 2009-07-16 23:16:01
 graph_items_153: 
-  updated_at: 2009-07-16 10:42:54
-  graph_id: "151"
-  cdef: 
+  updated_at: 2009-07-16 23:16:03
+  graph_id: "473"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "329"
-  id: "153"
+  data_source_id: "652"
+  id: "475"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:54
+  created_at: 2009-07-16 23:16:03
 graph_items_154: 
-  updated_at: 2009-07-16 10:42:54
-  graph_id: "152"
-  cdef: 
+  updated_at: 2009-07-16 23:16:05
+  graph_id: "474"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "330"
-  id: "154"
+  data_source_id: "653"
+  id: "476"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:54
+  created_at: 2009-07-16 23:16:05
 graph_items_155: 
-  updated_at: 2009-07-16 10:42:54
-  graph_id: "153"
-  cdef: 
+  updated_at: 2009-07-16 23:16:07
+  graph_id: "475"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "331"
-  id: "155"
+  data_source_id: "654"
+  id: "477"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:54
+  created_at: 2009-07-16 23:16:07
 graph_items_156: 
-  updated_at: 2009-07-16 10:42:54
-  graph_id: "154"
-  cdef: 
+  updated_at: 2009-07-16 23:16:09
+  graph_id: "476"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "332"
-  id: "156"
+  data_source_id: "655"
+  id: "478"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:54
+  created_at: 2009-07-16 23:16:09
 graph_items_157: 
-  updated_at: 2009-07-16 10:42:54
-  graph_id: "155"
-  cdef: 
+  updated_at: 2009-07-16 23:16:10
+  graph_id: "477"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "333"
-  id: "157"
+  data_source_id: "656"
+  id: "479"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:54
+  created_at: 2009-07-16 23:16:10
 graph_items_158: 
-  updated_at: 2009-07-16 10:42:54
-  graph_id: "156"
-  cdef: 
+  updated_at: 2009-07-16 23:16:12
+  graph_id: "478"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "334"
-  id: "158"
+  data_source_id: "657"
+  id: "480"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:54
+  created_at: 2009-07-16 23:16:12
 graph_items_159: 
-  updated_at: 2009-07-16 10:42:54
-  graph_id: "157"
-  cdef: 
+  updated_at: 2009-07-16 23:16:14
+  graph_id: "479"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "335"
-  id: "159"
+  data_source_id: "658"
+  id: "481"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:54
+  created_at: 2009-07-16 23:16:14
 graph_items_160: 
-  updated_at: 2009-07-16 10:42:55
-  graph_id: "158"
-  cdef: 
+  updated_at: 2009-07-16 23:16:16
+  graph_id: "480"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "336"
-  id: "160"
+  data_source_id: "659"
+  id: "482"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:55
+  created_at: 2009-07-16 23:16:16
 graph_items_161: 
-  updated_at: 2009-07-16 10:42:55
-  graph_id: "159"
-  cdef: 
+  updated_at: 2009-07-16 23:16:19
+  graph_id: "481"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "337"
-  id: "161"
+  data_source_id: "660"
+  id: "483"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:55
+  created_at: 2009-07-16 23:16:19
 graph_items_162: 
-  updated_at: 2009-07-16 10:42:55
-  graph_id: "160"
-  cdef: 
+  updated_at: 2009-07-16 23:16:21
+  graph_id: "482"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "338"
-  id: "162"
+  data_source_id: "661"
+  id: "484"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:55
+  created_at: 2009-07-16 23:16:21
 graph_items_163: 
-  updated_at: 2009-07-16 10:42:55
-  graph_id: "161"
-  cdef: 
+  updated_at: 2009-07-16 23:16:23
+  graph_id: "483"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "339"
-  id: "163"
+  data_source_id: "662"
+  id: "485"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:55
+  created_at: 2009-07-16 23:16:23
 graph_items_164: 
-  updated_at: 2009-07-16 10:42:55
-  graph_id: "162"
-  cdef: 
+  updated_at: 2009-07-16 23:16:24
+  graph_id: "484"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "340"
-  id: "164"
+  data_source_id: "663"
+  id: "486"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:55
+  created_at: 2009-07-16 23:16:24
 graph_items_165: 
-  updated_at: 2009-07-16 10:42:55
-  graph_id: "163"
-  cdef: 
+  updated_at: 2009-07-16 23:16:26
+  graph_id: "485"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "341"
-  id: "165"
+  data_source_id: "664"
+  id: "487"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:55
+  created_at: 2009-07-16 23:16:26
 graph_items_166: 
-  updated_at: 2009-07-16 10:42:55
-  graph_id: "164"
-  cdef: 
+  updated_at: 2009-07-16 23:16:27
+  graph_id: "486"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "342"
-  id: "166"
+  data_source_id: "665"
+  id: "488"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:55
+  created_at: 2009-07-16 23:16:27
 graph_items_167: 
-  updated_at: 2009-07-16 10:42:55
-  graph_id: "165"
-  cdef: 
+  updated_at: 2009-07-16 23:16:28
+  graph_id: "487"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "343"
-  id: "167"
+  data_source_id: "666"
+  id: "489"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:55
+  created_at: 2009-07-16 23:16:28
 graph_items_168: 
-  updated_at: 2009-07-16 10:42:55
-  graph_id: "166"
-  cdef: 
+  updated_at: 2009-07-16 23:16:30
+  graph_id: "488"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "344"
-  id: "168"
+  data_source_id: "667"
+  id: "490"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:55
+  created_at: 2009-07-16 23:16:30
 graph_items_169: 
-  updated_at: 2009-07-16 10:42:55
-  graph_id: "167"
-  cdef: 
+  updated_at: 2009-07-16 23:16:32
+  graph_id: "489"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "345"
-  id: "169"
+  data_source_id: "668"
+  id: "491"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:55
+  created_at: 2009-07-16 23:16:32
 graph_items_170: 
-  updated_at: 2009-07-16 10:42:55
-  graph_id: "168"
-  cdef: 
+  updated_at: 2009-07-16 23:16:33
+  graph_id: "490"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "346"
-  id: "170"
+  data_source_id: "669"
+  id: "492"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:55
+  created_at: 2009-07-16 23:16:33
 graph_items_171: 
-  updated_at: 2009-07-16 10:42:55
-  graph_id: "169"
-  cdef: 
+  updated_at: 2009-07-16 23:16:35
+  graph_id: "491"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "347"
-  id: "171"
+  data_source_id: "670"
+  id: "493"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:55
+  created_at: 2009-07-16 23:16:35
 graph_items_172: 
-  updated_at: 2009-07-16 10:42:55
-  graph_id: "170"
-  cdef: 
+  updated_at: 2009-07-16 23:16:37
+  graph_id: "492"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "348"
-  id: "172"
+  data_source_id: "671"
+  id: "494"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:55
+  created_at: 2009-07-16 23:16:37
 graph_items_173: 
-  updated_at: 2009-07-16 10:42:55
-  graph_id: "171"
-  cdef: 
+  updated_at: 2009-07-16 23:16:38
+  graph_id: "493"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "349"
-  id: "173"
+  data_source_id: "672"
+  id: "495"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:55
+  created_at: 2009-07-16 23:16:38
 graph_items_174: 
-  updated_at: 2009-07-16 10:42:55
-  graph_id: "172"
-  cdef: 
+  updated_at: 2009-07-16 23:16:40
+  graph_id: "494"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "350"
-  id: "174"
+  data_source_id: "673"
+  id: "496"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:55
+  created_at: 2009-07-16 23:16:40
 graph_items_175: 
-  updated_at: 2009-07-16 10:42:55
-  graph_id: "173"
-  cdef: 
+  updated_at: 2009-07-16 23:16:42
+  graph_id: "495"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "351"
-  id: "175"
+  data_source_id: "674"
+  id: "497"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:55
+  created_at: 2009-07-16 23:16:42
 graph_items_176: 
-  updated_at: 2009-07-16 10:42:55
-  graph_id: "174"
-  cdef: 
+  updated_at: 2009-07-16 23:16:44
+  graph_id: "496"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "352"
-  id: "176"
+  data_source_id: "675"
+  id: "498"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:55
+  created_at: 2009-07-16 23:16:44
 graph_items_177: 
-  updated_at: 2009-07-16 10:42:55
-  graph_id: "175"
-  cdef: 
+  updated_at: 2009-07-16 23:16:45
+  graph_id: "497"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "353"
-  id: "177"
+  data_source_id: "676"
+  id: "499"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:55
+  created_at: 2009-07-16 23:16:45
 graph_items_178: 
-  updated_at: 2009-07-16 10:42:55
-  graph_id: "176"
-  cdef: 
+  updated_at: 2009-07-16 23:16:47
+  graph_id: "498"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "354"
-  id: "178"
+  data_source_id: "677"
+  id: "500"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:55
+  created_at: 2009-07-16 23:16:47
 graph_items_179: 
-  updated_at: 2009-07-16 10:42:55
-  graph_id: "177"
-  cdef: 
+  updated_at: 2009-07-16 23:16:48
+  graph_id: "499"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "355"
-  id: "179"
+  data_source_id: "678"
+  id: "501"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:55
+  created_at: 2009-07-16 23:16:48
 graph_items_180: 
-  updated_at: 2009-07-16 10:42:55
-  graph_id: "178"
-  cdef: 
+  updated_at: 2009-07-16 23:16:50
+  graph_id: "500"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "356"
-  id: "180"
+  data_source_id: "679"
+  id: "502"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:55
+  created_at: 2009-07-16 23:16:50
 graph_items_181: 
-  updated_at: 2009-07-16 10:42:55
-  graph_id: "179"
-  cdef: 
+  updated_at: 2009-07-16 23:16:52
+  graph_id: "501"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "357"
-  id: "181"
+  data_source_id: "680"
+  id: "503"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:55
+  created_at: 2009-07-16 23:16:52
 graph_items_182: 
-  updated_at: 2009-07-16 10:42:55
-  graph_id: "180"
-  cdef: 
+  updated_at: 2009-07-16 23:16:54
+  graph_id: "502"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "358"
-  id: "182"
+  data_source_id: "681"
+  id: "504"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:55
+  created_at: 2009-07-16 23:16:54
 graph_items_183: 
-  updated_at: 2009-07-16 10:42:55
-  graph_id: "181"
-  cdef: 
+  updated_at: 2009-07-16 23:16:55
+  graph_id: "503"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "359"
-  id: "183"
+  data_source_id: "682"
+  id: "505"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:55
+  created_at: 2009-07-16 23:16:55
 graph_items_184: 
-  updated_at: 2009-07-16 10:42:55
-  graph_id: "182"
-  cdef: 
+  updated_at: 2009-07-16 23:16:56
+  graph_id: "504"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "360"
-  id: "184"
+  data_source_id: "683"
+  id: "506"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:55
+  created_at: 2009-07-16 23:16:56
 graph_items_185: 
-  updated_at: 2009-07-16 10:42:55
-  graph_id: "183"
-  cdef: 
+  updated_at: 2009-07-16 23:16:58
+  graph_id: "505"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "361"
-  id: "185"
+  data_source_id: "684"
+  id: "507"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:55
+  created_at: 2009-07-16 23:16:58
 graph_items_186: 
-  updated_at: 2009-07-16 10:42:55
-  graph_id: "184"
-  cdef: 
+  updated_at: 2009-07-16 23:17:00
+  graph_id: "506"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "362"
-  id: "186"
+  data_source_id: "685"
+  id: "508"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:55
+  created_at: 2009-07-16 23:17:00
 graph_items_187: 
-  updated_at: 2009-07-16 10:42:55
-  graph_id: "185"
-  cdef: 
+  updated_at: 2009-07-16 23:17:02
+  graph_id: "507"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "363"
-  id: "187"
+  data_source_id: "686"
+  id: "509"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:55
+  created_at: 2009-07-16 23:17:02
 graph_items_188: 
-  updated_at: 2009-07-16 10:42:55
-  graph_id: "186"
-  cdef: 
+  updated_at: 2009-07-16 23:17:03
+  graph_id: "508"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "364"
-  id: "188"
+  data_source_id: "687"
+  id: "510"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:55
+  created_at: 2009-07-16 23:17:03
 graph_items_189: 
-  updated_at: 2009-07-16 10:42:55
-  graph_id: "187"
-  cdef: 
+  updated_at: 2009-07-16 23:17:05
+  graph_id: "509"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "365"
-  id: "189"
+  data_source_id: "688"
+  id: "511"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:55
+  created_at: 2009-07-16 23:17:05
 graph_items_190: 
-  updated_at: 2009-07-16 10:42:55
-  graph_id: "188"
-  cdef: 
+  updated_at: 2009-07-16 23:17:07
+  graph_id: "510"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "366"
-  id: "190"
+  data_source_id: "689"
+  id: "512"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:55
+  created_at: 2009-07-16 23:17:07
 graph_items_191: 
-  updated_at: 2009-07-16 10:42:55
-  graph_id: "189"
-  cdef: 
+  updated_at: 2009-07-16 23:17:08
+  graph_id: "511"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "367"
-  id: "191"
+  data_source_id: "690"
+  id: "513"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:55
+  created_at: 2009-07-16 23:17:08
 graph_items_192: 
-  updated_at: 2009-07-16 10:42:55
-  graph_id: "190"
-  cdef: 
+  updated_at: 2009-07-16 23:17:10
+  graph_id: "512"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "368"
-  id: "192"
+  data_source_id: "691"
+  id: "514"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:55
+  created_at: 2009-07-16 23:17:10
 graph_items_193: 
-  updated_at: 2009-07-16 10:42:55
-  graph_id: "191"
-  cdef: 
+  updated_at: 2009-07-16 23:17:12
+  graph_id: "513"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "369"
-  id: "193"
+  data_source_id: "692"
+  id: "515"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:55
+  created_at: 2009-07-16 23:17:12
 graph_items_194: 
-  updated_at: 2009-07-16 10:42:56
-  graph_id: "192"
-  cdef: 
+  updated_at: 2009-07-16 23:17:14
+  graph_id: "514"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "370"
-  id: "194"
+  data_source_id: "693"
+  id: "516"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:55
+  created_at: 2009-07-16 23:17:14
 graph_items_195: 
-  updated_at: 2009-07-16 10:42:56
-  graph_id: "193"
-  cdef: 
+  updated_at: 2009-07-16 23:17:16
+  graph_id: "515"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "371"
-  id: "195"
+  data_source_id: "694"
+  id: "517"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:56
+  created_at: 2009-07-16 23:17:16
 graph_items_196: 
-  updated_at: 2009-07-16 10:42:56
-  graph_id: "194"
-  cdef: 
+  updated_at: 2009-07-16 23:17:17
+  graph_id: "516"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "372"
-  id: "196"
+  data_source_id: "695"
+  id: "518"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:56
+  created_at: 2009-07-16 23:17:17
 graph_items_197: 
-  updated_at: 2009-07-16 10:42:56
-  graph_id: "195"
-  cdef: 
+  updated_at: 2009-07-16 23:17:19
+  graph_id: "517"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "373"
-  id: "197"
+  data_source_id: "696"
+  id: "519"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:56
+  created_at: 2009-07-16 23:17:19
 graph_items_198: 
-  updated_at: 2009-07-16 10:42:56
-  graph_id: "196"
-  cdef: 
+  updated_at: 2009-07-16 23:17:20
+  graph_id: "518"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "374"
-  id: "198"
+  data_source_id: "697"
+  id: "520"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:56
+  created_at: 2009-07-16 23:17:20
 graph_items_199: 
-  updated_at: 2009-07-16 10:42:56
-  graph_id: "197"
-  cdef: 
+  updated_at: 2009-07-16 23:17:22
+  graph_id: "519"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "375"
-  id: "199"
+  data_source_id: "698"
+  id: "521"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:56
+  created_at: 2009-07-16 23:17:22
 graph_items_200: 
-  updated_at: 2009-07-16 10:42:56
-  graph_id: "198"
-  cdef: 
+  updated_at: 2009-07-16 23:17:24
+  graph_id: "520"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "376"
-  id: "200"
+  data_source_id: "699"
+  id: "522"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:56
+  created_at: 2009-07-16 23:17:24
 graph_items_201: 
-  updated_at: 2009-07-16 10:42:56
-  graph_id: "199"
-  cdef: 
+  updated_at: 2009-07-16 23:17:25
+  graph_id: "521"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "377"
-  id: "201"
+  data_source_id: "700"
+  id: "523"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:56
+  created_at: 2009-07-16 23:17:25
 graph_items_202: 
-  updated_at: 2009-07-16 10:42:56
-  graph_id: "200"
-  cdef: 
+  updated_at: 2009-07-16 23:17:27
+  graph_id: "522"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "378"
-  id: "202"
+  data_source_id: "701"
+  id: "524"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:56
+  created_at: 2009-07-16 23:17:27
 graph_items_203: 
-  updated_at: 2009-07-16 10:42:56
-  graph_id: "201"
-  cdef: 
+  updated_at: 2009-07-16 23:17:29
+  graph_id: "523"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "379"
-  id: "203"
+  data_source_id: "702"
+  id: "525"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:56
+  created_at: 2009-07-16 23:17:29
 graph_items_204: 
-  updated_at: 2009-07-16 10:42:56
-  graph_id: "202"
-  cdef: 
+  updated_at: 2009-07-16 23:17:31
+  graph_id: "524"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "380"
-  id: "204"
+  data_source_id: "703"
+  id: "526"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:56
+  created_at: 2009-07-16 23:17:31
 graph_items_205: 
-  updated_at: 2009-07-16 10:42:56
-  graph_id: "203"
-  cdef: 
+  updated_at: 2009-07-16 23:17:33
+  graph_id: "525"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "381"
-  id: "205"
+  data_source_id: "704"
+  id: "527"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:56
+  created_at: 2009-07-16 23:17:33
 graph_items_206: 
-  updated_at: 2009-07-16 10:42:56
-  graph_id: "204"
-  cdef: 
+  updated_at: 2009-07-16 23:17:35
+  graph_id: "526"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "382"
-  id: "206"
+  data_source_id: "705"
+  id: "528"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:56
+  created_at: 2009-07-16 23:17:35
 graph_items_207: 
-  updated_at: 2009-07-16 10:42:56
-  graph_id: "205"
-  cdef: 
+  updated_at: 2009-07-16 23:17:36
+  graph_id: "527"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "383"
-  id: "207"
+  data_source_id: "706"
+  id: "529"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:56
+  created_at: 2009-07-16 23:17:36
 graph_items_208: 
-  updated_at: 2009-07-16 10:42:56
-  graph_id: "206"
-  cdef: 
+  updated_at: 2009-07-16 23:17:38
+  graph_id: "528"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "384"
-  id: "208"
+  data_source_id: "707"
+  id: "530"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:56
+  created_at: 2009-07-16 23:17:38
 graph_items_209: 
-  updated_at: 2009-07-16 10:42:56
-  graph_id: "207"
-  cdef: 
+  updated_at: 2009-07-16 23:17:39
+  graph_id: "529"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "385"
-  id: "209"
+  data_source_id: "708"
+  id: "531"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:56
+  created_at: 2009-07-16 23:17:39
 graph_items_210: 
-  updated_at: 2009-07-16 10:42:56
-  graph_id: "208"
-  cdef: 
+  updated_at: 2009-07-16 23:17:41
+  graph_id: "530"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "386"
-  id: "210"
+  data_source_id: "709"
+  id: "532"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:56
+  created_at: 2009-07-16 23:17:41
 graph_items_211: 
-  updated_at: 2009-07-16 10:42:56
-  graph_id: "209"
-  cdef: 
+  updated_at: 2009-07-16 23:17:43
+  graph_id: "531"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "387"
-  id: "211"
+  data_source_id: "710"
+  id: "533"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:56
+  created_at: 2009-07-16 23:17:43
 graph_items_212: 
-  updated_at: 2009-07-16 10:42:56
-  graph_id: "210"
-  cdef: 
+  updated_at: 2009-07-16 23:17:44
+  graph_id: "532"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "388"
-  id: "212"
+  data_source_id: "711"
+  id: "534"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:56
+  created_at: 2009-07-16 23:17:44
 graph_items_213: 
-  updated_at: 2009-07-16 10:42:56
-  graph_id: "211"
-  cdef: 
+  updated_at: 2009-07-16 23:17:48
+  graph_id: "533"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "389"
-  id: "213"
+  data_source_id: "712"
+  id: "535"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:56
+  created_at: 2009-07-16 23:17:48
 graph_items_214: 
-  updated_at: 2009-07-16 10:42:56
-  graph_id: "212"
-  cdef: 
+  updated_at: 2009-07-16 23:17:50
+  graph_id: "534"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "390"
-  id: "214"
+  data_source_id: "713"
+  id: "536"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:56
+  created_at: 2009-07-16 23:17:50
 graph_items_215: 
-  updated_at: 2009-07-16 10:42:56
-  graph_id: "213"
-  cdef: 
+  updated_at: 2009-07-16 23:17:51
+  graph_id: "535"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "391"
-  id: "215"
+  data_source_id: "714"
+  id: "537"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:56
+  created_at: 2009-07-16 23:17:51
 graph_items_216: 
-  updated_at: 2009-07-16 10:42:56
-  graph_id: "214"
-  cdef: 
+  updated_at: 2009-07-16 23:17:53
+  graph_id: "536"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "392"
-  id: "216"
+  data_source_id: "715"
+  id: "538"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:56
+  created_at: 2009-07-16 23:17:53
 graph_items_217: 
-  updated_at: 2009-07-16 10:42:56
-  graph_id: "215"
-  cdef: 
+  updated_at: 2009-07-16 23:17:55
+  graph_id: "537"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "393"
-  id: "217"
+  data_source_id: "716"
+  id: "539"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:56
+  created_at: 2009-07-16 23:17:55
 graph_items_218: 
-  updated_at: 2009-07-16 10:42:56
-  graph_id: "216"
-  cdef: 
+  updated_at: 2009-07-16 23:17:57
+  graph_id: "538"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "394"
-  id: "218"
+  data_source_id: "717"
+  id: "540"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:56
+  created_at: 2009-07-16 23:17:57
 graph_items_219: 
-  updated_at: 2009-07-16 10:42:56
-  graph_id: "217"
-  cdef: 
+  updated_at: 2009-07-16 23:17:59
+  graph_id: "539"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "395"
-  id: "219"
+  data_source_id: "718"
+  id: "541"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:56
+  created_at: 2009-07-16 23:17:59
 graph_items_220: 
-  updated_at: 2009-07-16 10:42:56
-  graph_id: "218"
-  cdef: 
+  updated_at: 2009-07-16 23:18:01
+  graph_id: "540"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "396"
-  id: "220"
+  data_source_id: "719"
+  id: "542"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:56
+  created_at: 2009-07-16 23:18:01
 graph_items_221: 
-  updated_at: 2009-07-16 10:42:56
-  graph_id: "219"
-  cdef: 
+  updated_at: 2009-07-16 23:18:02
+  graph_id: "541"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "397"
-  id: "221"
+  data_source_id: "720"
+  id: "543"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:56
+  created_at: 2009-07-16 23:18:02
 graph_items_222: 
-  updated_at: 2009-07-16 10:42:56
-  graph_id: "220"
-  cdef: 
+  updated_at: 2009-07-16 23:18:03
+  graph_id: "542"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "398"
-  id: "222"
+  data_source_id: "721"
+  id: "544"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:56
+  created_at: 2009-07-16 23:18:03
 graph_items_223: 
-  updated_at: 2009-07-16 10:42:56
-  graph_id: "221"
-  cdef: 
+  updated_at: 2009-07-16 23:18:04
+  graph_id: "543"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "399"
-  id: "223"
+  data_source_id: "722"
+  id: "545"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:56
+  created_at: 2009-07-16 23:18:04
 graph_items_224: 
-  updated_at: 2009-07-16 10:42:56
-  graph_id: "222"
-  cdef: 
+  updated_at: 2009-07-16 23:18:06
+  graph_id: "544"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "400"
-  id: "224"
+  data_source_id: "723"
+  id: "546"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:56
+  created_at: 2009-07-16 23:18:06
 graph_items_225: 
-  updated_at: 2009-07-16 10:42:56
-  graph_id: "223"
-  cdef: 
+  updated_at: 2009-07-16 23:18:08
+  graph_id: "545"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "401"
-  id: "225"
+  data_source_id: "724"
+  id: "547"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:56
+  created_at: 2009-07-16 23:18:08
 graph_items_226: 
-  updated_at: 2009-07-16 10:42:56
-  graph_id: "224"
-  cdef: 
+  updated_at: 2009-07-16 23:18:11
+  graph_id: "546"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "402"
-  id: "226"
+  data_source_id: "725"
+  id: "548"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:56
+  created_at: 2009-07-16 23:18:11
 graph_items_227: 
-  updated_at: 2009-07-16 10:42:56
-  graph_id: "225"
-  cdef: 
+  updated_at: 2009-07-16 23:18:12
+  graph_id: "547"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "403"
-  id: "227"
+  data_source_id: "726"
+  id: "549"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:56
+  created_at: 2009-07-16 23:18:12
 graph_items_228: 
-  updated_at: 2009-07-16 10:42:57
-  graph_id: "226"
-  cdef: 
+  updated_at: 2009-07-16 23:18:14
+  graph_id: "548"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "404"
-  id: "228"
+  data_source_id: "727"
+  id: "550"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:57
+  created_at: 2009-07-16 23:18:14
 graph_items_229: 
-  updated_at: 2009-07-16 10:42:57
-  graph_id: "227"
-  cdef: 
+  updated_at: 2009-07-16 23:18:15
+  graph_id: "549"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "405"
-  id: "229"
+  data_source_id: "728"
+  id: "551"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:57
+  created_at: 2009-07-16 23:18:15
 graph_items_230: 
-  updated_at: 2009-07-16 10:42:57
-  graph_id: "228"
-  cdef: 
+  updated_at: 2009-07-16 23:18:16
+  graph_id: "550"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "406"
-  id: "230"
+  data_source_id: "729"
+  id: "552"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:57
+  created_at: 2009-07-16 23:18:16
 graph_items_231: 
-  updated_at: 2009-07-16 10:42:57
-  graph_id: "229"
-  cdef: 
+  updated_at: 2009-07-16 23:18:20
+  graph_id: "551"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "407"
-  id: "231"
+  data_source_id: "730"
+  id: "553"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:57
+  created_at: 2009-07-16 23:18:20
 graph_items_232: 
-  updated_at: 2009-07-16 10:42:57
-  graph_id: "230"
-  cdef: 
+  updated_at: 2009-07-16 23:18:22
+  graph_id: "552"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "408"
-  id: "232"
+  data_source_id: "731"
+  id: "554"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:57
+  created_at: 2009-07-16 23:18:22
 graph_items_233: 
-  updated_at: 2009-07-16 10:42:57
-  graph_id: "231"
-  cdef: 
+  updated_at: 2009-07-16 23:18:24
+  graph_id: "553"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "409"
-  id: "233"
+  data_source_id: "732"
+  id: "555"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:57
+  created_at: 2009-07-16 23:18:24
 graph_items_234: 
-  updated_at: 2009-07-16 10:42:57
-  graph_id: "232"
-  cdef: 
+  updated_at: 2009-07-16 23:18:25
+  graph_id: "554"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "410"
-  id: "234"
+  data_source_id: "733"
+  id: "556"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:57
+  created_at: 2009-07-16 23:18:25
 graph_items_235: 
-  updated_at: 2009-07-16 10:42:57
-  graph_id: "233"
-  cdef: 
+  updated_at: 2009-07-16 23:18:27
+  graph_id: "555"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "411"
-  id: "235"
+  data_source_id: "734"
+  id: "557"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:57
+  created_at: 2009-07-16 23:18:27
 graph_items_236: 
-  updated_at: 2009-07-16 10:42:57
-  graph_id: "234"
-  cdef: 
+  updated_at: 2009-07-16 23:18:28
+  graph_id: "556"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "412"
-  id: "236"
+  data_source_id: "735"
+  id: "558"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:57
+  created_at: 2009-07-16 23:18:28
 graph_items_237: 
-  updated_at: 2009-07-16 10:42:57
-  graph_id: "235"
-  cdef: 
+  updated_at: 2009-07-16 23:18:30
+  graph_id: "557"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "413"
-  id: "237"
+  data_source_id: "736"
+  id: "559"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:57
+  created_at: 2009-07-16 23:18:30
 graph_items_238: 
-  updated_at: 2009-07-16 10:42:57
-  graph_id: "236"
-  cdef: 
+  updated_at: 2009-07-16 23:18:32
+  graph_id: "558"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "414"
-  id: "238"
+  data_source_id: "737"
+  id: "560"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:57
+  created_at: 2009-07-16 23:18:32
 graph_items_239: 
-  updated_at: 2009-07-16 10:42:57
-  graph_id: "237"
-  cdef: 
+  updated_at: 2009-07-16 23:18:33
+  graph_id: "559"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "415"
-  id: "239"
+  data_source_id: "738"
+  id: "561"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:57
+  created_at: 2009-07-16 23:18:33
 graph_items_240: 
-  updated_at: 2009-07-16 10:42:57
-  graph_id: "238"
-  cdef: 
+  updated_at: 2009-07-16 23:18:35
+  graph_id: "560"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "416"
-  id: "240"
+  data_source_id: "739"
+  id: "562"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:57
+  created_at: 2009-07-16 23:18:35
 graph_items_241: 
-  updated_at: 2009-07-16 10:42:57
-  graph_id: "239"
-  cdef: 
+  updated_at: 2009-07-16 23:18:37
+  graph_id: "561"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "417"
-  id: "241"
+  data_source_id: "740"
+  id: "563"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:57
+  created_at: 2009-07-16 23:18:37
 graph_items_242: 
-  updated_at: 2009-07-16 10:42:57
-  graph_id: "240"
-  cdef: 
+  updated_at: 2009-07-16 23:18:38
+  graph_id: "562"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "418"
-  id: "242"
+  data_source_id: "741"
+  id: "564"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:57
+  created_at: 2009-07-16 23:18:38
 graph_items_243: 
-  updated_at: 2009-07-16 10:42:57
-  graph_id: "241"
-  cdef: 
+  updated_at: 2009-07-16 23:18:40
+  graph_id: "563"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "419"
-  id: "243"
+  data_source_id: "742"
+  id: "565"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:57
+  created_at: 2009-07-16 23:18:40
 graph_items_244: 
-  updated_at: 2009-07-16 10:42:57
-  graph_id: "242"
-  cdef: 
+  updated_at: 2009-07-16 23:18:41
+  graph_id: "564"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "420"
-  id: "244"
+  data_source_id: "743"
+  id: "566"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:57
+  created_at: 2009-07-16 23:18:41
 graph_items_245: 
-  updated_at: 2009-07-16 10:42:57
-  graph_id: "243"
-  cdef: 
+  updated_at: 2009-07-16 23:18:42
+  graph_id: "565"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "421"
-  id: "245"
+  data_source_id: "744"
+  id: "567"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:57
+  created_at: 2009-07-16 23:18:42
 graph_items_246: 
-  updated_at: 2009-07-16 10:42:57
-  graph_id: "244"
-  cdef: 
+  updated_at: 2009-07-16 23:18:45
+  graph_id: "566"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "422"
-  id: "246"
+  data_source_id: "745"
+  id: "568"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:57
+  created_at: 2009-07-16 23:18:45
 graph_items_247: 
-  updated_at: 2009-07-16 10:42:57
-  graph_id: "245"
-  cdef: 
+  updated_at: 2009-07-16 23:18:47
+  graph_id: "567"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "423"
-  id: "247"
+  data_source_id: "746"
+  id: "569"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:57
+  created_at: 2009-07-16 23:18:47
 graph_items_248: 
-  updated_at: 2009-07-16 10:42:57
-  graph_id: "246"
-  cdef: 
+  updated_at: 2009-07-16 23:18:49
+  graph_id: "568"
+  cdef: 1000000000 /
   title: GDP (current US$)
-  data_source_id: "424"
-  id: "248"
+  data_source_id: "747"
+  id: "570"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:57
+  created_at: 2009-07-16 23:18:49
 graph_items_249: 
-  updated_at: 2009-07-16 10:42:57
-  graph_id: "247"
+  updated_at: 2009-07-19 09:50:49
+  graph_id: "569"
   cdef: 
-  title: GDP (current US$)
-  data_source_id: "425"
-  id: "249"
+  title: United Kingdom GDP growth (annual %)
+  data_source_id: "1716"
+  id: "571"
   color: "#0f0"
-  created_at: 2009-07-16 10:42:57
+  created_at: 2009-07-19 09:50:49
+graph_items_250: 
+  updated_at: 2009-07-19 09:50:49
+  graph_id: "570"
+  cdef: 
+  title: Fiji GDP growth (annual %)
+  data_source_id: "1717"
+  id: "572"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:49
+graph_items_251: 
+  updated_at: 2009-07-19 09:50:49
+  graph_id: "571"
+  cdef: 
+  title: Russian Federation GDP growth (annual %)
+  data_source_id: "1718"
+  id: "573"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:49
+graph_items_252: 
+  updated_at: 2009-07-19 09:50:49
+  graph_id: "572"
+  cdef: 
+  title: Jordan GDP growth (annual %)
+  data_source_id: "1719"
+  id: "574"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:49
+graph_items_253: 
+  updated_at: 2009-07-19 09:50:49
+  graph_id: "573"
+  cdef: 
+  title: Georgia GDP growth (annual %)
+  data_source_id: "1720"
+  id: "575"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:49
+graph_items_254: 
+  updated_at: 2009-07-19 09:50:49
+  graph_id: "574"
+  cdef: 
+  title: French Southern Territories GDP growth (annual %)
+  data_source_id: "1721"
+  id: "576"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:49
+graph_items_255: 
+  updated_at: 2009-07-19 09:50:49
+  graph_id: "575"
+  cdef: 
+  title: Ecuador GDP growth (annual %)
+  data_source_id: "1722"
+  id: "577"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:49
+graph_items_256: 
+  updated_at: 2009-07-19 09:50:49
+  graph_id: "576"
+  cdef: 
+  title: Taiwan, Province of China GDP growth (annual %)
+  data_source_id: "1723"
+  id: "578"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:49
+graph_items_257: 
+  updated_at: 2009-07-19 09:50:49
+  graph_id: "577"
+  cdef: 
+  title: Zimbabwe GDP growth (annual %)
+  data_source_id: "1724"
+  id: "579"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:49
+graph_items_258: 
+  updated_at: 2009-07-19 09:50:49
+  graph_id: "578"
+  cdef: 
+  title: Antigua and Barbuda GDP growth (annual %)
+  data_source_id: "1725"
+  id: "580"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:49
+graph_items_259: 
+  updated_at: 2009-07-19 09:50:50
+  graph_id: "579"
+  cdef: 
+  title: Indonesia GDP growth (annual %)
+  data_source_id: "1726"
+  id: "581"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:50
+graph_items_260: 
+  updated_at: 2009-07-19 09:50:50
+  graph_id: "580"
+  cdef: 
+  title: Bolivia GDP growth (annual %)
+  data_source_id: "1727"
+  id: "582"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:50
+graph_items_261: 
+  updated_at: 2009-07-19 09:50:50
+  graph_id: "581"
+  cdef: 
+  title: Nepal GDP growth (annual %)
+  data_source_id: "1728"
+  id: "583"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:50
+graph_items_262: 
+  updated_at: 2009-07-19 09:50:50
+  graph_id: "582"
+  cdef: 
+  title: Germany GDP growth (annual %)
+  data_source_id: "1729"
+  id: "584"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:50
+graph_items_263: 
+  updated_at: 2009-07-19 09:50:50
+  graph_id: "583"
+  cdef: 
+  title: Malta GDP growth (annual %)
+  data_source_id: "1730"
+  id: "585"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:50
+graph_items_264: 
+  updated_at: 2009-07-19 09:50:50
+  graph_id: "584"
+  cdef: 
+  title: Togo GDP growth (annual %)
+  data_source_id: "1731"
+  id: "586"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:50
+graph_items_265: 
+  updated_at: 2009-07-19 09:50:50
+  graph_id: "585"
+  cdef: 
+  title: Tajikistan GDP growth (annual %)
+  data_source_id: "1732"
+  id: "587"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:50
+graph_items_266: 
+  updated_at: 2009-07-19 09:50:50
+  graph_id: "586"
+  cdef: 
+  title: "R\xC3\xA9union GDP growth (annual %)"
+  data_source_id: "1733"
+  id: "588"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:50
+graph_items_267: 
+  updated_at: 2009-07-19 09:50:50
+  graph_id: "587"
+  cdef: 
+  title: Denmark GDP growth (annual %)
+  data_source_id: "1734"
+  id: "589"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:50
+graph_items_268: 
+  updated_at: 2009-07-19 09:50:50
+  graph_id: "588"
+  cdef: 
+  title: Lao People's Democratic Republic GDP growth (annual %)
+  data_source_id: "1735"
+  id: "590"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:50
+graph_items_269: 
+  updated_at: 2009-07-19 09:50:50
+  graph_id: "589"
+  cdef: 
+  title: Poland GDP growth (annual %)
+  data_source_id: "1736"
+  id: "591"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:50
+graph_items_270: 
+  updated_at: 2009-07-19 09:50:50
+  graph_id: "590"
+  cdef: 
+  title: Belarus GDP growth (annual %)
+  data_source_id: "1737"
+  id: "592"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:50
+graph_items_271: 
+  updated_at: 2009-07-19 09:50:50
+  graph_id: "591"
+  cdef: 
+  title: Puerto Rico GDP growth (annual %)
+  data_source_id: "1738"
+  id: "593"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:50
+graph_items_272: 
+  updated_at: 2009-07-19 09:50:50
+  graph_id: "592"
+  cdef: 
+  title: Gabon GDP growth (annual %)
+  data_source_id: "1739"
+  id: "594"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:50
+graph_items_273: 
+  updated_at: 2009-07-19 09:50:51
+  graph_id: "593"
+  cdef: 
+  title: Turks and Caicos Islands GDP growth (annual %)
+  data_source_id: "1740"
+  id: "595"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:50
+graph_items_274: 
+  updated_at: 2009-07-19 09:50:51
+  graph_id: "594"
+  cdef: 
+  title: Nicaragua GDP growth (annual %)
+  data_source_id: "1741"
+  id: "596"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:51
+graph_items_275: 
+  updated_at: 2009-07-19 09:50:51
+  graph_id: "595"
+  cdef: 
+  title: Rwanda GDP growth (annual %)
+  data_source_id: "1742"
+  id: "597"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:51
+graph_items_276: 
+  updated_at: 2009-07-19 09:50:51
+  graph_id: "596"
+  cdef: 
+  title: Syrian Arab Republic GDP growth (annual %)
+  data_source_id: "1743"
+  id: "598"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:51
+graph_items_277: 
+  updated_at: 2009-07-19 09:50:51
+  graph_id: "597"
+  cdef: 
+  title: Uruguay GDP growth (annual %)
+  data_source_id: "1744"
+  id: "599"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:51
+graph_items_278: 
+  updated_at: 2009-07-19 09:50:51
+  graph_id: "598"
+  cdef: 
+  title: New Caledonia GDP growth (annual %)
+  data_source_id: "1745"
+  id: "600"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:51
+graph_items_279: 
+  updated_at: 2009-07-19 09:50:51
+  graph_id: "599"
+  cdef: 
+  title: Saint Vincent and the Grenadines GDP growth (annual %)
+  data_source_id: "1746"
+  id: "601"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:51
+graph_items_280: 
+  updated_at: 2009-07-19 09:50:51
+  graph_id: "600"
+  cdef: 
+  title: Korea, Democratic People's Republic of GDP growth (annual %)
+  data_source_id: "1747"
+  id: "602"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:51
+graph_items_281: 
+  updated_at: 2009-07-19 09:50:51
+  graph_id: "601"
+  cdef: 
+  title: Zambia GDP growth (annual %)
+  data_source_id: "1748"
+  id: "603"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:51
+graph_items_282: 
+  updated_at: 2009-07-19 09:50:51
+  graph_id: "602"
+  cdef: 
+  title: Macedonia, the former Yugoslav Republic of GDP growth (annual %)
+  data_source_id: "1749"
+  id: "604"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:51
+graph_items_283: 
+  updated_at: 2009-07-19 09:50:51
+  graph_id: "603"
+  cdef: 
+  title: Netherlands Antilles GDP growth (annual %)
+  data_source_id: "1750"
+  id: "605"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:51
+graph_items_284: 
+  updated_at: 2009-07-19 09:50:51
+  graph_id: "604"
+  cdef: 
+  title: Azerbaijan GDP growth (annual %)
+  data_source_id: "1751"
+  id: "606"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:51
+graph_items_285: 
+  updated_at: 2009-07-19 09:50:51
+  graph_id: "605"
+  cdef: 
+  title: Brunei Darussalam GDP growth (annual %)
+  data_source_id: "1752"
+  id: "607"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:51
+graph_items_286: 
+  updated_at: 2009-07-19 09:50:51
+  graph_id: "606"
+  cdef: 
+  title: Cameroon GDP growth (annual %)
+  data_source_id: "1753"
+  id: "608"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:51
+graph_items_287: 
+  updated_at: 2009-07-19 09:50:51
+  graph_id: "607"
+  cdef: 
+  title: Eritrea GDP growth (annual %)
+  data_source_id: "1754"
+  id: "609"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:51
+graph_items_288: 
+  updated_at: 2009-07-19 09:50:51
+  graph_id: "608"
+  cdef: 
+  title: Chad GDP growth (annual %)
+  data_source_id: "1755"
+  id: "610"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:51
+graph_items_289: 
+  updated_at: 2009-07-19 09:50:51
+  graph_id: "609"
+  cdef: 
+  title: Algeria GDP growth (annual %)
+  data_source_id: "1756"
+  id: "611"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:51
+graph_items_290: 
+  updated_at: 2009-07-19 09:50:52
+  graph_id: "610"
+  cdef: 
+  title: Cocos (Keeling) Islands GDP growth (annual %)
+  data_source_id: "1757"
+  id: "612"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:52
+graph_items_291: 
+  updated_at: 2009-07-19 09:50:52
+  graph_id: "611"
+  cdef: 
+  title: Norfolk Island GDP growth (annual %)
+  data_source_id: "1758"
+  id: "613"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:52
+graph_items_292: 
+  updated_at: 2009-07-19 09:50:52
+  graph_id: "612"
+  cdef: 
+  title: Somalia GDP growth (annual %)
+  data_source_id: "1759"
+  id: "614"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:52
+graph_items_293: 
+  updated_at: 2009-07-19 09:50:52
+  graph_id: "613"
+  cdef: 
+  title: Guyana GDP growth (annual %)
+  data_source_id: "1760"
+  id: "615"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:52
+graph_items_294: 
+  updated_at: 2009-07-19 09:50:52
+  graph_id: "614"
+  cdef: 
+  title: Mauritania GDP growth (annual %)
+  data_source_id: "1761"
+  id: "616"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:52
+graph_items_295: 
+  updated_at: 2009-07-19 09:50:52
+  graph_id: "615"
+  cdef: 
+  title: Netherlands GDP growth (annual %)
+  data_source_id: "1762"
+  id: "617"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:52
+graph_items_296: 
+  updated_at: 2009-07-19 09:50:52
+  graph_id: "616"
+  cdef: 
+  title: Palau GDP growth (annual %)
+  data_source_id: "1763"
+  id: "618"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:52
+graph_items_297: 
+  updated_at: 2009-07-19 09:50:52
+  graph_id: "617"
+  cdef: 
+  title: Virgin Islands, U.S. GDP growth (annual %)
+  data_source_id: "1764"
+  id: "619"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:52
+graph_items_298: 
+  updated_at: 2009-07-19 09:50:52
+  graph_id: "618"
+  cdef: 
+  title: Belgium GDP growth (annual %)
+  data_source_id: "1765"
+  id: "620"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:52
+graph_items_299: 
+  updated_at: 2009-07-19 09:50:52
+  graph_id: "619"
+  cdef: 
+  title: Marshall Islands GDP growth (annual %)
+  data_source_id: "1766"
+  id: "621"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:52
+graph_items_300: 
+  updated_at: 2009-07-19 09:50:52
+  graph_id: "620"
+  cdef: 
+  title: Ukraine GDP growth (annual %)
+  data_source_id: "1767"
+  id: "622"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:52
+graph_items_301: 
+  updated_at: 2009-07-19 09:50:52
+  graph_id: "621"
+  cdef: 
+  title: Uganda GDP growth (annual %)
+  data_source_id: "1768"
+  id: "623"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:52
+graph_items_302: 
+  updated_at: 2009-07-19 09:50:52
+  graph_id: "622"
+  cdef: 
+  title: Lithuania GDP growth (annual %)
+  data_source_id: "1769"
+  id: "624"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:52
+graph_items_303: 
+  updated_at: 2009-07-19 09:50:52
+  graph_id: "623"
+  cdef: 
+  title: Belize GDP growth (annual %)
+  data_source_id: "1770"
+  id: "625"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:52
+graph_items_304: 
+  updated_at: 2009-07-19 09:50:52
+  graph_id: "624"
+  cdef: 
+  title: Mozambique GDP growth (annual %)
+  data_source_id: "1771"
+  id: "626"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:52
+graph_items_305: 
+  updated_at: 2009-07-19 09:50:52
+  graph_id: "625"
+  cdef: 
+  title: Mauritius GDP growth (annual %)
+  data_source_id: "1772"
+  id: "627"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:52
+graph_items_306: 
+  updated_at: 2009-07-19 09:50:52
+  graph_id: "626"
+  cdef: 
+  title: Isle of Man GDP growth (annual %)
+  data_source_id: "1773"
+  id: "628"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:52
+graph_items_307: 
+  updated_at: 2009-07-19 09:50:53
+  graph_id: "627"
+  cdef: 
+  title: Dominica GDP growth (annual %)
+  data_source_id: "1774"
+  id: "629"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:53
+graph_items_308: 
+  updated_at: 2009-07-19 09:50:53
+  graph_id: "628"
+  cdef: 
+  title: Benin GDP growth (annual %)
+  data_source_id: "1775"
+  id: "630"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:53
+graph_items_309: 
+  updated_at: 2009-07-19 09:50:53
+  graph_id: "629"
+  cdef: 
+  title: El Salvador GDP growth (annual %)
+  data_source_id: "1776"
+  id: "631"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:53
+graph_items_310: 
+  updated_at: 2009-07-19 09:50:53
+  graph_id: "630"
+  cdef: 
+  title: Saint Lucia GDP growth (annual %)
+  data_source_id: "1777"
+  id: "632"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:53
+graph_items_311: 
+  updated_at: 2009-07-19 09:50:53
+  graph_id: "631"
+  cdef: 
+  title: Equatorial Guinea GDP growth (annual %)
+  data_source_id: "1778"
+  id: "633"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:53
+graph_items_312: 
+  updated_at: 2009-07-19 09:50:53
+  graph_id: "632"
+  cdef: 
+  title: Mongolia GDP growth (annual %)
+  data_source_id: "1779"
+  id: "634"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:53
+graph_items_313: 
+  updated_at: 2009-07-19 09:50:53
+  graph_id: "633"
+  cdef: 
+  title: Uzbekistan GDP growth (annual %)
+  data_source_id: "1780"
+  id: "635"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:53
+graph_items_314: 
+  updated_at: 2009-07-19 09:50:53
+  graph_id: "634"
+  cdef: 
+  title: Cape Verde GDP growth (annual %)
+  data_source_id: "1781"
+  id: "636"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:53
+graph_items_315: 
+  updated_at: 2009-07-19 09:50:53
+  graph_id: "635"
+  cdef: 
+  title: Jersey GDP growth (annual %)
+  data_source_id: "1782"
+  id: "637"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:53
+graph_items_316: 
+  updated_at: 2009-07-19 09:50:53
+  graph_id: "636"
+  cdef: 
+  title: Kiribati GDP growth (annual %)
+  data_source_id: "1783"
+  id: "638"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:53
+graph_items_317: 
+  updated_at: 2009-07-19 09:50:53
+  graph_id: "637"
+  cdef: 
+  title: Portugal GDP growth (annual %)
+  data_source_id: "1784"
+  id: "639"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:53
+graph_items_318: 
+  updated_at: 2009-07-19 09:50:53
+  graph_id: "638"
+  cdef: 
+  title: Macao GDP growth (annual %)
+  data_source_id: "1785"
+  id: "640"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:53
+graph_items_319: 
+  updated_at: 2009-07-19 09:50:53
+  graph_id: "639"
+  cdef: 
+  title: Angola GDP growth (annual %)
+  data_source_id: "1786"
+  id: "641"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:53
+graph_items_320: 
+  updated_at: 2009-07-19 09:50:53
+  graph_id: "640"
+  cdef: 
+  title: Micronesia, Federated States of GDP growth (annual %)
+  data_source_id: "1787"
+  id: "642"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:53
+graph_items_321: 
+  updated_at: 2009-07-19 09:50:54
+  graph_id: "641"
+  cdef: 
+  title: Philippines GDP growth (annual %)
+  data_source_id: "1788"
+  id: "643"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:54
+graph_items_322: 
+  updated_at: 2009-07-19 09:50:54
+  graph_id: "642"
+  cdef: 
+  title: Latvia GDP growth (annual %)
+  data_source_id: "1789"
+  id: "644"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:54
+graph_items_323: 
+  updated_at: 2009-07-19 09:50:54
+  graph_id: "643"
+  cdef: 
+  title: Congo, Democratic Republic of the GDP growth (annual %)
+  data_source_id: "1790"
+  id: "645"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:54
+graph_items_324: 
+  updated_at: 2009-07-19 09:50:54
+  graph_id: "644"
+  cdef: 
+  title: Cayman Islands GDP growth (annual %)
+  data_source_id: "1791"
+  id: "646"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:54
+graph_items_325: 
+  updated_at: 2009-07-19 09:50:54
+  graph_id: "645"
+  cdef: 
+  title: Moldova GDP growth (annual %)
+  data_source_id: "1792"
+  id: "647"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:54
+graph_items_326: 
+  updated_at: 2009-07-19 09:50:54
+  graph_id: "646"
+  cdef: 
+  title: Djibouti GDP growth (annual %)
+  data_source_id: "1793"
+  id: "648"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:54
+graph_items_327: 
+  updated_at: 2009-07-19 09:50:54
+  graph_id: "647"
+  cdef: 
+  title: Peru GDP growth (annual %)
+  data_source_id: "1794"
+  id: "649"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:54
+graph_items_328: 
+  updated_at: 2009-07-19 09:50:54
+  graph_id: "648"
+  cdef: 
+  title: Guatemala GDP growth (annual %)
+  data_source_id: "1795"
+  id: "650"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:54
+graph_items_329: 
+  updated_at: 2009-07-19 09:50:54
+  graph_id: "649"
+  cdef: 
+  title: Iceland GDP growth (annual %)
+  data_source_id: "1796"
+  id: "651"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:54
+graph_items_330: 
+  updated_at: 2009-07-19 09:50:54
+  graph_id: "650"
+  cdef: 
+  title: Papua New Guinea GDP growth (annual %)
+  data_source_id: "1797"
+  id: "652"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:54
+graph_items_331: 
+  updated_at: 2009-07-19 09:50:54
+  graph_id: "651"
+  cdef: 
+  title: Senegal GDP growth (annual %)
+  data_source_id: "1798"
+  id: "653"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:54
+graph_items_332: 
+  updated_at: 2009-07-19 09:50:54
+  graph_id: "652"
+  cdef: 
+  title: Gambia GDP growth (annual %)
+  data_source_id: "1799"
+  id: "654"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:54
+graph_items_333: 
+  updated_at: 2009-07-19 09:50:54
+  graph_id: "653"
+  cdef: 
+  title: Jamaica GDP growth (annual %)
+  data_source_id: "1800"
+  id: "655"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:54
+graph_items_334: 
+  updated_at: 2009-07-19 09:50:54
+  graph_id: "654"
+  cdef: 
+  title: Congo GDP growth (annual %)
+  data_source_id: "1801"
+  id: "656"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:54
+graph_items_335: 
+  updated_at: 2009-07-19 09:50:54
+  graph_id: "655"
+  cdef: 
+  title: Cyprus GDP growth (annual %)
+  data_source_id: "1802"
+  id: "657"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:54
+graph_items_336: 
+  updated_at: 2009-07-19 09:50:55
+  graph_id: "656"
+  cdef: 
+  title: Paraguay GDP growth (annual %)
+  data_source_id: "1803"
+  id: "658"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:55
+graph_items_337: 
+  updated_at: 2009-07-19 09:50:55
+  graph_id: "657"
+  cdef: 
+  title: Mexico GDP growth (annual %)
+  data_source_id: "1804"
+  id: "659"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:55
+graph_items_338: 
+  updated_at: 2009-07-19 09:50:55
+  graph_id: "658"
+  cdef: 
+  title: Samoa GDP growth (annual %)
+  data_source_id: "1805"
+  id: "660"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:55
+graph_items_339: 
+  updated_at: 2009-07-19 09:50:55
+  graph_id: "659"
+  cdef: 
+  title: Bahrain GDP growth (annual %)
+  data_source_id: "1806"
+  id: "661"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:55
+graph_items_340: 
+  updated_at: 2009-07-19 09:50:55
+  graph_id: "660"
+  cdef: 
+  title: Hungary GDP growth (annual %)
+  data_source_id: "1807"
+  id: "662"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:55
+graph_items_341: 
+  updated_at: 2009-07-19 09:50:55
+  graph_id: "661"
+  cdef: 
+  title: Bahamas GDP growth (annual %)
+  data_source_id: "1808"
+  id: "663"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:55
+graph_items_342: 
+  updated_at: 2009-07-19 09:50:55
+  graph_id: "662"
+  cdef: 
+  title: Suriname GDP growth (annual %)
+  data_source_id: "1809"
+  id: "664"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:55
+graph_items_343: 
+  updated_at: 2009-07-19 09:50:55
+  graph_id: "663"
+  cdef: 
+  title: Oman GDP growth (annual %)
+  data_source_id: "1810"
+  id: "665"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:55
+graph_items_344: 
+  updated_at: 2009-07-19 09:50:55
+  graph_id: "664"
+  cdef: 
+  title: Cuba GDP growth (annual %)
+  data_source_id: "1811"
+  id: "666"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:55
+graph_items_345: 
+  updated_at: 2009-07-19 09:50:55
+  graph_id: "665"
+  cdef: 
+  title: Korea, Republic of GDP growth (annual %)
+  data_source_id: "1812"
+  id: "667"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:55
+graph_items_346: 
+  updated_at: 2009-07-19 09:50:55
+  graph_id: "666"
+  cdef: 
+  title: Madagascar GDP growth (annual %)
+  data_source_id: "1813"
+  id: "668"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:55
+graph_items_347: 
+  updated_at: 2009-07-19 09:50:55
+  graph_id: "667"
+  cdef: 
+  title: France GDP growth (annual %)
+  data_source_id: "1814"
+  id: "669"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:55
+graph_items_348: 
+  updated_at: 2009-07-19 09:50:55
+  graph_id: "668"
+  cdef: 
+  title: Saint Helena GDP growth (annual %)
+  data_source_id: "1815"
+  id: "670"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:55
+graph_items_349: 
+  updated_at: 2009-07-19 09:50:55
+  graph_id: "669"
+  cdef: 
+  title: Northern Mariana Islands GDP growth (annual %)
+  data_source_id: "1816"
+  id: "671"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:55
+graph_items_350: 
+  updated_at: 2009-07-19 09:50:55
+  graph_id: "670"
+  cdef: 
+  title: Niue GDP growth (annual %)
+  data_source_id: "1817"
+  id: "672"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:55
+graph_items_351: 
+  updated_at: 2009-07-19 09:50:55
+  graph_id: "671"
+  cdef: 
+  title: Botswana GDP growth (annual %)
+  data_source_id: "1818"
+  id: "673"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:55
+graph_items_352: 
+  updated_at: 2009-07-19 09:50:56
+  graph_id: "672"
+  cdef: 
+  title: Venezuela GDP growth (annual %)
+  data_source_id: "1819"
+  id: "674"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:56
+graph_items_353: 
+  updated_at: 2009-07-19 09:50:56
+  graph_id: "673"
+  cdef: 
+  title: Hong Kong GDP growth (annual %)
+  data_source_id: "1820"
+  id: "675"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:56
+graph_items_354: 
+  updated_at: 2009-07-19 09:50:56
+  graph_id: "674"
+  cdef: 
+  title: Honduras GDP growth (annual %)
+  data_source_id: "1821"
+  id: "676"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:56
+graph_items_355: 
+  updated_at: 2009-07-19 09:50:56
+  graph_id: "675"
+  cdef: 
+  title: Cook Islands GDP growth (annual %)
+  data_source_id: "1822"
+  id: "677"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:56
+graph_items_356: 
+  updated_at: 2009-07-19 09:50:56
+  graph_id: "676"
+  cdef: 
+  title: Israel GDP growth (annual %)
+  data_source_id: "1823"
+  id: "678"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:56
+graph_items_357: 
+  updated_at: 2009-07-19 09:50:56
+  graph_id: "677"
+  cdef: 
+  title: Finland GDP growth (annual %)
+  data_source_id: "1824"
+  id: "679"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:56
+graph_items_358: 
+  updated_at: 2009-07-19 09:50:56
+  graph_id: "678"
+  cdef: 
+  title: Anguilla GDP growth (annual %)
+  data_source_id: "1825"
+  id: "680"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:56
+graph_items_359: 
+  updated_at: 2009-07-19 09:50:56
+  graph_id: "679"
+  cdef: 
+  title: Saint Kitts and Nevis GDP growth (annual %)
+  data_source_id: "1826"
+  id: "681"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:56
+graph_items_360: 
+  updated_at: 2009-07-19 09:50:56
+  graph_id: "680"
+  cdef: 
+  title: Liechtenstein GDP growth (annual %)
+  data_source_id: "1827"
+  id: "682"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:56
+graph_items_361: 
+  updated_at: 2009-07-19 09:50:56
+  graph_id: "681"
+  cdef: 
+  title: Falkland Islands (Malvinas) GDP growth (annual %)
+  data_source_id: "1828"
+  id: "683"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:56
+graph_items_362: 
+  updated_at: 2009-07-19 09:50:56
+  graph_id: "682"
+  cdef: 
+  title: Croatia GDP growth (annual %)
+  data_source_id: "1829"
+  id: "684"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:56
+graph_items_363: 
+  updated_at: 2009-07-19 09:50:56
+  graph_id: "683"
+  cdef: 
+  title: Colombia GDP growth (annual %)
+  data_source_id: "1830"
+  id: "685"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:56
+graph_items_364: 
+  updated_at: 2009-07-19 09:50:56
+  graph_id: "684"
+  cdef: 
+  title: Costa Rica GDP growth (annual %)
+  data_source_id: "1831"
+  id: "686"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:56
+graph_items_365: 
+  updated_at: 2009-07-19 09:50:56
+  graph_id: "685"
+  cdef: 
+  title: Wallis and Futuna GDP growth (annual %)
+  data_source_id: "1832"
+  id: "687"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:56
+graph_items_366: 
+  updated_at: 2009-07-19 09:50:56
+  graph_id: "686"
+  cdef: 
+  title: Bangladesh GDP growth (annual %)
+  data_source_id: "1833"
+  id: "688"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:56
+graph_items_367: 
+  updated_at: 2009-07-19 09:50:56
+  graph_id: "687"
+  cdef: 
+  title: Lesotho GDP growth (annual %)
+  data_source_id: "1834"
+  id: "689"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:56
+graph_items_368: 
+  updated_at: 2009-07-19 09:50:57
+  graph_id: "688"
+  cdef: 
+  title: Malawi GDP growth (annual %)
+  data_source_id: "1835"
+  id: "690"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:57
+graph_items_369: 
+  updated_at: 2009-07-19 09:50:57
+  graph_id: "689"
+  cdef: 
+  title: Comoros GDP growth (annual %)
+  data_source_id: "1836"
+  id: "691"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:57
+graph_items_370: 
+  updated_at: 2009-07-19 09:50:57
+  graph_id: "690"
+  cdef: 
+  title: United States Minor Outlying Islands GDP growth (annual %)
+  data_source_id: "1837"
+  id: "692"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:57
+graph_items_371: 
+  updated_at: 2009-07-19 09:50:57
+  graph_id: "691"
+  cdef: 
+  title: United States GDP growth (annual %)
+  data_source_id: "1838"
+  id: "693"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:57
+graph_items_372: 
+  updated_at: 2009-07-19 09:50:57
+  graph_id: "692"
+  cdef: 
+  title: Kenya GDP growth (annual %)
+  data_source_id: "1839"
+  id: "694"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:57
+graph_items_373: 
+  updated_at: 2009-07-19 09:50:57
+  graph_id: "693"
+  cdef: 
+  title: Afghanistan GDP growth (annual %)
+  data_source_id: "1840"
+  id: "695"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:57
+graph_items_374: 
+  updated_at: 2009-07-19 09:50:57
+  graph_id: "694"
+  cdef: 
+  title: American Samoa GDP growth (annual %)
+  data_source_id: "1841"
+  id: "696"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:57
+graph_items_375: 
+  updated_at: 2009-07-19 09:50:57
+  graph_id: "695"
+  cdef: 
+  title: "C\xC3\xB4te d'Ivoire GDP growth (annual %)"
+  data_source_id: "1842"
+  id: "697"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:57
+graph_items_376: 
+  updated_at: 2009-07-19 09:50:57
+  graph_id: "696"
+  cdef: 
+  title: Norway GDP growth (annual %)
+  data_source_id: "1843"
+  id: "698"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:57
+graph_items_377: 
+  updated_at: 2009-07-19 09:50:57
+  graph_id: "697"
+  cdef: 
+  title: Pakistan GDP growth (annual %)
+  data_source_id: "1844"
+  id: "699"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:57
+graph_items_378: 
+  updated_at: 2009-07-19 09:50:57
+  graph_id: "698"
+  cdef: 
+  title: Yemen GDP growth (annual %)
+  data_source_id: "1845"
+  id: "700"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:57
+graph_items_379: 
+  updated_at: 2009-07-19 09:50:57
+  graph_id: "699"
+  cdef: 
+  title: Vanuatu GDP growth (annual %)
+  data_source_id: "1846"
+  id: "701"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:57
+graph_items_380: 
+  updated_at: 2009-07-19 09:50:57
+  graph_id: "700"
+  cdef: 
+  title: "\xC3\x85land Islands GDP growth (annual %)"
+  data_source_id: "1847"
+  id: "702"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:57
+graph_items_381: 
+  updated_at: 2009-07-19 09:50:57
+  graph_id: "701"
+  cdef: 
+  title: Burundi GDP growth (annual %)
+  data_source_id: "1848"
+  id: "703"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:57
+graph_items_382: 
+  updated_at: 2009-07-19 09:50:57
+  graph_id: "702"
+  cdef: 
+  title: Morocco GDP growth (annual %)
+  data_source_id: "1849"
+  id: "704"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:57
+graph_items_383: 
+  updated_at: 2009-07-19 09:50:58
+  graph_id: "703"
+  cdef: 
+  title: Albania GDP growth (annual %)
+  data_source_id: "1850"
+  id: "705"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:58
+graph_items_384: 
+  updated_at: 2009-07-19 09:50:58
+  graph_id: "704"
+  cdef: 
+  title: Cambodia GDP growth (annual %)
+  data_source_id: "1851"
+  id: "706"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:58
+graph_items_385: 
+  updated_at: 2009-07-19 09:50:58
+  graph_id: "705"
+  cdef: 
+  title: Ethiopia GDP growth (annual %)
+  data_source_id: "1852"
+  id: "707"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:58
+graph_items_386: 
+  updated_at: 2009-07-19 09:50:58
+  graph_id: "706"
+  cdef: 
+  title: Panama GDP growth (annual %)
+  data_source_id: "1853"
+  id: "708"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:58
+graph_items_387: 
+  updated_at: 2009-07-19 09:50:58
+  graph_id: "707"
+  cdef: 
+  title: Switzerland GDP growth (annual %)
+  data_source_id: "1854"
+  id: "709"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:58
+graph_items_388: 
+  updated_at: 2009-07-19 09:50:58
+  graph_id: "708"
+  cdef: 
+  title: Martinique GDP growth (annual %)
+  data_source_id: "1855"
+  id: "710"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:58
+graph_items_389: 
+  updated_at: 2009-07-19 09:50:58
+  graph_id: "709"
+  cdef: 
+  title: Bhutan GDP growth (annual %)
+  data_source_id: "1856"
+  id: "711"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:58
+graph_items_390: 
+  updated_at: 2009-07-19 09:50:58
+  graph_id: "710"
+  cdef: 
+  title: Thailand GDP growth (annual %)
+  data_source_id: "1857"
+  id: "712"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:58
+graph_items_391: 
+  updated_at: 2009-07-19 09:50:58
+  graph_id: "711"
+  cdef: 
+  title: Sweden GDP growth (annual %)
+  data_source_id: "1858"
+  id: "713"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:58
+graph_items_392: 
+  updated_at: 2009-07-19 09:50:58
+  graph_id: "712"
+  cdef: 
+  title: Tonga GDP growth (annual %)
+  data_source_id: "1859"
+  id: "714"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:58
+graph_items_393: 
+  updated_at: 2009-07-19 09:50:58
+  graph_id: "713"
+  cdef: 
+  title: Viet Nam GDP growth (annual %)
+  data_source_id: "1860"
+  id: "715"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:58
+graph_items_394: 
+  updated_at: 2009-07-19 09:50:58
+  graph_id: "714"
+  cdef: 
+  title: Guernsey GDP growth (annual %)
+  data_source_id: "1861"
+  id: "716"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:58
+graph_items_395: 
+  updated_at: 2009-07-19 09:50:58
+  graph_id: "715"
+  cdef: 
+  title: Timor-Leste GDP growth (annual %)
+  data_source_id: "1862"
+  id: "717"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:58
+graph_items_396: 
+  updated_at: 2009-07-19 09:50:58
+  graph_id: "716"
+  cdef: 
+  title: Nauru GDP growth (annual %)
+  data_source_id: "1863"
+  id: "718"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:58
+graph_items_397: 
+  updated_at: 2009-07-19 09:50:58
+  graph_id: "717"
+  cdef: 
+  title: Virgin Islands, British GDP growth (annual %)
+  data_source_id: "1864"
+  id: "719"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:58
+graph_items_398: 
+  updated_at: 2009-07-19 09:50:59
+  graph_id: "718"
+  cdef: 
+  title: Gibraltar GDP growth (annual %)
+  data_source_id: "1865"
+  id: "720"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:58
+graph_items_399: 
+  updated_at: 2009-07-19 09:50:59
+  graph_id: "719"
+  cdef: 
+  title: Niger GDP growth (annual %)
+  data_source_id: "1866"
+  id: "721"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:59
+graph_items_400: 
+  updated_at: 2009-07-19 09:50:59
+  graph_id: "720"
+  cdef: 
+  title: Haiti GDP growth (annual %)
+  data_source_id: "1867"
+  id: "722"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:59
+graph_items_401: 
+  updated_at: 2009-07-19 09:50:59
+  graph_id: "721"
+  cdef: 
+  title: Maldives GDP growth (annual %)
+  data_source_id: "1868"
+  id: "723"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:59
+graph_items_402: 
+  updated_at: 2009-07-19 09:50:59
+  graph_id: "722"
+  cdef: 
+  title: Faroe Islands GDP growth (annual %)
+  data_source_id: "1869"
+  id: "724"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:59
+graph_items_403: 
+  updated_at: 2009-07-19 09:50:59
+  graph_id: "723"
+  cdef: 
+  title: Chile GDP growth (annual %)
+  data_source_id: "1870"
+  id: "725"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:59
+graph_items_404: 
+  updated_at: 2009-07-19 09:50:59
+  graph_id: "724"
+  cdef: 
+  title: Sudan GDP growth (annual %)
+  data_source_id: "1871"
+  id: "726"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:59
+graph_items_405: 
+  updated_at: 2009-07-19 09:50:59
+  graph_id: "725"
+  cdef: 
+  title: Ireland GDP growth (annual %)
+  data_source_id: "1872"
+  id: "727"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:59
+graph_items_406: 
+  updated_at: 2009-07-19 09:50:59
+  graph_id: "726"
+  cdef: 
+  title: United Arab Emirates GDP growth (annual %)
+  data_source_id: "1873"
+  id: "728"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:59
+graph_items_407: 
+  updated_at: 2009-07-19 09:50:59
+  graph_id: "727"
+  cdef: 
+  title: China GDP growth (annual %)
+  data_source_id: "1874"
+  id: "729"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:59
+graph_items_408: 
+  updated_at: 2009-07-19 09:50:59
+  graph_id: "728"
+  cdef: 
+  title: Sao Tome and Principe GDP growth (annual %)
+  data_source_id: "1875"
+  id: "730"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:59
+graph_items_409: 
+  updated_at: 2009-07-19 09:50:59
+  graph_id: "729"
+  cdef: 
+  title: Japan GDP growth (annual %)
+  data_source_id: "1876"
+  id: "731"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:59
+graph_items_410: 
+  updated_at: 2009-07-19 09:50:59
+  graph_id: "730"
+  cdef: 
+  title: Tunisia GDP growth (annual %)
+  data_source_id: "1877"
+  id: "732"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:59
+graph_items_411: 
+  updated_at: 2009-07-19 09:50:59
+  graph_id: "731"
+  cdef: 
+  title: Bulgaria GDP growth (annual %)
+  data_source_id: "1878"
+  id: "733"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:59
+graph_items_412: 
+  updated_at: 2009-07-19 09:50:59
+  graph_id: "732"
+  cdef: 
+  title: Iran, Islamic Republic of GDP growth (annual %)
+  data_source_id: "1879"
+  id: "734"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:59
+graph_items_413: 
+  updated_at: 2009-07-19 09:50:59
+  graph_id: "733"
+  cdef: 
+  title: Argentina GDP growth (annual %)
+  data_source_id: "1880"
+  id: "735"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:59
+graph_items_414: 
+  updated_at: 2009-07-19 09:50:59
+  graph_id: "734"
+  cdef: 
+  title: Christmas Island GDP growth (annual %)
+  data_source_id: "1881"
+  id: "736"
+  color: "#0f0"
+  created_at: 2009-07-19 09:50:59
+graph_items_415: 
+  updated_at: 2009-07-19 09:51:00
+  graph_id: "735"
+  cdef: 
+  title: British Indian Ocean Territory GDP growth (annual %)
+  data_source_id: "1882"
+  id: "737"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:00
+graph_items_416: 
+  updated_at: 2009-07-19 09:51:00
+  graph_id: "736"
+  cdef: 
+  title: Saudi Arabia GDP growth (annual %)
+  data_source_id: "1883"
+  id: "738"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:00
+graph_items_417: 
+  updated_at: 2009-07-19 09:51:00
+  graph_id: "737"
+  cdef: 
+  title: Nigeria GDP growth (annual %)
+  data_source_id: "1884"
+  id: "739"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:00
+graph_items_418: 
+  updated_at: 2009-07-19 09:51:00
+  graph_id: "738"
+  cdef: 
+  title: Heard Island and McDonald Islands GDP growth (annual %)
+  data_source_id: "1885"
+  id: "740"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:00
+graph_items_419: 
+  updated_at: 2009-07-19 09:51:00
+  graph_id: "739"
+  cdef: 
+  title: Iraq GDP growth (annual %)
+  data_source_id: "1886"
+  id: "741"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:00
+graph_items_420: 
+  updated_at: 2009-07-19 09:51:00
+  graph_id: "740"
+  cdef: 
+  title: Burkina Faso GDP growth (annual %)
+  data_source_id: "1887"
+  id: "742"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:00
+graph_items_421: 
+  updated_at: 2009-07-19 09:51:00
+  graph_id: "741"
+  cdef: 
+  title: Turkey GDP growth (annual %)
+  data_source_id: "1888"
+  id: "743"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:00
+graph_items_422: 
+  updated_at: 2009-07-19 09:51:00
+  graph_id: "742"
+  cdef: 
+  title: Myanmar GDP growth (annual %)
+  data_source_id: "1889"
+  id: "744"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:00
+graph_items_423: 
+  updated_at: 2009-07-19 09:51:00
+  graph_id: "743"
+  cdef: 
+  title: Palestinian Territory, Occupied GDP growth (annual %)
+  data_source_id: "1890"
+  id: "745"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:00
+graph_items_424: 
+  updated_at: 2009-07-19 09:51:00
+  graph_id: "744"
+  cdef: 
+  title: Singapore GDP growth (annual %)
+  data_source_id: "1891"
+  id: "746"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:00
+graph_items_425: 
+  updated_at: 2009-07-19 09:51:00
+  graph_id: "745"
+  cdef: 
+  title: Central African Republic GDP growth (annual %)
+  data_source_id: "1892"
+  id: "747"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:00
+graph_items_426: 
+  updated_at: 2009-07-19 09:51:00
+  graph_id: "746"
+  cdef: 
+  title: Sri Lanka GDP growth (annual %)
+  data_source_id: "1893"
+  id: "748"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:00
+graph_items_427: 
+  updated_at: 2009-07-19 09:51:00
+  graph_id: "747"
+  cdef: 
+  title: Svalbard and Jan Mayen GDP growth (annual %)
+  data_source_id: "1894"
+  id: "749"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:00
+graph_items_428: 
+  updated_at: 2009-07-19 09:51:00
+  graph_id: "748"
+  cdef: 
+  title: India GDP growth (annual %)
+  data_source_id: "1895"
+  id: "750"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:00
+graph_items_429: 
+  updated_at: 2009-07-19 09:51:00
+  graph_id: "749"
+  cdef: 
+  title: Holy See (Vatican City State) GDP growth (annual %)
+  data_source_id: "1896"
+  id: "751"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:00
+graph_items_430: 
+  updated_at: 2009-07-19 09:51:01
+  graph_id: "750"
+  cdef: 
+  title: Lebanon GDP growth (annual %)
+  data_source_id: "1897"
+  id: "752"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:00
+graph_items_431: 
+  updated_at: 2009-07-19 09:51:01
+  graph_id: "751"
+  cdef: 
+  title: Tokelau GDP growth (annual %)
+  data_source_id: "1898"
+  id: "753"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:01
+graph_items_432: 
+  updated_at: 2009-07-19 09:51:01
+  graph_id: "752"
+  cdef: 
+  title: Guinea GDP growth (annual %)
+  data_source_id: "1899"
+  id: "754"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:01
+graph_items_433: 
+  updated_at: 2009-07-19 09:51:01
+  graph_id: "753"
+  cdef: 
+  title: Namibia GDP growth (annual %)
+  data_source_id: "1900"
+  id: "755"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:01
+graph_items_434: 
+  updated_at: 2009-07-19 09:51:01
+  graph_id: "754"
+  cdef: 
+  title: South Georgia and the South Sandwich Islands GDP growth (annual %)
+  data_source_id: "1901"
+  id: "756"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:01
+graph_items_435: 
+  updated_at: 2009-07-19 09:51:01
+  graph_id: "755"
+  cdef: 
+  title: Armenia GDP growth (annual %)
+  data_source_id: "1902"
+  id: "757"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:01
+graph_items_436: 
+  updated_at: 2009-07-19 09:51:01
+  graph_id: "756"
+  cdef: 
+  title: Greece GDP growth (annual %)
+  data_source_id: "1903"
+  id: "758"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:01
+graph_items_437: 
+  updated_at: 2009-07-19 09:51:01
+  graph_id: "757"
+  cdef: 
+  title: Tuvalu GDP growth (annual %)
+  data_source_id: "1904"
+  id: "759"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:01
+graph_items_438: 
+  updated_at: 2009-07-19 09:51:01
+  graph_id: "758"
+  cdef: 
+  title: Turkmenistan GDP growth (annual %)
+  data_source_id: "1905"
+  id: "760"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:01
+graph_items_439: 
+  updated_at: 2009-07-19 09:51:01
+  graph_id: "759"
+  cdef: 
+  title: Grenada GDP growth (annual %)
+  data_source_id: "1906"
+  id: "761"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:01
+graph_items_440: 
+  updated_at: 2009-07-19 09:51:01
+  graph_id: "760"
+  cdef: 
+  title: Dominican Republic GDP growth (annual %)
+  data_source_id: "1907"
+  id: "762"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:01
+graph_items_441: 
+  updated_at: 2009-07-19 09:51:01
+  graph_id: "761"
+  cdef: 
+  title: Western Sahara GDP growth (annual %)
+  data_source_id: "1908"
+  id: "763"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:01
+graph_items_442: 
+  updated_at: 2009-07-19 09:51:01
+  graph_id: "762"
+  cdef: 
+  title: Liberia GDP growth (annual %)
+  data_source_id: "1909"
+  id: "764"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:01
+graph_items_443: 
+  updated_at: 2009-07-19 09:51:01
+  graph_id: "763"
+  cdef: 
+  title: Monaco GDP growth (annual %)
+  data_source_id: "1910"
+  id: "765"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:01
+graph_items_444: 
+  updated_at: 2009-07-19 09:51:01
+  graph_id: "764"
+  cdef: 
+  title: Italy GDP growth (annual %)
+  data_source_id: "1911"
+  id: "766"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:01
+graph_items_445: 
+  updated_at: 2009-07-19 09:51:01
+  graph_id: "765"
+  cdef: 
+  title: Bermuda GDP growth (annual %)
+  data_source_id: "1912"
+  id: "767"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:01
+graph_items_446: 
+  updated_at: 2009-07-19 09:51:01
+  graph_id: "766"
+  cdef: 
+  title: Egypt GDP growth (annual %)
+  data_source_id: "1913"
+  id: "768"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:01
+graph_items_447: 
+  updated_at: 2009-07-19 09:51:02
+  graph_id: "767"
+  cdef: 
+  title: French Polynesia GDP growth (annual %)
+  data_source_id: "1914"
+  id: "769"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:02
+graph_items_448: 
+  updated_at: 2009-07-19 09:51:02
+  graph_id: "768"
+  cdef: 
+  title: Canada GDP growth (annual %)
+  data_source_id: "1915"
+  id: "770"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:02
+graph_items_449: 
+  updated_at: 2009-07-19 09:51:02
+  graph_id: "769"
+  cdef: 
+  title: Montserrat GDP growth (annual %)
+  data_source_id: "1916"
+  id: "771"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:02
+graph_items_450: 
+  updated_at: 2009-07-19 09:51:02
+  graph_id: "770"
+  cdef: 
+  title: Swaziland GDP growth (annual %)
+  data_source_id: "1917"
+  id: "772"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:02
+graph_items_451: 
+  updated_at: 2009-07-19 09:51:02
+  graph_id: "771"
+  cdef: 
+  title: Czech Republic GDP growth (annual %)
+  data_source_id: "1918"
+  id: "773"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:02
+graph_items_452: 
+  updated_at: 2009-07-19 09:51:02
+  graph_id: "772"
+  cdef: 
+  title: Guadeloupe GDP growth (annual %)
+  data_source_id: "1919"
+  id: "774"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:02
+graph_items_453: 
+  updated_at: 2009-07-19 09:51:02
+  graph_id: "773"
+  cdef: 
+  title: Saint Pierre and Miquelon GDP growth (annual %)
+  data_source_id: "1920"
+  id: "775"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:02
+graph_items_454: 
+  updated_at: 2009-07-19 09:51:02
+  graph_id: "774"
+  cdef: 
+  title: Seychelles GDP growth (annual %)
+  data_source_id: "1921"
+  id: "776"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:02
+graph_items_455: 
+  updated_at: 2009-07-19 09:51:02
+  graph_id: "775"
+  cdef: 
+  title: Pitcairn GDP growth (annual %)
+  data_source_id: "1922"
+  id: "777"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:02
+graph_items_456: 
+  updated_at: 2009-07-19 09:51:02
+  graph_id: "776"
+  cdef: 
+  title: San Marino GDP growth (annual %)
+  data_source_id: "1923"
+  id: "778"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:02
+graph_items_457: 
+  updated_at: 2009-07-19 09:51:02
+  graph_id: "777"
+  cdef: 
+  title: French Guiana GDP growth (annual %)
+  data_source_id: "1924"
+  id: "779"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:02
+graph_items_458: 
+  updated_at: 2009-07-19 09:51:02
+  graph_id: "778"
+  cdef: 
+  title: Tanzania, United Republic of GDP growth (annual %)
+  data_source_id: "1925"
+  id: "780"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:02
+graph_items_459: 
+  updated_at: 2009-07-19 09:51:02
+  graph_id: "779"
+  cdef: 
+  title: Ghana GDP growth (annual %)
+  data_source_id: "1926"
+  id: "781"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:02
+graph_items_460: 
+  updated_at: 2009-07-19 09:51:02
+  graph_id: "780"
+  cdef: 
+  title: Andorra GDP growth (annual %)
+  data_source_id: "1927"
+  id: "782"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:02
+graph_items_461: 
+  updated_at: 2009-07-19 09:51:02
+  graph_id: "781"
+  cdef: 
+  title: Bosnia and Herzegovina GDP growth (annual %)
+  data_source_id: "1928"
+  id: "783"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:02
+graph_items_462: 
+  updated_at: 2009-07-19 09:51:03
+  graph_id: "782"
+  cdef: 
+  title: Kazakhstan GDP growth (annual %)
+  data_source_id: "1929"
+  id: "784"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:02
+graph_items_463: 
+  updated_at: 2009-07-19 09:51:03
+  graph_id: "783"
+  cdef: 
+  title: Kuwait GDP growth (annual %)
+  data_source_id: "1930"
+  id: "785"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:03
+graph_items_464: 
+  updated_at: 2009-07-19 09:51:03
+  graph_id: "784"
+  cdef: 
+  title: Mali GDP growth (annual %)
+  data_source_id: "1931"
+  id: "786"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:03
+graph_items_465: 
+  updated_at: 2009-07-19 09:51:03
+  graph_id: "785"
+  cdef: 
+  title: New Zealand GDP growth (annual %)
+  data_source_id: "1932"
+  id: "787"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:03
+graph_items_466: 
+  updated_at: 2009-07-19 09:51:03
+  graph_id: "786"
+  cdef: 
+  title: Greenland GDP growth (annual %)
+  data_source_id: "1933"
+  id: "788"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:03
+graph_items_467: 
+  updated_at: 2009-07-19 09:51:03
+  graph_id: "787"
+  cdef: 
+  title: Australia GDP growth (annual %)
+  data_source_id: "1934"
+  id: "789"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:03
+graph_items_468: 
+  updated_at: 2009-07-19 09:51:03
+  graph_id: "788"
+  cdef: 
+  title: Libyan Arab Jamahiriya GDP growth (annual %)
+  data_source_id: "1935"
+  id: "790"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:03
+graph_items_469: 
+  updated_at: 2009-07-19 09:51:03
+  graph_id: "789"
+  cdef: 
+  title: Romania GDP growth (annual %)
+  data_source_id: "1936"
+  id: "791"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:03
+graph_items_470: 
+  updated_at: 2009-07-19 09:51:03
+  graph_id: "790"
+  cdef: 
+  title: Aruba GDP growth (annual %)
+  data_source_id: "1937"
+  id: "792"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:03
+graph_items_471: 
+  updated_at: 2009-07-19 09:51:03
+  graph_id: "791"
+  cdef: 
+  title: Spain GDP growth (annual %)
+  data_source_id: "1938"
+  id: "793"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:03
+graph_items_472: 
+  updated_at: 2009-07-19 09:51:03
+  graph_id: "792"
+  cdef: 
+  title: Solomon Islands GDP growth (annual %)
+  data_source_id: "1939"
+  id: "794"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:03
+graph_items_473: 
+  updated_at: 2009-07-19 09:51:03
+  graph_id: "793"
+  cdef: 
+  title: Luxembourg GDP growth (annual %)
+  data_source_id: "1940"
+  id: "795"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:03
+graph_items_474: 
+  updated_at: 2009-07-19 09:51:03
+  graph_id: "794"
+  cdef: 
+  title: Austria GDP growth (annual %)
+  data_source_id: "1941"
+  id: "796"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:03
+graph_items_475: 
+  updated_at: 2009-07-19 09:51:03
+  graph_id: "795"
+  cdef: 
+  title: Brazil GDP growth (annual %)
+  data_source_id: "1942"
+  id: "797"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:03
+graph_items_476: 
+  updated_at: 2009-07-19 09:51:03
+  graph_id: "796"
+  cdef: 
+  title: Slovakia GDP growth (annual %)
+  data_source_id: "1943"
+  id: "798"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:03
+graph_items_477: 
+  updated_at: 2009-07-19 09:51:03
+  graph_id: "797"
+  cdef: 
+  title: Qatar GDP growth (annual %)
+  data_source_id: "1944"
+  id: "799"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:03
+graph_items_478: 
+  updated_at: 2009-07-19 09:51:04
+  graph_id: "798"
+  cdef: 
+  title: Antarctica GDP growth (annual %)
+  data_source_id: "1945"
+  id: "800"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:04
+graph_items_479: 
+  updated_at: 2009-07-19 09:51:04
+  graph_id: "799"
+  cdef: 
+  title: South Africa GDP growth (annual %)
+  data_source_id: "1946"
+  id: "801"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:04
+graph_items_480: 
+  updated_at: 2009-07-19 09:51:04
+  graph_id: "800"
+  cdef: 
+  title: Barbados GDP growth (annual %)
+  data_source_id: "1947"
+  id: "802"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:04
+graph_items_481: 
+  updated_at: 2009-07-19 09:51:04
+  graph_id: "801"
+  cdef: 
+  title: Guam GDP growth (annual %)
+  data_source_id: "1948"
+  id: "803"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:04
+graph_items_482: 
+  updated_at: 2009-07-19 09:51:04
+  graph_id: "802"
+  cdef: 
+  title: Malaysia GDP growth (annual %)
+  data_source_id: "1949"
+  id: "804"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:04
+graph_items_483: 
+  updated_at: 2009-07-19 09:51:04
+  graph_id: "803"
+  cdef: 
+  title: Trinidad and Tobago GDP growth (annual %)
+  data_source_id: "1950"
+  id: "805"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:04
+graph_items_484: 
+  updated_at: 2009-07-19 09:51:04
+  graph_id: "804"
+  cdef: 
+  title: Sierra Leone GDP growth (annual %)
+  data_source_id: "1951"
+  id: "806"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:04
+graph_items_485: 
+  updated_at: 2009-07-19 09:51:04
+  graph_id: "805"
+  cdef: 
+  title: Slovenia GDP growth (annual %)
+  data_source_id: "1952"
+  id: "807"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:04
+graph_items_486: 
+  updated_at: 2009-07-19 09:51:04
+  graph_id: "806"
+  cdef: 
+  title: Bouvet Island GDP growth (annual %)
+  data_source_id: "1953"
+  id: "808"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:04
+graph_items_487: 
+  updated_at: 2009-07-19 09:51:04
+  graph_id: "807"
+  cdef: 
+  title: Mayotte GDP growth (annual %)
+  data_source_id: "1954"
+  id: "809"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:04
+graph_items_488: 
+  updated_at: 2009-07-19 09:51:04
+  graph_id: "808"
+  cdef: 
+  title: Kyrgyzstan GDP growth (annual %)
+  data_source_id: "1955"
+  id: "810"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:04
+graph_items_489: 
+  updated_at: 2009-07-19 09:51:04
+  graph_id: "809"
+  cdef: 
+  title: Estonia GDP growth (annual %)
+  data_source_id: "1956"
+  id: "811"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:04
+graph_items_490: 
+  updated_at: 2009-07-19 09:51:04
+  graph_id: "810"
+  cdef: 
+  title: Guinea-Bissau GDP growth (annual %)
+  data_source_id: "1957"
+  id: "812"
+  color: "#0f0"
+  created_at: 2009-07-19 09:51:04
+graph_items_491: 
+  updated_at: 2009-07-22 21:29:07
+  graph_id: "811"
+  cdef: 
+  title: Dow Jones Industrial Average
+  data_source_id: "1958"
+  id: "813"
+  color: "#0f0"
+  created_at: 2009-07-22 21:29:07
+graph_items_492: 
+  updated_at: 2009-07-22 22:03:16
+  graph_id: "812"
+  cdef: 
+  title: NASDAQ Composite
+  data_source_id: "1959"
+  id: "814"
+  color: "#0f0"
+  created_at: 2009-07-22 22:03:16

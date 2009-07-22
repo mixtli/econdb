@@ -8,6 +8,8 @@ class CreateStocks < ActiveRecord::Migration
 
       t.timestamps
     end
+    add_index :stocks, :symbol
+    add_index :stocks, :exchange_id
   end
 
   def self.down

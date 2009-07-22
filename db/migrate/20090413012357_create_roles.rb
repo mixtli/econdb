@@ -11,6 +11,9 @@ class CreateRoles < ActiveRecord::Migration
       t.integer :authorizable_id
       t.timestamps
     end
+
+    add_index :roles_users, [:user_id, :role_id], :unique => true
+    add_index :roles, [:name, :authorizable_id], :unique => true
   end
 
   def self.down

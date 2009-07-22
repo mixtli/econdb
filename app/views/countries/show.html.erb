@@ -1,6 +1,14 @@
 <%= render :partial => 'sidebar' %>
 <h2><%= @country.name %></h2>
+
+<% if @country.map %>
+<%= draw_map(@country.map, 400, 300) %>
+<% end %>
+
 <% for graph in @graphs %>
   <%= render :partial => 'graphs/graph', :locals => {:graph => graph } %>
 <% end %>
 
+<% if is_admin? %>
+<%= link_to 'Edit Country', edit_resource_path %>
+<% end %>

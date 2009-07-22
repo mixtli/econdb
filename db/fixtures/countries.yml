@@ -1,5 +1,6 @@
 countries_1: 
   name: United Kingdom
+  map_id: "72"
   iso3: GBR
   iso: GB
   id: "998"
@@ -8,6 +9,7 @@ countries_1:
   currency_code: GBP
 countries_2: 
   name: Fiji
+  map_id: "273"
   iso3: FJI
   iso: FJ
   id: "999"
@@ -16,6 +18,7 @@ countries_2:
   currency_code: FJD
 countries_3: 
   name: "Saint Barth\xC3\xA9lemy"
+  map_id: 
   iso3: BLM
   iso: BL
   id: "1000"
@@ -24,6 +27,7 @@ countries_3:
   currency_code: EUR
 countries_4: 
   name: Russian Federation
+  map_id: "71"
   iso3: RUS
   iso: RU
   id: "1001"
@@ -32,6 +36,7 @@ countries_4:
   currency_code: RUB
 countries_5: 
   name: Jordan
+  map_id: "219"
   iso3: JOR
   iso: JO
   id: "1002"
@@ -40,6 +45,7 @@ countries_5:
   currency_code: JOD
 countries_6: 
   name: Georgia
+  map_id: "63"
   iso3: GEO
   iso: GE
   id: "1003"
@@ -48,6 +54,7 @@ countries_6:
   currency_code: GEL
 countries_7: 
   name: French Southern Territories
+  map_id: 
   iso3: ATF
   iso: TF
   id: "1004"
@@ -56,6 +63,7 @@ countries_7:
   currency_code: EUR
 countries_8: 
   name: Ecuador
+  map_id: "139"
   iso3: ECU
   iso: EC
   id: "1005"
@@ -64,6 +72,7 @@ countries_8:
   currency_code: USD
 countries_9: 
   name: Taiwan, Province of China
+  map_id: "46"
   iso3: TWN
   iso: TW
   id: "1006"
@@ -72,6 +81,7 @@ countries_9:
   currency_code: TWD
 countries_10: 
   name: Zimbabwe
+  map_id: "194"
   iso3: ZWE
   iso: ZW
   id: "1007"
@@ -80,6 +90,7 @@ countries_10:
   currency_code: ZWD
 countries_11: 
   name: Antigua and Barbuda
+  map_id: "87"
   iso3: ATG
   iso: AG
   id: "1008"
@@ -88,6 +99,7 @@ countries_11:
   currency_code: XCD
 countries_12: 
   name: Indonesia
+  map_id: "15"
   iso3: IDN
   iso: ID
   id: "1009"
@@ -96,6 +108,7 @@ countries_12:
   currency_code: IDR
 countries_13: 
   name: Bolivia
+  map_id: "317"
   iso3: BOL
   iso: BO
   id: "1010"
@@ -104,6 +117,7 @@ countries_13:
   currency_code: BOB
 countries_14: 
   name: Nepal
+  map_id: "228"
   iso3: NPL
   iso: NP
   id: "1011"
@@ -112,6 +126,7 @@ countries_14:
   currency_code: NPR
 countries_15: 
   name: Germany
+  map_id: "70"
   iso3: DEU
   iso: DE
   id: "1012"
@@ -120,6 +135,7 @@ countries_15:
   currency_code: EUR
 countries_16: 
   name: Malta
+  map_id: "187"
   iso3: MLT
   iso: MT
   id: "1013"
@@ -128,6 +144,7 @@ countries_16:
   currency_code: EUR
 countries_17: 
   name: Togo
+  map_id: "296"
   iso3: TGO
   iso: TG
   id: "1014"
@@ -136,6 +153,7 @@ countries_17:
   currency_code: XOF
 countries_18: 
   name: Serbia
+  map_id: "282"
   iso3: SRB
   iso: RS
   id: "1015"
@@ -144,6 +162,7 @@ countries_18:
   currency_code: RSD
 countries_19: 
   name: Tajikistan
+  map_id: "287"
   iso3: TJK
   iso: TJ
   id: "1016"
@@ -152,6 +171,7 @@ countries_19:
   currency_code: TJS
 countries_20: 
   name: "R\xC3\xA9union"
+  map_id: 
   iso3: REU
   iso: RE
   id: "1017"
@@ -160,6 +180,7 @@ countries_20:
   currency_code: EUR
 countries_21: 
   name: Denmark
+  map_id: "253"
   iso3: DNK
   iso: DK
   id: "1018"
@@ -168,6 +189,7 @@ countries_21:
   currency_code: DKK
 countries_22: 
   name: Lao People's Democratic Republic
+  map_id: "306"
   iso3: LAO
   iso: LA
   id: "1019"
@@ -176,6 +198,7 @@ countries_22:
   currency_code: LAK
 countries_23: 
   name: Poland
+  map_id: "279"
   iso3: POL
   iso: PL
   id: "1020"
@@ -184,6 +207,7 @@ countries_23:
   currency_code: PLN
 countries_24: 
   name: Belarus
+  map_id: "204"
   iso3: BLR
   iso: BY
   id: "1021"
@@ -192,6 +216,7 @@ countries_24:
   currency_code: BYR
 countries_25: 
   name: Puerto Rico
+  map_id: "144"
   iso3: PRI
   iso: PR
   id: "1022"
@@ -200,6 +225,7 @@ countries_25:
   currency_code: USD
 countries_26: 
   name: Gabon
+  map_id: "80"
   iso3: GAB
   iso: GA
   id: "1023"
@@ -208,6 +234,7 @@ countries_26:
   currency_code: XAF
 countries_27: 
   name: Turks and Caicos Islands
+  map_id: 
   iso3: TCA
   iso: TC
   id: "1024"
@@ -216,6 +243,7 @@ countries_27:
   currency_code: USD
 countries_28: 
   name: Nicaragua
+  map_id: "65"
   iso3: NIC
   iso: NI
   id: "1025"
@@ -224,6 +252,7 @@ countries_28:
   currency_code: NIO
 countries_29: 
   name: Rwanda
+  map_id: "43"
   iso3: RWA
   iso: RW
   id: "1026"
@@ -232,6 +261,7 @@ countries_29:
   currency_code: RWF
 countries_30: 
   name: Syrian Arab Republic
+  map_id: "184"
   iso3: SYR
   iso: SY
   id: "1027"
@@ -240,6 +270,7 @@ countries_30:
   currency_code: SYP
 countries_31: 
   name: Uruguay
+  map_id: "255"
   iso3: URY
   iso: UY
   id: "1028"
@@ -248,6 +279,7 @@ countries_31:
   currency_code: UYU
 countries_32: 
   name: New Caledonia
+  map_id: "271"
   iso3: NCL
   iso: NC
   id: "1029"
@@ -256,6 +288,7 @@ countries_32:
   currency_code: XPF
 countries_33: 
   name: Saint Vincent and the Grenadines
+  map_id: "190"
   iso3: VCT
   iso: VC
   id: "1030"
@@ -264,6 +297,7 @@ countries_33:
   currency_code: XCD
 countries_34: 
   name: Korea, Democratic People's Republic of
+  map_id: "157"
   iso3: PRK
   iso: KP
   id: "1031"
@@ -272,6 +306,7 @@ countries_34:
   currency_code: KRW
 countries_35: 
   name: Zambia
+  map_id: "195"
   iso3: ZMB
   iso: ZM
   id: "1032"
@@ -280,6 +315,7 @@ countries_35:
   currency_code: ZMK
 countries_36: 
   name: Macedonia, the former Yugoslav Republic of
+  map_id: "290"
   iso3: MKD
   iso: MK
   id: "1033"
@@ -288,6 +324,7 @@ countries_36:
   currency_code: MKD
 countries_37: 
   name: Netherlands Antilles
+  map_id: 
   iso3: ANT
   iso: AN
   id: "1034"
@@ -296,6 +333,7 @@ countries_37:
   currency_code: ANG
 countries_38: 
   name: Azerbaijan
+  map_id: "314"
   iso3: AZE
   iso: AZ
   id: "1035"
@@ -304,6 +342,7 @@ countries_38:
   currency_code: AZN
 countries_39: 
   name: Brunei Darussalam
+  map_id: "257"
   iso3: BRN
   iso: BN
   id: "1036"
@@ -312,6 +351,7 @@ countries_39:
   currency_code: BND
 countries_40: 
   name: Cameroon
+  map_id: "193"
   iso3: CMR
   iso: CM
   id: "1037"
@@ -320,6 +360,7 @@ countries_40:
   currency_code: XAF
 countries_41: 
   name: Eritrea
+  map_id: "147"
   iso3: ERI
   iso: ER
   id: "1038"
@@ -328,6 +369,7 @@ countries_41:
   currency_code: ETB
 countries_42: 
   name: Chad
+  map_id: "126"
   iso3: TCD
   iso: TD
   id: "1039"
@@ -336,6 +378,7 @@ countries_42:
   currency_code: XAF
 countries_43: 
   name: Algeria
+  map_id: "124"
   iso3: DZA
   iso: DZ
   id: "1040"
@@ -344,6 +387,7 @@ countries_43:
   currency_code: DZD
 countries_44: 
   name: Cocos (Keeling) Islands
+  map_id: 
   iso3: CCK
   iso: CC
   id: "1041"
@@ -352,6 +396,7 @@ countries_44:
   currency_code: AUD
 countries_45: 
   name: Norfolk Island
+  map_id: 
   iso3: NFK
   iso: NF
   id: "1042"
@@ -360,6 +405,7 @@ countries_45:
   currency_code: AUD
 countries_46: 
   name: Somalia
+  map_id: "167"
   iso3: SOM
   iso: SO
   id: "1043"
@@ -368,6 +414,7 @@ countries_46:
   currency_code: SOS
 countries_47: 
   name: Guyana
+  map_id: "251"
   iso3: GUY
   iso: GY
   id: "1044"
@@ -376,6 +423,7 @@ countries_47:
   currency_code: GYD
 countries_48: 
   name: Mauritania
+  map_id: "58"
   iso3: MRT
   iso: MR
   id: "1045"
@@ -384,6 +432,7 @@ countries_48:
   currency_code: MRO
 countries_49: 
   name: Netherlands
+  map_id: "114"
   iso3: NLD
   iso: NL
   id: "1046"
@@ -392,6 +441,7 @@ countries_49:
   currency_code: EUR
 countries_50: 
   name: Palau
+  map_id: "311"
   iso3: PLW
   iso: PW
   id: "1047"
@@ -400,6 +450,7 @@ countries_50:
   currency_code: USD
 countries_51: 
   name: Virgin Islands, U.S.
+  map_id: 
   iso3: VIR
   iso: VI
   id: "1048"
@@ -408,6 +459,7 @@ countries_51:
   currency_code: USD
 countries_52: 
   name: Belgium
+  map_id: "234"
   iso3: BEL
   iso: BE
   id: "1049"
@@ -416,6 +468,7 @@ countries_52:
   currency_code: EUR
 countries_53: 
   name: Marshall Islands
+  map_id: "283"
   iso3: MHL
   iso: MH
   id: "1050"
@@ -424,6 +477,7 @@ countries_53:
   currency_code: USD
 countries_54: 
   name: Ukraine
+  map_id: "26"
   iso3: UKR
   iso: UA
   id: "1051"
@@ -432,6 +486,7 @@ countries_54:
   currency_code: UAH
 countries_55: 
   name: Uganda
+  map_id: "142"
   iso3: UGA
   iso: UG
   id: "1052"
@@ -440,6 +495,7 @@ countries_55:
   currency_code: UGX
 countries_56: 
   name: Lithuania
+  map_id: "99"
   iso3: LTU
   iso: LT
   id: "1053"
@@ -448,6 +504,7 @@ countries_56:
   currency_code: LTL
 countries_57: 
   name: Montenegro
+  map_id: "161"
   iso3: MNE
   iso: ME
   id: "1054"
@@ -456,6 +513,7 @@ countries_57:
   currency_code: EUR
 countries_58: 
   name: Belize
+  map_id: "159"
   iso3: BLZ
   iso: BZ
   id: "1055"
@@ -464,6 +522,7 @@ countries_58:
   currency_code: BZD
 countries_59: 
   name: Mozambique
+  map_id: "38"
   iso3: MOZ
   iso: MZ
   id: "1056"
@@ -472,6 +531,7 @@ countries_59:
   currency_code: MZN
 countries_60: 
   name: Mauritius
+  map_id: "196"
   iso3: MUS
   iso: MU
   id: "1057"
@@ -480,6 +540,7 @@ countries_60:
   currency_code: MUR
 countries_61: 
   name: Isle of Man
+  map_id: 
   iso3: IMN
   iso: IM
   id: "1058"
@@ -488,6 +549,7 @@ countries_61:
   currency_code: IMP
 countries_62: 
   name: Dominica
+  map_id: "41"
   iso3: DMA
   iso: DM
   id: "1059"
@@ -496,6 +558,7 @@ countries_62:
   currency_code: XCD
 countries_63: 
   name: Benin
+  map_id: "230"
   iso3: BEN
   iso: BJ
   id: "1060"
@@ -504,6 +567,7 @@ countries_63:
   currency_code: XOF
 countries_64: 
   name: El Salvador
+  map_id: "277"
   iso3: SLV
   iso: SV
   id: "1061"
@@ -512,6 +576,7 @@ countries_64:
   currency_code: SVC
 countries_65: 
   name: Saint Lucia
+  map_id: "213"
   iso3: LCA
   iso: LC
   id: "1062"
@@ -520,6 +585,7 @@ countries_65:
   currency_code: XCD
 countries_66: 
   name: Equatorial Guinea
+  map_id: "75"
   iso3: GNQ
   iso: GQ
   id: "1063"
@@ -528,6 +594,7 @@ countries_66:
   currency_code: XAF
 countries_67: 
   name: Mongolia
+  map_id: "150"
   iso3: MNG
   iso: MN
   id: "1064"
@@ -536,6 +603,7 @@ countries_67:
   currency_code: MNT
 countries_68: 
   name: Uzbekistan
+  map_id: "174"
   iso3: UZB
   iso: UZ
   id: "1065"
@@ -544,6 +612,7 @@ countries_68:
   currency_code: UZS
 countries_69: 
   name: Cape Verde
+  map_id: "5"
   iso3: CPV
   iso: CV
   id: "1066"
@@ -552,6 +621,7 @@ countries_69:
   currency_code: CVE
 countries_70: 
   name: Jersey
+  map_id: 
   iso3: JEY
   iso: JE
   id: "1067"
@@ -560,6 +630,7 @@ countries_70:
   currency_code: JEP
 countries_71: 
   name: Kiribati
+  map_id: "275"
   iso3: KIR
   iso: KI
   id: "1068"
@@ -568,6 +639,7 @@ countries_71:
   currency_code: AUD
 countries_72: 
   name: Portugal
+  map_id: "268"
   iso3: PRT
   iso: PT
   id: "1069"
@@ -576,6 +648,7 @@ countries_72:
   currency_code: EUR
 countries_73: 
   name: Macao
+  map_id: "103"
   iso3: MAC
   iso: MO
   id: "1070"
@@ -584,6 +657,7 @@ countries_73:
   currency_code: MOP
 countries_74: 
   name: Angola
+  map_id: "170"
   iso3: AGO
   iso: AO
   id: "1071"
@@ -592,6 +666,7 @@ countries_74:
   currency_code: AOA
 countries_75: 
   name: Micronesia, Federated States of
+  map_id: "91"
   iso3: FSM
   iso: FM
   id: "1072"
@@ -600,6 +675,7 @@ countries_75:
   currency_code: USD
 countries_76: 
   name: Philippines
+  map_id: "313"
   iso3: PHL
   iso: PH
   id: "1073"
@@ -608,6 +684,7 @@ countries_76:
   currency_code: PHP
 countries_77: 
   name: Latvia
+  map_id: "153"
   iso3: LVA
   iso: LV
   id: "1074"
@@ -616,6 +693,7 @@ countries_77:
   currency_code: LVL
 countries_78: 
   name: Congo, Democratic Republic of the
+  map_id: 
   iso3: COD
   iso: CD
   id: "1075"
@@ -624,6 +702,7 @@ countries_78:
   currency_code: CDF
 countries_79: 
   name: Cayman Islands
+  map_id: "145"
   iso3: CYM
   iso: KY
   id: "1076"
@@ -632,6 +711,7 @@ countries_79:
   currency_code: KYD
 countries_80: 
   name: Moldova
+  map_id: "61"
   iso3: MDA
   iso: MD
   id: "1077"
@@ -640,6 +720,7 @@ countries_80:
   currency_code: MDL
 countries_81: 
   name: Djibouti
+  map_id: "146"
   iso3: DJI
   iso: DJ
   id: "1078"
@@ -648,6 +729,7 @@ countries_81:
   currency_code: DJF
 countries_82: 
   name: Peru
+  map_id: "199"
   iso3: PER
   iso: PE
   id: "1079"
@@ -656,6 +738,7 @@ countries_82:
   currency_code: PEN
 countries_83: 
   name: Saint Martin (French part)
+  map_id: 
   iso3: MAF
   iso: MF
   id: "1080"
@@ -664,6 +747,7 @@ countries_83:
   currency_code: EUR
 countries_84: 
   name: Guatemala
+  map_id: "181"
   iso3: GTM
   iso: GT
   id: "1081"
@@ -672,6 +756,7 @@ countries_84:
   currency_code: GTQ
 countries_85: 
   name: Iceland
+  map_id: "113"
   iso3: ISL
   iso: IS
   id: "1082"
@@ -680,6 +765,7 @@ countries_85:
   currency_code: ISK
 countries_86: 
   name: Papua New Guinea
+  map_id: "301"
   iso3: PNG
   iso: PG
   id: "1083"
@@ -688,6 +774,7 @@ countries_86:
   currency_code: PGK
 countries_87: 
   name: Senegal
+  map_id: "59"
   iso3: SEN
   iso: SN
   id: "1084"
@@ -696,6 +783,7 @@ countries_87:
   currency_code: XOF
 countries_88: 
   name: Gambia
+  map_id: 
   iso3: GMB
   iso: GM
   id: "1085"
@@ -704,6 +792,7 @@ countries_88:
   currency_code: GMD
 countries_89: 
   name: Jamaica
+  map_id: "106"
   iso3: JAM
   iso: JM
   id: "1086"
@@ -712,6 +801,7 @@ countries_89:
   currency_code: JMD
 countries_90: 
   name: Congo
+  map_id: "298"
   iso3: COG
   iso: CG
   id: "1087"
@@ -720,6 +810,7 @@ countries_90:
   currency_code: XAF
 countries_91: 
   name: Cyprus
+  map_id: "303"
   iso3: CYP
   iso: CY
   id: "1088"
@@ -728,6 +819,7 @@ countries_91:
   currency_code: EUR
 countries_92: 
   name: Paraguay
+  map_id: "60"
   iso3: PRY
   iso: PY
   id: "1089"
@@ -736,6 +828,7 @@ countries_92:
   currency_code: PYG
 countries_93: 
   name: Mexico
+  map_id: "143"
   iso3: MEX
   iso: MX
   id: "1090"
@@ -744,6 +837,7 @@ countries_93:
   currency_code: MXN
 countries_94: 
   name: Samoa
+  map_id: "254"
   iso3: WSM
   iso: WS
   id: "1091"
@@ -752,6 +846,7 @@ countries_94:
   currency_code: WST
 countries_95: 
   name: Bahrain
+  map_id: "252"
   iso3: BHR
   iso: BH
   id: "1092"
@@ -760,6 +855,7 @@ countries_95:
   currency_code: BHD
 countries_96: 
   name: Hungary
+  map_id: "191"
   iso3: HUN
   iso: HU
   id: "1093"
@@ -768,6 +864,7 @@ countries_96:
   currency_code: HUF
 countries_97: 
   name: Bahamas
+  map_id: "100"
   iso3: BHS
   iso: BS
   id: "1094"
@@ -776,6 +873,7 @@ countries_97:
   currency_code: BSD
 countries_98: 
   name: Suriname
+  map_id: "171"
   iso3: SUR
   iso: SR
   id: "1095"
@@ -784,6 +882,7 @@ countries_98:
   currency_code: SRD
 countries_99: 
   name: Oman
+  map_id: "297"
   iso3: OMN
   iso: OM
   id: "1096"
@@ -792,6 +891,7 @@ countries_99:
   currency_code: OMR
 countries_100: 
   name: Cuba
+  map_id: "57"
   iso3: CUB
   iso: CU
   id: "1097"
@@ -800,6 +900,7 @@ countries_100:
   currency_code: CUP
 countries_101: 
   name: Korea, Republic of
+  map_id: "32"
   iso3: KOR
   iso: KR
   id: "1098"
@@ -808,6 +909,7 @@ countries_101:
   currency_code: KPW
 countries_102: 
   name: Madagascar
+  map_id: "55"
   iso3: MDG
   iso: MG
   id: "1099"
@@ -816,6 +918,7 @@ countries_102:
   currency_code: MGA
 countries_103: 
   name: France
+  map_id: "40"
   iso3: FRA
   iso: FR
   id: "1100"
@@ -824,6 +927,7 @@ countries_103:
   currency_code: EUR
 countries_104: 
   name: Saint Helena
+  map_id: 
   iso3: SHN
   iso: SH
   id: "1101"
@@ -832,6 +936,7 @@ countries_104:
   currency_code: SHP
 countries_105: 
   name: Northern Mariana Islands
+  map_id: 
   iso3: MNP
   iso: MP
   id: "1102"
@@ -840,6 +945,7 @@ countries_105:
   currency_code: USD
 countries_106: 
   name: Niue
+  map_id: 
   iso3: NIU
   iso: NU
   id: "1103"
@@ -848,6 +954,7 @@ countries_106:
   currency_code: NZD
 countries_107: 
   name: Botswana
+  map_id: "128"
   iso3: BWA
   iso: BW
   id: "1104"
@@ -856,6 +963,7 @@ countries_107:
   currency_code: BWP
 countries_108: 
   name: Venezuela
+  map_id: "168"
   iso3: VEN
   iso: VE
   id: "1105"
@@ -864,6 +972,7 @@ countries_108:
   currency_code: VEF
 countries_109: 
   name: Hong Kong
+  map_id: "140"
   iso3: HKG
   iso: HK
   id: "1106"
@@ -872,6 +981,7 @@ countries_109:
   currency_code: HKD
 countries_110: 
   name: Honduras
+  map_id: "247"
   iso3: HND
   iso: HN
   id: "1107"
@@ -880,6 +990,7 @@ countries_110:
   currency_code: HNL
 countries_111: 
   name: Cook Islands
+  map_id: 
   iso3: COK
   iso: CK
   id: "1108"
@@ -888,6 +999,7 @@ countries_111:
   currency_code: NZD
 countries_112: 
   name: Israel
+  map_id: "304"
   iso3: ISR
   iso: IL
   id: "1109"
@@ -896,6 +1008,7 @@ countries_112:
   currency_code: ILS
 countries_113: 
   name: Finland
+  map_id: "67"
   iso3: FIN
   iso: FI
   id: "1110"
@@ -904,6 +1017,7 @@ countries_113:
   currency_code: EUR
 countries_114: 
   name: Anguilla
+  map_id: 
   iso3: AIA
   iso: AI
   id: "1111"
@@ -912,6 +1026,7 @@ countries_114:
   currency_code: XCD
 countries_115: 
   name: Saint Kitts and Nevis
+  map_id: "45"
   iso3: KNA
   iso: KN
   id: "1112"
@@ -920,6 +1035,7 @@ countries_115:
   currency_code: XCD
 countries_116: 
   name: Liechtenstein
+  map_id: "50"
   iso3: LIE
   iso: LI
   id: "1113"
@@ -928,6 +1044,7 @@ countries_116:
   currency_code: CHF
 countries_117: 
   name: Falkland Islands (Malvinas)
+  map_id: "93"
   iso3: FLK
   iso: FK
   id: "1114"
@@ -936,6 +1053,7 @@ countries_117:
   currency_code: FKP
 countries_118: 
   name: Croatia
+  map_id: "6"
   iso3: HRV
   iso: HR
   id: "1115"
@@ -944,6 +1062,7 @@ countries_118:
   currency_code: HRK
 countries_119: 
   name: Colombia
+  map_id: "256"
   iso3: COL
   iso: CO
   id: "1116"
@@ -952,6 +1071,7 @@ countries_119:
   currency_code: COP
 countries_120: 
   name: Costa Rica
+  map_id: "81"
   iso3: CRI
   iso: CR
   id: "1117"
@@ -960,6 +1080,7 @@ countries_120:
   currency_code: CRC
 countries_121: 
   name: Wallis and Futuna
+  map_id: 
   iso3: WLF
   iso: WF
   id: "1118"
@@ -968,6 +1089,7 @@ countries_121:
   currency_code: XPF
 countries_122: 
   name: Bangladesh
+  map_id: "156"
   iso3: BGD
   iso: BD
   id: "1119"
@@ -976,6 +1098,7 @@ countries_122:
   currency_code: BDT
 countries_123: 
   name: Lesotho
+  map_id: "164"
   iso3: LSO
   iso: LS
   id: "1120"
@@ -984,6 +1107,7 @@ countries_123:
   currency_code: LSL
 countries_124: 
   name: Malawi
+  map_id: "77"
   iso3: MWI
   iso: MW
   id: "1121"
@@ -992,6 +1116,7 @@ countries_124:
   currency_code: MWK
 countries_125: 
   name: Comoros
+  map_id: "122"
   iso3: COM
   iso: KM
   id: "1122"
@@ -1000,6 +1125,7 @@ countries_125:
   currency_code: KMF
 countries_126: 
   name: United States Minor Outlying Islands
+  map_id: 
   iso3: UMI
   iso: UM
   id: "1123"
@@ -1008,6 +1134,7 @@ countries_126:
   currency_code: USD
 countries_127: 
   name: United States
+  map_id: "34"
   iso3: USA
   iso: US
   id: "1124"
@@ -1016,6 +1143,7 @@ countries_127:
   currency_code: USD
 countries_128: 
   name: Kenya
+  map_id: "209"
   iso3: KEN
   iso: KE
   id: "1125"
@@ -1024,6 +1152,7 @@ countries_128:
   currency_code: KES
 countries_129: 
   name: Afghanistan
+  map_id: "212"
   iso3: AFG
   iso: AF
   id: "1126"
@@ -1032,6 +1161,7 @@ countries_129:
   currency_code: AFN
 countries_130: 
   name: American Samoa
+  map_id: 
   iso3: ASM
   iso: AS
   id: "1127"
@@ -1040,6 +1170,7 @@ countries_130:
   currency_code: USD
 countries_131: 
   name: "C\xC3\xB4te d'Ivoire"
+  map_id: "123"
   iso3: CIV
   iso: CI
   id: "1128"
@@ -1048,6 +1179,7 @@ countries_131:
   currency_code: XOF
 countries_132: 
   name: Norway
+  map_id: "182"
   iso3: NOR
   iso: "NO"
   id: "1129"
@@ -1056,6 +1188,7 @@ countries_132:
   currency_code: NOK
 countries_133: 
   name: Pakistan
+  map_id: "135"
   iso3: PAK
   iso: PK
   id: "1130"
@@ -1064,6 +1197,7 @@ countries_133:
   currency_code: PKR
 countries_134: 
   name: Yemen
+  map_id: "201"
   iso3: YEM
   iso: YE
   id: "1131"
@@ -1072,6 +1206,7 @@ countries_134:
   currency_code: YER
 countries_135: 
   name: Vanuatu
+  map_id: "131"
   iso3: VUT
   iso: VU
   id: "1132"
@@ -1080,6 +1215,7 @@ countries_135:
   currency_code: VUV
 countries_136: 
   name: "\xC3\x85land Islands"
+  map_id: 
   iso3: ALA
   iso: AX
   id: "1133"
@@ -1088,6 +1224,7 @@ countries_136:
   currency_code: FIM
 countries_137: 
   name: Burundi
+  map_id: "177"
   iso3: BDI
   iso: BI
   id: "1134"
@@ -1096,6 +1233,7 @@ countries_137:
   currency_code: BIF
 countries_138: 
   name: Morocco
+  map_id: "185"
   iso3: MAR
   iso: MA
   id: "1135"
@@ -1104,6 +1242,7 @@ countries_138:
   currency_code: MAD
 countries_139: 
   name: Albania
+  map_id: "206"
   iso3: ALB
   iso: AL
   id: "1136"
@@ -1112,6 +1251,7 @@ countries_139:
   currency_code: ALL
 countries_140: 
   name: Cambodia
+  map_id: "24"
   iso3: KHM
   iso: KH
   id: "1137"
@@ -1120,6 +1260,7 @@ countries_140:
   currency_code: KHR
 countries_141: 
   name: Ethiopia
+  map_id: "18"
   iso3: ETH
   iso: ET
   id: "1138"
@@ -1128,6 +1269,7 @@ countries_141:
   currency_code: ETB
 countries_142: 
   name: Panama
+  map_id: "285"
   iso3: PAN
   iso: PA
   id: "1139"
@@ -1136,6 +1278,7 @@ countries_142:
   currency_code: PAB
 countries_143: 
   name: Switzerland
+  map_id: "200"
   iso3: CHE
   iso: CH
   id: "1140"
@@ -1144,6 +1287,7 @@ countries_143:
   currency_code: CHF
 countries_144: 
   name: Martinique
+  map_id: 
   iso3: MTQ
   iso: MQ
   id: "1141"
@@ -1152,6 +1296,7 @@ countries_144:
   currency_code: EUR
 countries_145: 
   name: Bhutan
+  map_id: "107"
   iso3: BTN
   iso: BT
   id: "1142"
@@ -1160,6 +1305,7 @@ countries_145:
   currency_code: BTN
 countries_146: 
   name: Thailand
+  map_id: "267"
   iso3: THA
   iso: TH
   id: "1143"
@@ -1168,6 +1314,7 @@ countries_146:
   currency_code: THB
 countries_147: 
   name: Sweden
+  map_id: "129"
   iso3: SWE
   iso: SE
   id: "1144"
@@ -1176,6 +1323,7 @@ countries_147:
   currency_code: SEK
 countries_148: 
   name: Tonga
+  map_id: "8"
   iso3: TON
   iso: TO
   id: "1145"
@@ -1184,6 +1332,7 @@ countries_148:
   currency_code: TOP
 countries_149: 
   name: Viet Nam
+  map_id: "136"
   iso3: VNM
   iso: VN
   id: "1146"
@@ -1192,6 +1341,7 @@ countries_149:
   currency_code: VND
 countries_150: 
   name: Guernsey
+  map_id: 
   iso3: GGY
   iso: GG
   id: "1147"
@@ -1200,6 +1350,7 @@ countries_150:
   currency_code: GGP
 countries_151: 
   name: Timor-Leste
+  map_id: 
   iso3: TLS
   iso: TL
   id: "1148"
@@ -1208,6 +1359,7 @@ countries_151:
   currency_code: IDR
 countries_152: 
   name: Nauru
+  map_id: "16"
   iso3: NRU
   iso: NR
   id: "1149"
@@ -1216,6 +1368,7 @@ countries_152:
   currency_code: AUD
 countries_153: 
   name: Virgin Islands, British
+  map_id: 
   iso3: VGB
   iso: VG
   id: "1150"
@@ -1224,6 +1377,7 @@ countries_153:
   currency_code: USD
 countries_154: 
   name: Gibraltar
+  map_id: 
   iso3: GIB
   iso: GI
   id: "1151"
@@ -1232,6 +1386,7 @@ countries_154:
   currency_code: GIP
 countries_155: 
   name: Niger
+  map_id: "289"
   iso3: NER
   iso: NE
   id: "1152"
@@ -1240,6 +1395,7 @@ countries_155:
   currency_code: XOF
 countries_156: 
   name: Haiti
+  map_id: "278"
   iso3: HTI
   iso: HT
   id: "1153"
@@ -1248,6 +1404,7 @@ countries_156:
   currency_code: HTG
 countries_157: 
   name: Maldives
+  map_id: 
   iso3: MDV
   iso: MV
   id: "1154"
@@ -1256,6 +1413,7 @@ countries_157:
   currency_code: MVR
 countries_158: 
   name: Faroe Islands
+  map_id: 
   iso3: FRO
   iso: FO
   id: "1155"
@@ -1264,6 +1422,7 @@ countries_158:
   currency_code: DKK
 countries_159: 
   name: Chile
+  map_id: "9"
   iso3: CHL
   iso: CL
   id: "1156"
@@ -1272,6 +1431,7 @@ countries_159:
   currency_code: CLP
 countries_160: 
   name: Sudan
+  map_id: "105"
   iso3: SDN
   iso: SD
   id: "1157"
@@ -1280,6 +1440,7 @@ countries_160:
   currency_code: SDG
 countries_161: 
   name: Ireland
+  map_id: "173"
   iso3: IRL
   iso: IE
   id: "1158"
@@ -1288,6 +1449,7 @@ countries_161:
   currency_code: EUR
 countries_162: 
   name: United Arab Emirates
+  map_id: "134"
   iso3: ARE
   iso: AE
   id: "1159"
@@ -1296,6 +1458,7 @@ countries_162:
   currency_code: AED
 countries_163: 
   name: China
+  map_id: "37"
   iso3: CHN
   iso: CN
   id: "1160"
@@ -1304,6 +1467,7 @@ countries_163:
   currency_code: CNY
 countries_164: 
   name: Sao Tome and Principe
+  map_id: "208"
   iso3: STP
   iso: ST
   id: "1161"
@@ -1312,6 +1476,7 @@ countries_164:
   currency_code: STD
 countries_165: 
   name: Japan
+  map_id: "192"
   iso3: JPN
   iso: JP
   id: "1162"
@@ -1320,6 +1485,7 @@ countries_165:
   currency_code: JPY
 countries_166: 
   name: Tunisia
+  map_id: "23"
   iso3: TUN
   iso: TN
   id: "1163"
@@ -1328,6 +1494,7 @@ countries_166:
   currency_code: TND
 countries_167: 
   name: Bulgaria
+  map_id: "119"
   iso3: BGR
   iso: BG
   id: "1164"
@@ -1336,6 +1503,7 @@ countries_167:
   currency_code: BGN
 countries_168: 
   name: Iran, Islamic Republic of
+  map_id: "149"
   iso3: IRN
   iso: IR
   id: "1165"
@@ -1344,6 +1512,7 @@ countries_168:
   currency_code: IRR
 countries_169: 
   name: Argentina
+  map_id: "49"
   iso3: ARG
   iso: AR
   id: "1166"
@@ -1352,6 +1521,7 @@ countries_169:
   currency_code: ARS
 countries_170: 
   name: Christmas Island
+  map_id: 
   iso3: CXR
   iso: CX
   id: "1167"
@@ -1360,6 +1530,7 @@ countries_170:
   currency_code: AUD
 countries_171: 
   name: British Indian Ocean Territory
+  map_id: 
   iso3: IOT
   iso: IO
   id: "1168"
@@ -1368,6 +1539,7 @@ countries_171:
   currency_code: USD
 countries_172: 
   name: Saudi Arabia
+  map_id: "90"
   iso3: SAU
   iso: SA
   id: "1169"
@@ -1376,6 +1548,7 @@ countries_172:
   currency_code: SAR
 countries_173: 
   name: Nigeria
+  map_id: "10"
   iso3: NGA
   iso: NG
   id: "1170"
@@ -1384,6 +1557,7 @@ countries_173:
   currency_code: NGN
 countries_174: 
   name: Heard Island and McDonald Islands
+  map_id: 
   iso3: HMD
   iso: HM
   id: "1171"
@@ -1392,6 +1566,7 @@ countries_174:
   currency_code: AUD
 countries_175: 
   name: Iraq
+  map_id: "237"
   iso3: IRQ
   iso: IQ
   id: "1172"
@@ -1400,6 +1575,7 @@ countries_175:
   currency_code: IQD
 countries_176: 
   name: Burkina Faso
+  map_id: "249"
   iso3: BFA
   iso: BF
   id: "1173"
@@ -1408,6 +1584,7 @@ countries_176:
   currency_code: XOF
 countries_177: 
   name: Turkey
+  map_id: "127"
   iso3: TUR
   iso: TR
   id: "1174"
@@ -1416,6 +1593,7 @@ countries_177:
   currency_code: TRY
 countries_178: 
   name: Myanmar
+  map_id: 
   iso3: MMR
   iso: MM
   id: "1175"
@@ -1424,6 +1602,7 @@ countries_178:
   currency_code: MMK
 countries_179: 
   name: Palestinian Territory, Occupied
+  map_id: 
   iso3: PSE
   iso: PS
   id: "1176"
@@ -1432,6 +1611,7 @@ countries_179:
   currency_code: JOD
 countries_180: 
   name: Singapore
+  map_id: "86"
   iso3: SGP
   iso: SG
   id: "1177"
@@ -1440,6 +1620,7 @@ countries_180:
   currency_code: SGD
 countries_181: 
   name: Central African Republic
+  map_id: "92"
   iso3: CAF
   iso: CF
   id: "1178"
@@ -1448,6 +1629,7 @@ countries_181:
   currency_code: XAF
 countries_182: 
   name: Sri Lanka
+  map_id: "176"
   iso3: LKA
   iso: LK
   id: "1179"
@@ -1456,6 +1638,7 @@ countries_182:
   currency_code: LKR
 countries_183: 
   name: Svalbard and Jan Mayen
+  map_id: 
   iso3: SJM
   iso: SJ
   id: "1180"
@@ -1464,6 +1647,7 @@ countries_183:
   currency_code: NOK
 countries_184: 
   name: India
+  map_id: "293"
   iso3: IND
   iso: IN
   id: "1181"
@@ -1472,6 +1656,7 @@ countries_184:
   currency_code: INR
 countries_185: 
   name: Holy See (Vatican City State)
+  map_id: 
   iso3: VAT
   iso: VA
   id: "1182"
@@ -1480,6 +1665,7 @@ countries_185:
   currency_code: EUR
 countries_186: 
   name: Lebanon
+  map_id: "266"
   iso3: LBN
   iso: LB
   id: "1183"
@@ -1488,6 +1674,7 @@ countries_186:
   currency_code: LBP
 countries_187: 
   name: Tokelau
+  map_id: 
   iso3: TKL
   iso: TK
   id: "1184"
@@ -1496,6 +1683,7 @@ countries_187:
   currency_code: NZD
 countries_188: 
   name: Guinea
+  map_id: "215"
   iso3: GIN
   iso: GN
   id: "1185"
@@ -1504,6 +1692,7 @@ countries_188:
   currency_code: GNF
 countries_189: 
   name: Namibia
+  map_id: "98"
   iso3: NAM
   iso: NA
   id: "1186"
@@ -1512,6 +1701,7 @@ countries_189:
   currency_code: NAD
 countries_190: 
   name: South Georgia and the South Sandwich Islands
+  map_id: 
   iso3: SGS
   iso: GS
   id: "1187"
@@ -1520,6 +1710,7 @@ countries_190:
   currency_code: GBP
 countries_191: 
   name: Armenia
+  map_id: "101"
   iso3: ARM
   iso: AM
   id: "1188"
@@ -1528,6 +1719,7 @@ countries_191:
   currency_code: AMD
 countries_192: 
   name: Greece
+  map_id: "154"
   iso3: GRC
   iso: GR
   id: "1189"
@@ -1536,6 +1728,7 @@ countries_192:
   currency_code: EUR
 countries_193: 
   name: Tuvalu
+  map_id: "291"
   iso3: TUV
   iso: TV
   id: "1190"
@@ -1544,6 +1737,7 @@ countries_193:
   currency_code: TVD
 countries_194: 
   name: Turkmenistan
+  map_id: "309"
   iso3: TKM
   iso: TM
   id: "1191"
@@ -1552,6 +1746,7 @@ countries_194:
   currency_code: TMM
 countries_195: 
   name: Grenada
+  map_id: "121"
   iso3: GRD
   iso: GD
   id: "1192"
@@ -1560,6 +1755,7 @@ countries_195:
   currency_code: XCD
 countries_196: 
   name: Dominican Republic
+  map_id: "125"
   iso3: DOM
   iso: DO
   id: "1193"
@@ -1568,6 +1764,7 @@ countries_196:
   currency_code: DOP
 countries_197: 
   name: Western Sahara
+  map_id: "260"
   iso3: ESH
   iso: EH
   id: "1194"
@@ -1576,6 +1773,7 @@ countries_197:
   currency_code: MAD
 countries_198: 
   name: Liberia
+  map_id: "318"
   iso3: LBR
   iso: LR
   id: "1195"
@@ -1584,6 +1782,7 @@ countries_198:
   currency_code: LRD
 countries_199: 
   name: Monaco
+  map_id: "248"
   iso3: MCO
   iso: MC
   id: "1196"
@@ -1592,6 +1791,7 @@ countries_199:
   currency_code: EUR
 countries_200: 
   name: Italy
+  map_id: "226"
   iso3: ITA
   iso: IT
   id: "1197"
@@ -1600,6 +1800,7 @@ countries_200:
   currency_code: EUR
 countries_201: 
   name: Bermuda
+  map_id: 
   iso3: BMU
   iso: BM
   id: "1198"
@@ -1608,6 +1809,7 @@ countries_201:
   currency_code: BMD
 countries_202: 
   name: Egypt
+  map_id: "308"
   iso3: EGY
   iso: EG
   id: "1199"
@@ -1616,6 +1818,7 @@ countries_202:
   currency_code: EGP
 countries_203: 
   name: French Polynesia
+  map_id: 
   iso3: PYF
   iso: PF
   id: "1200"
@@ -1624,6 +1827,7 @@ countries_203:
   currency_code: XPF
 countries_204: 
   name: Canada
+  map_id: "284"
   iso3: CAN
   iso: CA
   id: "1201"
@@ -1632,6 +1836,7 @@ countries_204:
   currency_code: CAD
 countries_205: 
   name: Montserrat
+  map_id: 
   iso3: MSR
   iso: MS
   id: "1202"
@@ -1640,6 +1845,7 @@ countries_205:
   currency_code: XCD
 countries_206: 
   name: Swaziland
+  map_id: "288"
   iso3: SWZ
   iso: SZ
   id: "1203"
@@ -1648,6 +1854,7 @@ countries_206:
   currency_code: CHF
 countries_207: 
   name: Czech Republic
+  map_id: "223"
   iso3: CZE
   iso: CZ
   id: "1204"
@@ -1656,6 +1863,7 @@ countries_207:
   currency_code: CZK
 countries_208: 
   name: Guadeloupe
+  map_id: 
   iso3: GLP
   iso: GP
   id: "1205"
@@ -1664,6 +1872,7 @@ countries_208:
   currency_code: EUR
 countries_209: 
   name: Saint Pierre and Miquelon
+  map_id: 
   iso3: SPM
   iso: PM
   id: "1206"
@@ -1672,6 +1881,7 @@ countries_209:
   currency_code: EUR
 countries_210: 
   name: Seychelles
+  map_id: "222"
   iso3: SYC
   iso: SC
   id: "1207"
@@ -1680,6 +1890,7 @@ countries_210:
   currency_code: SCR
 countries_211: 
   name: Pitcairn
+  map_id: 
   iso3: PCN
   iso: PN
   id: "1208"
@@ -1688,6 +1899,7 @@ countries_211:
   currency_code: NZD
 countries_212: 
   name: San Marino
+  map_id: "66"
   iso3: SMR
   iso: SM
   id: "1209"
@@ -1696,6 +1908,7 @@ countries_212:
   currency_code: EUR
 countries_213: 
   name: French Guiana
+  map_id: "21"
   iso3: GUF
   iso: GF
   id: "1210"
@@ -1704,6 +1917,7 @@ countries_213:
   currency_code: EUR
 countries_214: 
   name: Tanzania, United Republic of
+  map_id: "163"
   iso3: TZA
   iso: TZ
   id: "1211"
@@ -1712,6 +1926,7 @@ countries_214:
   currency_code: TZS
 countries_215: 
   name: Ghana
+  map_id: "231"
   iso3: GHA
   iso: GH
   id: "1212"
@@ -1720,6 +1935,7 @@ countries_215:
   currency_code: GHS
 countries_216: 
   name: Andorra
+  map_id: "118"
   iso3: AND
   iso: AD
   id: "1213"
@@ -1728,6 +1944,7 @@ countries_216:
   currency_code: EUR
 countries_217: 
   name: Bosnia and Herzegovina
+  map_id: "180"
   iso3: BIH
   iso: BA
   id: "1214"
@@ -1736,6 +1953,7 @@ countries_217:
   currency_code: BAM
 countries_218: 
   name: Kazakhstan
+  map_id: "233"
   iso3: KAZ
   iso: KZ
   id: "1215"
@@ -1744,6 +1962,7 @@ countries_218:
   currency_code: KZT
 countries_219: 
   name: Kuwait
+  map_id: "53"
   iso3: KWT
   iso: KW
   id: "1216"
@@ -1752,6 +1971,7 @@ countries_219:
   currency_code: KWD
 countries_220: 
   name: Mali
+  map_id: "175"
   iso3: MLI
   iso: ML
   id: "1217"
@@ -1760,6 +1980,7 @@ countries_220:
   currency_code: XOF
 countries_221: 
   name: New Zealand
+  map_id: "224"
   iso3: NZL
   iso: NZ
   id: "1218"
@@ -1768,6 +1989,7 @@ countries_221:
   currency_code: NZD
 countries_222: 
   name: Greenland
+  map_id: "52"
   iso3: GRL
   iso: GL
   id: "1219"
@@ -1776,6 +1998,7 @@ countries_222:
   currency_code: DKK
 countries_223: 
   name: Australia
+  map_id: "120"
   iso3: AUS
   iso: AU
   id: "1220"
@@ -1784,6 +2007,7 @@ countries_223:
   currency_code: AUD
 countries_224: 
   name: Libyan Arab Jamahiriya
+  map_id: "261"
   iso3: LBY
   iso: LY
   id: "1221"
@@ -1792,6 +2016,7 @@ countries_224:
   currency_code: LYD
 countries_225: 
   name: Romania
+  map_id: "17"
   iso3: ROU
   iso: RO
   id: "1222"
@@ -1800,6 +2025,7 @@ countries_225:
   currency_code: RON
 countries_226: 
   name: Aruba
+  map_id: 
   iso3: ABW
   iso: AW
   id: "1223"
@@ -1808,6 +2034,7 @@ countries_226:
   currency_code: AWG
 countries_227: 
   name: Spain
+  map_id: "272"
   iso3: ESP
   iso: ES
   id: "1224"
@@ -1816,6 +2043,7 @@ countries_227:
   currency_code: EUR
 countries_228: 
   name: Solomon Islands
+  map_id: "68"
   iso3: SLB
   iso: SB
   id: "1225"
@@ -1824,6 +2052,7 @@ countries_228:
   currency_code: SBD
 countries_229: 
   name: Luxembourg
+  map_id: "179"
   iso3: LUX
   iso: LU
   id: "1226"
@@ -1832,6 +2061,7 @@ countries_229:
   currency_code: EUR
 countries_230: 
   name: Austria
+  map_id: "48"
   iso3: AUT
   iso: AT
   id: "1227"
@@ -1840,6 +2070,7 @@ countries_230:
   currency_code: EUR
 countries_231: 
   name: Brazil
+  map_id: "281"
   iso3: BRA
   iso: BR
   id: "1228"
@@ -1848,6 +2079,7 @@ countries_231:
   currency_code: BRL
 countries_232: 
   name: Slovakia
+  map_id: "198"
   iso3: SVK
   iso: SK
   id: "1229"
@@ -1856,6 +2088,7 @@ countries_232:
   currency_code: SKK
 countries_233: 
   name: Qatar
+  map_id: "97"
   iso3: QAT
   iso: QA
   id: "1230"
@@ -1864,6 +2097,7 @@ countries_233:
   currency_code: QAR
 countries_234: 
   name: Antarctica
+  map_id: 
   iso3: ATA
   iso: AQ
   id: "1231"
@@ -1872,6 +2106,7 @@ countries_234:
   currency_code: AUD
 countries_235: 
   name: South Africa
+  map_id: "183"
   iso3: ZAF
   iso: ZA
   id: "1232"
@@ -1880,6 +2115,7 @@ countries_235:
   currency_code: ZAR
 countries_236: 
   name: Barbados
+  map_id: "307"
   iso3: BRB
   iso: BB
   id: "1233"
@@ -1888,6 +2124,7 @@ countries_236:
   currency_code: BBD
 countries_237: 
   name: Guam
+  map_id: 
   iso3: GUM
   iso: GU
   id: "1234"
@@ -1896,6 +2133,7 @@ countries_237:
   currency_code: USD
 countries_238: 
   name: Malaysia
+  map_id: "7"
   iso3: MYS
   iso: MY
   id: "1235"
@@ -1904,6 +2142,7 @@ countries_238:
   currency_code: MYR
 countries_239: 
   name: Trinidad and Tobago
+  map_id: "202"
   iso3: TTO
   iso: TT
   id: "1236"
@@ -1912,6 +2151,7 @@ countries_239:
   currency_code: TTD
 countries_240: 
   name: Sierra Leone
+  map_id: "188"
   iso3: SLE
   iso: SL
   id: "1237"
@@ -1920,6 +2160,7 @@ countries_240:
   currency_code: SLL
 countries_241: 
   name: Slovenia
+  map_id: "155"
   iso3: SVN
   iso: SI
   id: "1238"
@@ -1928,6 +2169,7 @@ countries_241:
   currency_code: EUR
 countries_242: 
   name: Bouvet Island
+  map_id: 
   iso3: BVT
   iso: BV
   id: "1239"
@@ -1936,6 +2178,7 @@ countries_242:
   currency_code: NOK
 countries_243: 
   name: Mayotte
+  map_id: 
   iso3: MYT
   iso: YT
   id: "1240"
@@ -1944,6 +2187,7 @@ countries_243:
   currency_code: EUR
 countries_244: 
   name: Kyrgyzstan
+  map_id: "94"
   iso3: KGZ
   iso: KG
   id: "1241"
@@ -1952,6 +2196,7 @@ countries_244:
   currency_code: KGS
 countries_245: 
   name: Estonia
+  map_id: "169"
   iso3: EST
   iso: EE
   id: "1242"
@@ -1960,6 +2205,7 @@ countries_245:
   currency_code: EEK
 countries_246: 
   name: Guinea-Bissau
+  map_id: "197"
   iso3: GNB
   iso: GW
   id: "1243"

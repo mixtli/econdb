@@ -40,3 +40,5 @@ schema_migrations_20:
   version: "20090714084934"
 schema_migrations_21: 
   version: "20090714090118"
+schema_migrations_22: 
+  version: "20090719070355"

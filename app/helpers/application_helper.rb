@@ -35,4 +35,8 @@ module ApplicationHelper
   def root_category
     return current_category.root
   end
+
+  def is_admin?
+    current_user && current_user.has_role?('admin')
+  end
 end

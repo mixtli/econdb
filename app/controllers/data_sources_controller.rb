@@ -3,6 +3,11 @@ class DataSourcesController < ApplicationController
   resources_controller_for :data_sources
   before_filter :set_klass, :only => [:new, :edit, :data_source_arguments]
   before_filter :get_times
+
+  map_enclosing_resource :stock_exchange do 
+    StockExchange.find(params[:stock_exchange_id])
+  end
+
   response_for :show do |format|
     @start_time ||= 10.years.ago
     options = {:start => @start_time, :end => @end_time}
@@ -58,7 +63,6 @@ class DataSourcesController < ApplicationController
       DataSource.new(params[resource_name])
     end
   end
-
 
 
 end

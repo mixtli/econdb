@@ -17,7 +17,8 @@ module GraphRenderer
 
           graph.graph_items.each do |item|
             data = item.data_source.data.find(:all, :conditions => ["timestamp BETWEEN ? AND ?", options[:start], options[:end]])
-            plot.data <<  Gnuplot::DataSet.new( [data.collect {|d| d.timestamp.strftime("%m/%d/%Y")}, data.collect(&:value)] ) { |ds|
+            data_points = data.collect {|v| self.rpn(v.value.to_s + " " + item.cdef.to_s) }
+            plot.data <<  Gnuplot::DataSet.new( [data.collect {|d| d.timestamp.strftime("%m/%d/%Y")}, data_points] ) { |ds|
               ds.with = "linespoints"
               ds.using = "1:2"
               ds.title = item.data_source.name

@@ -1,11 +1,9 @@
-<div id="mapdiv" align="center">FusionMaps.</div>
-<script type="text/javascript">
-  var map = new FusionMaps("/swfs/FusionMaps/<%= resource.filename %>", "Map1Id", "750", "400", "0", "0");
-  map.setDataURL('<%= resource_path(:format => :xml)%>');
-  map.render("mapdiv");
-</script>
+<% form_tag({}, :method => :get) do %>
+  <%= select_tag :indicator, options_for_select(indicator_list) %>
+  <%= submit_tag 'Go' %>
+<% end %>
 
-
-
-<%= link_to 'Edit', edit_map_path(@map) %> |
-<%= link_to 'Back', maps_path %>
+<%= render :partial => 'map', :locals => {:map => resource } %>
+<% if is_admin? %>
+<%= link_to 'Edit', edit_map_path(@map) %>
+<% end %>

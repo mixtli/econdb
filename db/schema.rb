@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090714090118) do
+ActiveRecord::Schema.define(:version => 20090719070355) do
 
   create_table "categories", :force => true do |t|
     t.integer  "parent_id"
@@ -42,6 +42,7 @@ ActiveRecord::Schema.define(:version => 20090714090118) do
     t.string  "iso3",           :limit => 3
     t.string  "currency_code"
     t.integer "numcode"
+    t.integer "map_id"
   end
 
   create_table "currencies", :force => true do |t|
@@ -49,6 +50,7 @@ ActiveRecord::Schema.define(:version => 20090714090118) do
     t.string   "code"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "data_source_id"
   end
 
   create_table "currency_historical_rates", :force => true do |t|
@@ -86,14 +88,25 @@ ActiveRecord::Schema.define(:version => 20090714090118) do
 
   add_index "data", ["data_source_id", "timestamp"], :name => "index_data_on_data_source_id_and_timestamp", :unique => true
 
+  create_table "data_source_templates", :force => true do |t|
+    t.string   "name"
+    t.string   "data_source_type"
+    t.string   "units"
+    t.string   "identifier"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "data_sources", :force => true do |t|
     t.string   "name"
     t.string   "type"
     t.string   "units"
-    t.string   "country",    :limit => 2
+    t.string   "country",     :limit => 2
     t.text     "arguments"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "identifier"
+    t.integer  "template_id"
   end
 
   create_table "graph_items", :force => true do |t|
@@ -120,7 +133,7 @@ ActiveRecord::Schema.define(:version => 20090714090118) do
     t.string   "color",              :default => "#0f0"
     t.string   "background_color",   :default => "#fff"
     t.string   "default_start_time", :default => "1 year ago"
-    t.string   "chart_type"
+    t.string   "chart_type",         :default => "Line"
     t.integer  "creator_id"
     t.integer  "updater_id"
     t.datetime "created_at"

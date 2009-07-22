@@ -1,2 +1,8 @@
+<% form_tag({}, :method => :get) do %>
+  <%= select_tag :indicator, options_for_select(indicator_list) %>
+  <%= submit_tag 'Go' %>
+<% end %>
+
 <%= render :partial => 'sidebar' %>
-<h1>Data by Country</h1>
+<%= draw_map(Map.find_by_title("World With Countries"), 600, 400) %>
+

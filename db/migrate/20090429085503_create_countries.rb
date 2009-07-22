@@ -6,7 +6,14 @@ class CreateCountries < ActiveRecord::Migration
       t.string :iso3, :limit => 3
       t.string :currency_code
       t.integer :numcode
+      t.references :map
     end
+    
+    add_index :countries, :iso
+    add_index :countries, :iso3
+    add_index :countries, :currency_code
+    add_index :countries, :numcode
+
   end
 
   def self.down

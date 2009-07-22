@@ -1,3 +1,4 @@
+<h1>Data Source</h1>
 <p>
   <b>Name:</b>
   <%=h @data_source.name %>
@@ -13,7 +14,11 @@
   <%=h @data_source.country %>
 </p>
 
-<%= @data_source.arguments.inspect %>
+<p>
+  <b>Additional Arguments:</b>
+  <%= h @data_source.arguments %>
+</p>
+
 <br/>
 
 <%= image_tag data_source_path(@data_source, :format => :png), :height => 300, :width => 400 %>

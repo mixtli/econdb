@@ -5,6 +5,7 @@
   <tr>
     <th>Name</th>
     <th>Type</th>
+    <th>Country</th>
     <th colspan="4"></th>
   </tr>
 
@@ -12,6 +13,7 @@
   <tr>
     <td><%=h data_source.name %></td>
     <td><%=h data_source.type_name %></td>
+    <td><%=h country_name(data_source.country) %></td>
     <td><%= link_to 'Show', resource_path(data_source) %></td>
     <td><%= link_to 'Edit', edit_data_source_path(data_source) %></td>
     <td><%= link_to 'Destroy', resource_path(data_source), :confirm => 'Are you sure?', :method => :delete %></td>

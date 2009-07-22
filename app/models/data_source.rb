@@ -2,15 +2,19 @@ class DataSource < ActiveRecord::Base
 
   #unloadable
   FULL_NAME = "Generic Data Source"
-  has_many :graph_items
+  belongs_to :data_source_template, :foreign_key => 'template_id'
+  has_many :graph_items, :dependent => :destroy
   has_many :graphs, :through => :graph_items
-  has_many :data
+  has_many :data, :dependent => :destroy
   serialize :arguments
+  after_create :create_graph
   validates_inclusion_of :country, :in => Carmen::country_codes
+
 
   def self.data_source_arguments
     []
   end
+
   # override in subclasses
   def ds_type=(dstype)
     self.type = "DataSource::#{dstype}"
@@ -44,13 +48,14 @@ class DataSource < ActiveRecord::Base
     end
 
     self.load_data(start_time, end_time).each do |datum|
-     puts "doing datum #{datum}"
       begin
         self.data << datum
       rescue ActiveRecord::StatementInvalid => e 
         # skip duplicate record
       end
     end
+    self.populated_at = DateTime.now
+    save!
   end
 
   def load_data(start_time, end_time)
@@ -61,6 +66,17 @@ class DataSource < ActiveRecord::Base
 
   # override in subclasses
   def self.identifier_options
+  end
+
+  def create_graph
+    graph = Graph.create(:title => self.name)
+    graph.graph_items << GraphItem.create(:title => self.name, :data_source => self)
+
+  end
+
+  def country_name
+    return nil unless country
+    Country.find_by_iso(country).name
   end
 
 end

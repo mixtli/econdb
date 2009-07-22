@@ -1,7 +1,18 @@
 ActionController::Routing::Routes.draw do |map|
+ 
+  map.resources :data_sources, :member => {:populate => :post } do |data_source|
+    data_source.resources :data
+  end
+
+  map.resources :data_source_templates, :member => {:create_all => :post } do |ds_template|
+    ds_template.resources :data_sources
+  end
+
   map.resources :currencies
   map.resources :stock_quotes
-  map.resources :stock_exchanges
+  map.resources :stock_exchanges do |exchange|
+    exchange.resource :data_source
+  end
   map.resources :stocks
   map.resources :maps
   map.my_page '/my_page', :controller => 'my_page'
@@ -23,15 +34,14 @@ ActionController::Routing::Routes.draw do |map|
 
   #map.resources :graphs, :collection => {:tags => :get }
 
-  map.resources :countries
+  map.resources :countries do |country|
+    country.resource :map
+  end
 
   map.resources :graphs do |graph|
     graph.resources :comments
   end
   map.resources :tags
-  map.resources :data_sources, :member => {:populate => :post } do |data_source|
-    data_source.resources :data
-  end
 
   # The priority is based upon order of creation: first created -> highest priority.
 
